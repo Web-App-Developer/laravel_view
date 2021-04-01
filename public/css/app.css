@@ -5474,9 +5474,17 @@ html body .body .track-order-page .h1 {
   margin-bottom: 20px;
 }
 
-html body .body .track-order-page .h2 {
+html body .body .track-order-page .order_title {
   font-size: 20px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .track-order-page .order_title {
+    margin: 0 auto;
+    width: 300px;
+    font-size: 13px;
+  }
 }
 
 html body .body .track-order-page input {

@@ -2286,10 +2286,16 @@ html body{
       .h1 {
         font-size: 30px;
         margin-bottom: 20px;
+        
       }
-      .h2 {
+      .order_title {
         font-size: 20px;
         margin-bottom: 50px;
+        @media screen and (max-width: $mobile-size) {
+          margin:0 auto;
+          width:300px;
+          font-size: 13px;
+        }
       }
       input {
         border: 0;

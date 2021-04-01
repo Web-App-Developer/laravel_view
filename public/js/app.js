@@ -62181,9 +62181,9 @@ var render = function() {
     [
       _c("div", { staticClass: "h1" }, [_vm._v("Where is my order")]),
       _vm._v(" "),
-      _c("div", { staticClass: "h2" }, [
+      _c("div", { staticClass: "order_title" }, [
         _vm._v(
-          "On this page you can check the status of your order and where it is located1111"
+          "On this page you can check the status of your order and where it is located"
         )
       ]),
       _vm._v(" "),
