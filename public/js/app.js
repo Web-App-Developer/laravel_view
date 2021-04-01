@@ -4002,7 +4002,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['creator', 'user'],
@@ -62179,8 +62178,6 @@ var render = function() {
     "div",
     { staticClass: "track-order-page" },
     [
-      _c("div", { staticClass: "h1" }, [_vm._v("Where is my order")]),
-      _vm._v(" "),
       _c("div", { staticClass: "order_title" }, [
         _vm._v(
           "On this page you can check the status of your order and where it is located"

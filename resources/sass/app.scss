@@ -1084,10 +1084,8 @@ html body{
         }
       }
     }
+    
     .header{
-      @media screen and (max-width: $mobile-size) {
-        display: none;
-      }
       .top-header {
         background: black;
         color: white;
@@ -1101,7 +1099,9 @@ html body{
         line-height: 25px;
         padding: 0 100px;
         z-index: 6;
-
+        @media screen and (max-width: $mobile-size) {
+          display: none;
+        }
         .left{
           float: left;
           position: absolute;
@@ -1111,24 +1111,38 @@ html body{
         }
       }
       nav{
+
         height: 110px;
         z-index: 6;
         top: 25px;
         align-items: center;
-        position: fixed;
+        // position: fixed;
         display: flex;
         width: 100%;
         padding: 0 2.5%;
         background-color: #fff;
+        @media screen and (max-width: $mobile-size) {
+          display: none;
+        }  
         .container.no-padding {
           margin: 0;
           max-width: 100%;
           width: 100%;
           padding-right: 40px;
+          .navbar-header{
+            display: block;
+            @media screen and (max-width: $mobile-size) {
+              display: none;
+            }  
+          }
         }
+
         .navbar-brand img {
           height: 50px;
           width: auto;
+          @media screen and (max-width: $mobile-size) {
+            display: none;
+          }
         }
         .nav-item.btn {
           width: 160px;
@@ -2283,18 +2297,20 @@ html body{
     .track-order-page {
       text-align: center;
       letter-spacing: 0.4px;
-      .h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
-        
+      @media screen and (max-width: $mobile-size) {
+        margin-top: 80px;
+      
       }
       .order_title {
         font-size: 20px;
         margin-bottom: 50px;
         @media screen and (max-width: $mobile-size) {
-          margin:0 auto;
+          margin-bottom: 50px;
           width:300px;
           font-size: 13px;
+          margin-right: auto;
+          margin-left: auto;
+          font-weight: 700;
         }
       }
       input {
