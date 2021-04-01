@@ -318,14 +318,14 @@ var render = function() {
                       }
                     }
                   },
-                  [_vm._v("\n        Close\n      ")]
+                  [_vm._v("\r\n        Close\r\n      ")]
                 ),
                 _vm._v(" "),
                 _c("div", { staticClass: "title" }, [
                   _vm._v(
-                    "\n        Shopping Cart (" +
+                    "\r\n        Shopping Cart (" +
                       _vm._s(_vm.getCartSize()) +
-                      " items)\n      "
+                      " items)\r\n      "
                   )
                 ]),
                 _vm._v(" "),
@@ -385,18 +385,18 @@ var render = function() {
                         [
                           _c("div", { staticClass: "p-title" }, [
                             _vm._v(
-                              "\n              " +
+                              "\r\n              " +
                                 _vm._s(item.name) +
-                                "\n            "
+                                "\r\n            "
                             )
                           ]),
                           _vm._v(" "),
                           _c("div", { staticClass: "qty" }, [
                             _c("label", [_vm._v("QTY:")]),
                             _vm._v(
-                              "\n              " +
+                              "\r\n              " +
                                 _vm._s(item.qty) +
-                                "\n            "
+                                "\r\n            "
                             )
                           ]),
                           _vm._v(" "),
@@ -408,9 +408,9 @@ var render = function() {
                             return _c("div", { staticClass: "property" }, [
                               _c("label", [_vm._v(_vm._s(key) + ":")]),
                               _vm._v(
-                                "\n              " +
+                                "\r\n              " +
                                   _vm._s(property) +
-                                  "\n            "
+                                  "\r\n            "
                               )
                             ])
                           })

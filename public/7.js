@@ -156,7 +156,7 @@ var render = function() {
                     }
                   }
                 },
-                [_vm._v("\n        " + _vm._s(tag) + "\n      ")]
+                [_vm._v("\r\n        " + _vm._s(tag) + "\r\n      ")]
               )
             }),
             0
@@ -182,7 +182,7 @@ var render = function() {
                           }
                         }
                       },
-                      [_vm._v("\n      " + _vm._s(tag) + "\n    ")]
+                      [_vm._v("\r\n      " + _vm._s(tag) + "\r\n    ")]
                     )
                   : _vm._e()
               }),
@@ -225,7 +225,7 @@ var render = function() {
                           }
                         }
                       },
-                      [_vm._v("\n      " + _vm._s(tag) + "\n    ")]
+                      [_vm._v("\r\n      " + _vm._s(tag) + "\r\n    ")]
                     )
                   : _vm._e()
               }),
