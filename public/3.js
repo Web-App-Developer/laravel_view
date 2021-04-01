@@ -155,7 +155,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.router-link-exact-active {\n  color: #ffffff !important;\n  transition: all 0.25s;\n}\n", ""]);
+exports.push([module.i, "\n.router-link-exact-active {\r\n  color: #ffffff !important;\r\n  transition: all 0.25s;\n}\r\n", ""]);
 
 // exports
 

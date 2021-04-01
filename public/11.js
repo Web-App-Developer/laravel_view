@@ -231,13 +231,15 @@ var render = function() {
         _c("div", { staticClass: "col-md-12 row-1" }, [
           _vm.$root.isMobile
             ? _c("h2", { staticClass: "title" }, [
-                _vm._v("\n        Products "),
+                _vm._v("\r\n        Products "),
                 _c("span", { staticClass: "id" }, [
                   _vm._v("ID (" + _vm._s(_vm.img.id) + ")")
                 ])
               ])
             : _c("h2", { staticClass: "title" }, [
-                _vm._v("\n        Image ID " + _vm._s(_vm.img.id) + "\n      ")
+                _vm._v(
+                  "\r\n        Image ID " + _vm._s(_vm.img.id) + "\r\n      "
+                )
               ])
         ]),
         _vm._v(" "),
@@ -343,7 +345,7 @@ var render = function() {
                                 _vm._v(" "),
                                 _c("div", { staticClass: "prices-page-box" }, [
                                   _vm._v(
-                                    "\n                    To edit shop products and set products prices please visit "
+                                    "\r\n                    To edit shop products and set products prices please visit "
                                   ),
                                   _c(
                                     "a",
