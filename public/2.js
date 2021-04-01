@@ -86,7 +86,7 @@ exports = module.exports = __webpack_require__(/*! ../../../../node_modules/css-
 
 
 // module
-exports.push([module.i, "\n.h-screen {\n  height: 100vh;\n}\n", ""]);
+exports.push([module.i, "\n.h-screen {\r\n  height: 100vh;\n}\r\n", ""]);
 
 // exports
 

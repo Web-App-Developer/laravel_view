@@ -314,13 +314,13 @@ var render = function() {
             _c("div", { staticClass: "col-md-12 row-1" }, [
               !_vm.$root.isMobile
                 ? _c("h2", { staticClass: "title" }, [
-                    _vm._v("\n        Social media templates "),
+                    _vm._v("\r\n        Social media templates "),
                     _c("span", { staticClass: "id" }, [
                       _vm._v("ID (" + _vm._s(_vm.img.id) + ")")
                     ])
                   ])
                 : _c("h2", { staticClass: "title" }, [
-                    _vm._v("\n        Social media center "),
+                    _vm._v("\r\n        Social media center "),
                     _c("span", { staticClass: "id" }, [
                       _vm._v("(ID " + _vm._s(_vm.img.id) + ")")
                     ])
@@ -355,7 +355,7 @@ var render = function() {
                           "aria-expanded": "false"
                         }
                       },
-                      [_vm._v("\n            Posts\n          ")]
+                      [_vm._v("\r\n            Posts\r\n          ")]
                     )
                   ]),
                   _vm._v(" "),
@@ -369,7 +369,7 @@ var render = function() {
                           "aria-expanded": "false"
                         }
                       },
-                      [_vm._v("\n            Stories\n          ")]
+                      [_vm._v("\r\n            Stories\r\n          ")]
                     )
                   ])
                 ]),
