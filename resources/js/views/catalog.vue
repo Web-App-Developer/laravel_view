@@ -9,7 +9,7 @@
             <div>Gallery</div>
           </div>
         </a>
-        <a v-for="(categoryId,index) in categories" :key="categoryId" href="" @click.prevent="$router.push('/@'+img.creator.username+'-'+categoryId)">
+        <a v-for="(categoryId,index) in categories" :key="`key-${index}`" href="" @click.prevent="$router.push('/@'+img.creator.username+'-'+categoryId)">
           <div class="item">
             <img :src="$root.storageUrl+'/images/nav_icons/'+productsBycategory[categoryId][Object.keys(productsBycategory[categoryId])[0]].details.category.name+'.png'"/>
             <div>
@@ -54,7 +54,7 @@
           <div class="row">
             <div class="col-sm-12 gallery-comp">
               <transition-group name="fade" tag="div" class="gallery-items-container">
-                <div v-for="(product,index) in products" :key="index" class="col-xs-6 col-md-3 gallery-item " style="  ">
+                <div v-for="(product) in products" :key="product.id" class="col-xs-6 col-md-3 gallery-item " style="  ">
                   <div class="item-box">
                     <ShareNetwork
                     @open="this.$root.clicked = true"

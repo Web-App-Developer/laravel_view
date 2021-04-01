@@ -4059,12 +4059,6 @@ html body .body .logged-in:not(.is-admin-page) .avatar-box .dropdown-menu {
   border-top: solid 35px transparent !important;
 }
 
-@media screen and (max-width: 700px) {
-  html body .body .header {
-    display: none;
-  }
-}
-
 html body .body .header .top-header {
   background: black;
   color: white;
@@ -4078,6 +4072,12 @@ html body .body .header .top-header {
   line-height: 25px;
   padding: 0 100px;
   z-index: 6;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header .top-header {
+    display: none;
+  }
 }
 
 html body .body .header .top-header .left {
@@ -4094,11 +4094,16 @@ html body .body .header nav {
   z-index: 6;
   top: 25px;
   align-items: center;
-  position: fixed;
   display: flex;
   width: 100%;
   padding: 0 2.5%;
   background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav {
+    display: none;
+  }
 }
 
 html body .body .header nav .container.no-padding {
@@ -4108,9 +4113,25 @@ html body .body .header nav .container.no-padding {
   padding-right: 40px;
 }
 
+html body .body .header nav .container.no-padding .navbar-header {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav .container.no-padding .navbar-header {
+    display: none;
+  }
+}
+
 html body .body .header nav .navbar-brand img {
   height: 50px;
   width: auto;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav .navbar-brand img {
+    display: none;
+  }
 }
 
 html body .body .header nav .nav-item.btn {
@@ -5469,14 +5490,26 @@ html body .body .track-order-page {
   letter-spacing: 0.4px;
 }
 
-html body .body .track-order-page .h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
+@media screen and (max-width: 700px) {
+  html body .body .track-order-page {
+    margin-top: 80px;
+  }
 }
 
-html body .body .track-order-page .h2 {
+html body .body .track-order-page .order_title {
   font-size: 20px;
   margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .track-order-page .order_title {
+    margin-bottom: 50px;
+    width: 300px;
+    font-size: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+  }
 }
 
 html body .body .track-order-page input {
@@ -11675,5 +11708,222 @@ html .container.no-padding div {
   html .container.no-padding .col-md-12 {
     padding: 0;
   }
+}
+
+.checkout-main-box {
+  text-align: left !important;
+}
+
+.checkout-main-box .checkout-product-card {
+  background: #EEEAEF;
+  height: auto;
+  padding: 20px;
+  font-family: "Nunito", sans-serif;
+}
+
+.checkout-main-box .checkout-product-card .checkout-heading-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.checkout-main-box .checkout-product-card .checkout-heading-box h6 {
+  font-weight: bold;
+}
+
+.checkout-main-box .checkout-product-card .checkout-heading-box a {
+  color: #B200FF;
+  font-weight: bold;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left !important;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list .checkout-price-title h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000a8;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list .checkout-price-title .total-price {
+  font-size: 16px;
+  color: #000000;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list .checkout-price-box {
+  text-align: right !important;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list .checkout-price-box h6 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000a8;
+}
+
+.checkout-main-box .checkout-product-card .checkout-table-list .checkout-price-box .total-price {
+  font-size: 16px;
+  color: #000000;
+}
+
+.checkout-main-box .shipping-details-box {
+  padding: 20px;
+}
+
+.checkout-main-box .shipping-details-box h5 {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+/* The container */
+
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Hide the browser's default radio button */
+  /* Create a custom radio button */
+  /* On mouse-over, add a grey background color */
+  /* When the radio button is checked, add a blue background */
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  /* Show the indicator (dot/circle) when checked */
+  /* Style the indicator (dot/circle) */
+}
+
+.radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.radio-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border: 2px solid #000;
+  border-radius: 50%;
+}
+
+.radio-container:hover input ~ .checkmark {
+  background-color: none;
+}
+
+.radio-container input:checked ~ .checkmark {
+  background-color: none;
+  border: 2px solid #B200FF;
+}
+
+.radio-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.radio-container .checkmark:after {
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #B200FF;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-box .card-image {
+  width: 120px;
+  height: 20px !important;
+}
+
+.card-box .paypal-image {
+  height: 30px;
+  width: 110px;
+}
+
+.summary-content {
+  display: flex;
+  gap: 1.2em;
+}
+
+.summary-content .product-image {
+  width: 75px;
+}
+
+.summary-content .checkout-pricing-box {
+  flex: 1;
+}
+
+.summary-content .checkout-pricing-box .checkout-pricing-heading-view {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-content .checkout-pricing-box .checkout-pricing-heading-view h5 {
+  font-weight: bold;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+
+.summary-content .checkout-pricing-box .checkout-pricing-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.summary-content .checkout-pricing-box .checkout-pricing-text h6 {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.text-light-grey {
+  color: #000000b4;
+}
+
+.order-main-total-view {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.order-main-total-view h5 {
+  font-size: 16px;
+}
+
+.heading-line {
+  width: 63%;
+  padding: 0;
+  margin: auto;
+  border: 1px solid #B200FF;
+  margin-top: -10px;
+}
+
+.why-content-text {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.why-content-text h5 {
+  color: #B200FF;
 }
 

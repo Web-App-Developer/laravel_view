@@ -297,13 +297,15 @@ var render = function() {
           [
             _c(
               "div",
-              { staticClass: "container no-padding" },
+              { staticClass: "container no-padding no-desktop" },
               [
                 !_vm.isAdminPage
                   ? _c(
                       "div",
                       { staticClass: "navbar-header" },
                       [
+                        _vm._m(0),
+                        _vm._v(" "),
                         _vm.$route.name != "ImageUploader"
                           ? _c(
                               "router-link",
@@ -606,7 +608,34 @@ var render = function() {
     1
   )
 }
-var staticRenderFns = []
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "button",
+      {
+        staticClass: "navbar-toggle",
+        attrs: {
+          type: "button",
+          id: "nav-toggle",
+          "data-toggle": "collapse",
+          "data-target": "#main-nav"
+        }
+      },
+      [
+        _c("span", { staticClass: "sr-only" }, [_vm._v("Toggle navigation")]),
+        _vm._v(" "),
+        _c("span", { staticClass: "icon-bar" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "icon-bar" }),
+        _vm._v(" "),
+        _c("span", { staticClass: "icon-bar" })
+      ]
+    )
+  }
+]
 render._withStripped = true
 
 

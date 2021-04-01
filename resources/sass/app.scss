@@ -1084,10 +1084,8 @@ html body{
         }
       }
     }
+    
     .header{
-      @media screen and (max-width: $mobile-size) {
-        display: none;
-      }
       .top-header {
         background: black;
         color: white;
@@ -1101,7 +1099,9 @@ html body{
         line-height: 25px;
         padding: 0 100px;
         z-index: 6;
-
+        @media screen and (max-width: $mobile-size) {
+          display: none;
+        }
         .left{
           float: left;
           position: absolute;
@@ -1111,24 +1111,38 @@ html body{
         }
       }
       nav{
+
         height: 110px;
         z-index: 6;
         top: 25px;
         align-items: center;
-        position: fixed;
+        // position: fixed;
         display: flex;
         width: 100%;
         padding: 0 2.5%;
         background-color: #fff;
+        @media screen and (max-width: $mobile-size) {
+          display: none;
+        }  
         .container.no-padding {
           margin: 0;
           max-width: 100%;
           width: 100%;
           padding-right: 40px;
+          .navbar-header{
+            display: block;
+            @media screen and (max-width: $mobile-size) {
+              display: none;
+            }  
+          }
         }
+
         .navbar-brand img {
           height: 50px;
           width: auto;
+          @media screen and (max-width: $mobile-size) {
+            display: none;
+          }
         }
         .nav-item.btn {
           width: 160px;
@@ -2283,13 +2297,21 @@ html body{
     .track-order-page {
       text-align: center;
       letter-spacing: 0.4px;
-      .h1 {
-        font-size: 30px;
-        margin-bottom: 20px;
+      @media screen and (max-width: $mobile-size) {
+        margin-top: 80px;
+      
       }
-      .h2 {
+      .order_title {
         font-size: 20px;
         margin-bottom: 50px;
+        @media screen and (max-width: $mobile-size) {
+          margin-bottom: 50px;
+          width:300px;
+          font-size: 13px;
+          margin-right: auto;
+          margin-left: auto;
+          font-weight: 700;
+        }
       }
       input {
         border: 0;
@@ -3139,6 +3161,9 @@ html body{
             margin: 20px 0;
             width: 100%;
           }
+
+        
+
           .likes-counter{
             .cls-1{fill:#b200ff;}
             z-index: 1;
@@ -7294,5 +7319,219 @@ html .container.no-padding{
     .col-md-12 {
       padding: 0;
     }
+  }
+}
+
+.checkout-main-box{
+  text-align: left !important;
+
+  .checkout-product-card{
+    background: $grey;
+    height: auto;
+    padding:20px;
+    font-family: $font-family-sans-serif;
+    
+    .checkout-heading-box{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 10px;
+      h6{
+        font-weight: bold;
+      }
+  
+      a{
+        color: $purple1;
+        font-weight: bold;
+      }
+    }
+  
+    .checkout-table-list{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      text-align: left !important;
+  
+      .checkout-price-title{
+        h6{
+          font-size: 14px;
+          font-weight: bold;
+          color: #000000a8;
+         }
+        .total-price{
+          font-size: 16px;
+          color: #000000;
+        }
+      }
+      
+      .checkout-price-box{
+        text-align: right !important;
+       h6{
+        font-size: 14px;
+        font-weight: bold;
+        color: #000000a8;
+       }
+  
+       .total-price{
+        font-size: 16px;
+        color: #000000;
+      }
+      }
+    }
+  }
+  
+  .shipping-details-box{
+    padding: 20px;
+    h5{
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+  }
+}
+
+
+//radio styles
+/* The container */
+.radio-container {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+
+/* Hide the browser's default radio button */
+
+   input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  border:2px solid #000;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+&:hover input ~ .checkmark {
+  background-color: none;
+}
+
+/* When the radio button is checked, add a blue background */
+ input:checked ~ .checkmark {
+  background-color: none;
+  border:2px solid $purple1;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkmark:after {
+ 	top: 2px;
+	left: 2px;
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: $purple1;
+}
+}
+
+
+.card-box{
+ display: flex; 
+ justify-content: space-between;
+ flex-wrap: wrap;
+ .card-image{
+   width: 120px;
+   height: 20px !important;
+ }
+
+ .paypal-image{
+   height: 30px;
+   width: 110px;
+ }
+}
+
+.summary-content{
+  display: flex;
+  gap:1.2em;
+
+  .product-image{
+    width: 75px;
+  }
+
+  .checkout-pricing-box{
+    flex: 1;
+    .checkout-pricing-heading-view{
+      flex: 1;
+      display: flex;
+      justify-content: space-between;
+      h5{
+        font-weight: bold;
+        font-size: 14px;
+        padding-bottom: 2px;
+      }
+    }
+
+    .checkout-pricing-text{
+      display: flex;
+      justify-content: space-between;
+      h6{
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
+  }
+
+}
+
+.text-light-grey{
+  color:#000000b4;
+}
+
+.order-main-total-view{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  h5{
+    font-size: 16px;
+  }
+}
+
+.heading-line{
+  width: 63%;
+  padding: 0;
+  margin: auto;
+  border: 1px solid $purple1;
+  margin-top: -10px;
+}
+
+.why-content-text{
+  text-align: center;
+  margin-top: 30px;
+  h5{
+    color: $purple1;
   }
 }

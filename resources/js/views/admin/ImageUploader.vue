@@ -143,7 +143,7 @@
                 <div class="col-md-6">
                   <div class="product-preview-box" :id="index ">
                     <slider animation="fade" :autoplay="false" :height="$root.isMobile?'250px':'500px'">
-                      <slider-item v-for="(relevantCanvas , cid) in productsPreview[imgId]">
+                      <slider-item v-for="(relevantCanvas , index) in productsPreview[imgId]" :key="`key-${index}`">
                         <div v-if="!$root.isMobile" class="hover"></div>
                         <img :src="relevantCanvas" />
                       </slider-item>
@@ -166,7 +166,7 @@
                         <label for="tags">Please add tags to your image (separated by Enter or Comma)</label>
                         <input class="tags-input" style="    width: 100px;" @keyup="addTag($event,imgId)" placeholder="Add tag" />
                         <transition-group name="fadeDown" tag="div">
-                          <div class="tag" v-for="(imgTag, j) in tags[imgId]" :key="j">
+                          <div class="tag" v-for="(imgTag, index) in tags[imgId]" :key="`key-${index}`">
                             <span @click="deleteTag($event,imgId)"><i class="fa fa-times"></i></span>
                             <span class="value">{{imgTag}}</span>
                           </div>
