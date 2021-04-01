@@ -19,8 +19,9 @@
         </span>
       </div>
       <nav class="navbar navbar-expand no-padding" :class="[isAdminPage? 'admin':'']">
-        <div class="container no-padding">
+        <div class="container no-padding no-desktop">
           <div class="navbar-header" v-if="!isAdminPage">
+             <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
             <router-link v-if="$route.name!='ImageUploader'" class="navbar-brand" to="/">
               <img v-if="isAdminPage" :src="$root.storageUrl+'/images/artigram-logo.png'"/>
               <img v-else :src="$root.storageUrl+'/images/artigram-logo-square.png'"/>
@@ -59,7 +60,6 @@
             <a class="dropdown-item" v-if="isLoggedIn" @click.prevent="logout" href="#">Logout</a>
           </div>
         </div>
-      </ul>
       <cart ref="cart" ></cart>
     </div>
   </nav>

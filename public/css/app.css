@@ -4059,12 +4059,6 @@ html body .body .logged-in:not(.is-admin-page) .avatar-box .dropdown-menu {
   border-top: solid 35px transparent !important;
 }
 
-@media screen and (max-width: 700px) {
-  html body .body .header {
-    display: none;
-  }
-}
-
 html body .body .header .top-header {
   background: black;
   color: white;
@@ -4078,6 +4072,12 @@ html body .body .header .top-header {
   line-height: 25px;
   padding: 0 100px;
   z-index: 6;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header .top-header {
+    display: none;
+  }
 }
 
 html body .body .header .top-header .left {
@@ -4094,11 +4094,16 @@ html body .body .header nav {
   z-index: 6;
   top: 25px;
   align-items: center;
-  position: fixed;
   display: flex;
   width: 100%;
   padding: 0 2.5%;
   background-color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav {
+    display: none;
+  }
 }
 
 html body .body .header nav .container.no-padding {
@@ -4108,9 +4113,25 @@ html body .body .header nav .container.no-padding {
   padding-right: 40px;
 }
 
+html body .body .header nav .container.no-padding .navbar-header {
+  display: block;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav .container.no-padding .navbar-header {
+    display: none;
+  }
+}
+
 html body .body .header nav .navbar-brand img {
   height: 50px;
   width: auto;
+}
+
+@media screen and (max-width: 700px) {
+  html body .body .header nav .navbar-brand img {
+    display: none;
+  }
 }
 
 html body .body .header nav .nav-item.btn {
@@ -5469,9 +5490,10 @@ html body .body .track-order-page {
   letter-spacing: 0.4px;
 }
 
-html body .body .track-order-page .h1 {
-  font-size: 30px;
-  margin-bottom: 20px;
+@media screen and (max-width: 700px) {
+  html body .body .track-order-page {
+    margin-top: 80px;
+  }
 }
 
 html body .body .track-order-page .order_title {
@@ -5481,9 +5503,12 @@ html body .body .track-order-page .order_title {
 
 @media screen and (max-width: 700px) {
   html body .body .track-order-page .order_title {
-    margin: 0 auto;
+    margin-bottom: 50px;
     width: 300px;
     font-size: 13px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
   }
 }
 
