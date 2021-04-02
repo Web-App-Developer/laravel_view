@@ -57853,7 +57853,7 @@ var render = function() {
                   ? _c(
                       "a",
                       {
-                        key: id,
+                        key: "key-" + index,
                         attrs: { href: "" },
                         on: {
                           click: function($event) {
@@ -60954,11 +60954,11 @@ var render = function() {
                       [
                         _vm._l(
                           _vm.product.details.dynamic_previews_number,
-                          function(n, index) {
+                          function(n, i) {
                             return _c(
                               "a",
                               {
-                                key: "key-" + index,
+                                key: "key-" + i,
                                 on: {
                                   click: function($event) {
                                     $event.preventDefault()
@@ -60969,7 +60969,7 @@ var render = function() {
                                       "/previews/" +
                                       _vm.product.product_code +
                                       "/1000_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       _vm.color +
                                       ".jpg"
                                   }
@@ -60985,7 +60985,7 @@ var render = function() {
                                       "/previews/" +
                                       _vm.product.product_code +
                                       "/1000_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       _vm.color +
                                       ".jpg"
                                       ? "active"
@@ -60998,7 +60998,7 @@ var render = function() {
                                       "/previews/" +
                                       _vm.product.product_code +
                                       "/500_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       _vm.color +
                                       ".jpg",
                                     "src-placeholder":
@@ -61008,7 +61008,7 @@ var render = function() {
                                       "/previews/" +
                                       _vm.product.product_code +
                                       "/80_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       _vm.color +
                                       ".jpg"
                                   }
@@ -61021,12 +61021,12 @@ var render = function() {
                         _vm._v(" "),
                         _vm._l(
                           4 - _vm.product.details.dynamic_previews_number,
-                          function(n, index) {
+                          function(n, i) {
                             return _c(
                               "a",
                               {
                                 key:
-                                  index +
+                                  i +
                                   _vm.product.details.dynamic_previews_number,
                                 on: {
                                   click: function($event) {
@@ -61036,7 +61036,7 @@ var render = function() {
                                       "/gallery_static_images/" +
                                       _vm.product.product_code +
                                       "_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       ".jpg"
                                   }
                                 }
@@ -61049,7 +61049,7 @@ var render = function() {
                                       "/gallery_static_images/" +
                                       _vm.product.product_code +
                                       "_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       ".jpg"
                                       ? "active"
                                       : "",
@@ -61059,7 +61059,7 @@ var render = function() {
                                       "/gallery_static_images/" +
                                       _vm.product.product_code +
                                       "_" +
-                                      (_vm.i + 1) +
+                                      (i + 1) +
                                       ".jpg",
                                     "src-placeholder":
                                       _vm.$root.storageUrl +

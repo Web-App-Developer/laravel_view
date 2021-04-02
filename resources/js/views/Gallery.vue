@@ -7,7 +7,7 @@
           <div>Gallery</div>
         </div>
       </a>
-      <a v-for="(category,id,index) in categories" :key="id" href="" @click.prevent="" v-if="Object.keys(topSliderProducts).includes(id) || Array.isArray(category)">
+      <a v-for="(category,id,index) in categories" :key="`key-${index}`" href="" @click.prevent="" v-if="Object.keys(topSliderProducts).includes(id) || Array.isArray(category)">
           <dropdown-menu v-model="show[index]" transition="translate-fade-down"  v-if="!Array.isArray(category)">
             <!-- <button class="btn btn-primary dropdown-toggle"> -->
             <div class="item dropdown-toggle">

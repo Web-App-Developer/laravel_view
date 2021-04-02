@@ -11927,3 +11927,68 @@ html .container.no-padding div {
   color: #B200FF;
 }
 
+.mobile__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.mobile__navbar #menu-icon-view {
+  width: 60px;
+  height: 25px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.mobile__navbar #menu-icon-view span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 70%;
+  background: #2c3e50;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(1) {
+  top: 0px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(2) {
+  top: 12px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(3) {
+  top: 12px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(4) {
+  top: 24px;
+}
+
+.open span:nth-child(1) {
+  top: 18px !important;
+  width: 0% !important;
+  left: 50% !important;
+}
+
+.open span:nth-child(2) {
+  transform: rotate(45deg) !important;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(-45deg) !important;
+}
+
+.open span:nth-child(4) {
+  top: 18px !important;
+  width: 0% !important;
+  left: 50% !important;
+}
+

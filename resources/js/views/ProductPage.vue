@@ -12,10 +12,10 @@
       </div>
       <div class="container main-page row">
         <transition-group v-if="!$root.isMobile" name="fade" tag="div" class="thumbnails">
-          <a v-for="(n, index) in product.details.dynamic_previews_number" @click.prevent="curMainPrev=$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/1000_'+(i+1)+color+'.jpg'" :key="`key-${index}`">
+          <a v-for="(n, i) in product.details.dynamic_previews_number" @click.prevent="curMainPrev=$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/1000_'+(i+1)+color+'.jpg'" :key="`key-${i}`">
             <v-lazy-image :class="curMainPrev==$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/1000_'+(i+1)+color+'.jpg'? 'active' : ''" :src="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/500_'+(i+1)+color+'.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/80_'+(i+1)+color+'.jpg'" />
           </a>
-          <a v-for="(n, index) in (4-product.details.dynamic_previews_number)" @click.prevent="curMainPrev=$root.storageUrl+'/gallery_static_images/'+product.product_code+'_'+(i+1)+'.jpg'" :key="index+product.details.dynamic_previews_number">
+          <a v-for="(n, i) in (4-product.details.dynamic_previews_number)" @click.prevent="curMainPrev=$root.storageUrl+'/gallery_static_images/'+product.product_code+'_'+(i+1)+'.jpg'" :key="i+product.details.dynamic_previews_number">
             <v-lazy-image :class="curMainPrev==$root.storageUrl+'/gallery_static_images/'+product.product_code+'_'+(i+1)+'.jpg'? 'active' : ''" :src="$root.storageUrl+'/gallery_static_images/'+product.product_code+'_'+(i+1)+'.jpg'" :src-placeholder="$root.storageUrl+'/images/placeholder-white.png'" />
           </a>
         </transition-group>

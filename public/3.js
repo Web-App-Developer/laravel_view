@@ -80,10 +80,134 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['creator', 'user'],
+  props: ["creator", "user"],
   watch: {
     $route: function $route(newVal, oldVal) {
       // watch it
@@ -97,7 +221,8 @@ __webpack_require__.r(__webpack_exports__);
   data: function data() {
     return {
       isLoggedIn: false,
-      isAdminPage: false
+      isAdminPage: false,
+      isToggle: false
     };
   },
   mounted: function mounted() {
@@ -137,6 +262,13 @@ __webpack_require__.r(__webpack_exports__);
           name: "Home"
         });
       });
+    },
+    handleToggle: function handleToggle() {
+      if (this.isToggle === false) {
+        this.isToggle = true;
+      } else if (this.isToggle === true) {
+        this.isToggle = false;
+      }
     }
   }
 });
@@ -282,11 +414,36 @@ var render = function() {
                 )
               ]),
               _vm._v(" "),
-              _c("span", [
-                _vm._v("\n          Free Domestic Shipping\n        ")
-              ])
+              _c("span", [_vm._v(" Free Domestic Shipping ")])
             ])
           : _vm._e(),
+        _vm._v(" "),
+        _c(
+          "div",
+          { staticClass: "mobile__navbar" },
+          [
+            _c(
+              "div",
+              {
+                class: _vm.isToggle ? "open" : "",
+                attrs: { id: "menu-icon-view" },
+                on: { click: _vm.handleToggle }
+              },
+              [
+                _c("span"),
+                _vm._v(" "),
+                _c("span"),
+                _vm._v(" "),
+                _c("span"),
+                _vm._v(" "),
+                _c("span")
+              ]
+            ),
+            _vm._v(" "),
+            _c("cart", { ref: "cart" })
+          ],
+          1
+        ),
         _vm._v(" "),
         _c(
           "nav",
@@ -495,10 +652,12 @@ var render = function() {
                         [
                           _c("div", { staticClass: "avatar" }, [
                             _vm._v(
-                              _vm._s(
-                                _vm.user.first_name.charAt(0) +
-                                  _vm.user.last_name.charAt(0)
-                              )
+                              "\n              " +
+                                _vm._s(
+                                  _vm.user.first_name.charAt(0) +
+                                    _vm.user.last_name.charAt(0)
+                                ) +
+                                "\n            "
                             )
                           ])
                         ]
