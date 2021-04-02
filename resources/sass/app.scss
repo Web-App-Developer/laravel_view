@@ -542,8 +542,7 @@ html body{
     //   display: none;
     // }
     @media screen and (max-width: $mobile-size) {
-      width: calc(100% + 30px);
-      margin-left: -15px;
+      width:100%;
     }
     background: #EEEAEF;
     .footer-copyq {
@@ -7517,15 +7516,16 @@ input:checked ~ .checkmark:after {
   font-weight: bold;
   h5{
     font-size: 16px;
+    text-transform: uppercase;
   }
 }
 
 .heading-line{
-  width: 63%;
+  width: 33%;
   padding: 0;
   margin: auto;
   border: 1px solid $purple1;
-  margin-top: -10px;
+  margin-top: -3px;
 }
 
 .why-content-text{
@@ -7535,3 +7535,8 @@ input:checked ~ .checkmark:after {
     color: $purple1;
   }
 }
+
+
+
+
+@import "mobile"

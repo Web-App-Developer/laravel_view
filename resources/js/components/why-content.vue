@@ -1,6 +1,6 @@
 <template>
   <div class="why-content mt-4">
-    <h5>Why you will love shopping with us</h5>
+    <h5 class="text-center">Why you will love shopping with us</h5>
     <hr class="heading-line" />
 
     <div class="row why-content-text">

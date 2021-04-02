@@ -3394,8 +3394,7 @@ html body .footer {
 
 @media screen and (max-width: 700px) {
   html body .footer {
-    width: calc(100% + 30px);
-    margin-left: -15px;
+    width: 100%;
   }
 }
 
@@ -11908,14 +11907,15 @@ html .container.no-padding div {
 
 .order-main-total-view h5 {
   font-size: 16px;
+  text-transform: uppercase;
 }
 
 .heading-line {
-  width: 63%;
+  width: 33%;
   padding: 0;
   margin: auto;
   border: 1px solid #B200FF;
-  margin-top: -10px;
+  margin-top: -3px;
 }
 
 .why-content-text {
@@ -11925,5 +11925,401 @@ html .container.no-padding div {
 
 .why-content-text h5 {
   color: #B200FF;
+}
+
+.mobile__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px 10px 10px;
+}
+
+.mobile__navbar .mobile-cart {
+  position: relative !important;
+  right: 0px !important;
+  top: auto !important;
+}
+
+.mobile__navbar .mobile-navbar-toggle-view {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.mobile__navbar .mobile-navbar-toggle-view h4 {
+  margin-top: 10px;
+}
+
+.mobile__navbar #menu-icon-view {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  transform: rotate(0deg);
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.mobile__navbar #menu-icon-view span {
+  display: block;
+  position: absolute;
+  height: 5px;
+  width: 30px;
+  background: #2c3e50;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(1) {
+  top: 0px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(2) {
+  top: 8px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(3) {
+  top: 8px;
+}
+
+.mobile__navbar #menu-icon-view span:nth-child(4) {
+  top: 16px;
+}
+
+.open span:nth-child(1) {
+  top: 18px !important;
+  width: 0% !important;
+  left: 50% !important;
+}
+
+.open span:nth-child(2) {
+  transform: rotate(45deg) !important;
+}
+
+.open span:nth-child(3) {
+  transform: rotate(-45deg) !important;
+}
+
+.open span:nth-child(4) {
+  top: 18px !important;
+  width: 0% !important;
+  left: 50% !important;
+}
+
+.mobile-content {
+  margin-top: 0px !important;
+}
+
+.mobile-content .mobile-discount-box {
+  padding: 5px;
+  text-align: center;
+  background-color: #B200FF;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.mobile-content .mobile-like-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-content .mobile-like-view .discount-tag {
+  background: #B200FF;
+  margin-top: 240%;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: #fff;
+}
+
+.mobile-content .mobile-product-content {
+  padding: 10px;
+}
+
+.mobile-content .mobile-product-content .mobile-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mobile-content .mobile-product-content .mobile-title-box .mobile-creator-text {
+  color: #8100FF;
+  font-size: 12px;
+}
+
+.mobile-content .mobile-share-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.mobile-content .mobile-share-box .likes-counter {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.mobile-content .mobile-share-box .likes-counter #Layer_1 {
+  width: 20px;
+  height: 20px;
+}
+
+.mobile-content .mobile-price-view span {
+  color: #f66d9b;
+  font-weight: bold;
+}
+
+.mobile-content .delivery {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  gap: 0.5em;
+}
+
+.mobile-content .delivery img {
+  width: 30px;
+  height: 15px;
+}
+
+.mobile-content .properties .property {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile-content .properties .color {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  gap: 1em;
+}
+
+.mobile-content .properties .color span {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  border: solid 1px grey;
+  margin-right: 10px;
+}
+
+.mobile-content .properties .color span.active {
+  border: solid 2px #B200FF;
+}
+
+.mobile-content .desc-box {
+  padding: 0;
+  min-height: 200px;
+  margin-bottom: -50px;
+  padding-left: 10%;
+}
+
+@media screen and (max-width: 700px) {
+  .mobile-content .desc-box {
+    min-height: 300px;
+    padding: 0 10%;
+  }
+}
+
+.mobile-content .desc-box .title {
+  border-bottom: solid 1px #EEEAEF;
+  padding-bottom: 4px;
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 700px) {
+  .mobile-content .desc-box .title {
+    display: inline-block;
+    margin-left: calc(50% - 106.7px);
+  }
+}
+
+.mobile-content .desc-box .title span {
+  padding: 5px 0px;
+  transition: border-bottom 0.3s ease-in-out;
+  cursor: pointer;
+  margin-right: 10px;
+  text-transform: capitalize;
+}
+
+.mobile-content .desc-box .title span.active {
+  font-weight: bold;
+  border-bottom: solid 3px #8100FF;
+}
+
+.mobile-content .desc-box .content {
+  padding: 20px 0;
+  position: absolute;
+}
+
+.mobile-content .desc-box .content ul {
+  list-style-type: circle;
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+.page-footer {
+  margin: 130px auto;
+  margin-bottom: 60px;
+}
+
+@media screen and (max-width: 700px) {
+  .page-footer {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    margin-top: 80px;
+  }
+
+  .page-footer .col-md-4 {
+    width: 33%;
+  }
+}
+
+.page-footer .hooper button.hooper-prev {
+  left: -70px;
+}
+
+.page-footer .hooper button.hooper-next {
+  right: -70px;
+}
+
+.page-footer .hooper button svg {
+  width: 30px;
+  height: 30px;
+  box-shadow: 0px 0px 3px 1px #d7d7d7;
+  border-radius: 50%;
+  fill: #B200FF;
+}
+
+.page-footer .full-width {
+  width: 1053px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 700px) {
+  .page-footer .full-width {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+.page-footer .you-may .title span {
+  margin-bottom: 60px;
+}
+
+.page-footer .you-may .title .text {
+  width: 200px;
+}
+
+.page-footer .you-may .title .line {
+  width: calc(50% - 100px);
+}
+
+.page-footer .you-may h3 {
+  font-size: 16px;
+}
+
+.page-footer .you-may h3 span {
+  font-weight: normal;
+  text-transform: capitalize;
+  color: #B200FF;
+}
+
+.page-footer .you-may .hooper {
+  height: 400px;
+}
+
+.page-footer .you-may .hooper .hooper-slide {
+  padding: 13px;
+  margin-left: 2px;
+}
+
+@media screen and (max-width: 700px) {
+  .page-footer .you-may .hooper .hooper-slide {
+    margin-left: -6.2%;
+    padding: 5%;
+  }
+}
+
+.page-footer .you-may .hooper button {
+  top: 140px;
+}
+
+.page-footer .you-may .gallery-item {
+  float: inherit;
+  display: inline-block;
+  margin: 10px 0%;
+  padding: 0 10px;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-frame {
+  border: solid 1px #e7e7e5;
+  border-radius: 7px;
+  transition: box-shadow 0.3s ease-in-out;
+  position: relative;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-frame .prev-gallery-img {
+  padding: 10%;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-frame:hover {
+  box-shadow: 0px 5px 10px -2px #d6d6d6;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-desc {
+  margin-bottom: 10px;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-desc .gallery-item-title {
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0px 3px 0;
+  text-align: center;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-desc .gallery-item-price {
+  text-align: center;
+  color: black;
+  letter-spacing: 2px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-desc .gallery-item-price .old-price {
+  font-weight: normal;
+  color: #000000;
+  font-size: 15px;
+  margin-left: 8px;
+  text-decoration: line-through;
+}
+
+.page-footer .you-may .gallery-item .gallery-item-desc .gallery-item-price .discount-price {
+  color: #E91E63;
+}
+
+.page-footer .you-may .more {
+  margin-top: -10px;
+}
+
+.page-footer .you-may .more .gallery-item .gallery-item-desc .gallery-item-title {
+  color: #B200FF;
+}
+
+.page-footer .you-may .more h3 span {
+  text-transform: unset;
+}
+
+.page-footer .you-may .more h3 span span {
+  text-transform: capitalize;
 }
 
