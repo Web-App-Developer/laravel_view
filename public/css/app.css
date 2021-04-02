@@ -12021,3 +12021,55 @@ html .container.no-padding div {
   color: #fff;
 }
 
+.mobile-content .mobile-like-view {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mobile-content .mobile-like-view .discount-tag {
+  background: #B200FF;
+  margin-top: 240%;
+  padding: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  color: #fff;
+}
+
+.mobile-content .mobile-product-content {
+  padding: 10px;
+}
+
+.mobile-content .mobile-product-content .mobile-title-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.mobile-content .mobile-product-content .mobile-title-box .mobile-creator-text {
+  color: #8100FF;
+  font-size: 12px;
+}
+
+.mobile-content .mobile-share-box {
+  display: flex;
+  align-items: center;
+  gap: 0.8em;
+}
+
+.mobile-content .mobile-share-box .likes-counter {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.mobile-content .mobile-share-box .likes-counter #Layer_1 {
+  width: 20px;
+  height: 20px;
+}
+
+.mobile-content .mobile-price-view span {
+  color: #f66d9b;
+  font-weight: bold;
+}
+

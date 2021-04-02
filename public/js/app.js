@@ -3775,9 +3775,13 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apis_Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../apis/Api */ "./resources/js/apis/Api.js");
-/* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-awesome-swiper */ "./node_modules/vue-awesome-swiper/dist/vue-awesome-swiper.js");
+/* harmony import */ var vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! swiper/swiper-bundle.css */ "./node_modules/swiper/swiper-bundle.css");
+/* harmony import */ var swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(swiper_swiper_bundle_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
+/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
+/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4__);
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -4095,16 +4099,109 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['creator', 'user'],
   components: {
-    Hooper: hooper__WEBPACK_IMPORTED_MODULE_1__["Hooper"],
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_1__["Slide"],
-    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_1__["Navigation"],
-    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_1__["Pagination"]
+    Hooper: hooper__WEBPACK_IMPORTED_MODULE_3__["Hooper"],
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_3__["Slide"],
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_3__["Navigation"],
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_3__["Pagination"],
+    Swiper: vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1__["Swiper"],
+    SwiperSlide: vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1__["SwiperSlide"]
   },
   data: function data() {
     return {
@@ -4121,7 +4218,13 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       products: [],
       tags: [],
       productsBycategory: {},
-      prices: {}
+      prices: {},
+      swiperOption: {
+        pagination: {
+          el: '.swiper-pagination',
+          dynamicBullets: true
+        }
+      }
     };
   },
   watch: {
@@ -75468,7 +75571,548 @@ var render = function() {
         ])
       : _c("div", [
           _c("div", { staticClass: "mobile-discount-box" }, [
-            _vm._v("\r\n    Get 15% of everything\r\n  ")
+            _vm._v(
+              "\r\n    Get " +
+                _vm._s(_vm.img.creator.discount) +
+                "% of everything\r\n  "
+            )
+          ]),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "swiper-carousel-box" },
+            [
+              _c(
+                "swiper",
+                { staticClass: "swiper", attrs: { options: _vm.swiperOption } },
+                [
+                  _vm._l(_vm.product.details.dynamic_previews_number, function(
+                    n,
+                    i
+                  ) {
+                    return _c(
+                      "swiper-slide",
+                      { key: "key-" + i },
+                      [
+                        _c("v-lazy-image", {
+                          class:
+                            _vm.curMainPrev ==
+                            _vm.$root.storageUrl +
+                              "/creator_images/" +
+                              _vm.img.id +
+                              "/previews/" +
+                              _vm.product.product_code +
+                              "/1000_" +
+                              (i + 1) +
+                              _vm.color +
+                              ".jpg"
+                              ? "active"
+                              : "",
+                          attrs: {
+                            src:
+                              _vm.$root.storageUrl +
+                              "/creator_images/" +
+                              _vm.img.id +
+                              "/previews/" +
+                              _vm.product.product_code +
+                              "/500_" +
+                              (i + 1) +
+                              _vm.color +
+                              ".jpg",
+                            "src-placeholder":
+                              _vm.$root.storageUrl +
+                              "/creator_images/" +
+                              _vm.img.id +
+                              "/previews/" +
+                              _vm.product.product_code +
+                              "/80_" +
+                              (i + 1) +
+                              _vm.color +
+                              ".jpg"
+                          }
+                        }),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass: "likes",
+                            class: _vm.$root.isMobile ? "mobile-like-view" : ""
+                          },
+                          [
+                            _c("div", [
+                              _c("div", { staticClass: "number" }, [
+                                _vm._v(_vm._s(_vm.img.likes))
+                              ]),
+                              _vm._v(" "),
+                              !_vm.imgLikeClicked.includes(_vm.img.id)
+                                ? _c(
+                                    "svg",
+                                    {
+                                      staticClass: "heart",
+                                      attrs: {
+                                        id: "Layer_1",
+                                        "data-name": "Layer 1",
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        viewBox: "0 0 150 150"
+                                      },
+                                      on: {
+                                        click: function($event) {
+                                          return _vm.like(_vm.img)
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("defs"),
+                                      _c("g", { staticClass: "cls-1" }, [
+                                        _c("circle", {
+                                          staticClass: "cls-2",
+                                          attrs: {
+                                            cx: "75",
+                                            cy: "75",
+                                            r: "74.88"
+                                          }
+                                        }),
+                                        _c("path", {
+                                          staticClass: "cls-3",
+                                          attrs: {
+                                            d:
+                                              "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                            transform: "translate(-75 -68)"
+                                          }
+                                        })
+                                      ]),
+                                      _c("path", {
+                                        staticClass: "cls-4",
+                                        attrs: {
+                                          d:
+                                            "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                          transform: "translate(-75 -68)"
+                                        }
+                                      }),
+                                      _c("path", {
+                                        staticClass: "cls-5",
+                                        attrs: {
+                                          d:
+                                            "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                          transform: "translate(-75 -68)"
+                                        }
+                                      })
+                                    ]
+                                  )
+                                : _c(
+                                    "svg",
+                                    {
+                                      staticClass: "heart2",
+                                      attrs: {
+                                        id: "Layer_1",
+                                        "data-name": "Layer 1",
+                                        xmlns: "http://www.w3.org/2000/svg",
+                                        viewBox: "0 0 150 150"
+                                      },
+                                      on: {
+                                        click: function($event) {
+                                          return _vm.like(_vm.img)
+                                        }
+                                      }
+                                    },
+                                    [
+                                      _c("defs"),
+                                      _c("g", { staticClass: "cls-1" }, [
+                                        _c("circle", {
+                                          staticClass: "cls-2",
+                                          attrs: {
+                                            cx: "75",
+                                            cy: "75",
+                                            r: "74.88"
+                                          }
+                                        }),
+                                        _c("path", {
+                                          staticClass: "cls-3",
+                                          attrs: {
+                                            d:
+                                              "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                            transform: "translate(-75 -68)"
+                                          }
+                                        })
+                                      ]),
+                                      _c("path", {
+                                        staticClass: "cls-4",
+                                        attrs: {
+                                          d:
+                                            "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                          transform: "translate(-75 -68)"
+                                        }
+                                      })
+                                    ]
+                                  )
+                            ]),
+                            _vm._v(" "),
+                            _c(
+                              "ShareNetwork",
+                              {
+                                attrs: {
+                                  network: "pinterest",
+                                  url:
+                                    _vm.$root.currentUrl +
+                                    "/product-" +
+                                    _vm.product.id,
+                                  title:
+                                    _vm.img.name +
+                                    " (ID " +
+                                    _vm.img.id +
+                                    ")" +
+                                    " " +
+                                    _vm.img.description +
+                                    " " +
+                                    _vm.$root.getPinterestContent(_vm.img),
+                                  media:
+                                    _vm.$root.currentUrl +
+                                    _vm.$root.storageUrl +
+                                    "/creator_images/" +
+                                    _vm.img.id +
+                                    "/previews/" +
+                                    _vm.product.product_code +
+                                    "/1000_1.jpg"
+                                },
+                                on: {
+                                  open: function($event) {
+                                    _vm.$root.clicked = true
+                                  },
+                                  close: function($event) {
+                                    _vm.$root.clicked = false
+                                  }
+                                }
+                              },
+                              [
+                                _c(
+                                  "svg",
+                                  {
+                                    staticStyle: {
+                                      "enable-background": "new 0 0 512 512"
+                                    },
+                                    attrs: {
+                                      height: "30px",
+                                      id: "Layer_1",
+                                      version: "1.1",
+                                      viewBox: "0 0 512 512",
+                                      width: "30px",
+                                      "xml:space": "preserve",
+                                      xmlns: "http://www.w3.org/2000/svg",
+                                      "xmlns:cc":
+                                        "http://creativecommons.org/ns#",
+                                      "xmlns:dc":
+                                        "http://purl.org/dc/elements/1.1/",
+                                      "xmlns:inkscape":
+                                        "http://www.inkscape.org/namespaces/inkscape",
+                                      "xmlns:rdf":
+                                        "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                                      "xmlns:sodipodi":
+                                        "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+                                      "xmlns:svg": "http://www.w3.org/2000/svg"
+                                    }
+                                  },
+                                  [
+                                    _c("defs", { attrs: { id: "defs19" } }),
+                                    _c("g", { attrs: { id: "g3031" } }, [
+                                      _c("path", {
+                                        staticStyle: {
+                                          fill: "#cb2027",
+                                          "fill-opacity": "1"
+                                        },
+                                        attrs: {
+                                          d:
+                                            "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
+                                          id: "circle8"
+                                        }
+                                      }),
+                                      _c(
+                                        "g",
+                                        {
+                                          attrs: {
+                                            id: "g3000",
+                                            transform:
+                                              "translate(-603.11865,-9.8474559)"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "g",
+                                            {
+                                              attrs: {
+                                                id: "g3142",
+                                                transform:
+                                                  "translate(221.28814,-27.9639)"
+                                              }
+                                            },
+                                            [
+                                              _c(
+                                                "g",
+                                                { attrs: { id: "Layer_14" } },
+                                                [
+                                                  _c(
+                                                    "g",
+                                                    { attrs: { id: "g3121" } },
+                                                    [
+                                                      _c("path", {
+                                                        staticStyle: {
+                                                          fill: "#ffffff"
+                                                        },
+                                                        attrs: {
+                                                          d:
+                                                            "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
+                                                          id: "path3131"
+                                                        }
+                                                      })
+                                                    ]
+                                                  )
+                                                ]
+                                              ),
+                                              _c("g", {
+                                                attrs: { id: "Layer_1_1_-8" }
+                                              })
+                                            ]
+                                          )
+                                        ]
+                                      )
+                                    ]),
+                                    _c("g", { attrs: { id: "Layer_1_1_" } })
+                                  ]
+                                )
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "discount-tag" }, [
+                              _vm._v(
+                                "\r\n            " +
+                                  _vm._s(_vm.img.creator.discount) +
+                                  "% OFF\r\n          "
+                              )
+                            ])
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  }),
+                  _vm._v(" "),
+                  _c("div", {
+                    staticClass: "swiper-pagination",
+                    attrs: { slot: "pagination" },
+                    slot: "pagination"
+                  })
+                ],
+                2
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("div", { staticClass: "mobile-product-content" }, [
+            _c("div", { staticClass: "mobile-title-box" }, [
+              _c("div", { staticClass: "title" }, [
+                _vm._v(
+                  "\r\n         " +
+                    _vm._s(
+                      _vm.img.name + " " + _vm.product.details.category.name
+                    ) +
+                    "\r\n         "
+                ),
+                _c(
+                  "a",
+                  {
+                    attrs: { href: "" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.$router.push("/@" + _vm.img.creator.username)
+                      }
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "creator-name" }, [
+                      _vm._v("by "),
+                      _c("span", { staticClass: "mobile-creator-text" }, [
+                        _vm._v(
+                          " " +
+                            _vm._s(
+                              _vm.img.creator.user.first_name +
+                                " " +
+                                _vm.img.creator.user.last_name
+                            )
+                        )
+                      ])
+                    ])
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "mobile-share-box" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass: "share",
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.$modal.show("ShareModal")
+                      }
+                    }
+                  },
+                  [
+                    _c(
+                      "svg",
+                      {
+                        attrs: {
+                          xmlns: "http://www.w3.org/2000/svg",
+                          "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                          width: "17px",
+                          height: "19px",
+                          viewBox: "0 0 17 19",
+                          version: "1.1"
+                        }
+                      },
+                      [
+                        _c("title", [_vm._v("Share")]),
+                        _vm._v(" "),
+                        _c("desc", [_vm._v("Created with sketchtool.")]),
+                        _vm._v(" "),
+                        _c(
+                          "g",
+                          {
+                            attrs: {
+                              id: "Page-3",
+                              stroke: "none",
+                              "stroke-width": "1",
+                              fill: "none",
+                              "fill-rule": "evenodd"
+                            }
+                          },
+                          [
+                            _c(
+                              "g",
+                              {
+                                attrs: {
+                                  id: "public-gallery",
+                                  transform:
+                                    "translate(-81.000000, -533.000000)",
+                                  fill: "#B200FF",
+                                  "fill-rule": "nonzero"
+                                }
+                              },
+                              [
+                                _c(
+                                  "g",
+                                  {
+                                    attrs: {
+                                      id: "Group-2",
+                                      transform:
+                                        "translate(81.000000, 529.000000)"
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "g",
+                                      {
+                                        attrs: {
+                                          id: "share-(2)",
+                                          transform:
+                                            "translate(0.000000, 4.000000)"
+                                        }
+                                      },
+                                      [
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
+                                            id: "Shape"
+                                          }
+                                        })
+                                      ]
+                                    )
+                                  ]
+                                )
+                              ]
+                            )
+                          ]
+                        )
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _vm.$root.isMobile
+                      ? _c("span", [_vm._v("\r\n          Share\r\n        ")])
+                      : _vm._e()
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "likes-counter" }, [
+                  _c(
+                    "svg",
+                    {
+                      attrs: {
+                        id: "Layer_1",
+                        "stroke-width": "1",
+                        "data-name": "Layer 1",
+                        xmlns: "http://www.w3.org/2000/svg",
+                        fill: "#B200FF",
+                        viewBox: "0 0 294.89 284"
+                      }
+                    },
+                    [
+                      _c("defs"),
+                      _c("path", {
+                        staticClass: "cls-1",
+                        attrs: {
+                          d:
+                            "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
+                          transform: "translate(-2.57 -10)"
+                        }
+                      })
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "number" }, [
+                    _vm._v(_vm._s(_vm.img.likes))
+                  ])
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mobile-price-view" }, [
+              _c("div", { staticClass: "price" }, [
+                _c(
+                  "small",
+                  { staticClass: "before" },
+                  [
+                    _c("strike", [
+                      _vm._v("$" + _vm._s(_vm.prices[_vm.product.product_code]))
+                    ])
+                  ],
+                  1
+                ),
+                _vm._v(" "),
+                _c("span", { staticClass: "after" }, [
+                  _vm._v(
+                    "$" +
+                      _vm._s(
+                        (
+                          (_vm.prices[_vm.product.product_code] *
+                            (100 - _vm.img.creator.discount)) /
+                          100
+                        ).toFixed(2)
+                      )
+                  )
+                ])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "delivery mt-3" }, [
+              _c("img", {
+                attrs: { src: "/assets/minishop/img/car-ic.png", alt: "" }
+              }),
+              _vm._v(" "),
+              _c("span", [_vm._v("Estimated delivery " + _vm._s(_vm.estDel))])
+            ])
           ])
         ])
   ])
@@ -107461,10 +108105,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apis_Api__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./apis/Api */ "./resources/js/apis/Api.js");
 
 
-
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_awesome_swiper__WEBPACK_IMPORTED_MODULE_1___default.a
 /* { default options with global component } */
-); // import App from "./components/App.vue";
+);
+ // import App from "./components/App.vue";
 // import $ from 'jquery'
 
 global.jQuery = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
