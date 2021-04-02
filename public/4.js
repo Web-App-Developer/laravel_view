@@ -143,6 +143,7 @@ var render = function() {
     "div",
     {
       staticClass: "cart",
+      class: _vm.$root.isMobile ? "mobile-cart" : "",
       on: {
         click: function($event) {
           $event.preventDefault()

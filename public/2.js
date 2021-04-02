@@ -154,6 +154,7 @@ var render = function() {
       _vm._v(" "),
       _c("router-view", {
         staticClass: "page-content",
+        class: _vm.$root.isMobile ? "mobile-content" : "",
         attrs: { creator: _vm.creator, user: _vm.user }
       }),
       _vm._v(" "),

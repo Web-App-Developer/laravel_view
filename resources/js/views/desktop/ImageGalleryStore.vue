@@ -1,80 +1,31 @@
 <template>
   <div style="" class="shop-page" v-if="storeOwner">
-    <div class="categories-filter">
-      <a href="" @click.prevent="filter=0" >
-        <div class="item">
-          <img :src="$root.storageUrl+'/images/nav_icons/Gallery.png'"/>
-          <div>Gallery</div>
-        </div>
-      </a>
-      <a v-for="(category,id,index) in categories" :key="`key-${index}`" href="" @click.prevent="" v-if="Object.keys(topSliderProducts).includes(id) || Array.isArray(category)">
-          <dropdown-menu v-model="show[index]" transition="translate-fade-down"  v-if="!Array.isArray(category)">
-            <!-- <button class="btn btn-primary dropdown-toggle"> -->
-            <div class="item dropdown-toggle">
-              <img :src="$root.storageUrl+'/images/nav_icons/'+category.name+'.png'"/>
-              <div>{{category.name}}</div>
-            </div>
-            <!-- </button> -->
-            <div slot="dropdown">
-              <a class="dropdown-item" href="" v-for="(productsArr,productCode) in topSliderProducts[category.id]" :key="productCode">{{productsArr[0].details.title}}</a>
-            </div>
-          </dropdown-menu>
-          <dropdown-menu v-model="show[index]" transition="translate-fade-down"  v-else>
-            <!-- <button class="btn btn-primary dropdown-toggle"> -->
-            <div class="item dropdown-toggle">
-              <img :src="$root.storageUrl+'/images/nav_icons/'+category[0].dady.name+'.png'"/>
-              <div>{{category[0].dady.name}}</div>
-            </div>
-            <!-- </button> -->
-            <div slot="dropdown">
-              <a class="dropdown-item" href="" v-for="(categoryChild,j) in category" :key="categoryChild.id">{{categoryChild.name}}</a>
-            </div>
-          </dropdown-menu>
-      </a>
-    </div>
-    <share-modal ref="shareModal" :url="$root.currentUrl+'@'+storeOwner.username" title="View on Artigram" description="View my gallery page on Artigram and buy the content you like on merchandise" quote="" hashtags="" twitter-user="Artigramme"></share-modal>
+    <share-modal ref="shareModal" :url="'/@'+storeOwner.username" title="View on Artigram" description="View my gallery page on Artigram and buy the content you like on merchandise" quote="" hashtags="" twitter-user="Artigramme"></share-modal>
     <shop-modal :creator="storeOwner" ref="shopModal"></shop-modal>
+    <cart ref="cart" ></cart>
     <div>
-      <div class="banner" v-if="!filter" style="" >
-        <hooper style="height:200px" :autoPlay="true" :playSpeed="3000" :wheelControl="false" :itemsToShow="1" :centerMode="true" :infiniteScroll="true" >
-          <slide v-for="(category,categoryId) in categories" :key="categoryId" v-if="!Array.isArray(category) && $root.elementAt(topSliderProducts[categoryId],0)">
-            <div class="left">
-              <div>Enjoy</div>
-              <div class="big">{{storeOwner.discount}}% OFF</div>
-              <div>On all <span>{{category.name}}</span></div>
-            </div>
-            <div class="right">
-              <a :href="'/product-' + product.id" v-for="(product,index) in $root.elementAt(topSliderProducts[categoryId],0)" :key="index">
-                <div class="item">
-                  <v-lazy-image class="thumbnail" :src="$root.storageUrl+'/creator_images/' + product.image_id + '/previews/'+product.details.product_code+'/banner.png'" :src-placeholder="$root.storageUrl+'/creator_images/' + product.image_id + '/previews/'+product.details.product_code+'/banner.png'" />
-                </div>
-              </a>
-            </div>
-          </slide>
-        </hooper>
+      <div v-if="$root.isLoggedIn" class="view-ad-visitor">
+        <div class="container no-padding">
+          <span class="circle">!</span>Viewing as a visitor<a href="" @click="$router.push('/admin')"><span class="done">Done</span></a>
+        </div>
+      </div>
+      <div class="banner" style="" >
+        <img v-if="!list.length" :src="$root.storageUrl+'/creator_images/'+ lastImage.id + '/banner.jpg'" alt="">
+        <img v-else :src="$root.storageUrl+'/images/banner-artigram-logo.png'" alt="">
       </div>
       <div class="container no-padding">
-        <div class="relative">
-          <div class="gallery-header">
-            <span class="search">
-              <i class="fas fa-search"></i>
-              <i @click.prevent="search=''" v-if="search!=''" class="far fa-times-circle"></i>
-              <input type="search" v-model="search" placeholder="Search by words or image ID" /></span>
-            </span>
-            <tags :tags="tags"></tags>
-          </div>
-          <div class="row user-header-info">
-            <div class="col-md-12">
-              <div class="">
-                <div class="user-big-thumb" style="">
-                  <v-lazy-image v-if="storeOwner" :src="$root.storageUrl+'/creator_images/' + storeOwner.id + '.jpg'" :src-placeholder="$root.storageUrl+'/images/profile_img_placeholder.jpg'" alt="Avatar of user"/>
-                </div>
-                <div class="user-big-thumb-right">
-                  <b>{{storeOwner.store_name==''? storeOwner.user.first_name+' Shop' : storeOwner.store_name}}</b>
-                  <div class="social">
-                    <ul style="display: flex;margin-top: -5px;">
-                      <li v-if="storeOwner.behance_username!=''">
-                        <a target="_blank" :href="'https://www.behance.net/'+storeOwner.behance_username">
+        <div class="row user-header-info">
+          <div class="col-md-12">
+            <div class="">
+              <div class="user-big-thumb" style="">
+                <v-lazy-image v-if="storeOwner" :src="$root.storageUrl+'/creator_images/' + storeOwner.id + '.jpg'" :src-placeholder="$root.storageUrl+'/images/profile_img_placeholder.jpg'" alt="Avatar of user"/>
+              </div>
+              <div class="user-big-thumb-right">
+                <b>{{storeOwner.store_name==''? storeOwner.user.first_name+' Shop' : storeOwner.store_name}}</b>
+                <div class="social">
+                  <ul style="display: flex;margin-top: -5px;">
+                    <li v-if="storeOwner.behance_username!=''">
+                      <a target="_blank" :href="'https://www.behance.net/'+storeOwner.behance_username">
                         <svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                           <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
                           <title>Behance</title>
@@ -270,7 +221,7 @@
               Share
             </span>
           </div>
-          <!-- <span v-if="!$root.isMobile && storeOwner.site!=''"><a style="color:#B200FF;margin-left:15px;" :href="storeOwner.site">{{$root.trimString(storeOwner.site,25)}}</a></span> -->
+          <span v-if="!$root.isMobile && storeOwner.site!=''"><a style="color:#B200FF;margin-left:15px;" :href="storeOwner.site">{{$root.trimString(storeOwner.site,25)}}</a></span>
           <div v-if="$root.isMobile" @click.prevent="$modal.show('tagModal')" class="tag-sign" style="display: inline-block !important;position:inherit;margin-left:15px;"><svg class="icon" style="width: 1em; height: 1em;vertical-align: middle;fill: currentColor;overflow: hidden;" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg"><path d="M972.069257 531.930935l-0.185218-0.192382L528.530488 88.973404C492.112044 52.55496 425.985997 25.092491 374.715287 25.092491H116.867708c-27.810393 0-54.099129 10.972912-74.022901 30.896684-19.924795 19.924795-30.896684 46.213531-30.896684 74.022901v257.848602c0 24.65247 6.500041 53.864792 18.302855 82.256423 11.859096 28.529777 28.066219 53.751205 45.647643 71.039963L519.005554 984.853421c19.346627 19.346627 46.279023 30.442336 73.888848 30.442336 27.191292 0 54.202483-10.963703 74.107834-30.081109l0.195452-0.188288L971.707007 679.92864c19.346627-19.346627 30.443359-46.279023 30.443359-73.88987 0-27.191292-10.964726-54.202483-30.081109-74.107835z m-36.541241 111.818715L631.387088 948.478979c-10.450003 9.950629-24.465205 15.651468-38.492686 15.651469-13.934361 0-28.031427-5.777587-37.697577-15.444761L112.019283 504.920768l-0.183172-0.181125c-26.411533-25.920346-48.723701-79.443353-48.723701-116.878965V130.013099c0-29.138644 24.616654-53.755298 53.755298-53.755298h257.847579c37.261649 0 91.13258 22.390963 117.64849 48.906873l442.967764 442.379363c9.951653 10.450003 15.654538 24.466228 15.654538 38.494733-0.001023 13.935384-5.77861 28.03245-15.458063 37.71088zM235.874125 144.098909c-28.111245 0-54.482869 10.890025-74.256214 30.66337-19.774369 19.773346-30.66337 46.14497-30.66337 74.256214s10.890025 54.482869 30.66337 74.256215 46.14497 30.66337 74.256214 30.66337 54.482869-10.890025 74.257238-30.66337c19.773346-19.773346 30.66337-46.14497 30.66337-74.256215s-10.890025-54.482869-30.66337-74.256214c-19.774369-19.773346-46.145993-30.66337-74.257238-30.66337z m0 158.675906c-29.641087 0-53.755298-24.114211-53.755298-53.755298s24.114211-53.755298 53.755298-53.755298c29.640064 0 53.755298 24.114211 53.755298 53.755298s-24.115234 53.755298-53.755298 53.755298z" /></svg>
             <span v-if="!$root.isMobile">
               Tags
@@ -278,39 +229,31 @@
           </div>
         </div>
       </div>
-      <div v-if="imgs.length" class="user-gallery-box gallery-box ">
-        <div v-if="!filter" class="approved-mgs-count"><b>Images ({{count}})</b></div>
-        <div >
-          <masonry :cols="{default: 4, 1000: 3, 700: 2, 400: 1}" :gutter="{default: '20px', 700: '20px'}">
-            <!-- <transition-group name="fade" tag="div"> -->
-            <div v-lazy-container="{ selector: '.img-box' }" v-for="(img, $index) in imgs" :key="$index"  v-if="!filter || Object.keys(products[img.id]).includes(filter)">
-              <div class="img-box _1Nk0C" >
-                <enlargeable-image trigger="click" animation_duration="100" class="enlarge-my" :src="$root.currentUrl + $root.storageUrl+'/creator_images/'+img.id+'/80.jpg'" :src_large="$root.currentUrl + $root.storageUrl+'/creator_images/'+img.id+'/1000.jpg'">
-                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 146 146"><defs></defs><path class="cls-1" d="M147.55,74.36a73,73,0,1,1-73-73A73,73,0,0,1,147.55,74.36Z" transform="translate(-1.55 -1.36)"/><path d="M121.28,35c0-.14,0-.28,0-.42l0-.2a1.7,1.7,0,0,0,0-.22,1.42,1.42,0,0,0,0-.22c0-.07,0-.14,0-.2l-.07-.21-.08-.2a1.63,1.63,0,0,0-.09-.19l-.09-.2a1.74,1.74,0,0,0-.11-.18,1.74,1.74,0,0,0-.11-.18,2.43,2.43,0,0,1-.14-.2l-.12-.15a4.4,4.4,0,0,0-.61-.61l-.16-.12a1.33,1.33,0,0,0-.19-.14l-.19-.12-.17-.1-.21-.1-.18-.09-.2-.07-.21-.07-.2-.05-.22-.05-.24,0-.18,0-.44,0H91a4.4,4.4,0,1,0,0,8.79h15.28L79.71,66a4.39,4.39,0,1,0,6.22,6.21l26.56-26.56V60.91a4.4,4.4,0,1,0,8.79,0V35Z" transform="translate(-1.55 -1.36)"/><path d="M65.16,80.53,38.6,107.09V91.82a4.4,4.4,0,1,0-8.79,0V117.7h0c0,.15,0,.28,0,.42l0,.2a1.85,1.85,0,0,0,0,.23,1.74,1.74,0,0,0,.05.22c0,.07,0,.13.05.2a1.8,1.8,0,0,0,.08.21,1.46,1.46,0,0,0,.07.19,1.76,1.76,0,0,0,.09.2l.09.19a1.08,1.08,0,0,0,.11.18l.11.19a2.43,2.43,0,0,1,.14.2l.12.15a4.4,4.4,0,0,0,.61.61l.16.12.19.14.19.11.18.11.2.09.18.09.2.07.21.08.2,0,.22.05.23,0,.19,0a3.25,3.25,0,0,0,.44,0H60.09a4.4,4.4,0,1,0,0-8.79H44.82L71.38,86.75a4.4,4.4,0,0,0-6.22-6.22Z" transform="translate(-1.55 -1.36)"/>
-                  </svg>
-                </enlargeable-image>
-                <div class="likes">
-                  <svg v-if="!imgLikeClicked.includes(img.id)" @click="like(img)" class="heart" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs></defs><g class="cls-1"><circle class="cls-2" cx="75" cy="75" r="74.88"/><path class="cls-3" d="M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z" transform="translate(-75 -68)"/></g><path class="cls-4" d="M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z" transform="translate(-75 -68)"/><path class="cls-5" d="M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z" transform="translate(-75 -68)"/>
-                  </svg>
-                  <svg v-else @click="like(img)" class="heart2" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs></defs><g class="cls-1"><circle class="cls-2" cx="75" cy="75" r="74.88"/><path class="cls-3" d="M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z" transform="translate(-75 -68)"/></g><path class="cls-4" d="M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z" transform="translate(-75 -68)"/></svg>
-                </div>
-                <div class=" img-name" v-if="!$root.isMobile">{{img.name}}</div>
-                <div class="likes-counter">
-                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.89 284"><defs></defs><path class="cls-1" d="M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z" transform="translate(-2.57 -10)"/></svg>
-                  <div class="number">{{img.likes}}</div>
-                </div>
-                <div class="hover" @click.prevent="goCatalog(img.id)">
-                  <ShareNetwork
-                  @open="this.$root.clicked = true"
-                  @close="this.$root.clicked = false"
-                  network="pinterest"
-                  :url="$root.currentUrl+ '/catalog-' + img.id"
-                  :title="img.name + ' (ID '+img.id+')'+' '+img.description+ ' ' +$root.getPinterestContent(img)"
-                  :media="$root.currentUrl+$root.storageUrl+'/creator_images/' + img.id + '/500.jpg'"
-                  >
-                  <svg height="30px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs19"/><g id="g3031"><path d="m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z" id="circle8" style="fill:#cb2027;fill-opacity:1"/><g id="g3000" transform="translate(-603.11865,-9.8474559)"><g id="g3142" transform="translate(221.28814,-27.9639)"><g id="Layer_14"><g id="g3121"><path d="m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z" id="path3131" style="fill:#ffffff"/></g></g><g id="Layer_1_1_-8"/></g></g></g><g id="Layer_1_1_"/></svg>
-                </ShareNetwork>
+      <div v-if="list.length" class="user-gallery-box gallery-box ">
+        <div class="approved-mgs-count"><b>Images ({{count}})</b></div>
+        <span class="search">
+          <i class="fas fa-search"></i>
+          <i @click="search=''" v-if="search!=''" class="far fa-times-circle"></i>
+          <input type="search" v-model="search" placeholder="Search by words or image ID" /></span>
+        </span>
+        <tags :tags="tags"></tags>
+
+        <masonry :cols="{default: 4, 1000: 3, 700: 2, 400: 1}" :gutter="{default: '20px', 700: '20px'}">
+          <div v-lazy-container="{ selector: '.img-box' }" v-for="(img, $index) in list" :key="$index">
+            <div class="img-box _1Nk0C">
+              <div class="hover" @click="goCatalog(img.id)">
+                <ShareNetwork
+                @open="this.$root.clicked = true"
+                @close="this.$root.clicked = false"
+                network="pinterest"
+                :url="$root.currentUrl+ '/gallery/' + img.id"
+                :title="img.name + ' (ID '+img.id+')'+' '+img.description+ ' ' +$root.getPinterestContent(img)"
+                :media="$root.currentUrl+$root.storageUrl+'/creator_images/' + img.id + '/500.jpg'"
+              >
+              <svg height="30px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"><defs id="defs19"/><g id="g3031"><path d="m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z" id="circle8" style="fill:#cb2027;fill-opacity:1"/><g id="g3000" transform="translate(-603.11865,-9.8474559)"><g id="g3142" transform="translate(221.28814,-27.9639)"><g id="Layer_14"><g id="g3121"><path d="m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z" id="path3131" style="fill:#ffffff"/></g></g><g id="Layer_1_1_-8"/></g></g></g><g id="Layer_1_1_"/></svg>
+            </ShareNetwork>
                 <div class=" img-id" v-if="!$root.isMobile">Image ID - {{img.id}}</div>
+                <div class=" img-name" v-if="!$root.isMobile">'{{img.name}}'</div>
                 <div class="visibile">
                   <svg style="    margin: 10px;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39px" height="33px" viewBox="0 0 39 33" version="1.1">
                     <!-- Generator: sketchtool 59 (101010) - https://sketch.com -->
@@ -318,8 +261,8 @@
                     <desc>Created with sketchtool.</desc>
                     <defs>
                       <path
-                      d="M114.499859,346.968682 C111.062923,346.968682 108.28075,344.331347 108.024735,340.989194 L103.271478,337.347416 C102.646622,338.124556 102.07161,338.946169 101.607612,339.844597 C101.397396,340.25684 101.397396,340.743609 101.607612,341.155852 C104.064896,345.908986 108.929621,349.12491 114.499859,349.12491 C115.719212,349.12491 116.895518,348.945224 118.029231,348.655032 L115.677978,346.851437 C115.289662,346.925803 114.895336,346.965046 114.499859,346.968682 Z M128.719755,349.578616 L123.710483,345.740531 C125.232147,344.469213 126.483621,342.910615 127.392105,341.155403 C127.602321,340.74316 127.602321,340.256391 127.392105,339.844148 C124.934821,335.091014 120.070096,331.87509 114.499859,331.87509 C112.166956,331.877893 109.871943,332.460133 107.824455,333.568627 L102.059828,329.151506 C101.908011,329.034388 101.715467,328.981888 101.524589,329.005563 C101.33371,329.029238 101.160148,329.127147 101.042115,329.277735 L100.152635,330.412899 C99.9069282,330.726253 99.9639305,331.177735 100.279962,331.421384 L126.939889,351.848494 C127.091706,351.965612 127.284251,352.018112 127.475129,351.994437 C127.666007,351.970762 127.839569,351.872853 127.957602,351.722265 L128.847535,350.587101 C129.09314,350.273629 129.035933,349.822129 128.719755,349.578616 Z M120.394985,343.199776 L118.614213,341.835064 C118.76418,341.405376 118.843729,340.954642 118.849836,340.5 C118.867767,339.150197 118.238821,337.87197 117.154776,337.055075 C116.070731,336.23818 114.660098,335.979458 113.353005,336.357797 C113.626243,336.724851 113.774047,337.168846 113.774862,337.62503 C113.768102,337.776834 113.744704,337.927458 113.705081,338.074244 L110.369645,335.518666 C111.528272,334.558788 112.98993,334.032424 114.499859,334.031317 C116.230682,334.030364 117.890892,334.711577 119.11477,335.924897 C120.338647,337.138218 121.025788,338.784107 121.024826,340.5 C121.024826,341.47165 120.785123,342.377265 120.394985,343.200226 L120.394985,343.199776 Z"
-                      id="path-1" />
+                        d="M114.499859,346.968682 C111.062923,346.968682 108.28075,344.331347 108.024735,340.989194 L103.271478,337.347416 C102.646622,338.124556 102.07161,338.946169 101.607612,339.844597 C101.397396,340.25684 101.397396,340.743609 101.607612,341.155852 C104.064896,345.908986 108.929621,349.12491 114.499859,349.12491 C115.719212,349.12491 116.895518,348.945224 118.029231,348.655032 L115.677978,346.851437 C115.289662,346.925803 114.895336,346.965046 114.499859,346.968682 Z M128.719755,349.578616 L123.710483,345.740531 C125.232147,344.469213 126.483621,342.910615 127.392105,341.155403 C127.602321,340.74316 127.602321,340.256391 127.392105,339.844148 C124.934821,335.091014 120.070096,331.87509 114.499859,331.87509 C112.166956,331.877893 109.871943,332.460133 107.824455,333.568627 L102.059828,329.151506 C101.908011,329.034388 101.715467,328.981888 101.524589,329.005563 C101.33371,329.029238 101.160148,329.127147 101.042115,329.277735 L100.152635,330.412899 C99.9069282,330.726253 99.9639305,331.177735 100.279962,331.421384 L126.939889,351.848494 C127.091706,351.965612 127.284251,352.018112 127.475129,351.994437 C127.666007,351.970762 127.839569,351.872853 127.957602,351.722265 L128.847535,350.587101 C129.09314,350.273629 129.035933,349.822129 128.719755,349.578616 Z M120.394985,343.199776 L118.614213,341.835064 C118.76418,341.405376 118.843729,340.954642 118.849836,340.5 C118.867767,339.150197 118.238821,337.87197 117.154776,337.055075 C116.070731,336.23818 114.660098,335.979458 113.353005,336.357797 C113.626243,336.724851 113.774047,337.168846 113.774862,337.62503 C113.768102,337.776834 113.744704,337.927458 113.705081,338.074244 L110.369645,335.518666 C111.528272,334.558788 112.98993,334.032424 114.499859,334.031317 C116.230682,334.030364 117.890892,334.711577 119.11477,335.924897 C120.338647,337.138218 121.025788,338.784107 121.024826,340.5 C121.024826,341.47165 120.785123,342.377265 120.394985,343.200226 L120.394985,343.199776 Z"
+                        id="path-1" />
                       <filter x="-27.6%" y="-30.4%" width="155.2%" height="169.6%" filterUnits="objectBoundingBox" id="filter-2">
                         <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1" />
                         <feGaussianBlur stdDeviation="2.5" in="shadowOffsetOuter1" result="shadowBlurOuter1" />
@@ -348,49 +291,35 @@
                     </g>
                   </svg>
                 </div>
-
-            <div class="view-store" v-if="!$root.isMobile">View Products</div>
-            <div class="quick-view" v-if="!$root.isMobile" @click.prevent="openShopModal(img)">Quick View</div>
+                <div class="view-store" v-if="!$root.isMobile">View Products</div>
+                <div class="quick-view" v-if="!$root.isMobile" @click="openShopModal(img)">Quick View</div>
+              </div>
+              <v-lazy-image class="img" :src="$root.storageUrl+'/creator_images/' + img.id + '/500.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/' + img.id + '/80.jpg'" />
+              <hooper :wheelControl="false" :itemsToShow="2.5" :centerMode="true" :infiniteScroll="true" v-if="$root.isMobile">
+                <slide v-for="(template,$j) in prevs[$index].templates_list" :key="$j">
+                  <a :href="'/product-page/' + prevs[$index].products_list[$j].id">
+                    <div class="thumbnail-wrapper">
+                      <v-lazy-image class="thumbnail" :src="$root.storageUrl+'/temp/'+$j+'.jpg'" :src-placeholder="$root.storageUrl+'/images/placeholder-white.png'" />
+                    </div>
+                  </a>
+                </slide>
+                <hooper-navigation slot="hooper-addons"></hooper-navigation>
+              </hooper>
+              <div v-if="$root.isMobile" class="view-store-b" style="">
+                <a :href="'/gallery/' + img.store_id"><img :src="$root.storageUrl+'/images/view_products_icon.png'" /> View all products</a>
+              </div>
+            </div>
           </div>
-          <v-lazy-image class="img" :src="getPreviewPath(img,500)" :src-placeholder="getPreviewPath(img,80)" />
-          <!-- <v-lazy-image v-show="!filter" class="img" :src="$root.storageUrl+'/creator_images/' + img.id + '/500.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/' + img.id + '/80.jpg'" />
-          <v-lazy-image v-show="filter && Object.keys(products[img.id]).includes(filter) " class="img" :src="$root.storageUrl+'/creator_images/' + img.id + '/previews/'+products[img.id][filter].product_code+'/500_1.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/' + img.id + '/previews/'+products[img.id][filter].product_code+'/80_1.jpg'" /> -->
-          <hooper :wheelControl="false" :itemsToShow="2.5" :centerMode="true" :infiniteScroll="true" v-if="$root.isMobile">
-            <slide v-for="(template,$j) in prevs[$index].templates_list" :key="$j">
-              <a :href="'/product/' + prevs[$index].products_list[$j].id">
-                <div class="thumbnail-wrapper">
-                  <v-lazy-image class="thumbnail" :src="$root.storageUrl+'/temp/'+$j+'.jpg'" :src-placeholder="$root.storageUrl+'/images/placeholder-white.png'" />
-                </div>
-              </a>
-            </slide>
-            <hooper-navigation slot="hooper-addons"></hooper-navigation>
-          </hooper>
-          <div v-if="$root.isMobile" class="view-store-b" style="">
-            <a :href="'/catalog-' + img.id"><img :src="$root.storageUrl+'/images/view_products_icon.png'" /> View all products</a>
-          </div>
-        </div>
+        </masonry>
       </div>
-      <!-- </transition-group> -->
-    </masonry>
-  </div>
-  <div v-if="false">
-    <div class="filtered-gallery row">
-      <div class="item" v-for="(img, $index) in imgs" :key="$index" v-if="getProductCode(img)">
-        <div class="hover"></div>
-        <v-lazy-image class="img" :src="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+getProductCode(img)+'/1000_1.jpg'" :src-placeholder="$root.storageUrl+'/images/placeholder-white.png'" />
-      </div>
+      <div v-else class="no-img"><img :src="$root.storageUrl+'/images/no-img.png'" /></div>
     </div>
   </div>
-</div>
-<div v-else class="no-img"><img :src="$root.storageUrl+'/images/no-img.png'" /></div>
-</div>
-</div>
-</div>
 </div>
 </template>
 
 <script>
-import Api from "../apis/Api";
+import Api from "../../apis/Api";
 import {
   Hooper,
   Slide,
@@ -409,66 +338,27 @@ export default {
       storeOwner:null,
       page: 1,
       count: 0,
-      imgLikeClicked:[],
-      show:{
-        0:false,
-        1:false,
-        2:false,
-        3:false,
-        4:false,
-        5:false,
-        6:false,
-        7:false,
-        8:false,
-      },
-      filter:0,
-      topSliderCategory:0,
-      imgs: [],
-      topSliderProducts: {},
-      productCodeForSlider: 'throw-pillow-sewn-16x16',
-      // productCodeForSlider: 0,
-      categories: [],
+      list: [],
       tags: [],
       prevs: [],
-      products: {},
       search: '',
       done: true,
       lastImage:0,
     };
   },
   watch: {
-    '$route': {
-      handler: function() {
-      },
-      deep: true,
-      immediate: true
+    $route(val) {
     },
     search: function(newVal, oldVal) { // watch it
       // debugger;
       this.page = 0;
       this.prevs = [];
-      this.imgs = [];
-      this.products = [];
+      this.list = [];
       this.tags = [];
       this.initGetData(1);
     }
   },
   methods:{
-    getPreviewPath(img,size){
-      if(this.filter){
-        return this.$root.storageUrl+'/creator_images/' + img.id + '/previews/'+this.products[img.id][this.filter].product_code+'/'+size+'_1.jpg'
-      }
-      return this.$root.storageUrl+'/creator_images/' + img.id+'/'+size+'.jpg'
-    },
-    like(img){
-      this.$root.clicked = true
-      this.imgLikeClicked.push(img.id);
-      img.likes++;
-      Api.get('/api/image-like/'+img.id)
-      .then(response => {
-        this.$root.clicked = false;
-      });
-    },
     initGetData(first = 0) {
       var that = this;
       that.getImagesData(first);
@@ -493,67 +383,35 @@ export default {
         }).then(({
           data
         }) => {
-          if (data.current_page <= data.last_page || data.current_page == 1) {
-            that.count = data.total;
-            if (data.current_page == data.last_page) {
+          if (data.imgs.current_page <= data.imgs.last_page || data.imgs.current_page == 1) {
+            that.count = data.imgs.total;
+            if (data.imgs.current_page == data.imgs.last_page) {
               clearInterval(that.refreshIntervalId);
             }
             if(!that.lastImage){
-              that.lastImage=data.data[0];
+              that.lastImage=data.imgs.data[0];
             }
             that.page += 1;
-            that.imgs.push(...data.data);
-            var tags=[];
-
-            data.data.forEach((img, i) => {
-              tags=tags.concat(img.tags.split('#').filter(e => e !== ''));
-              that.$set(that.products,img.id,{});
-              img.products.forEach((product, j) => {
-                if(!that.productCodeForSlider){
-                  that.productCodeForSlider=product.details.product_code;
-                }
-                if(!that.topSliderProducts.hasOwnProperty(product.details.category_id)){
-                  that.$set(that.topSliderProducts,product.details.category_id,{});
-                }
-                if(!that.topSliderProducts[product.details.category_id].hasOwnProperty(product.details.product_code)){
-                  that.$set(that.topSliderProducts[product.details.category_id],product.details.product_code,[]);
-                }
-                that.topSliderProducts[product.details.category_id][product.details.product_code].push(product);
-                product=product.details;
-                if(!Object.keys(that.products).includes(product.category_id)){
-                  that.$set(that.products[img.id],product.category_id,product);
-                }
-              });
-
-            });
-            that.tags.push(...tags);
-
+            that.list.push(...data.imgs.data);
+            that.tags.push(...data.tags);
             that.tags = [...new Set(that.tags)];
-            that.tags=that.tags.filter((v, i, a) => a.indexOf(v) === i);
-
+            // that.tags.filter(that.onlyUnique);
             that.done = true;
-            // for (var imgId in data.products) {
-            //   if (object.hasOwnProperty(variable)) {
-            //     that.products[imgId]={
-            //       'link': data.products[imgId]
-            //     };
-            //   }
-            // }
           }
         });
       }
     },
-    goCatalog(imgId) {
+    goCatalog(img_id) {
       if (!this.$root.clicked) {
         this.$ma.trackEvent({
-          action: 'catalog-page',
+          action: 'gallery-page',
           properties: {
             feature: 'view-products',
             type: 'clicked',
           },
         });
         // fbq('track', 'ViewContent');
-        this.$router.push('/catalog-' + imgId)
+        window.location.href = '/gallery/' + img_id;
       }
     },
     openShopModal(img) {
@@ -575,16 +433,9 @@ export default {
     .then(response => {
       that.storeOwner=response.data;
       that.initGetData();
-      Api.get('/api/categories-by-creator/'+that.storeOwner.id)
-      .then(response => {
-        that.categories=response.data;
-      });
     });
   },
   mounted() {
-    //   let themejs = document.createElement('script');
-    //   themejs.setAttribute('src','https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.14.1/lodash.min.js');
-    // document.head.appendChild(themejs);
   }
 };
 </script>

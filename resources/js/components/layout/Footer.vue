@@ -11,8 +11,8 @@
           </div>
         </div>
         <div class="social">
-          <span>Follow us on</span>
-          <ul style="">
+          <span class="mt-3">Follow us on</span>
+          <ul class="mt-3" style="margin-left:-40px">
             <li>
               <a target="_blank" @click="$ma.trackEvent({action: 'footer',properties: {feature: 'social-media-button',type: 'instegram-clicked'}})" href="https://www.instagram.com/artigram_me"><svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                 <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
