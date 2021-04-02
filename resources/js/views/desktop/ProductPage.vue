@@ -1,7 +1,5 @@
 <template>
-<div>
-<div v-if="!$root.isMobile">
-     <div class="" v-if="img">
+  <div class="" v-if="img">
     <share-modal ref="shareModal" :url="$root.currentUrl+'product-'+$route.params.productId" title="View on Artigram" description="View my gallery page on Artigram and buy the content you like on merchandise" quote="" hashtags="" twitter-user="Artigramme"></share-modal>
     <div class="product-page shop">
       <div class="categories-filter">
@@ -285,26 +283,11 @@
     </div>
   </div>
 </div>
-
-
 </div>
-
-
-
-
-</div>
-
-<div v-else>
-  <div class="mobile-discount-box">
-    Get 15% of everything
-  </div>
-</div>
-</div>
-
 </template>
 
 <script>
-import Api from "../apis/Api";
+import Api from "../../apis/Api";
 import {
   Hooper,
   Slide,

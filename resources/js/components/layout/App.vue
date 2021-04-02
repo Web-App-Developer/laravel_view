@@ -1,7 +1,7 @@
 <template>
   <div  :class="[creator? ' logged-in': '',isAdminPage? 'is-admin-page':'']">
     <navigation :creator="creator" :user="user" ref="nav"/>
-    <router-view :creator="creator" :user="user" class="page-content" />
+    <router-view :creator="creator" :user="user" class="page-content" :class="$root.isMobile ? 'mobile-content' : '' " />
     <app-footer v-if="!isAdminPage"/>
   </div>
 </template>

@@ -1,8 +1,26 @@
 <template>
+   
   <div>
-    
-  
-    <sidebar v-if="isAdminPage" :creator="creator" :user="user" />
+
+  <div class="mobile__navbar" v-if="$root.isMobile">
+    <div class="mobile-navbar-toggle-view">
+ <div @click="handleToggle" id="menu-icon-view" class="" :class="isToggle ? 'open' : ''">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <h4>
+          Products
+        </h4>
+    </div>
+       
+        <cart ref="cart"></cart>
+  </div>
+
+    <div v-else>
+  <sidebar v-if="isAdminPage" :creator="creator" :user="user" />
     <div class="header">
       <div v-if="isLoggedIn && !isAdminPage" class="view-as-visitor">
         <i class="fas fa-info-circle"></i>Viewing as a visitor<a
@@ -25,16 +43,7 @@
       </div>
 
      
-  <div class="mobile__navbar">
-        <div @click="handleToggle" id="menu-icon-view" class="" :class="isToggle ? 'open' : ''">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
 
-        <cart ref="cart"></cart>
-      </div>
       <nav
         class="navbar navbar-expand no-padding"
         :class="[isAdminPage ? 'admin' : '']"
@@ -188,6 +197,9 @@
         </div>
       </nav>
     </div>
+    </div>
+
+  
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 <template>
-<div class="" :class="$root.isMobile ? 'mobile-cart' : ''" @click.prevent="hover = !hover">
+<div class="cart" @click.prevent="hover = !hover">
   <div class="size" v-if="!hover" v-show="getCartSize()>0">{{getCartSize()}}</div>
   <svg v-if="!hover" width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: sketchtool 59.1 (101010) - https://sketch.com -->
@@ -74,7 +74,7 @@
 </template>
 
 <script>
-import Api from "../apis/Api";
+import Api from "../../apis/Api";
 
 export default {
   props: ['store'],
