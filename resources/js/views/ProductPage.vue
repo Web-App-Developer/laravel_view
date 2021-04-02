@@ -132,7 +132,7 @@
       </div>
       <div class="delivery">
         <img src="/assets/minishop/img/car-ic.png" alt="">
-        <span>Estimated delivery {{estDel}}</span>
+        <!-- <span>Estimated delivery {{estDel}}</span> -->
       </div>
       <div class="product" v-if=" Object.keys(productsBycategory[product.details.category_id]).length>1">
         <div class="label">PRODUCT</div>
@@ -379,14 +379,135 @@
       </div>
   </div>
 
-<div class="delivery mt-3">
-        <img src="/assets/minishop/img/car-ic.png" alt="">
-        <span>Estimated delivery {{estDel}}</span>
-      </div>
-  </div>
+<div class="delivery">
+          <img :src="$root.storageUrl+'/images/car-ic.png'" alt="">
+          <span>Estimated delivery {{ $moment().add(7, 'days').format('MMM Do') }}</span>
+        </div>
 
-  
-  
+
+           <div class="properties" v-if="JSON.parse(product.details.production_details.other) && JSON.parse(product.details.production_details.other).hasOwnProperty('requireProperties')">
+          <div class="property" :class="property.name" v-for="(property ,index) in JSON.parse(product.details.production_details.other).requireProperties" :key="index">
+            <label>{{property.name}}</label>
+            <select v-if="property.name!='color'" v-model="selectedProperties[property.name]"  class="form-control">
+              <option disabled selected value="none">-</option>
+              <option v-for="(option ,optionName) in property.options" :key="optionName"  :value="optionName">{{optionName}}</option>
+            </select>
+            <div v-else>
+              <span :class="selectedProperties[property.name]==optionName? 'active':''" @click="chooseColor(optionName)" :style="'background:'+optionName" v-for="(option ,optionName) in property.options" :key="optionName"></span>
+            </div>
+          </div>
+        </div>
+
+         <a @click.prevent="addToCart(true)" class="checkout btn btn-block purple">Express Checkout</a>
+        <a @click.prevent="addToCart()" class="add-to-cart btn  btn-block purple negative">Add To Cart</a>
+
+
+   <div class="desc-box col-md-8 mt-4">
+      <div class="title">
+        <span @click.prevent="extraDetails='desc'" :class="extraDetails=='desc'? 'active':''">description</span>
+        <span @click.prevent="extraDetails='ship'" :class="extraDetails=='ship'? 'active':''">shipping</span>
+        <span @click.prevent="extraDetails='size'" :class="extraDetails=='size'? 'active':''">sizes</span>
+      </div>
+      <transition name="fade" :duration="{ enter: 500, leave: 150 }">
+        <div v-if="extraDetails=='desc'" class="content" v-html="product.details.html_description"></div>
+      </transition>
+      <transition name="fade" :duration="{ enter: 500, leave: 150 }">
+        <div v-if="extraDetails=='ship'" class="content" v-html="product.details.html_shipping"></div>
+      </transition>
+      <transition name="fade" :duration="{ enter: 500, leave: 150 }">
+        <div v-if="extraDetails=='size'" class="content" v-html="product.details.html_sizes"></div>
+      </transition>
+    </div>
+        </div>
+
+   <div class="page-footer">
+    <div class="you-may container ">
+      <div class="title row col-md-12">
+        <div class="line"></div>
+       
+       <div class="col-12 why-content mb-4">
+ <h5 class="text-center">YOU MAY ALSO LIKE</h5>
+          <hr class="heading-line" />
+       </div>
+       
+          <div class="line"></div>
+        <div class="col-md-12"><span></span></div>
+      </div>
+      <div class="row full-width">
+        <h3><span>{{img.name}}</span> also available on</h3>
+        <hooper :wheelControl="false" :itemsToShow="$root.isMobile? 1.5 : 4" :infiniteScroll="$root.isMobile? false : true" >
+          <slide v-if="upsaleProduct.details.category_id!=product.details.category_id" v-for="(upsaleProduct,index) in products" :key="index" class="gallery-item " style="  ">
+            <div>
+              <a href="" @click.prevent="product=upsaleProduct;refreshImgsListForSlider();scrollToTop()" >
+                <div class="gallery-item-frame">
+                  <v-lazy-image class="prev-gallery-img" :src="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+upsaleProduct.product_code+'/500_1.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+upsaleProduct.product_code+'/80_1.jpg'"/>
+                </div>
+                <div class="gallery-item-desc">
+                  <div class="gallery-item-title" >{{upsaleProduct.details.category.name}}</div>
+                  <div class="  gallery-item-price">
+                    <div>
+                      <span class="discount-price" style="font-size: 20">
+                        <span style=""class="old-price">${{prices[upsaleProduct.product_code]}}</span>
+                        ${{(prices[upsaleProduct.product_code]*(100 - img.creator.discount)/100).toFixed(2)}}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </slide>
+          <hooper-navigation slot="hooper-addons" >
+          </hooper-navigation>
+        </hooper>
+      </div>
+      <div class="row full-width more">
+        <h3>More <span><span>{{product.details.category.name}}</span> by {{img.creator.user.first_name+' '+img.creator.user.last_name}}</span></h3>
+        <hooper :wheelControl="false" :itemsToShow="$root.isMobile? 1.5 : 4" :infiniteScroll="$root.isMobile? false : true" >
+          <slide v-for="(product,imgIdName,index) in imgsListForSlider" :key="index" class="gallery-item ">
+            <div>
+              <a href="" @click.prevent="$router.push('/product-' + product.id);scrollToTop()" >
+                <div class="gallery-item-frame">
+                  <v-lazy-image width="200px" class="prev-gallery-img" :src="$root.storageUrl+'/creator_images/' + imgIdName.split('-')[0] + '/previews/'+product.details.product_code+'/500_1.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/' + imgIdName.split('-')[0] + '/previews/'+product.details.product_code+'/80_1.jpg'" />
+                </div>
+                <div class="gallery-item-desc">
+                  <div class="gallery-item-title" >{{imgIdName.split('-')[1]}}</div>
+                  <div class="  gallery-item-price">
+                    <div>
+                      <span class="discount-price" style="font-size: 20">
+                        <span style=""class="old-price">${{prices[product.details.product_code]}}</span>
+                        ${{(prices[product.details.product_code]*(100 - img.creator.discount)/100).toFixed(2)}}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </slide>
+          <hooper-navigation slot="hooper-addons" ></hooper-navigation>
+        </hooper>
+      </div>
+    </div>
+    <div class="images-slider container no-padding">
+      <div class="title row">
+        <div class="line"></div>
+        <div class="text">More by <a href="" @click.prevent="$router.push('/@'+img.creator.username)">{{img.creator.user.first_name+' '+img.creator.user.last_name}}</a></div>
+        <div class="line"></div>
+        <div class="col-md-12"><span></span></div>
+      </div>
+      <hooper :wheelControl="false" :itemsToShow="$root.isMobile? 1.5 : 4" :infiniteScroll="$root.isMobile? false : true" >
+        <slide  v-for="(image,index) in img.creator.images" :key="index" class="gallery-item  mb-4" style="  ">
+          <a href="" @click.prevent="$router.push('/catalog-'+image.id)">
+            <div class="gallery-item-frame">
+              <v-lazy-image class="prev-gallery-img" :src="$root.storageUrl+'/creator_images/'+image.id+'/500.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/'+image.id+'/80.jpg'" />
+            </div>
+          </a>
+        </slide>
+        <hooper-navigation slot="hooper-addons" ></hooper-navigation>
+      </hooper>
+      <tags :tags="tags"></tags>
+    </div>
+  <whycontent></whycontent>
+  </div>
 </div>
 </div>
 
@@ -396,6 +517,7 @@
 import Api from "../apis/Api";
 import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
 import 'swiper/swiper-bundle.css'
+import WhyContentComponent from "../components/why-content";
 
 import {
   Hooper,
@@ -407,6 +529,7 @@ import 'hooper/dist/hooper.css';
 export default {
   props:['creator','user'],
   components: {
+     whycontent: WhyContentComponent,
     Hooper,
     Slide,
     HooperNavigation,
