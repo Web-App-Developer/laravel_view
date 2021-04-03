@@ -216,6 +216,136 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -353,36 +483,354 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c("div", [
     _vm.$root.isMobile
-      ? _c(
-          "div",
-          { staticClass: "mobile__navbar" },
-          [
-            _c("div", { staticClass: "mobile-navbar-toggle-view" }, [
+      ? _c("div", [
+          _c(
+            "div",
+            { staticClass: "mobile__navbar" },
+            [
+              _c("div", { staticClass: "mobile-navbar-toggle-view" }, [
+                _c(
+                  "div",
+                  {
+                    class: _vm.isToggle ? "open" : "",
+                    attrs: { id: "menu-icon-view" },
+                    on: { click: _vm.handleToggle }
+                  },
+                  [
+                    _c("span"),
+                    _vm._v(" "),
+                    _c("span"),
+                    _vm._v(" "),
+                    _c("span"),
+                    _vm._v(" "),
+                    _c("span")
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("cart", { ref: "cart" })
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c(
+            "div",
+            {
+              staticClass: "mobile__side__bar",
+              class: _vm.isToggle ? "open_menu" : ""
+            },
+            [
+              _c("h5", { staticClass: "mb-4" }, [_vm._v("Menu")]),
+              _vm._v(" "),
+              _c("hr"),
+              _vm._v(" "),
               _c(
-                "div",
+                "a",
                 {
-                  class: _vm.isToggle ? "open" : "",
-                  attrs: { id: "menu-icon-view" },
-                  on: { click: _vm.handleToggle }
+                  attrs: { href: "" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.$router.push("/about-me")
+                    }
+                  }
                 },
-                [
-                  _c("span"),
-                  _vm._v(" "),
-                  _c("span"),
-                  _vm._v(" "),
-                  _c("span"),
-                  _vm._v(" "),
-                  _c("span")
-                ]
+                [_vm._v("About me")]
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  attrs: { href: "" },
+                  on: {
+                    click: function($event) {
+                      $event.preventDefault()
+                      return _vm.$router.push("/track-order")
+                    }
+                  }
+                },
+                [_vm._v("Track Order")]
+              ),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  attrs: {
+                    target: "_blank",
+                    href: "https://buy.support.artigram.me/"
+                  }
+                },
+                [_vm._v("Help")]
               ),
               _vm._v(" "),
-              _c("h4", [_vm._v("\n         Products\n       ")])
-            ]),
-            _vm._v(" "),
-            _c("cart", { ref: "cart" })
-          ],
-          1
-        )
+              _c("hr"),
+              _vm._v(" "),
+              !_vm.isAdminPage
+                ? _c("div", { staticClass: "dropdown show" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "dropdown-toggle",
+                        attrs: {
+                          href: "#",
+                          id: "aboutDropdown",
+                          role: "button",
+                          "data-toggle": "dropdown"
+                        }
+                      },
+                      [_vm._v("\n             About\n           ")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "dropdown-menu",
+                        attrs: { "aria-labelledby": "aboutDropdown" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "/image-usage-rights"
+                            }
+                          },
+                          [_vm._v("Usage rights")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://artigram.me/about-us"
+                            }
+                          },
+                          [_vm._v("About")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href:
+                                "https://sell.support.artigram.me/article/242-shipping-terms"
+                            }
+                          },
+                          [_vm._v("Shipping info")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://artigram.me/contact-us-today/"
+                            }
+                          },
+                          [_vm._v("Contact")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { target: "_blank", href: "/disclaimer" }
+                          },
+                          [_vm._v("Disclaimer")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://artigram.me/privacy-policy-2"
+                            },
+                            on: {
+                              click: function($event) {
+                                return _vm.$ma.trackEvent({
+                                  action: "account-page",
+                                  properties: {
+                                    feature: "privacy",
+                                    type: "clicked"
+                                  }
+                                })
+                              }
+                            }
+                          },
+                          [_vm._v("Privacy Policy")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://artigram.me/terms-of-use"
+                            },
+                            on: {
+                              click: function($event) {
+                                return _vm.$ma.trackEvent({
+                                  action: "account-page",
+                                  properties: {
+                                    feature: "terms-of-use",
+                                    type: "clicked"
+                                  }
+                                })
+                              }
+                            }
+                          },
+                          [_vm._v("Terms of use")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://buy.support.artigram.me/"
+                            }
+                          },
+                          [_vm._v("Support")]
+                        )
+                      ]
+                    )
+                  ])
+                : _vm._e(),
+              _vm._v(" "),
+              _vm.isLoggedIn && _vm.user
+                ? _c("div", { staticClass: "avatar-box" }, [
+                    _c(
+                      "a",
+                      {
+                        staticClass: "dropdown-toggle",
+                        attrs: {
+                          id: "avatarDropdown",
+                          role: "button",
+                          "data-hover": "dropdown"
+                        }
+                      },
+                      [
+                        _c("div", { staticClass: "avatar" }, [
+                          _vm._v(
+                            "\n               " +
+                              _vm._s(
+                                _vm.user.first_name.charAt(0) +
+                                  _vm.user.last_name.charAt(0)
+                              ) +
+                              "\n             "
+                          )
+                        ])
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      {
+                        staticClass: "dropdown-menu",
+                        attrs: { "aria-labelledby": "avatarDropdown" }
+                      },
+                      [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { href: "" },
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                                return _vm.$router.push("/admin/edit")
+                              }
+                            }
+                          },
+                          [_vm._v("Edit profile")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { target: "_blank" }
+                          },
+                          [_vm._v("Store Settings")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { target: "_blank" }
+                          },
+                          [_vm._v("Orders")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: { target: "_blank" }
+                          },
+                          [_vm._v("Earnings")]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "dropdown-item",
+                            attrs: {
+                              target: "_blank",
+                              href: "https://artigram.me/support"
+                            },
+                            on: {
+                              click: function($event) {
+                                return _vm.$ma.trackEvent({
+                                  action: "header",
+                                  properties: {
+                                    feature: "support",
+                                    type: "clicked"
+                                  }
+                                })
+                              }
+                            }
+                          },
+                          [_vm._v("Support")]
+                        ),
+                        _vm._v(" "),
+                        _vm.isLoggedIn
+                          ? _c(
+                              "a",
+                              {
+                                staticClass: "dropdown-item",
+                                attrs: { href: "#" },
+                                on: {
+                                  click: function($event) {
+                                    $event.preventDefault()
+                                    return _vm.logout($event)
+                                  }
+                                }
+                              },
+                              [_vm._v("Logout")]
+                            )
+                          : _vm._e()
+                      ]
+                    )
+                  ])
+                : _vm._e()
+            ]
+          )
+        ])
       : _c(
           "div",
           [
