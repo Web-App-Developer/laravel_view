@@ -300,10 +300,7 @@
   </div>
 
   <div class="swiper-carousel-box">
-     <swiper class="swiper" :options="swiperOption">
-    <swiper-slide  v-for="(n, i) in product.details.dynamic_previews_number" :key="`key-${i}`">
-      <v-lazy-image :class="curMainPrev==$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/1000_'+(i+1)+color+'.jpg'? 'active' : ''" :src="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/500_'+(i+1)+color+'.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/80_'+(i+1)+color+'.jpg'" />
-         <div class="likes" :class="$root.isMobile ? 'mobile-like-view': '' ">
+            <div class="likes" :class="$root.isMobile ? 'mobile-like-view': '' ">
            <div>
  <div class="number">{{img.likes}}</div>
             <svg v-if="!imgLikeClicked.includes(img.id)" @click="like(img)" class="heart" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><defs></defs><g class="cls-1"><circle class="cls-2" cx="75" cy="75" r="74.88"/><path class="cls-3" d="M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z" transform="translate(-75 -68)"/></g><path class="cls-4" d="M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z" transform="translate(-75 -68)"/><path class="cls-5" d="M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z" transform="translate(-75 -68)"/>
@@ -324,10 +321,16 @@
             {{img.creator.discount}}% OFF
           </div>
           </div>
+      <slider ref="slider" :options="options" @slide='slide' @tap='onTap' @init='onInit'>
+    <slideritem  v-for="(n, i) in product.details.dynamic_previews_number" :key="`key-${i}`">
+      <v-lazy-image :class="curMainPrev==$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/1000_'+(i+1)+color+'.jpg'? 'active' : ''" :src="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/500_'+(i+1)+color+'.jpg'" :src-placeholder="$root.storageUrl+'/creator_images/'+img.id+'/previews/'+product.product_code+'/80_'+(i+1)+color+'.jpg'" />
+     
          
-    </swiper-slide>
-    <div class="swiper-pagination" slot="pagination"></div>
-  </swiper>
+    </slideritem>
+
+     <div slot="loading">loading...</div>
+     
+      </slider>
   </div>
 
   <div class="mobile-product-content">
@@ -515,9 +518,10 @@
 
 <script>
 import Api from "../apis/Api";
-import { Swiper, SwiperSlide } from 'vue-awesome-swiper'
-import 'swiper/swiper-bundle.css'
+
+
 import WhyContentComponent from "../components/why-content";
+import { slider, slideritem } from 'vue-concise-slider'
 
 import {
   Hooper,
@@ -534,11 +538,23 @@ export default {
     Slide,
     HooperNavigation,
     HooperPagination,
-    Swiper,
-    SwiperSlide,
+    slider,
+   slideritem,
+ 
   },
+ 
   data() {
     return {
+       options: {
+       pagination: true,
+       thresholdDistance: 100, // Sliding distance threshold
+       thresholdTime: 300, // Sliding time threshold decision
+       grabCursor: true, // Scratch style
+       speed: 300, // Sliding speed
+       timingFunction: 'ease', // Sliding mode
+       loop: true, // Infinite loop
+       autoplay: 10000 // Auto play[ms]
+     },
       img:null,
       product:null,
       quantity:1,
@@ -553,14 +569,12 @@ export default {
       tags: [],
       productsBycategory: {},
       prices: {},
-    swiperOption: {
-          pagination: {
-            el: '.swiper-pagination',
-            dynamicBullets: true
-          }
-        }
+    
     };
   },
+  computed: {
+     
+    },
   watch:{
     $route() {
       this.selectedProperties={};
@@ -691,3 +705,5 @@ export default {
   }
 };
 </script>
+
+
