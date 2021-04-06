@@ -1,5 +1,7 @@
 <template>
-  <div class="home col-5 mx-auto py-5 mt-5">
+
+<div>
+     <div class="home col-5 mx-auto py-5 mt-5">
     <h1 class="text-center">Login</h1>
     <div class="card">
       <div class="card-body">
@@ -33,6 +35,9 @@
       </div>
     </div>
   </div>
+   
+</div>
+ 
 </template>
 
 <script>

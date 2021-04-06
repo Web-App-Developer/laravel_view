@@ -1,8 +1,14 @@
 <template>
   <div  :class="[creator? ' logged-in': '',isAdminPage? 'is-admin-page':'']">
-    <navigation :creator="creator" :user="user" ref="nav"/>
+    <div v-if="isAuthPage === false">
+          <navigation :creator="creator" :user="user" ref="nav"/>
+    </div>
+
     <router-view :creator="creator" :user="user" class="page-content" :class="$root.isMobile ? 'mobile-content' : '' " />
-    <app-footer v-if="!isAdminPage"/>
+    <div v-if="isAuthPage === false">
+        <app-footer v-if="!isAdminPage"/>  
+    </div>
+    
   </div>
 </template>
 
@@ -16,6 +22,7 @@ export default {
       creator:null,
       authAttempt:false,
       isAdminPage: false,
+      isAuthPage:false,
     };
   },
   watch: {
@@ -38,6 +45,8 @@ export default {
       }else{
         this.isAdminPage = false;
       }
+
+     
     },
   },
   methods:{
@@ -61,6 +70,12 @@ export default {
     }else{
       this.isAdminPage = false;
     }
+
+     if(this.$route.path.includes('/login') || this.$route.path.includes('/register') ){
+        this.isAuthPage = true;
+      }else{
+        this.isAuthPage = false;
+      }
   }
 };
 </script>

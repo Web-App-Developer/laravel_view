@@ -19,6 +19,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
@@ -27,7 +33,8 @@ __webpack_require__.r(__webpack_exports__);
       user: null,
       creator: null,
       authAttempt: false,
-      isAdminPage: false
+      isAdminPage: false,
+      isAuthPage: false
     };
   },
   watch: {
@@ -68,6 +75,12 @@ __webpack_require__.r(__webpack_exports__);
       this.isAdminPage = true;
     } else {
       this.isAdminPage = false;
+    }
+
+    if (this.$route.path.includes('/login') || this.$route.path.includes('/register')) {
+      this.isAuthPage = true;
+    } else {
+      this.isAuthPage = false;
     }
   }
 });
@@ -147,10 +160,18 @@ var render = function() {
       ]
     },
     [
-      _c("navigation", {
-        ref: "nav",
-        attrs: { creator: _vm.creator, user: _vm.user }
-      }),
+      _vm.isAuthPage === false
+        ? _c(
+            "div",
+            [
+              _c("navigation", {
+                ref: "nav",
+                attrs: { creator: _vm.creator, user: _vm.user }
+              })
+            ],
+            1
+          )
+        : _vm._e(),
       _vm._v(" "),
       _c("router-view", {
         staticClass: "page-content",
@@ -158,7 +179,9 @@ var render = function() {
         attrs: { creator: _vm.creator, user: _vm.user }
       }),
       _vm._v(" "),
-      !_vm.isAdminPage ? _c("app-footer") : _vm._e()
+      _vm.isAuthPage === false
+        ? _c("div", [!_vm.isAdminPage ? _c("app-footer") : _vm._e()], 1)
+        : _vm._e()
     ],
     1
   )

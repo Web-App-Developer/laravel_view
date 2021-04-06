@@ -13,6 +13,7 @@
         </div>
         <a v-if="$root.isMobile" :id="$root.isMobile" class="upload-logo" href="/upload-images">
           <div class="img">
+          
             <img class="" src="https://admin.ondema-m.com/storage/images/artigram-site-assets/Group.png">
           </div>
         </a>
@@ -177,6 +178,7 @@
         <a :href="'account/'+status" class="see-all btn purple2 negative">See All</a>
       </div>
     </div>
+   
   </div>
 </template>
 
