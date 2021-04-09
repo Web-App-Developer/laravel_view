@@ -41,7 +41,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ __webpack_exports__["default"] = ({
-  props: ['tags'],
+  props: ['tags', showModal(), $ma.trackEvent()],
   data: function data() {
     return {};
   },

@@ -450,3 +450,94 @@
     background: $purple2 !important;
 }
 
+.mobile-main-content-box{
+  padding: 10px;
+}
+
+.mobile-bio-view{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+
+  .thumb-mobile{
+    display:flex;
+    align-items: center;
+    gap: 0.6em;
+
+    .user-big-thumb-mobile{
+      width: 60px;
+    }
+  }
+}
+
+.mobile__search__box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.6em;
+
+  .mobile__search__input__box{
+    display: flex;
+    background-color: #F4F4F4;
+    border-radius: 30px;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex: 1; 
+     input{
+       background: none;
+       border: none;
+       margin-left: 10px;
+       flex: 1;
+     }
+  }
+
+  .mobile-tag-box{
+    display: flex;
+    align-items: center;
+    gap: 0.8em;
+    font-size: 20px;
+
+    i{
+      color: $purple1;
+    }
+  }
+}
+
+.social_mobile__card__view{
+  position: relative;
+
+  a{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+  }
+}
+
+.purchase__title{
+  margin-top: -13px;
+}
+
+.tag__mobile__box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  i{
+    font-size: 24px;
+  }
+
+  .likes-counter{
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+
+    i{
+      color: $purple1;
+    }
+  }
+
+}
+

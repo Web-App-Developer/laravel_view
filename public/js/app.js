@@ -3401,6 +3401,87 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -3776,12 +3857,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _apis_Api__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../apis/Api */ "./resources/js/apis/Api.js");
-/* harmony import */ var _components_why_content__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/why-content */ "./resources/js/components/why-content.vue");
-/* harmony import */ var vue_concise_slider__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-concise-slider */ "./node_modules/vue-concise-slider/dist/module.js");
-/* harmony import */ var vue_concise_slider__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_concise_slider__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
-/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var hooper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! hooper */ "./node_modules/hooper/dist/hooper.esm.js");
+/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! hooper/dist/hooper.css */ "./node_modules/hooper/dist/hooper.css");
+/* harmony import */ var hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(hooper_dist_hooper_css__WEBPACK_IMPORTED_MODULE_2__);
 function _toConsumableArray(arr) { return _arrayWithoutHoles(arr) || _iterableToArray(arr) || _unsupportedIterableToArray(arr) || _nonIterableSpread(); }
 
 function _nonIterableSpread() { throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -4082,271 +4160,19 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-
 
 
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ['creator', 'user'],
   components: {
-    whycontent: _components_why_content__WEBPACK_IMPORTED_MODULE_1__["default"],
-    Hooper: hooper__WEBPACK_IMPORTED_MODULE_3__["Hooper"],
-    Slide: hooper__WEBPACK_IMPORTED_MODULE_3__["Slide"],
-    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_3__["Navigation"],
-    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_3__["Pagination"],
-    slider: vue_concise_slider__WEBPACK_IMPORTED_MODULE_2__["slider"],
-    slideritem: vue_concise_slider__WEBPACK_IMPORTED_MODULE_2__["slideritem"]
+    Hooper: hooper__WEBPACK_IMPORTED_MODULE_1__["Hooper"],
+    Slide: hooper__WEBPACK_IMPORTED_MODULE_1__["Slide"],
+    HooperNavigation: hooper__WEBPACK_IMPORTED_MODULE_1__["Navigation"],
+    HooperPagination: hooper__WEBPACK_IMPORTED_MODULE_1__["Pagination"]
   },
   data: function data() {
     return {
-      options: {
-        pagination: true,
-        thresholdDistance: 100,
-        // Sliding distance threshold
-        thresholdTime: 300,
-        // Sliding time threshold decision
-        grabCursor: true,
-        // Scratch style
-        speed: 300,
-        // Sliding speed
-        timingFunction: 'ease',
-        // Sliding mode
-        loop: true,
-        // Infinite loop
-        autoplay: 10000 // Auto play[ms]
-
-      },
       img: null,
       product: null,
       quantity: 1,
@@ -4363,7 +4189,6 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
       prices: {}
     };
   },
-  computed: {},
   watch: {
     $route: function $route() {
       this.selectedProperties = {};
@@ -52421,17 +52246,6 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 /***/ }),
 
-/***/ "./node_modules/vue-concise-slider/dist/module.js":
-/*!********************************************************!*\
-  !*** ./node_modules/vue-concise-slider/dist/module.js ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-!function(t,e){ true?module.exports=e():undefined}("undefined"!=typeof self?self:this,function(){return function(t){function e(t){delete installedChunks[t]}function i(t){var e=document.getElementsByTagName("head")[0],i=document.createElement("script");i.type="text/javascript",i.charset="utf-8",i.src=u.p+""+t+"."+b+".hot-update.js",e.appendChild(i)}function n(t){return t=t||1e4,new Promise(function(e,i){if("undefined"==typeof XMLHttpRequest)return i(new Error("No browser support"));try{var n=new XMLHttpRequest,a=u.p+""+b+".hot-update.json";n.open("GET",a,!0),n.timeout=t,n.send(null)}catch(t){return i(t)}n.onreadystatechange=function(){if(4===n.readyState)if(0===n.status)i(new Error("Manifest request to "+a+" timed out."));else if(404===n.status)e();else if(200!==n.status&&304!==n.status)i(new Error("Manifest request to "+a+" failed."));else{try{var t=JSON.parse(n.responseText)}catch(t){return void i(t)}e(t)}}})}function a(t){var e=C[t];if(!e)return u;var i=function(i){return e.hot.active?(C[i]?C[i].parents.indexOf(t)<0&&C[i].parents.push(t):(P=[t],g=i),e.children.indexOf(i)<0&&e.children.push(i)):(console.warn("[HMR] unexpected require("+i+") from disposed module "+t),P=[]),u(i)};for(var n in u)Object.prototype.hasOwnProperty.call(u,n)&&"e"!==n&&Object.defineProperty(i,n,function(t){return{configurable:!0,enumerable:!0,get:function(){return u[t]},set:function(e){u[t]=e}}}(n));return i.e=function(t){function e(){$--,"prepare"===S&&(L[t]||l(t),0===$&&0===D&&h())}return"ready"===S&&r("prepare"),$++,u.e(t).then(e,function(t){throw e(),t})},i}function s(t){var e={_acceptedDependencies:{},_declinedDependencies:{},_selfAccepted:!1,_selfDeclined:!1,_disposeHandlers:[],_main:g!==t,active:!0,accept:function(t,i){if(void 0===t)e._selfAccepted=!0;else if("function"==typeof t)e._selfAccepted=t;else if("object"==typeof t)for(var n=0;n<t.length;n++)e._acceptedDependencies[t[n]]=i||function(){};else e._acceptedDependencies[t]=i||function(){}},decline:function(t){if(void 0===t)e._selfDeclined=!0;else if("object"==typeof t)for(var i=0;i<t.length;i++)e._declinedDependencies[t[i]]=!0;else e._declinedDependencies[t]=!0},dispose:function(t){e._disposeHandlers.push(t)},addDisposeHandler:function(t){e._disposeHandlers.push(t)},removeDisposeHandler:function(t){var i=e._disposeHandlers.indexOf(t);i>=0&&e._disposeHandlers.splice(i,1)},check:d,apply:p,status:function(t){if(!t)return S;T.push(t)},addStatusHandler:function(t){T.push(t)},removeStatusHandler:function(t){var e=T.indexOf(t);e>=0&&T.splice(e,1)},data:x[t]};return g=void 0,e}function r(t){S=t;for(var e=0;e<T.length;e++)T[e].call(null,t)}function o(t){return+t+""===t?+t:t}function d(t){if("idle"!==S)throw new Error("check() is only allowed in idle status");return _=t,r("check"),n(w).then(function(t){if(!t)return r("idle"),null;k={},L={},O=t.c,y=t.h,r("prepare");var e=new Promise(function(t,e){v={resolve:t,reject:e}});m={};return l(1),"prepare"===S&&0===$&&0===D&&h(),e})}function c(t,e){if(O[t]&&k[t]){k[t]=!1;for(var i in e)Object.prototype.hasOwnProperty.call(e,i)&&(m[i]=e[i]);0==--D&&0===$&&h()}}function l(t){O[t]?(k[t]=!0,D++,i(t)):L[t]=!0}function h(){r("ready");var t=v;if(v=null,t)if(_)Promise.resolve().then(function(){return p(_)}).then(function(e){t.resolve(e)},function(e){t.reject(e)});else{var e=[];for(var i in m)Object.prototype.hasOwnProperty.call(m,i)&&e.push(o(i));t.resolve(e)}}function p(i){function n(t,e){for(var i=0;i<e.length;i++){var n=e[i];t.indexOf(n)<0&&t.push(n)}}if("ready"!==S)throw new Error("apply() is only allowed in ready status");i=i||{};var a,s,d,c,l,h={},p=[],f={},g=function(){console.warn("[HMR] unexpected require("+_.moduleId+") to disposed module")};for(var v in m)if(Object.prototype.hasOwnProperty.call(m,v)){l=o(v);var _;_=m[v]?function(t){for(var e=[t],i={},a=e.slice().map(function(t){return{chain:[t],id:t}});a.length>0;){var s=a.pop(),r=s.id,o=s.chain;if((c=C[r])&&!c.hot._selfAccepted){if(c.hot._selfDeclined)return{type:"self-declined",chain:o,moduleId:r};if(c.hot._main)return{type:"unaccepted",chain:o,moduleId:r};for(var d=0;d<c.parents.length;d++){var l=c.parents[d],h=C[l];if(h){if(h.hot._declinedDependencies[r])return{type:"declined",chain:o.concat([l]),moduleId:r,parentId:l};e.indexOf(l)>=0||(h.hot._acceptedDependencies[r]?(i[l]||(i[l]=[]),n(i[l],[r])):(delete i[l],e.push(l),a.push({chain:o.concat([l]),id:l})))}}}}return{type:"accepted",moduleId:t,outdatedModules:e,outdatedDependencies:i}}(l):{type:"disposed",moduleId:v};var w=!1,E=!1,T=!1,D="";switch(_.chain&&(D="\nUpdate propagation: "+_.chain.join(" -> ")),_.type){case"self-declined":i.onDeclined&&i.onDeclined(_),i.ignoreDeclined||(w=new Error("Aborted because of self decline: "+_.moduleId+D));break;case"declined":i.onDeclined&&i.onDeclined(_),i.ignoreDeclined||(w=new Error("Aborted because of declined dependency: "+_.moduleId+" in "+_.parentId+D));break;case"unaccepted":i.onUnaccepted&&i.onUnaccepted(_),i.ignoreUnaccepted||(w=new Error("Aborted because "+l+" is not accepted"+D));break;case"accepted":i.onAccepted&&i.onAccepted(_),E=!0;break;case"disposed":i.onDisposed&&i.onDisposed(_),T=!0;break;default:throw new Error("Unexception type "+_.type)}if(w)return r("abort"),Promise.reject(w);if(E){f[l]=m[l],n(p,_.outdatedModules);for(l in _.outdatedDependencies)Object.prototype.hasOwnProperty.call(_.outdatedDependencies,l)&&(h[l]||(h[l]=[]),n(h[l],_.outdatedDependencies[l]))}T&&(n(p,[_.moduleId]),f[l]=g)}var $=[];for(s=0;s<p.length;s++)l=p[s],C[l]&&C[l].hot._selfAccepted&&$.push({module:l,errorHandler:C[l].hot._selfAccepted});r("dispose"),Object.keys(O).forEach(function(t){!1===O[t]&&e(t)});for(var L,k=p.slice();k.length>0;)if(l=k.pop(),c=C[l]){var M={},j=c.hot._disposeHandlers;for(d=0;d<j.length;d++)(a=j[d])(M);for(x[l]=M,c.hot.active=!1,delete C[l],delete h[l],d=0;d<c.children.length;d++){var z=C[c.children[d]];z&&((L=z.parents.indexOf(l))>=0&&z.parents.splice(L,1))}}var I,H;for(l in h)if(Object.prototype.hasOwnProperty.call(h,l)&&(c=C[l]))for(H=h[l],d=0;d<H.length;d++)I=H[d],(L=c.children.indexOf(I))>=0&&c.children.splice(L,1);r("apply"),b=y;for(l in f)Object.prototype.hasOwnProperty.call(f,l)&&(t[l]=f[l]);var R=null;for(l in h)if(Object.prototype.hasOwnProperty.call(h,l)&&(c=C[l])){H=h[l];var N=[];for(s=0;s<H.length;s++)if(I=H[s],a=c.hot._acceptedDependencies[I]){if(N.indexOf(a)>=0)continue;N.push(a)}for(s=0;s<N.length;s++){a=N[s];try{a(H)}catch(t){i.onErrored&&i.onErrored({type:"accept-errored",moduleId:l,dependencyId:H[s],error:t}),i.ignoreErrored||R||(R=t)}}}for(s=0;s<$.length;s++){var A=$[s];l=A.module,P=[l];try{u(l)}catch(t){if("function"==typeof A.errorHandler)try{A.errorHandler(t)}catch(e){i.onErrored&&i.onErrored({type:"self-accept-error-handler-errored",moduleId:l,error:e,orginalError:t,originalError:t}),i.ignoreErrored||R||(R=e),R||(R=t)}else i.onErrored&&i.onErrored({type:"self-accept-errored",moduleId:l,error:t}),i.ignoreErrored||R||(R=t)}}return R?(r("fail"),Promise.reject(R)):(r("idle"),new Promise(function(t){t(p)}))}function u(e){if(C[e])return C[e].exports;var i=C[e]={i:e,l:!1,exports:{},hot:s(e),parents:(E=P,P=[],E),children:[]};return t[e].call(i.exports,i,i.exports,a(e)),i.l=!0,i.exports}var f=window.webpackHotUpdatevueConciseSlider;window.webpackHotUpdatevueConciseSlider=function(t,e){c(t,e),f&&f(t,e)};var g,v,m,y,_=!0,b="a42a8336a0bb66e88868",w=1e4,x={},P=[],E=[],T=[],S="idle",D=0,$=0,L={},k={},O={},C={};return u.m=t,u.c=C,u.d=function(t,e,i){u.o(t,e)||Object.defineProperty(t,e,{configurable:!1,enumerable:!0,get:i})},u.n=function(t){var e=t&&t.__esModule?function(){return t.default}:function(){return t};return u.d(e,"a",e),e},u.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},u.p="",u.h=function(){return b},a(14)(u.s=14)}([function(t,e){t.exports=function(t,e,i,n,a){var s,r=t=t||{},o=typeof t.default;"object"!==o&&"function"!==o||(s=t,r=t.default);var d="function"==typeof r?r.options:r;e&&(d.render=e.render,d.staticRenderFns=e.staticRenderFns),n&&(d._scopeId=n);var c;if(a?(c=function(t){t=t||this.$vnode&&this.$vnode.ssrContext||this.parent&&this.parent.$vnode&&this.parent.$vnode.ssrContext,t||"undefined"==typeof __VUE_SSR_CONTEXT__||(t=__VUE_SSR_CONTEXT__),i&&i.call(this,t),t&&t._registeredComponents&&t._registeredComponents.add(a)},d._ssrRegister=c):i&&(c=i),c){var l=d.functional,h=l?d.render:d.beforeCreate;l?d.render=function(t,e){return c.call(e),h(t,e)}:d.beforeCreate=h?[].concat(h,c):[c]}return{esModule:s,exports:r,options:d}}},function(t,e){t.exports=function(){var t=[];return t.toString=function(){for(var t=[],e=0;e<this.length;e++){var i=this[e];i[2]?t.push("@media "+i[2]+"{"+i[1]+"}"):t.push(i[1])}return t.join("")},t.i=function(e,i){"string"==typeof e&&(e=[[null,e,""]]);for(var n={},a=0;a<this.length;a++){var s=this[a][0];"number"==typeof s&&(n[s]=!0)}for(a=0;a<e.length;a++){var r=e[a];"number"==typeof r[0]&&n[r[0]]||(i&&!r[2]?r[2]=i:i&&(r[2]="("+r[2]+") and ("+i+")"),t.push(r))}},t}},function(t,e,i){function n(t){for(var e=0;e<t.length;e++){var i=t[e],n=l[i.id];if(n){n.refs++;for(var a=0;a<n.parts.length;a++)n.parts[a](i.parts[a]);for(;a<i.parts.length;a++)n.parts.push(s(i.parts[a]));n.parts.length>i.parts.length&&(n.parts.length=i.parts.length)}else{for(var r=[],a=0;a<i.parts.length;a++)r.push(s(i.parts[a]));l[i.id]={id:i.id,refs:1,parts:r}}}}function a(){var t=document.createElement("style");return t.type="text/css",h.appendChild(t),t}function s(t){var e,i,n=document.querySelector("style["+m+'~="'+t.id+'"]');if(n){if(f)return g;n.parentNode.removeChild(n)}if(y){var s=u++;n=p||(p=a()),e=r.bind(null,n,s,!1),i=r.bind(null,n,s,!0)}else n=a(),e=o.bind(null,n),i=function(){n.parentNode.removeChild(n)};return e(t),function(n){if(n){if(n.css===t.css&&n.media===t.media&&n.sourceMap===t.sourceMap)return;e(t=n)}else i()}}function r(t,e,i,n){var a=i?"":n.css;if(t.styleSheet)t.styleSheet.cssText=_(e,a);else{var s=document.createTextNode(a),r=t.childNodes;r[e]&&t.removeChild(r[e]),r.length?t.insertBefore(s,r[e]):t.appendChild(s)}}function o(t,e){var i=e.css,n=e.media,a=e.sourceMap;if(n&&t.setAttribute("media",n),v.ssrId&&t.setAttribute(m,e.id),a&&(i+="\n/*# sourceURL="+a.sources[0]+" */",i+="\n/*# sourceMappingURL=data:application/json;base64,"+btoa(unescape(encodeURIComponent(JSON.stringify(a))))+" */"),t.styleSheet)t.styleSheet.cssText=i;else{for(;t.firstChild;)t.removeChild(t.firstChild);t.appendChild(document.createTextNode(i))}}var d="undefined"!=typeof document;if("undefined"!=typeof DEBUG&&DEBUG&&!d)throw new Error("vue-style-loader cannot be used in a non-browser environment. Use { target: 'node' } in your Webpack config to indicate a server-rendering environment.");var c=i(7),l={},h=d&&(document.head||document.getElementsByTagName("head")[0]),p=null,u=0,f=!1,g=function(){},v=null,m="data-vue-ssr-id",y="undefined"!=typeof navigator&&/msie [6-9]\b/.test(navigator.userAgent.toLowerCase());t.exports=function(t,e,i,a){f=i,v=a||{};var s=c(t,e);return n(s),function(e){for(var i=[],a=0;a<s.length;a++){var r=s[a],o=l[r.id];o.refs--,i.push(o)}e?(s=c(t,e),n(s)):s=[];for(var a=0;a<i.length;a++){var o=i[a];if(0===o.refs){for(var d=0;d<o.parts.length;d++)o.parts[d]();delete l[o.id]}}}};var _=function(){var t=[];return function(e,i){return t[e]=i,t.filter(Boolean).join("\n")}}()},function(t,e,i){"use strict";function n(t){i(5)}Object.defineProperty(e,"__esModule",{value:!0});var a=i(8),s=i.n(a),r=i(11),o=i(0),d=n,c=o(s.a,r.a,d,null,null);e.default=c.exports},function(t,e,i){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=i(12),a=i.n(n),s=i(13),r=i(0),o=r(a.a,s.a,null,null,null);e.default=o.exports},function(t,e,i){var n=i(6);"string"==typeof n&&(n=[[t.i,n,""]]),n.locals&&(t.exports=n.locals);i(2)("7b43aed2",n,!0,{})},function(t,e,i){e=t.exports=i(1)(),e.push([t.i,".slider-container{margin:0 auto;overflow:hidden;z-index:1;height:100%;width:100%;position:relative;white-space:nowrap}.slider-center-center{margin:auto;z-index:1;position:absolute;top:0;left:0;right:0;bottom:0}.slider-touch{height:100%}.swiper-container-horizontal>*>.slider-wrapper{-moz-flex-direction:row;-ms-flex-direction:row;-o-flex-direction:row;flex-direction:row}.swiper-container-horizontal>*>.slider-wrapper,.swiper-container-vertical>*>.slider-wrapper{box-sizing:content-box;display:flex;height:100%;position:relative;transition-property:transform;width:100%;z-index:1;align-items:center}.swiper-container-vertical>*>.slider-wrapper{-moz-flex-direction:column;-ms-flex-direction:column;-o-flex-direction:column;flex-direction:column}.slider-item{flex-shrink:0;height:100%;position:relative;width:100%;align-items:center;display:flex;font-size:40px;justify-content:center;text-align:center;color:#fff}.slider-fade .slider-item{position:absolute;left:0;opacity:0}.slider-pagination{position:absolute;text-align:center;transform:translateZ(0);z-index:10}.swiper-container-horizontal>.slider-pagination-bullets{bottom:10px;left:0;width:100%}.swiper-container-horizontal>*>.slider-pagination-bullet{background:#000 none repeat scroll 0 0;border-radius:100%;display:inline-block;height:8px;opacity:.2;width:8px;cursor:pointer;margin:0 5px}.swiper-container-vertical>.slider-pagination-bullets{left:0;bottom:auto;left:auto;width:auto;right:10px;top:50%;transform:translate3d(0,-50%,0)}.swiper-container-vertical>*>.slider-pagination-bullet{background:#000 none repeat scroll 0 0;border-radius:100%;height:8px;opacity:.2;width:8px;cursor:pointer;display:block;margin:5px 0}.swiper-container-horizontal .slider-pagination-bullet-active,.swiper-container-vertical .slider-pagination-bullet-active{background:#fff none repeat scroll 0 0;opacity:1}.slider-loading{position:absolute;top:50%;transform:translateY(-50%);z-index:999}.swiper-container-cursorGrab{cursor:grab}",""])},function(t,e){t.exports=function(t,e){for(var i=[],n={},a=0;a<e.length;a++){var s=e[a],r=s[0],o=s[1],d=s[2],c=s[3],l={id:t+":"+a,css:o,media:d,sourceMap:c};n[r]?n[r].parts.push(l):i.push(n[r]={id:r,parts:[l]})}return i}},function(t,e,i){"use strict";Object.defineProperty(e,"__esModule",{value:!0});var n=i(9),a=function(t){return t&&t.__esModule?t:{default:t}}(n);e.default={props:{options:{type:Object,default:function(){return{}}},pages:{type:Array,default:function(){return[]}}},name:"slider",data:function(){return{data:{poswidth:0,posheight:0,start:{},end:{},currentPage:this.options.currentPage||0,direction:""},s_data:{prefixes:(0,a.default)(),transitionEnding:!1,itemTransitionEnding:!1,setIntervalid:"",renderTime:"",sliderLength:0,effect:this.options.effect||"slide",direction:this.options.direction||"horizontal",tracking:!1,thresholdDistance:this.options.thresholdDistance||100,thresholdTime:this.options.thresholdTime||500,animation:!1,itemAnimation:this.options.itemAnimation||!1,loading:!1,containerClass:{"swiper-container-vertical":!1,"swiper-container-cursorGrab":this.options.grabCursor||!1},pageInit:!1,widthScalingRatio:this.options.widthScalingRatio||.8,heightScalingRatio:this.options.heightScalingRatio||.8,deviation:this.options.deviation||200,currentPage:this.options.currentPage||0,pageWidth:0,pageHeight:0,onSlide:!1,onSlideEnd:!0,sliderItem:"",pagination:void 0===this.options.pagination||this.options.pagination,nested:void 0===this.options.nested||this.options.nested,resize:void 0===this.options.resize||this.options.resize,freeze:void 0!==this.options.freeze&&this.options.freeze,slidesPerView:void 0===this.options.slidesPerView?0:this.options.slidesPerView,$parent:this.judgeParentSlider(this),route:!1,lastPage:this.options.currentPage||0,e:void 0}}},watch:{$route:function(){var t=this;if(t.route){var e=t.data.currentPage,i=t.s_data.sliderLength;t.s_data.transitionEnding=!1,e<0?t.slide(0,"animationnone"):e>=(t.pagenums||i)?t.slide(i-1,"animationnone"):t.slide(e,"animationnone"),t.options.autoplay&&t.clock().begin(t),t.route=!1}else t.route=!0,t.options.autoplay&&t.clock().stop(t)}},computed:{styleobj:function(){var t={};return t.transform="translate3D("+this.data.poswidth+"px,"+this.data.posheight+"px,0)",t[this.s_data.prefixes.transition+"TimingFunction"]=this.options.timingFunction||"ease",t[this.s_data.prefixes.transition+"Duration"]=(this.s_data.animation?this.options.speed||300:0)+"ms","fade"===this.s_data.effect||"coverflow"===this.s_data.effect?{}:t},pagenums:function(){return(this.pages.length||0!==this.s_data.sliderLength)&&this.s_data.pageInit,this.pages.length},currentWidth:{get:function(){if(!this.pages.length&&0===this.s_data.sliderLength||"fade"===this.s_data.effect||"coverflow"===this.s_data.effect)return 0;var t=void 0,e=this.data.currentPage,i=this.s_data.pageWidth,n=this.options.loopedSlides||1;this.options.loop&&(e+=n?n<=(this.pagenums||this.s_data.sliderLength)?n:this.pagenums||this.s_data.sliderLength:1),"coverflow"===this.options.effect&&(e-=1);for(var a in this.$el.children)/slider-touch/gi.test(this.$el.children[a].className)&&(t=this.$el.children[a]);try{var s=t.children[0].children,r=s[e].offsetLeft;this.options.loop&&(r=s[e].offsetLeft);var o=s[e].offsetWidth;if(!o)throw new Error("找不到当前滑动元素，停止滑动");var d=this.options.slidesPerView,c=this.s_data.sliderLength;if(this.options.centeredSlides)if(d){var l=this.data.currentPage,h=parseInt((d-1)/2);l-h<=0?l=0:l+h>=c?l=c-d:l-=h,r=s[l].offsetLeft}else r=r-i/2+o/2;if(!this.options.centeredSlides&&d){var p=this.data.currentPage,u=this.options.slidesToScroll||1;p+u>=c&&(r=s[c-u].offsetLeft)}return r+i-i}catch(t){var f=this;console.warn(t),console.warn("滑动报错，停止滑动及轮播"),this.data.currentPage=this.s_data.lastPage,this.options.autoplay=0,this.clock().stop(f)}}},currentHeight:function(){var t=this.s_data.sliderLength,e=this.data.currentPage,i=this.pages.length,n=0,a=void 0,s=e-1,r=this.s_data.pageWidth,o=this.options.loopedSlides||1;if(!i&&0===t||"fade"===this.s_data.effect)return 0;this.options.loop&&(s=o?e+(o<=(i||t)?o:i||t)-1:e+1);for(var d in this.$el.children)/slider-touch/gi.test(this.$el.children[d].className)&&(a=this.$el.children[d]);var c=a.children[0].children;for(var l in c)l<=s&&(n+=c[l].offsetHeight,n+=parseInt(c[l].style.marginTop||0),n+=parseInt(c[l].style.marginBottom||0));return n+r-r},classObject:function(){var t={};switch(this.options.effect){case"fade":t={"slider-fade":!0}}return t}},mounted:function(){var t=this,e=this;this.s_data.pageWidth=this.$el.offsetWidth,this.s_data.pageHeight=this.$el.offsetHeight,this.$emit("init",this.data),this.$on("slideTo",function(e){t.data.direction="slideTo",t.slide(e,"slideTo")}),this.$on("slideNext",function(){t.next()}),this.$on("slidePre",function(){t.pre()}),this.$on("autoplayStart",function(i){t.options.autoplay=i||t.options.autoplay||1e3,t.clock().begin(e)}),this.$on("autoplayStop",function(){t.options.autoplay=0,t.clock().stop(e)}),this.$on("loadingShow",function(){t.s_data.loading=!0}),this.$on("loadingHide",function(){t.s_data.loading=!1}),this.options.autoplay&&this.s_data.sliderLength&&this.clock().begin(e),document.addEventListener("visibilitychange",this.visibilitychange,!1),"vertical"===this.options.direction?this.s_data.containerClass["swiper-container-vertical"]=!0:this.s_data.containerClass["swiper-container-horizontal"]=!0,this.s_data.resize&&window.addEventListener("resize",this.resize)},beforeDestroy:function(){this.options.autoplay&&this.clock().stop(this),!0===this.options.preventDocumentMove&&document.removeEventListener("touchmove",this.preventDefault),document.removeEventListener("visibilitychange",this.visibilitychange,!1),window.removeEventListener("resize",this.resize)},methods:{visibilitychange:function(){var t=this;document.hidden?t.options.autoplay&&t.clock().stop(t):t.options.autoplay&&t.clock().begin(t)},resize:function(){if(this.s_data.pageWidth=this.$el.offsetWidth,this.s_data.pageHeight=this.$el.offsetHeight,this.data.currentPage>=this.s_data.sliderLength&&this.options.loop)return this.slide(0,"animationnone"),!1;this.slide(this.data.currentPage,"animationnone")},swipeStart:function(t){var e=this;if(this.s_data.e=t,!this.s_data.freeze&&!this.s_data.transitionEnding&&!(this.s_data.transitionEnding||this.s_data.itemTransitionEnding&&this.options.itemAnimation))if(this.s_data.animation=!1,this.options.autoplay&&this.clock().stop(e),!0===this.options.preventDocumentMove&&document.addEventListener("touchmove",e.preventDefault(t)),"touchstart"===t.type){if(t.touches.length>1)return this.s_data.tracking=!1,!1;this.s_data.tracking=!0,this.data.start.t=(new Date).getTime(),this.data.start.x=t.targetTouches[0].clientX,this.data.start.y=t.targetTouches[0].clientY,this.data.end.x=t.targetTouches[0].clientX,this.data.end.y=t.targetTouches[0].clientY}else this.s_data.tracking=!0,this.data.start.t=(new Date).getTime(),this.data.start.x=t.clientX,this.data.start.y=t.clientY,this.data.end.x=t.clientX,this.data.end.y=t.clientY},swipeMove:function(t){if(this.s_data.e=t,this.s_data.tracking){var e=this.s_data.effect,i=this.s_data.$parent;"touchmove"===t.type?(this.data.end.x=t.targetTouches[0].clientX,this.data.end.y=t.targetTouches[0].clientY):(this.data.end.x=t.clientX,this.data.end.y=t.clientY);var n=Math.abs(this.data.end.x-this.data.start.x),a=Math.abs(this.data.end.y-this.data.start.y);if(n>=a&&"vertical"!==this.options.direction&&t.cancelable?t.preventDefault():n<=a&&"vertical"===this.options.direction&&t.cancelable&&t.preventDefault(),i&&i.s_data.direction===this.s_data.direction&&t.stopPropagation(),"fade"===e||"coverflow"===e)return;if("vertical"===this.options.direction){if(n>a)return;i&&"vertical"===i.options.direction&&0===this.data.currentPage&&this.data.end.y-this.data.start.y>=0&&i.s_data.nested&&(!i.options.preventRebound||0!==i.data.currentPage)?i.data.posheight=-i.currentHeight+this.data.end.y-this.data.start.y:i&&"vertical"===i.options.direction&&this.data.currentPage===this.s_data.sliderLength-1&&this.data.end.y-this.data.start.y<=0&&i.s_data.nested&&(!i.options.preventRebound||i.data.currentPage!==i.s_data.sliderLength-1)?i.data.posheight=-i.currentHeight+this.data.end.y-this.data.start.y:this.options.preventRebound&&!this.options.loop||(this.data.posheight=-this.currentHeight+this.data.end.y-this.data.start.y)}else{if(n<a)return;i&&"vertical"!==i.options.direction&&0===this.data.currentPage&&this.data.end.x-this.data.start.x>=0&&i.s_data.nested&&(!i.options.preventRebound||0!==i.data.currentPage)?i.data.poswidth=-i.currentWidth+this.data.end.x-this.data.start.x:i&&"vertical"!==i.options.direction&&this.data.currentPage===this.s_data.sliderLength-1&&this.data.end.x-this.data.start.x<=0&&i.s_data.nested&&(!i.options.preventRebound||i.data.currentPage!==i.s_data.sliderLength-1)?i.data.poswidth=-i.currentWidth+this.data.end.x-this.data.start.x:this.options.preventRebound&&!this.options.loop||(this.data.poswidth=-this.currentWidth+this.data.end.x-this.data.start.x)}}},swipeEnd:function(t){this.s_data.e=t,this.s_data.tracking=!1;var e=(new Date).getTime(),i=e-this.data.start.t,n=this.data.end.x-this.data.start.x,a=this.data.end.y-this.data.start.y,s=this.s_data.thresholdDistance,r=this.data.currentPage;if(this.options.autoplay){var o=this;setTimeout(function(){o.clock().begin(o)},this.options.autoplay)}if(!0===this.options.preventDocumentMove&&document.removeEventListener("touchmove",this.preventDefault(t)),i>this.s_data.thresholdTime)return this.slide(r),!1;if("vertical"!==this.options.direction){if(n>s&&Math.abs(a)<Math.abs(n))return this.pre(),!1;if(-n>s&&Math.abs(a)<Math.abs(n))return this.next(),!1;if(!(i<100&&Math.abs(n)<10&&Math.abs(a)<10))return this.slide(r),!1;this.data.direction="click",this.$emit("tap",this.data),this.slide(r,"click")}else{if(a>s&&Math.abs(n)<Math.abs(a))return this.pre(),!1;if(-a>s&&Math.abs(n)<Math.abs(a))return this.next(),!1;if(!(i<100&&Math.abs(n)<10&&Math.abs(a)<10))return this.slide(r),!1;this.data.direction="click",this.$emit("tap",this.data),this.slide(r,"click")}},swipeOut:function(t){this.$el===t.target&&this.s_data.tracking&&this.swipeEnd(t)},pre:function(){this.s_data.lastPage=this.data.currentPage,this.data.direction="vertical"===this.options.direction?"up":"left";var t=this.s_data.sliderLength,e=this.options.slidesToScroll||1,i=this.s_data.$parent;this.data.currentPage>=1&&this.data.currentPage-e>=0?(this.data.currentPage-=e||1,this.slide()):!(this.options.loop&&this.data.currentPage-e<0)||i&&i.s_data.nested?i&&0===this.data.currentPage&&i.s_data.nested?(i.pre(),this.slide()):this.slide(0):(this.data.currentPage-=e||1,this.s_data.transitionEnding=!0,this.s_data.itemTransitionEnding=!0,this.data.currentPage<0&&"fade"===this.s_data.effect?(this.slide((this.pagenums||t)-1),this.s_data.transitionEnding=!1,this.s_data.itemTransitionEnding=!1):this.slide())},next:function(){this.data.direction="vertical"===this.options.direction?"down":"right",this.s_data.lastPage=this.data.currentPage;var t=this.s_data.sliderLength,e=this.s_data.$parent,i=this.options.slidesToScroll||1;if(this.data.currentPage<(this.pagenums||t)-1&&this.data.currentPage+i<=t-1)this.data.currentPage+=this.options.slidesToScroll||1,this.slide();else if(!(this.options.loop&&this.data.currentPage+i>t-1&&this.data.currentPage+i<=t)||e&&e.s_data.nested)if(e&&this.data.currentPage===(this.pagenums||t)-1&&e.s_data.nested){var n=this.s_data.$parent;n.next(),this.slide()}else this.data.direction="rebound",this.slide();else this.data.currentPage+=this.options.slidesToScroll||1,this.s_data.transitionEnding=!0,this.s_data.itemTransitionEnding=!0,this.data.currentPage>=(this.pagenums||t)&&"fade"===this.s_data.effect?(this.slide(0),this.s_data.transitionEnding=!1,this.s_data.itemTransitionEnding=!1):this.slide()},slide:function(t,e){if(this.s_data.animation=!0,"slideTo"===e&&!0===this.s_data.onSlide)return!1;if(!t&&0!==t||void 0!==e||(this.data.direction="rebound"),"animationnone"===e?(this.s_data.animation=!1,this.s_data.onSlideEnd=!0,this.s_data.onSlide=!1):(this.s_data.onSlideEnd=!1,this.s_data.onSlide=!0),(t||0===t)&&(this.data.currentPage=t),"click"!==e&&this.$emit("slide",this.data),"fade"===this.s_data.effect)return void(this.pagenums||this.fadeDom());if("vertical"===this.options.direction?(Math.abs(this.data.posheight)===Math.abs(-this.currentHeight)&&(this.s_data.onSlideEnd=!0,this.s_data.onSlide=!1),this.data.posheight=-this.currentHeight):(Math.abs(this.data.poswidth)===Math.abs(-this.currentWidth)&&(this.s_data.onSlideEnd=!0,this.s_data.onSlide=!1),this.data.poswidth=-this.currentWidth),this.s_data.sliderLength){var i=this.$el.getElementsByClassName("slider-wrapper")[0],n=Array.prototype.slice.call(i.children),a=n.filter(function(t){return-1!==t.className.indexOf("slider-item")}),s=n.filter(function(t){return-1!==t.className.indexOf("slider-active-copy")}),r=this.options.loopedSlides||1,o=this.s_data.sliderLength,d=this.$children,c=this.data.currentPage;if(d=d.filter(function(t){return"slideritem"===t.$options.name}),d.forEach(function(t){t.removeActive()}),"nest"===this.options.effect)return;if(d[c]&&d[c].addActive(),c<0||c>=(this.pagenums||o)){a[c+r]&&a[c+r].classList&&a[c+r].classList.add("slider-active-copy");var l=c<0?(this.pagenums||o)+c:0+c-(this.pagenums||o);d[l]&&d[l].addActive()}else for(var h=0;h<s.length;h++){var p=s[h];p.classList.remove("slider-active-copy")}}return!(this.data.currentPage<0||this.data.currentPage>=(this.pagenums||this.s_data.sliderLength))&&void 0},clock:function(){return{begin:function(t){t.s_data.setIntervalid||0!==t.options.autoplay&&(t.s_data.setIntervalid=setInterval(function(){t.next(),t.data.currentPage!==(t.pagenums||t.s_data.sliderLength)-1||t.options.loop||(clearInterval(t.s_data.setIntervalid),t.s_data.setIntervalid=0)},t.options.autoplay))},stop:function(t){clearInterval(t.s_data.setIntervalid),t.s_data.setIntervalid=0}}},preventDefault:function(t){var e=t||this.s_data.e;this.s_data.e=e,e&&e.preventDefault()},onTransitionEnd:function(t){var e=this;this.s_data.onSlideEnd=!0,this.s_data.onSlide=!1,setTimeout(function(){var t=e.data.currentPage,i=e.s_data.sliderLength;e.options.loop&&""!==e.s_data.effect&&(e.s_data.transitionEnding=!1,t<0?e.slide((e.pagenums||i)+t,"animationnone"):t>=(e.pagenums||i)&&e.slide(0+t-(e.pagenums||i),"animationnone"))},0)},onItemTransitionEnd:function(t){if(t.target===t.currentTarget){var e=this;setTimeout(function(){e.s_data.itemTransitionEnding=!1},0)}},renderDom:function(t){var e=this,i=this;this.s_data.renderTime&&clearTimeout(this.s_data.renderTime),i.s_data.sliderLength+=1,i.s_data.sliderLength>=1&&"fade"===i.options.effect&&(t.previousSibling?t.style["z-index"]=99-i.s_data.sliderLength:t.style["z-index"]=99+i.s_data.sliderLength),this.s_data.renderTime=setTimeout(function(){i.s_data.renderTime=void 0;var t=i.$el.getElementsByClassName("slider-wrapper")[0],n=Array.prototype.slice.call(t.children),a=n.filter(function(t){return-1!==t.className.indexOf("slider-item")&&-1===t.className.indexOf("slider-copy")});if(i.s_data.sliderLength=a.length||0,i.s_data.sliderLength>=1&&i.options.loop&&"fade"!==i.options.effect&&"coverflow"!==i.options.effect){for(var s=t.getElementsByClassName("slider-copy"),r=s.length-1;r>=0;r--)t.removeChild(s[r]);for(var o=Array.prototype.slice.call(t.children),d=o.filter(function(t){return-1!==t.className.indexOf("slider-item")}),c=d.length,l=i.options.loopedSlides||1,h=0;h<c;h++){if(h+l-c>=0){var p=d[h+0].cloneNode(!0);p.classList.add("slider-copy"),p.classList.remove("slider-active"),t.insertBefore(p,d[0])}if(h-l<0){var u=d[h].cloneNode(!0);u.classList.add("slider-copy"),u.classList.remove("slider-active"),t.appendChild(u)}}}i.$nextTick(function(){i.slide(i.data.currentPage,"animationnone"),i.options.autoplay&&e.s_data.sliderLength&&i.clock().begin(i)})},0)},fadeDom:function(){for(var t=this.data.currentPage,e=this.$el.getElementsByClassName("slider-wrapper")[0],i=e.getElementsByClassName("slider-item"),n=this.options.speed,a=0;a<i.length;a++)a===t||a===t+1?(i[a].style.opacity="1",i[a].style["transition-property"]="opacity",i[a].style[this.s_data.prefixes.transition+"-duration"]=(this.s_data.animation?n||300:0)+"ms"):(i[a].style.opacity="0",i[a].style[this.s_data.prefixes.transition+"-duration"]=(this.s_data.animation?n||300:0)+"ms")},judgeParentSlider:function(t){return t.$parent&&t.$parent.$vnode&&"slider"===t.$parent.$options.name?t.$parent:(!t.$parent||void 0!==t.$parent.$vnode)&&this.judgeParentSlider(t.$parent)}},components:{renderpagination:{render:function(t){var e=this.index;return this.options.renderPagination.call(this,t,e)},name:"renderpagination",props:{index:{type:Number,required:!0},options:{type:Object,required:!0}}}}}},function(t,e,i){"use strict";(function(t){function i(){var e=void 0,i=void 0,n=void 0,a=void 0;return function(){var s=document.createElement("_"),r=s.style,o=void 0;""===r[o="webkitTransition"]&&(n="webkitTransitionEnd",i=o),""===r[o="transition"]&&(n="transitionend",i=o),""===r[o="webkitTransform"]&&(e=o),""===r[o="msTransform"]&&(e=o),""===r[o="transform"]&&(e=o),document.body.insertBefore(s,null),r[e]="translate3d(0, 0, 0)",a=!!t.getComputedStyle(s).getPropertyValue(e),document.body.removeChild(s)}(),{transform:e,transition:i,transitionEnd:n,hasTranslate3d:a}}Object.defineProperty(e,"__esModule",{value:!0}),e.default=i}).call(e,i(10))},function(t,e){var i;i=function(){return this}();try{i=i||Function("return this")()||(0,eval)("this")}catch(t){"object"==typeof window&&(i=window)}t.exports=i},function(t,e,i){"use strict";var n=function(){var t=this,e=t.$createElement,i=t._self._c||e;return i("div",{staticClass:"slider-container",class:t.s_data.containerClass,on:{mouseleave:t.swipeOut}},[i("div",{staticClass:"slider-touch",style:t.styleobj,on:{touchmove:t.swipeMove,touchstart:t.swipeStart,touchend:t.swipeEnd,mousedown:t.swipeStart,mouseup:t.swipeEnd,mousemove:t.swipeMove,"webkit-transition-end":t.onTransitionEnd,transitionend:t.onTransitionEnd}},[0===t.pages.length?i("div",{staticClass:"slider-wrapper",class:t.classObject},[t._t("default")],2):t._e()]),t._v(" "),t.s_data.pagination?i("div",{staticClass:"slider-pagination slider-pagination-bullets"},[t._l(t.pagenums||t.s_data.sliderLength,function(e){return[t.options.renderPagination?t._e():i("span",{key:e,staticClass:"slider-pagination-bullet",class:e-1===t.data.currentPage?"slider-pagination-bullet-active":"",on:{click:function(i){t.slide(e-1)}}}),t._v(" "),t.options.renderPagination?i("renderpagination",{key:e,class:e-1===t.data.currentPage?"slider-pagination-bullet-active-render":"",attrs:{index:e,options:t.options},nativeOn:{click:function(i){t.slide(e-1)}}}):t._e()]})],2):t._e(),t._v(" "),i("div",{directives:[{name:"show",rawName:"v-show",value:!t.pagenums&&0===t.s_data.sliderLength||t.s_data.loading,expression:"(!pagenums && s_data.sliderLength === 0)||s_data.loading"}],staticClass:"slider-loading"},[t._t("loading")],2)])},a=[],s={render:n,staticRenderFns:a};e.a=s},function(t,e,i){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default={props:["index","pageLength"],name:"slideritem",data:function(){return{slideClass:{"slider-item":!0,"slider-active":!1},data:{start:{},end:{},index:this.index?this.index:this.$vnode.key,$el:""}}},mounted:function(){this.renderDom(),this.data.$el=this.$el},methods:{touchStart:function(t){if("touchstart"===t.type){if(t.touches.length>1)return this.data.tracking=!1,!1;this.data.start.t=(new Date).getTime(),this.data.start.x=t.targetTouches[0].clientX,this.data.start.y=t.targetTouches[0].clientY,this.data.end.x=t.targetTouches[0].clientX,this.data.end.y=t.targetTouches[0].clientY,this.data.start.pageX=t.targetTouches[0].pageX,this.data.start.pageY=t.targetTouches[0].pageY}else this.data.start.t=(new Date).getTime(),this.data.start.x=t.clientX,this.data.start.y=t.clientY,this.data.end.x=t.clientX,this.data.end.y=t.clientY,this.data.start.pageX=t.pageX,this.data.start.pageY=t.pageY},touchEnd:function(t){var e=(new Date).getTime(),i=e-this.data.start.t;"touchend"===t.type?(this.data.end.t=(new Date).getTime(),this.data.end.x=t.changedTouches[0].clientX,this.data.end.y=t.changedTouches[0].clientY,this.data.end.pageX=t.changedTouches[0].pageX,this.data.end.pageY=t.changedTouches[0].pageY):(this.data.end.t=(new Date).getTime(),this.data.end.x=t.clientX,this.data.end.y=t.clientY,this.data.end.pageX=t.pageX,this.data.end.pageY=t.pageY);var n=this.data.end.pageX-this.data.start.pageX||0,a=this.data.end.pageY-this.data.start.pageY||0;i<300&&Math.abs(n)<10&&Math.abs(a)<10&&this.$emit("tap",this.data)},renderDom:function(){this.$parent&&this.$parent.renderDom(this.$el)},addActive:function(){this.slideClass["slider-active"]=!0},removeActive:function(){this.slideClass["slider-active"]=!1},onTransitionEnd:function(t){this.$parent&&this.$parent.onItemTransitionEnd(t)},transform:function(){var t=this.$parent.options,e=this.$parent.data,i=this.$parent.s_data;if(!(t&&e&&i&&this.$el&&"coverflow"===t.effect))return{};var n=this.index,a=i.pageWidth,s=this.$el.offsetWidth,r=a/2-s/2,o=r-i.deviation+"px",d=r+i.deviation+"px",c=r+"px",l={};return n===e.currentPage-1||n===this.pageLength-2&&-1===e.currentPage?(l.transform="translate3D("+o+",0 ,0) scale3d("+i.widthScalingRatio+","+i.heightScalingRatio+",1)",l.opacity="1","left"===e.direction?l["z-index"]="10":l["z-index"]="1"):n===e.currentPage+1||1===n&&e.currentPage===this.pageLength?(l.transform="translate3D("+d+",0 ,0)",l.transform="translate3D("+d+",0 ,0) scale3d("+i.widthScalingRatio+","+i.heightScalingRatio+",1)",l.opacity="1","left"===e.direction?l["z-index"]="1":l["z-index"]="10"):n===e.currentPage?(l.transform="translate3D("+c+",0 ,0) scale3d(1,1,1)",l["z-index"]="99",l.opacity="1"):(l.transform="translate3D("+c+",0 ,0)",l.opacity="0"),n===this.pageLength-1&&0===e.currentPage&&(l.transform="translate3D("+o+",0 ,0) scale3d("+i.widthScalingRatio+","+i.heightScalingRatio+",1)",l.opacity="1"),0===n&&e.currentPage===this.pageLength-1&&(l.transform="translate3D("+d+",0 ,0) scale3d("+i.widthScalingRatio+","+i.heightScalingRatio+",1)",l.opacity="1"),(n!==this.pageLength-1&&n!==this.pageLength-2||-1!==e.currentPage)&&(0!==n&&1!==n||e.currentPage!==this.pageLength)||(l.opacity="1",0===n&&(l["z-index"]="99"),n===this.pageLength-1&&(l["z-index"]="99")),l[i.prefixes.transition+"Duration"]=(i.animation?t.speed||300:0)+"ms",l.position="absolute",l}}}},function(t,e,i){"use strict";var n=function(){var t=this,e=t.$createElement;return(t._self._c||e)("div",{class:t.slideClass,style:[t.transform(t.index)],on:{touchstart:t.touchStart,touchend:t.touchEnd,mousedown:t.touchStart,mouseup:t.touchEnd,"webkit-transition-end":t.onTransitionEnd,transitionend:t.onTransitionEnd}},[t._t("default")],2)},a=[],s={render:n,staticRenderFns:a};e.a=s},function(t,e,i){"use strict";function n(t){return t&&t.__esModule?t:{default:t}}Object.defineProperty(e,"__esModule",{value:!0}),e.slideritem=e.slider=void 0;var a=i(3),s=n(a),r=i(4),o=n(r),d=s.default,c=o.default;e.default=d,e.slider=d,e.slideritem=c}])});
-
-/***/ }),
-
 /***/ "./node_modules/vue-easy-slider/dist/vue-easy-slider.esm.js":
 /*!******************************************************************!*\
   !*** ./node_modules/vue-easy-slider/dist/vue-easy-slider.esm.js ***!
@@ -58089,1518 +57903,1685 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm.storeOwner
-    ? _c(
-        "div",
-        { staticClass: "shop-page" },
-        [
-          _c(
-            "div",
-            { staticClass: "categories-filter" },
-            [
-              _c(
-                "a",
-                {
-                  attrs: { href: "" },
-                  on: {
-                    click: function($event) {
-                      $event.preventDefault()
-                      _vm.filter = 0
-                    }
-                  }
-                },
+  return _c("div", [
+    !_vm.$root.isMobile
+      ? _c("div", [
+          _vm.storeOwner
+            ? _c(
+                "div",
+                { staticClass: "shop-page" },
                 [
-                  _c("div", { staticClass: "item" }, [
-                    _c("img", {
-                      attrs: {
-                        src:
-                          _vm.$root.storageUrl + "/images/nav_icons/Gallery.png"
-                      }
-                    }),
-                    _vm._v(" "),
-                    _c("div", [_vm._v("Gallery")])
-                  ])
-                ]
-              ),
-              _vm._v(" "),
-              _vm._l(_vm.categories, function(category, id, index) {
-                return Object.keys(_vm.topSliderProducts).includes(id) ||
-                  Array.isArray(category)
-                  ? _c(
-                      "a",
-                      {
-                        key: "key-" + index,
-                        attrs: { href: "" },
-                        on: {
-                          click: function($event) {
-                            $event.preventDefault()
+                  _c(
+                    "div",
+                    { staticClass: "categories-filter" },
+                    [
+                      _c(
+                        "a",
+                        {
+                          attrs: { href: "" },
+                          on: {
+                            click: function($event) {
+                              $event.preventDefault()
+                              _vm.filter = 0
+                            }
                           }
-                        }
-                      },
-                      [
-                        !Array.isArray(category)
+                        },
+                        [
+                          _c("div", { staticClass: "item" }, [
+                            _c("img", {
+                              attrs: {
+                                src:
+                                  _vm.$root.storageUrl +
+                                  "/images/nav_icons/Gallery.png"
+                              }
+                            }),
+                            _vm._v(" "),
+                            _c("div", [_vm._v("Gallery")])
+                          ])
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _vm._l(_vm.categories, function(category, id, index) {
+                        return Object.keys(_vm.topSliderProducts).includes(
+                          id
+                        ) || Array.isArray(category)
                           ? _c(
-                              "dropdown-menu",
+                              "a",
                               {
-                                attrs: { transition: "translate-fade-down" },
-                                model: {
-                                  value: _vm.show[index],
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.show, index, $$v)
-                                  },
-                                  expression: "show[index]"
+                                key: "key-" + index,
+                                attrs: { href: "" },
+                                on: {
+                                  click: function($event) {
+                                    $event.preventDefault()
+                                  }
                                 }
                               },
                               [
-                                _c(
-                                  "div",
-                                  { staticClass: "item dropdown-toggle" },
-                                  [
-                                    _c("img", {
-                                      attrs: {
-                                        src:
-                                          _vm.$root.storageUrl +
-                                          "/images/nav_icons/" +
-                                          category.name +
-                                          ".png"
-                                      }
-                                    }),
-                                    _vm._v(" "),
-                                    _c("div", [_vm._v(_vm._s(category.name))])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    attrs: { slot: "dropdown" },
-                                    slot: "dropdown"
-                                  },
-                                  _vm._l(
-                                    _vm.topSliderProducts[category.id],
-                                    function(productsArr, productCode) {
-                                      return _c(
-                                        "a",
-                                        {
-                                          key: productCode,
-                                          staticClass: "dropdown-item",
-                                          attrs: { href: "" }
-                                        },
-                                        [
-                                          _vm._v(
-                                            _vm._s(productsArr[0].details.title)
-                                          )
-                                        ]
-                                      )
-                                    }
-                                  ),
-                                  0
-                                )
-                              ]
-                            )
-                          : _c(
-                              "dropdown-menu",
-                              {
-                                attrs: { transition: "translate-fade-down" },
-                                model: {
-                                  value: _vm.show[index],
-                                  callback: function($$v) {
-                                    _vm.$set(_vm.show, index, $$v)
-                                  },
-                                  expression: "show[index]"
-                                }
-                              },
-                              [
-                                _c(
-                                  "div",
-                                  { staticClass: "item dropdown-toggle" },
-                                  [
-                                    _c("img", {
-                                      attrs: {
-                                        src:
-                                          _vm.$root.storageUrl +
-                                          "/images/nav_icons/" +
-                                          category[0].dady.name +
-                                          ".png"
-                                      }
-                                    }),
-                                    _vm._v(" "),
-                                    _c("div", [
-                                      _vm._v(_vm._s(category[0].dady.name))
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    attrs: { slot: "dropdown" },
-                                    slot: "dropdown"
-                                  },
-                                  _vm._l(category, function(categoryChild, j) {
-                                    return _c(
-                                      "a",
+                                !Array.isArray(category)
+                                  ? _c(
+                                      "dropdown-menu",
                                       {
-                                        key: categoryChild.id,
-                                        staticClass: "dropdown-item",
-                                        attrs: { href: "" }
-                                      },
-                                      [_vm._v(_vm._s(categoryChild.name))]
-                                    )
-                                  }),
-                                  0
-                                )
-                              ]
-                            )
-                      ],
-                      1
-                    )
-                  : _vm._e()
-              })
-            ],
-            2
-          ),
-          _vm._v(" "),
-          _c("share-modal", {
-            ref: "shareModal",
-            attrs: {
-              url: _vm.$root.currentUrl + "@" + _vm.storeOwner.username,
-              title: "View on Artigram",
-              description:
-                "View my gallery page on Artigram and buy the content you like on merchandise",
-              quote: "",
-              hashtags: "",
-              "twitter-user": "Artigramme"
-            }
-          }),
-          _vm._v(" "),
-          _c("shop-modal", {
-            ref: "shopModal",
-            attrs: { creator: _vm.storeOwner }
-          }),
-          _vm._v(" "),
-          _c("div", [
-            !_vm.filter
-              ? _c(
-                  "div",
-                  { staticClass: "banner" },
-                  [
-                    _c(
-                      "hooper",
-                      {
-                        staticStyle: { height: "200px" },
-                        attrs: {
-                          autoPlay: true,
-                          playSpeed: 3000,
-                          wheelControl: false,
-                          itemsToShow: 1,
-                          centerMode: true,
-                          infiniteScroll: true
-                        }
-                      },
-                      _vm._l(_vm.categories, function(category, categoryId) {
-                        return !Array.isArray(category) &&
-                          _vm.$root.elementAt(
-                            _vm.topSliderProducts[categoryId],
-                            0
-                          )
-                          ? _c("slide", { key: categoryId }, [
-                              _c("div", { staticClass: "left" }, [
-                                _c("div", [_vm._v("Enjoy")]),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "big" }, [
-                                  _vm._v(
-                                    _vm._s(_vm.storeOwner.discount) + "% OFF"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c("div", [
-                                  _vm._v("On all "),
-                                  _c("span", [_vm._v(_vm._s(category.name))])
-                                ])
-                              ]),
-                              _vm._v(" "),
-                              _c(
-                                "div",
-                                { staticClass: "right" },
-                                _vm._l(
-                                  _vm.$root.elementAt(
-                                    _vm.topSliderProducts[categoryId],
-                                    0
-                                  ),
-                                  function(product, index) {
-                                    return _c(
-                                      "a",
-                                      {
-                                        key: index,
                                         attrs: {
-                                          href: "/product-" + product.id
+                                          transition: "translate-fade-down"
+                                        },
+                                        model: {
+                                          value: _vm.show[index],
+                                          callback: function($$v) {
+                                            _vm.$set(_vm.show, index, $$v)
+                                          },
+                                          expression: "show[index]"
                                         }
                                       },
                                       [
                                         _c(
                                           "div",
-                                          { staticClass: "item" },
+                                          {
+                                            staticClass: "item dropdown-toggle"
+                                          },
                                           [
-                                            _c("v-lazy-image", {
-                                              staticClass: "thumbnail",
+                                            _c("img", {
                                               attrs: {
                                                 src:
                                                   _vm.$root.storageUrl +
-                                                  "/creator_images/" +
-                                                  product.image_id +
-                                                  "/previews/" +
-                                                  product.details.product_code +
-                                                  "/banner.png",
-                                                "src-placeholder":
-                                                  _vm.$root.storageUrl +
-                                                  "/creator_images/" +
-                                                  product.image_id +
-                                                  "/previews/" +
-                                                  product.details.product_code +
-                                                  "/banner.png"
+                                                  "/images/nav_icons/" +
+                                                  category.name +
+                                                  ".png"
                                               }
-                                            })
-                                          ],
-                                          1
-                                        )
-                                      ]
-                                    )
-                                  }
-                                ),
-                                0
-                              )
-                            ])
-                          : _vm._e()
-                      }),
-                      1
-                    )
-                  ],
-                  1
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _c("div", { staticClass: "container no-padding" }, [
-              _c("div", { staticClass: "relative" }, [
-                _c(
-                  "div",
-                  { staticClass: "gallery-header" },
-                  [
-                    _c("span", { staticClass: "search" }, [
-                      _c("i", { staticClass: "fas fa-search" }),
-                      _vm._v(" "),
-                      _vm.search != ""
-                        ? _c("i", {
-                            staticClass: "far fa-times-circle",
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                _vm.search = ""
-                              }
-                            }
-                          })
-                        : _vm._e(),
-                      _vm._v(" "),
-                      _c("input", {
-                        directives: [
-                          {
-                            name: "model",
-                            rawName: "v-model",
-                            value: _vm.search,
-                            expression: "search"
-                          }
-                        ],
-                        attrs: {
-                          type: "search",
-                          placeholder: "Search by words or image ID"
-                        },
-                        domProps: { value: _vm.search },
-                        on: {
-                          input: function($event) {
-                            if ($event.target.composing) {
-                              return
-                            }
-                            _vm.search = $event.target.value
-                          }
-                        }
-                      })
-                    ]),
-                    _vm._v(" "),
-                    _c("tags", { attrs: { tags: _vm.tags } })
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "row user-header-info" }, [
-                  _c("div", { staticClass: "col-md-12" }, [
-                    _c("div", {}, [
-                      _c(
-                        "div",
-                        { staticClass: "user-big-thumb" },
-                        [
-                          _vm.storeOwner
-                            ? _c("v-lazy-image", {
-                                attrs: {
-                                  src:
-                                    _vm.$root.storageUrl +
-                                    "/creator_images/" +
-                                    _vm.storeOwner.id +
-                                    ".jpg",
-                                  "src-placeholder":
-                                    _vm.$root.storageUrl +
-                                    "/images/profile_img_placeholder.jpg",
-                                  alt: "Avatar of user"
-                                }
-                              })
-                            : _vm._e()
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "user-big-thumb-right" }, [
-                        _c("b", [
-                          _vm._v(
-                            _vm._s(
-                              _vm.storeOwner.store_name == ""
-                                ? _vm.storeOwner.user.first_name + " Shop"
-                                : _vm.storeOwner.store_name
-                            )
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "social" }, [
-                          _c(
-                            "ul",
-                            {
-                              staticStyle: {
-                                display: "flex",
-                                "margin-top": "-5px"
-                              }
-                            },
-                            [
-                              _vm.storeOwner.behance_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.behance.net/" +
-                                            _vm.storeOwner.behance_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Behance")]),
+                                            }),
                                             _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with sketchtool.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "public-gallery",
-                                                      transform:
-                                                        "translate(-204.000000, -407.000000)",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "Group-5",
-                                                          transform:
-                                                            "translate(80.000000, 339.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id:
-                                                                "Stacked-Group-3",
-                                                              transform:
-                                                                "translate(124.000000, 68.000000)"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
-                                                              {
-                                                                attrs: {
-                                                                  id: "behance"
-                                                                }
-                                                              },
-                                                              [
-                                                                _c("circle", {
-                                                                  attrs: {
-                                                                    id: "Oval",
-                                                                    fill:
-                                                                      "#3B3B3B",
-                                                                    cx:
-                                                                      "11.9146195",
-                                                                    cy:
-                                                                      "11.9146195",
-                                                                    r:
-                                                                      "11.9146195"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M16.1859823,9.84233628 C12.7446372,9.84233628 12.740177,13.2707257 12.740177,13.288354 C12.740177,13.288354 12.5044248,16.7209912 16.1859823,16.7209912 C16.1859823,16.7209912 19.2562832,16.8955752 19.2562832,14.3320354 L17.6797168,14.3320354 C17.6797168,14.3320354 17.7319646,15.2971327 16.2384425,15.2971327 C16.2384425,15.2971327 14.6618761,15.4020531 14.6618761,13.7379823 L19.3087434,13.7379823 C19.3087434,13.7379823 19.8197522,9.84233628 16.1859823,9.84233628 Z M14.6442478,12.5369204 C14.6442478,12.5369204 14.8364602,11.1568142 16.2210265,11.1568142 C17.6098407,11.1568142 17.587985,12.5369204 17.587985,12.5369204 L14.6442478,12.5369204 Z M10.7052743,11.6548673 C10.7052743,11.6548673 12.0722124,11.5544071 12.0722124,9.94725664 C12.0722124,8.34456637 10.9541947,7.55830088 9.53479646,7.55830088 L4.86584071,7.55830088 L4.86584071,16.5330265 L9.53437168,16.5330265 C9.53437168,16.5330265 12.3863363,16.620531 12.3863363,13.8821947 C12.3865487,13.8821947 12.508885,11.6548673 10.7052743,11.6548673 Z M6.92304425,9.15228319 L9.53458407,9.15228319 C9.53458407,9.15228319 10.1679292,9.15228319 10.1679292,10.0867965 C10.1679292,11.0213097 9.79667257,11.1568142 9.37295575,11.1568142 L6.92304425,11.1568142 L6.92304425,9.15228319 Z M9.40375221,14.9390442 L6.92304425,14.9390442 L6.92304425,12.5369187 L9.53458407,12.5369187 C9.53458407,12.5369187 10.4824779,12.5282124 10.4780334,13.7728142 C10.4780334,14.8211681 9.77500885,14.9303363 9.40375221,14.9390442 Z M14.2555752,8.08672566 L14.2555752,9.19178761 L17.9592212,9.19178761 L17.9592212,8.08672566 L14.2555752,8.08672566 Z",
-                                                                    id: "Shape",
-                                                                    fill:
-                                                                      "#F1F2F2"
-                                                                  }
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.facebook_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.facebook.com/" +
-                                            _vm.storeOwner.facebook_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Facebook")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with sketchtool.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "public-gallery",
-                                                      transform:
-                                                        "translate(-236.000000, -407.000000)",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "Group-5",
-                                                          transform:
-                                                            "translate(80.000000, 339.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id:
-                                                                "Stacked-Group-3",
-                                                              transform:
-                                                                "translate(124.000000, 68.000000)"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
-                                                              {
-                                                                attrs: {
-                                                                  id:
-                                                                    "facebook",
-                                                                  transform:
-                                                                    "translate(32.000000, 0.000000)"
-                                                                }
-                                                              },
-                                                              [
-                                                                _c("circle", {
-                                                                  attrs: {
-                                                                    id: "Oval",
-                                                                    fill:
-                                                                      "#3B3B3B",
-                                                                    cx:
-                                                                      "11.9146195",
-                                                                    cy:
-                                                                      "11.9146195",
-                                                                    r:
-                                                                      "11.9146195"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M14.9099469,12.3810265 L12.7839292,12.3810265 L12.7839292,20.1697699 L9.56283186,20.1697699 L9.56283186,12.3810265 L8.03086726,12.3810265 L8.03086726,9.64375221 L9.56283186,9.64375221 L9.56283186,7.87242478 C9.56283186,6.60573451 10.164531,4.62223009 12.8126018,4.62223009 L15.1985841,4.63221239 L15.1985841,7.28920354 L13.4673982,7.28920354 C13.1834336,7.28920354 12.7841416,7.43107965 12.7841416,8.03532743 L12.7841416,9.64630088 L15.1913628,9.64630088 L14.9099469,12.3810265 Z",
-                                                                    id: "Path",
-                                                                    fill:
-                                                                      "#FFFFFF"
-                                                                  }
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.pinterest_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.pinterest.com/" +
-                                            _vm.storeOwner.pinterest_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Pinterest")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with sketchtool.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "public-gallery",
-                                                      transform:
-                                                        "translate(-268.000000, -407.000000)",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "Group-5",
-                                                          transform:
-                                                            "translate(80.000000, 339.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id:
-                                                                "Stacked-Group-3",
-                                                              transform:
-                                                                "translate(124.000000, 68.000000)"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
-                                                              {
-                                                                attrs: {
-                                                                  id:
-                                                                    "pinterest",
-                                                                  transform:
-                                                                    "translate(64.000000, 0.000000)"
-                                                                }
-                                                              },
-                                                              [
-                                                                _c("circle", {
-                                                                  attrs: {
-                                                                    id: "Oval",
-                                                                    fill:
-                                                                      "#3B3B3B",
-                                                                    cx:
-                                                                      "11.9148319",
-                                                                    cy:
-                                                                      "11.9150442",
-                                                                    r:
-                                                                      "11.9146195"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M12.876531,15.955115 C11.9757876,15.8854513 11.5973097,15.4387965 10.8909027,15.0099823 C10.5026549,17.0470088 10.028177,18.9997168 8.62279646,20.019823 C8.18846018,16.9410265 9.25953982,14.628531 9.75695575,12.1739469 C8.90909735,10.7466903 9.85890265,7.8739115 11.6472212,8.58180531 C13.8482124,9.45217699 9.74166372,13.8887788 12.4984779,14.4429027 C15.3765664,15.0214513 16.5515044,9.44899115 14.7665841,7.63646018 C12.1877522,5.01961062 7.26010619,7.57699115 7.8660531,11.323115 C8.01366372,12.2389381 8.9600708,12.5169558 8.24410619,13.7806726 C6.59362832,13.4151504 6.10130973,12.1134159 6.16460177,10.3779823 C6.26676106,7.53727434 8.71709735,5.54824779 11.1748673,5.27299115 C14.2831858,4.92509735 17.2005664,6.41437168 17.6032566,9.33812389 C18.0562832,12.6380177 16.2,16.2116814 12.876531,15.955115 L12.876531,15.955115 Z",
-                                                                    id: "Path",
-                                                                    fill:
-                                                                      "#F1F2F2"
-                                                                  }
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.flickr_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.flickr.com/photos/" +
-                                            _vm.storeOwner.flickr_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Flickr")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with sketchtool.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "public-gallery",
-                                                      transform:
-                                                        "translate(-300.000000, -407.000000)",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "Group-5",
-                                                          transform:
-                                                            "translate(80.000000, 339.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id:
-                                                                "Stacked-Group-3",
-                                                              transform:
-                                                                "translate(124.000000, 68.000000)"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
-                                                              {
-                                                                attrs: {
-                                                                  id: "flickr",
-                                                                  transform:
-                                                                    "translate(96.000000, 0.000000)"
-                                                                }
-                                                              },
-                                                              [
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M11.9152566,23.8283894 C18.4942301,23.8283894 23.8292389,18.4942301 23.8292389,11.9141947 C23.8292389,5.33479646 18.4942301,0.000637168142 11.9152566,0.000637168142 C5.33437168,0.000637168142 0,5.33500885 0,11.9141947 C0,18.4942301 5.33437168,23.8283894 11.9152566,23.8283894",
-                                                                    id: "Path",
-                                                                    fill:
-                                                                      "#3B3B3B"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c(
-                                                                  "g",
-                                                                  {
-                                                                    attrs: {
-                                                                      id:
-                                                                        "Group",
-                                                                      transform:
-                                                                        "translate(5.734513, 9.132743)",
-                                                                      fill:
-                                                                        "#F1F2F2"
-                                                                    }
-                                                                  },
-                                                                  [
-                                                                    _c("path", {
-                                                                      attrs: {
-                                                                        d:
-                                                                          "M12.1584425,2.78145133 C12.1584425,4.23610619 10.9803186,5.41529204 9.52566372,5.41529204 C8.06888496,5.41529204 6.89076106,4.23589381 6.89076106,2.78145133 C6.89076106,1.32722124 8.06888496,0.147823009 9.52566372,0.147823009 C10.9803186,0.147823009 12.1584425,1.32743363 12.1584425,2.78145133 Z",
-                                                                        id:
-                                                                          "Path"
-                                                                      }
-                                                                    }),
-                                                                    _vm._v(" "),
-                                                                    _c("path", {
-                                                                      attrs: {
-                                                                        d:
-                                                                          "M5.46881416,2.78145133 C5.46881416,4.23610619 4.29069027,5.41529204 2.8339115,5.41529204 C1.37968142,5.41529204 0.201557522,4.23589381 0.201557522,2.78145133 C0.201557522,1.32722124 1.37968142,0.147823009 2.8339115,0.147823009 C4.29069027,0.147823009 5.46881416,1.32743363 5.46881416,2.78145133 Z",
-                                                                        id:
-                                                                          "Path"
-                                                                      }
-                                                                    })
-                                                                  ]
-                                                                )
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.instagram_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.instagram.com/" +
-                                            _vm.storeOwner.instagram_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Instagram")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with sketchtool.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "public-gallery",
-                                                      transform:
-                                                        "translate(-332.000000, -407.000000)",
-                                                      fill: "#3B3B3B",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "Group-5",
-                                                          transform:
-                                                            "translate(80.000000, 339.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id:
-                                                                "Stacked-Group-3",
-                                                              transform:
-                                                                "translate(124.000000, 68.000000)"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
-                                                              {
-                                                                attrs: {
-                                                                  id:
-                                                                    "instagram",
-                                                                  transform:
-                                                                    "translate(128.000000, 0.000000)"
-                                                                }
-                                                              },
-                                                              [
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M15.5346667,6.368 L8.4008,6.368 C7.26213333,6.368 6.33573333,7.2944 6.33573333,8.43306667 L6.33573333,15.5669333 C6.33573333,16.7056 7.26213333,17.6322667 8.4008,17.6322667 L15.5346667,17.6322667 C16.6733333,17.6322667 17.6,16.7058667 17.6,15.5669333 L17.6,8.43306667 C17.6,7.2944 16.6736,6.368 15.5346667,6.368 Z M11.9677333,15.7082667 C9.9232,15.7082667 8.25973333,14.0448 8.25973333,12 C8.25973333,9.95546667 9.9232,8.292 11.9677333,8.292 C14.0125333,8.292 15.676,9.95546667 15.676,12 C15.676,14.0445333 14.0122667,15.7082667 11.9677333,15.7082667 Z M15.7952,9.05866667 C15.3112,9.05866667 14.9176,8.66506667 14.9176,8.18133333 C14.9176,7.6976 15.3112,7.304 15.7952,7.304 C16.2789333,7.304 16.6725333,7.6976 16.6725333,8.18133333 C16.6725333,8.66506667 16.2789333,9.05866667 15.7952,9.05866667 Z",
-                                                                    id: "Shape"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M11.9677333,9.85893333 C10.7874667,9.85893333 9.8264,10.8194667 9.8264,11.9997333 C9.8264,13.1805333 10.7874667,14.1413333 11.9677333,14.1413333 C13.1485333,14.1413333 14.1088,13.1805333 14.1088,11.9997333 C14.1088,10.8197333 13.1482667,9.85893333 11.9677333,9.85893333 Z",
-                                                                    id: "Path"
-                                                                  }
-                                                                }),
-                                                                _vm._v(" "),
-                                                                _c("path", {
-                                                                  attrs: {
-                                                                    d:
-                                                                      "M11.9677333,0 C5.3584,0 0,5.3584 0,11.9677333 C0,18.5770667 5.3584,23.9354667 11.9677333,23.9354667 C18.5770667,23.9354667 23.9354667,18.5770667 23.9354667,11.9677333 C23.9354667,5.3584 18.5770667,0 11.9677333,0 Z M19.1666667,15.5669333 C19.1666667,17.5698667 17.5376,19.1989333 15.5346667,19.1989333 L8.4008,19.1989333 C6.39813333,19.1989333 4.7688,17.5698667 4.7688,15.5669333 L4.7688,8.43306667 C4.7688,6.4304 6.39813333,4.80106667 8.4008,4.80106667 L15.5346667,4.80106667 C17.5376,4.80106667 19.1666667,6.4304 19.1666667,8.43306667 L19.1666667,15.5669333 Z",
-                                                                    id: "Shape"
-                                                                  }
-                                                                })
-                                                              ]
-                                                            )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.reddit_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.reddit.com/user/" +
-                                            _vm.storeOwner.reddit_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "25px",
-                                              viewBox: "0 0 24 25",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
-                                          },
-                                          [
-                                            _c("title", [_vm._v("Reddit")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with Sketch.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "reddit",
-                                                      transform:
-                                                        "translate(0.000000, 0.000000)",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M14.5888244,16.7134289 C14.034619,17.1744577 12.8471169,17.3390212 12.0008966,17.3390212 C11.1522224,17.3390212 9.9671743,17.1744577 9.41296892,16.7134289 C9.28177928,16.6042956 9.07149838,16.6042956 8.94049749,16.7134289 C8.80930785,16.8225621 8.80930785,16.9974892 8.94049749,17.1064654 C9.8188073,17.8371082 11.5061513,17.8947368 12.0008966,17.8947368 C12.4956419,17.8947368 14.180532,17.8371082 15.0614845,17.1064654 C15.1900315,16.9973322 15.1900315,16.822405 15.0614845,16.7134289 C14.9302949,16.6042956 14.7200139,16.6042956 14.5888244,16.7134289 L14.5888244,16.7134289 Z",
-                                                        id: "Path",
-                                                        fill: "#000000"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M10.5263158,13.6842105 C10.5263158,12.9883546 9.95901379,12.4210526 9.26315789,12.4210526 C8.56748691,12.4210526 8,12.9883546 8,13.6842105 C8,14.3798815 8.56748691,14.9473684 9.26315789,14.9473684 C9.95901379,14.9473684 10.5263158,14.3800665 10.5263158,13.6842105 L10.5263158,13.6842105 Z",
-                                                        id: "Path",
-                                                        fill: "#000000"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M12,0.210526316 C5.3735962,0.210526316 0,5.58412252 0,12.2105263 C0,18.8369301 5.3735962,24.2105263 12,24.2105263 C18.6264038,24.2105263 24,18.8369301 24,12.2105263 C24,5.58412252 18.6264038,0.210526316 12,0.210526316 Z M18.9624023,13.8112343 C18.9887695,13.9840859 19.0032349,14.1593178 19.0032349,14.3369301 C19.0032349,17.0296792 15.8688354,19.2113808 12.0023804,19.2113808 C8.13592528,19.2113808 5.00152589,17.0296792 5.00152589,14.3369301 C5.00152589,14.1569375 5.01599119,13.9793251 5.04235838,13.8064736 C4.43280028,13.532914 4.00799559,12.9209755 4.00799559,12.2105263 C4.00799559,11.2457436 4.79040525,10.4609536 5.75756836,10.4609536 C6.2279663,10.4609536 6.65277098,10.645707 6.96716306,10.9481972 C8.18151853,10.0722206 9.86169431,9.51283346 11.7312012,9.4648598 C11.7312012,9.44087297 12.6047974,5.27925188 12.6047974,5.27925188 C12.6216431,5.19776996 12.6696167,5.12800678 12.7391968,5.08259663 C12.8087768,5.03700338 12.8928223,5.02253803 12.9744873,5.03938374 L15.8833008,5.65846332 C16.0872802,5.24574361 16.5071411,4.96009908 16.9991455,4.96009908 C17.6903686,4.96009908 18.2495728,5.51930316 18.2495728,6.21052632 C18.2495728,6.90174947 17.6903686,7.46095355 16.9991455,7.46095355 C16.3295288,7.46095355 15.7871704,6.93287738 15.7560425,6.27058491 L13.1519165,5.71614155 L12.3552246,9.4674233 C14.1912232,9.53205952 15.8400879,10.0888832 17.0352173,10.952958 C17.3496094,10.6482705 17.7767944,10.4609536 18.2495728,10.4609536 C19.216919,10.4609536 19.9991455,11.2433633 19.9991455,12.2105263 C19.9991455,12.9257363 19.5695801,13.5376748 18.9624023,13.8112343 L18.9624023,13.8112343 Z",
-                                                        id: "Shape",
-                                                        fill: "#3B3B3B"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M14.7368421,12.4210526 C14.0409862,12.4210526 13.4736842,12.9883546 13.4736842,13.6842105 C13.4736842,14.3798815 14.0409862,14.9473684 14.7368421,14.9473684 C15.4325131,14.9473684 16,14.3798815 16,13.6842105 C16,12.9883546 15.432698,12.4210526 14.7368421,12.4210526 L14.7368421,12.4210526 Z",
-                                                        id: "Path",
-                                                        fill: "#000000"
-                                                      }
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.youtube_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.youtuebe.com/channel/" +
-                                            _vm.storeOwner.youtube_username
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "svg",
-                                          {
-                                            staticStyle: {
-                                              width: "24px",
-                                              height: "24px"
-                                            },
-                                            attrs: {
-                                              version: "1.1",
-                                              id: "YouTube",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink",
-                                              x: "0px",
-                                              y: "0px",
-                                              viewBox: "0 0 128 128",
-                                              "enable-background":
-                                                "new 0 0 128 128",
-                                              "xml:space": "preserve"
-                                            }
-                                          },
-                                          [
-                                            _c("g", [
-                                              _c("circle", {
-                                                attrs: {
-                                                  id: "youtube-back",
-                                                  fill: "#3B3B3B",
-                                                  cx: "64",
-                                                  cy: "64",
-                                                  r: "64"
-                                                }
-                                              }),
-                                              _vm._v(" "),
-                                              _c("path", {
-                                                attrs: {
-                                                  id: "youtube-youtube",
-                                                  fill: "#FFFFFF",
-                                                  d:
-                                                    "M99.8398,78.3359c0,5.6309-4.6084,10.2403-10.2402,10.2403H38.3994\n                          c-5.6318,0-10.2392-4.6094-10.2392-10.2403V49.6641c0-5.6328,4.6074-10.2403,10.2392-10.2403h51.2002\n                          c5.6318,0,10.2402,4.6075,10.2402,10.2403V78.3359z M56.5967,72.793l19.3681-10.0352L56.5967,52.6523V72.793z"
-                                                }
-                                              })
+                                            _c("div", [
+                                              _vm._v(_vm._s(category.name))
                                             ])
                                           ]
+                                        ),
+                                        _vm._v(" "),
+                                        _c(
+                                          "div",
+                                          {
+                                            attrs: { slot: "dropdown" },
+                                            slot: "dropdown"
+                                          },
+                                          _vm._l(
+                                            _vm.topSliderProducts[category.id],
+                                            function(productsArr, productCode) {
+                                              return _c(
+                                                "a",
+                                                {
+                                                  key: productCode,
+                                                  staticClass: "dropdown-item",
+                                                  attrs: { href: "" }
+                                                },
+                                                [
+                                                  _vm._v(
+                                                    _vm._s(
+                                                      productsArr[0].details
+                                                        .title
+                                                    )
+                                                  )
+                                                ]
+                                              )
+                                            }
+                                          ),
+                                          0
                                         )
                                       ]
                                     )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.tumblr_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
+                                  : _c(
+                                      "dropdown-menu",
                                       {
                                         attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.tumblr.com/blog/" +
-                                            _vm.storeOwner.tumblr_username
+                                          transition: "translate-fade-down"
+                                        },
+                                        model: {
+                                          value: _vm.show[index],
+                                          callback: function($$v) {
+                                            _vm.$set(_vm.show, index, $$v)
+                                          },
+                                          expression: "show[index]"
                                         }
                                       },
                                       [
                                         _c(
-                                          "svg",
+                                          "div",
                                           {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
+                                            staticClass: "item dropdown-toggle"
                                           },
                                           [
-                                            _c("title", [_vm._v("Tumblr")]),
+                                            _c("img", {
+                                              attrs: {
+                                                src:
+                                                  _vm.$root.storageUrl +
+                                                  "/images/nav_icons/" +
+                                                  category[0].dady.name +
+                                                  ".png"
+                                              }
+                                            }),
                                             _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with Sketch.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "tumblr",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("circle", {
-                                                      attrs: {
-                                                        id: "Oval",
-                                                        fill: "#3B3B3B",
-                                                        cx: "12",
-                                                        cy: "12",
-                                                        r: "12"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M12.5477269,8.15238315 L12.5477269,5 L10.4436059,5 C10.3962226,5.11508103 10.3728555,5.25547988 10.3728555,5.39566949 C10.3507865,5.46409039 10.3248231,5.51367985 10.3248231,5.58189151 C10.1091101,6.7509055 9.48122741,7.56630687 8.41780787,8.01177506 C8.10213562,8.15259239 7.81242682,8.17393469 7.5,8.15259239 L7.5,10.6939999 L9.0461233,10.6939999 C9.0712213,14.2702997 9.0712213,16.1138977 9.0712213,16.2076365 L9.0712213,16.4195948 C9.26529807,17.9798843 10.1088938,18.9149699 11.6063356,19.2664901 C12.2089039,19.428022 12.8599374,19.5 13.5133508,19.5 C14.3571629,19.4748914 15.1784732,19.334911 16,19.0800589 L16,16.0892076 C15.5201089,16.2293972 15.0824085,16.3474076 14.6962022,16.4629071 C13.9484549,16.6742377 13.3205722,16.5342573 12.8110396,16.0672376 C12.7630072,15.9958874 12.6918241,15.9019394 12.6667261,15.8084099 C12.5955429,15.4351289 12.5503233,15.0388317 12.5503233,14.66576 L12.5503233,10.6937907 L15.9032862,10.6937907 L15.9032862,8.15238315 L12.5477269,8.15238315 Z",
-                                                        id: "Path",
-                                                        fill: "#F1F2F2"
-                                                      }
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            )
+                                            _c("div", [
+                                              _vm._v(
+                                                _vm._s(category[0].dady.name)
+                                              )
+                                            ])
                                           ]
-                                        )
-                                      ]
-                                    )
-                                  ])
-                                : _vm._e(),
-                              _vm._v(" "),
-                              _vm.storeOwner.twitter_username != ""
-                                ? _c("li", [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: {
-                                          target: "_blank",
-                                          href:
-                                            "https://www.twitter.com/" +
-                                            _vm.storeOwner.twitter_username
-                                        }
-                                      },
-                                      [
+                                        ),
+                                        _vm._v(" "),
                                         _c(
-                                          "svg",
+                                          "div",
                                           {
-                                            attrs: {
-                                              width: "24px",
-                                              height: "24px",
-                                              viewBox: "0 0 24 24",
-                                              version: "1.1",
-                                              xmlns:
-                                                "http://www.w3.org/2000/svg",
-                                              "xmlns:xlink":
-                                                "http://www.w3.org/1999/xlink"
-                                            }
+                                            attrs: { slot: "dropdown" },
+                                            slot: "dropdown"
                                           },
-                                          [
-                                            _c("title", [_vm._v("Twitter")]),
-                                            _vm._v(" "),
-                                            _c("desc", [
-                                              _vm._v("Created with Sketch.")
-                                            ]),
-                                            _vm._v(" "),
-                                            _c(
-                                              "g",
+                                          _vm._l(category, function(
+                                            categoryChild,
+                                            j
+                                          ) {
+                                            return _c(
+                                              "a",
                                               {
-                                                attrs: {
-                                                  id: "Page-3",
-                                                  stroke: "none",
-                                                  "stroke-width": "1",
-                                                  fill: "none",
-                                                  "fill-rule": "evenodd"
-                                                }
+                                                key: categoryChild.id,
+                                                staticClass: "dropdown-item",
+                                                attrs: { href: "" }
                                               },
                                               [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "twitter",
-                                                      "fill-rule": "nonzero"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("circle", {
-                                                      attrs: {
-                                                        id: "Oval",
-                                                        fill: "#3B3B3B",
-                                                        cx: "12",
-                                                        cy: "12",
-                                                        r: "12"
-                                                      }
-                                                    }),
-                                                    _vm._v(" "),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M19.5,8.36142333 C18.9850516,8.59222442 18.4311178,8.7483291 17.8501943,8.81804575 C18.4433275,8.45885343 18.8985128,7.89051116 19.1133603,7.21218112 C18.5583555,7.54495905 17.9433734,7.7863692 17.289406,7.91649252 C16.765461,7.35248047 16.0189571,7 15.1923406,7 C13.606368,7 12.3200679,8.30015062 12.3200679,9.9032006 C12.3200679,10.130754 12.3455583,10.3522451 12.3948254,10.5648593 C10.0077267,10.4438294 7.89116864,9.28809188 6.47441782,7.53110233 C6.22722544,7.95979478 6.08542183,8.45885343 6.08542183,8.9908218 C6.08542183,9.99781606 6.5928731,10.8868116 7.36315371,11.4073049 C6.89254567,11.3923656 6.44935586,11.2618093 6.06228771,11.0437824 C6.0620735,11.0561235 6.0620735,11.0684647 6.0620735,11.0805893 C6.0620735,12.4872635 7.05255669,13.6605385 8.36627498,13.9270639 C8.12550874,13.9937494 7.87124759,14.0290408 7.60970348,14.0290408 C7.42420209,14.0290408 7.24448423,14.0110703 7.06926467,13.9772945 C7.43469812,15.130434 8.49522629,15.9698484 9.7523945,15.9934482 C8.76919428,16.7722395 7.5308761,17.2362233 6.18481288,17.2362233 C5.95347165,17.2362233 5.72427247,17.2225831 5.5,17.1955192 C6.77044891,18.0195613 8.28059304,18.5 9.9025521,18.5 C15.1857003,18.5 18.0748952,14.0762402 18.0748952,10.2394427 C18.0748952,10.1136496 18.0721105,9.98828956 18.0665412,9.86401205 C18.6281863,9.45480561 19.1150739,8.94362233 19.5,8.36142333 L19.5,8.36142333 Z",
-                                                        id: "Path",
-                                                        fill: "#F1F2F2"
-                                                      }
-                                                    })
-                                                  ]
+                                                _vm._v(
+                                                  _vm._s(categoryChild.name)
                                                 )
                                               ]
                                             )
-                                          ]
+                                          }),
+                                          0
                                         )
                                       ]
                                     )
-                                  ])
-                                : _vm._e()
-                            ]
-                          )
-                        ]),
-                        _vm._v(" "),
-                        _c(
+                              ],
+                              1
+                            )
+                          : _vm._e()
+                      })
+                    ],
+                    2
+                  ),
+                  _vm._v(" "),
+                  _c("share-modal", {
+                    ref: "shareModal",
+                    attrs: {
+                      url: _vm.$root.currentUrl + "@" + _vm.storeOwner.username,
+                      title: "View on Artigram",
+                      description:
+                        "View my gallery page on Artigram and buy the content you like on merchandise",
+                      quote: "",
+                      hashtags: "",
+                      "twitter-user": "Artigramme"
+                    }
+                  }),
+                  _vm._v(" "),
+                  _c("shop-modal", {
+                    ref: "shopModal",
+                    attrs: { creator: _vm.storeOwner }
+                  }),
+                  _vm._v(" "),
+                  _c("div", [
+                    !_vm.filter
+                      ? _c(
                           "div",
-                          { ref: "textToCopy", staticClass: "txt-to-cpy" },
+                          { staticClass: "banner" },
                           [
-                            _vm._v(
-                              _vm._s(
-                                _vm.$root.currentUrl +
-                                  "@" +
-                                  _vm.storeOwner.username
-                              )
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "cpy-msg" }, [
-                          _vm._m(0),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "msg" }, [
-                            _vm._v(
-                              _vm._s(
-                                _vm.$root.currentUrl +
-                                  "@" +
-                                  _vm.storeOwner.username
-                              )
-                            )
-                          ])
-                        ])
-                      ])
-                    ]),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "bio" }, [
-                      _vm._v(
-                        "\n              " +
-                          _vm._s(
-                            _vm.storeOwner.bio == ""
-                              ? "Thanks for visiting our gallery page. Here you can find and buy content we published on tangible products. Appreciate your support!"
-                              : _vm.storeOwner.bio
-                          ) +
-                          "\n              "
-                      )
-                    ]),
-                    _vm._v(" "),
-                    _vm.storeOwner.site != "" && _vm.$root.isMobile
-                      ? _c("span", [
-                          _c(
-                            "a",
-                            {
-                              staticStyle: {
-                                color: "#B200FF",
-                                "margin-right": "15px"
+                            _c(
+                              "hooper",
+                              {
+                                staticStyle: { height: "200px" },
+                                attrs: {
+                                  autoPlay: true,
+                                  playSpeed: 3000,
+                                  wheelControl: false,
+                                  itemsToShow: 1,
+                                  centerMode: true,
+                                  infiniteScroll: true
+                                }
                               },
-                              attrs: { href: _vm.storeOwner.site }
-                            },
-                            [
-                              _vm._v(
-                                _vm._s(
-                                  _vm.$root.trimString(_vm.storeOwner.site, 25)
-                                )
-                              )
-                            ]
-                          )
-                        ])
+                              _vm._l(_vm.categories, function(
+                                category,
+                                categoryId
+                              ) {
+                                return !Array.isArray(category) &&
+                                  _vm.$root.elementAt(
+                                    _vm.topSliderProducts[categoryId],
+                                    0
+                                  )
+                                  ? _c("slide", { key: categoryId }, [
+                                      _c("div", { staticClass: "left" }, [
+                                        _c("div", [_vm._v("Enjoy")]),
+                                        _vm._v(" "),
+                                        _c("div", { staticClass: "big" }, [
+                                          _vm._v(
+                                            _vm._s(_vm.storeOwner.discount) +
+                                              "% OFF"
+                                          )
+                                        ]),
+                                        _vm._v(" "),
+                                        _c("div", [
+                                          _vm._v("On all "),
+                                          _c("span", [
+                                            _vm._v(_vm._s(category.name))
+                                          ])
+                                        ])
+                                      ]),
+                                      _vm._v(" "),
+                                      _c(
+                                        "div",
+                                        { staticClass: "right" },
+                                        _vm._l(
+                                          _vm.$root.elementAt(
+                                            _vm.topSliderProducts[categoryId],
+                                            0
+                                          ),
+                                          function(product, index) {
+                                            return _c(
+                                              "a",
+                                              {
+                                                key: index,
+                                                attrs: {
+                                                  href: "/product-" + product.id
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  { staticClass: "item" },
+                                                  [
+                                                    _c("v-lazy-image", {
+                                                      staticClass: "thumbnail",
+                                                      attrs: {
+                                                        src:
+                                                          _vm.$root.storageUrl +
+                                                          "/creator_images/" +
+                                                          product.image_id +
+                                                          "/previews/" +
+                                                          product.details
+                                                            .product_code +
+                                                          "/banner.png",
+                                                        "src-placeholder":
+                                                          _vm.$root.storageUrl +
+                                                          "/creator_images/" +
+                                                          product.image_id +
+                                                          "/previews/" +
+                                                          product.details
+                                                            .product_code +
+                                                          "/banner.png"
+                                                      }
+                                                    })
+                                                  ],
+                                                  1
+                                                )
+                                              ]
+                                            )
+                                          }
+                                        ),
+                                        0
+                                      )
+                                    ])
+                                  : _vm._e()
+                              }),
+                              1
+                            )
+                          ],
+                          1
+                        )
                       : _vm._e(),
                     _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass: "share",
-                        staticStyle: { display: "inline-block !important" },
-                        on: {
-                          click: function($event) {
-                            $event.preventDefault()
-                            return _vm.$modal.show("ShareModal")
-                          }
-                        }
-                      },
-                      [
+                    _c("div", { staticClass: "container no-padding" }, [
+                      _c("div", { staticClass: "relative" }, [
                         _c(
-                          "svg",
-                          {
-                            attrs: {
-                              xmlns: "http://www.w3.org/2000/svg",
-                              "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                              width: "17px",
-                              height: "19px",
-                              viewBox: "0 0 17 19",
-                              version: "1.1"
-                            }
-                          },
+                          "div",
+                          { staticClass: "gallery-header" },
                           [
-                            _c("title", [_vm._v("Share")]),
+                            _c("span", { staticClass: "search" }, [
+                              _c("i", { staticClass: "fas fa-search" }),
+                              _vm._v(" "),
+                              _vm.search != ""
+                                ? _c("i", {
+                                    staticClass: "far fa-times-circle",
+                                    on: {
+                                      click: function($event) {
+                                        $event.preventDefault()
+                                        _vm.search = ""
+                                      }
+                                    }
+                                  })
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _c("input", {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.search,
+                                    expression: "search"
+                                  }
+                                ],
+                                attrs: {
+                                  type: "search",
+                                  placeholder: "Search by words or image ID"
+                                },
+                                domProps: { value: _vm.search },
+                                on: {
+                                  input: function($event) {
+                                    if ($event.target.composing) {
+                                      return
+                                    }
+                                    _vm.search = $event.target.value
+                                  }
+                                }
+                              })
+                            ]),
                             _vm._v(" "),
-                            _c("desc", [_vm._v("Created with sketchtool.")]),
+                            _c("tags", { attrs: { tags: _vm.tags } })
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "row user-header-info" }, [
+                          _c("div", { staticClass: "col-md-12" }, [
+                            _c("div", {}, [
+                              _c(
+                                "div",
+                                { staticClass: "user-big-thumb" },
+                                [
+                                  _vm.storeOwner
+                                    ? _c("v-lazy-image", {
+                                        attrs: {
+                                          src:
+                                            _vm.$root.storageUrl +
+                                            "/creator_images/" +
+                                            _vm.storeOwner.id +
+                                            ".jpg",
+                                          "src-placeholder":
+                                            _vm.$root.storageUrl +
+                                            "/images/profile_img_placeholder.jpg",
+                                          alt: "Avatar of user"
+                                        }
+                                      })
+                                    : _vm._e()
+                                ],
+                                1
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                { staticClass: "user-big-thumb-right" },
+                                [
+                                  _c("b", [
+                                    _vm._v(
+                                      _vm._s(
+                                        _vm.storeOwner.store_name == ""
+                                          ? _vm.storeOwner.user.first_name +
+                                              " Shop"
+                                          : _vm.storeOwner.store_name
+                                      )
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "social" }, [
+                                    _c(
+                                      "ul",
+                                      {
+                                        staticStyle: {
+                                          display: "flex",
+                                          "margin-top": "-5px"
+                                        }
+                                      },
+                                      [
+                                        _vm.storeOwner.behance_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.behance.net/" +
+                                                      _vm.storeOwner
+                                                        .behance_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Behance")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with sketchtool."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id:
+                                                                  "public-gallery",
+                                                                transform:
+                                                                  "translate(-204.000000, -407.000000)",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c(
+                                                                "g",
+                                                                {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Group-5",
+                                                                    transform:
+                                                                      "translate(80.000000, 339.000000)"
+                                                                  }
+                                                                },
+                                                                [
+                                                                  _c(
+                                                                    "g",
+                                                                    {
+                                                                      attrs: {
+                                                                        id:
+                                                                          "Stacked-Group-3",
+                                                                        transform:
+                                                                          "translate(124.000000, 68.000000)"
+                                                                      }
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "g",
+                                                                        {
+                                                                          attrs: {
+                                                                            id:
+                                                                              "behance"
+                                                                          }
+                                                                        },
+                                                                        [
+                                                                          _c(
+                                                                            "circle",
+                                                                            {
+                                                                              attrs: {
+                                                                                id:
+                                                                                  "Oval",
+                                                                                fill:
+                                                                                  "#3B3B3B",
+                                                                                cx:
+                                                                                  "11.9146195",
+                                                                                cy:
+                                                                                  "11.9146195",
+                                                                                r:
+                                                                                  "11.9146195"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M16.1859823,9.84233628 C12.7446372,9.84233628 12.740177,13.2707257 12.740177,13.288354 C12.740177,13.288354 12.5044248,16.7209912 16.1859823,16.7209912 C16.1859823,16.7209912 19.2562832,16.8955752 19.2562832,14.3320354 L17.6797168,14.3320354 C17.6797168,14.3320354 17.7319646,15.2971327 16.2384425,15.2971327 C16.2384425,15.2971327 14.6618761,15.4020531 14.6618761,13.7379823 L19.3087434,13.7379823 C19.3087434,13.7379823 19.8197522,9.84233628 16.1859823,9.84233628 Z M14.6442478,12.5369204 C14.6442478,12.5369204 14.8364602,11.1568142 16.2210265,11.1568142 C17.6098407,11.1568142 17.587985,12.5369204 17.587985,12.5369204 L14.6442478,12.5369204 Z M10.7052743,11.6548673 C10.7052743,11.6548673 12.0722124,11.5544071 12.0722124,9.94725664 C12.0722124,8.34456637 10.9541947,7.55830088 9.53479646,7.55830088 L4.86584071,7.55830088 L4.86584071,16.5330265 L9.53437168,16.5330265 C9.53437168,16.5330265 12.3863363,16.620531 12.3863363,13.8821947 C12.3865487,13.8821947 12.508885,11.6548673 10.7052743,11.6548673 Z M6.92304425,9.15228319 L9.53458407,9.15228319 C9.53458407,9.15228319 10.1679292,9.15228319 10.1679292,10.0867965 C10.1679292,11.0213097 9.79667257,11.1568142 9.37295575,11.1568142 L6.92304425,11.1568142 L6.92304425,9.15228319 Z M9.40375221,14.9390442 L6.92304425,14.9390442 L6.92304425,12.5369187 L9.53458407,12.5369187 C9.53458407,12.5369187 10.4824779,12.5282124 10.4780334,13.7728142 C10.4780334,14.8211681 9.77500885,14.9303363 9.40375221,14.9390442 Z M14.2555752,8.08672566 L14.2555752,9.19178761 L17.9592212,9.19178761 L17.9592212,8.08672566 L14.2555752,8.08672566 Z",
+                                                                                id:
+                                                                                  "Shape",
+                                                                                fill:
+                                                                                  "#F1F2F2"
+                                                                              }
+                                                                            }
+                                                                          )
+                                                                        ]
+                                                                      )
+                                                                    ]
+                                                                  )
+                                                                ]
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.facebook_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.facebook.com/" +
+                                                      _vm.storeOwner
+                                                        .facebook_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Facebook")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with sketchtool."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id:
+                                                                  "public-gallery",
+                                                                transform:
+                                                                  "translate(-236.000000, -407.000000)",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c(
+                                                                "g",
+                                                                {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Group-5",
+                                                                    transform:
+                                                                      "translate(80.000000, 339.000000)"
+                                                                  }
+                                                                },
+                                                                [
+                                                                  _c(
+                                                                    "g",
+                                                                    {
+                                                                      attrs: {
+                                                                        id:
+                                                                          "Stacked-Group-3",
+                                                                        transform:
+                                                                          "translate(124.000000, 68.000000)"
+                                                                      }
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "g",
+                                                                        {
+                                                                          attrs: {
+                                                                            id:
+                                                                              "facebook",
+                                                                            transform:
+                                                                              "translate(32.000000, 0.000000)"
+                                                                          }
+                                                                        },
+                                                                        [
+                                                                          _c(
+                                                                            "circle",
+                                                                            {
+                                                                              attrs: {
+                                                                                id:
+                                                                                  "Oval",
+                                                                                fill:
+                                                                                  "#3B3B3B",
+                                                                                cx:
+                                                                                  "11.9146195",
+                                                                                cy:
+                                                                                  "11.9146195",
+                                                                                r:
+                                                                                  "11.9146195"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M14.9099469,12.3810265 L12.7839292,12.3810265 L12.7839292,20.1697699 L9.56283186,20.1697699 L9.56283186,12.3810265 L8.03086726,12.3810265 L8.03086726,9.64375221 L9.56283186,9.64375221 L9.56283186,7.87242478 C9.56283186,6.60573451 10.164531,4.62223009 12.8126018,4.62223009 L15.1985841,4.63221239 L15.1985841,7.28920354 L13.4673982,7.28920354 C13.1834336,7.28920354 12.7841416,7.43107965 12.7841416,8.03532743 L12.7841416,9.64630088 L15.1913628,9.64630088 L14.9099469,12.3810265 Z",
+                                                                                id:
+                                                                                  "Path",
+                                                                                fill:
+                                                                                  "#FFFFFF"
+                                                                              }
+                                                                            }
+                                                                          )
+                                                                        ]
+                                                                      )
+                                                                    ]
+                                                                  )
+                                                                ]
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.pinterest_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.pinterest.com/" +
+                                                      _vm.storeOwner
+                                                        .pinterest_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Pinterest")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with sketchtool."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id:
+                                                                  "public-gallery",
+                                                                transform:
+                                                                  "translate(-268.000000, -407.000000)",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c(
+                                                                "g",
+                                                                {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Group-5",
+                                                                    transform:
+                                                                      "translate(80.000000, 339.000000)"
+                                                                  }
+                                                                },
+                                                                [
+                                                                  _c(
+                                                                    "g",
+                                                                    {
+                                                                      attrs: {
+                                                                        id:
+                                                                          "Stacked-Group-3",
+                                                                        transform:
+                                                                          "translate(124.000000, 68.000000)"
+                                                                      }
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "g",
+                                                                        {
+                                                                          attrs: {
+                                                                            id:
+                                                                              "pinterest",
+                                                                            transform:
+                                                                              "translate(64.000000, 0.000000)"
+                                                                          }
+                                                                        },
+                                                                        [
+                                                                          _c(
+                                                                            "circle",
+                                                                            {
+                                                                              attrs: {
+                                                                                id:
+                                                                                  "Oval",
+                                                                                fill:
+                                                                                  "#3B3B3B",
+                                                                                cx:
+                                                                                  "11.9148319",
+                                                                                cy:
+                                                                                  "11.9150442",
+                                                                                r:
+                                                                                  "11.9146195"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M12.876531,15.955115 C11.9757876,15.8854513 11.5973097,15.4387965 10.8909027,15.0099823 C10.5026549,17.0470088 10.028177,18.9997168 8.62279646,20.019823 C8.18846018,16.9410265 9.25953982,14.628531 9.75695575,12.1739469 C8.90909735,10.7466903 9.85890265,7.8739115 11.6472212,8.58180531 C13.8482124,9.45217699 9.74166372,13.8887788 12.4984779,14.4429027 C15.3765664,15.0214513 16.5515044,9.44899115 14.7665841,7.63646018 C12.1877522,5.01961062 7.26010619,7.57699115 7.8660531,11.323115 C8.01366372,12.2389381 8.9600708,12.5169558 8.24410619,13.7806726 C6.59362832,13.4151504 6.10130973,12.1134159 6.16460177,10.3779823 C6.26676106,7.53727434 8.71709735,5.54824779 11.1748673,5.27299115 C14.2831858,4.92509735 17.2005664,6.41437168 17.6032566,9.33812389 C18.0562832,12.6380177 16.2,16.2116814 12.876531,15.955115 L12.876531,15.955115 Z",
+                                                                                id:
+                                                                                  "Path",
+                                                                                fill:
+                                                                                  "#F1F2F2"
+                                                                              }
+                                                                            }
+                                                                          )
+                                                                        ]
+                                                                      )
+                                                                    ]
+                                                                  )
+                                                                ]
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.flickr_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.flickr.com/photos/" +
+                                                      _vm.storeOwner
+                                                        .flickr_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Flickr")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with sketchtool."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id:
+                                                                  "public-gallery",
+                                                                transform:
+                                                                  "translate(-300.000000, -407.000000)",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c(
+                                                                "g",
+                                                                {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Group-5",
+                                                                    transform:
+                                                                      "translate(80.000000, 339.000000)"
+                                                                  }
+                                                                },
+                                                                [
+                                                                  _c(
+                                                                    "g",
+                                                                    {
+                                                                      attrs: {
+                                                                        id:
+                                                                          "Stacked-Group-3",
+                                                                        transform:
+                                                                          "translate(124.000000, 68.000000)"
+                                                                      }
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "g",
+                                                                        {
+                                                                          attrs: {
+                                                                            id:
+                                                                              "flickr",
+                                                                            transform:
+                                                                              "translate(96.000000, 0.000000)"
+                                                                          }
+                                                                        },
+                                                                        [
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M11.9152566,23.8283894 C18.4942301,23.8283894 23.8292389,18.4942301 23.8292389,11.9141947 C23.8292389,5.33479646 18.4942301,0.000637168142 11.9152566,0.000637168142 C5.33437168,0.000637168142 0,5.33500885 0,11.9141947 C0,18.4942301 5.33437168,23.8283894 11.9152566,23.8283894",
+                                                                                id:
+                                                                                  "Path",
+                                                                                fill:
+                                                                                  "#3B3B3B"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "g",
+                                                                            {
+                                                                              attrs: {
+                                                                                id:
+                                                                                  "Group",
+                                                                                transform:
+                                                                                  "translate(5.734513, 9.132743)",
+                                                                                fill:
+                                                                                  "#F1F2F2"
+                                                                              }
+                                                                            },
+                                                                            [
+                                                                              _c(
+                                                                                "path",
+                                                                                {
+                                                                                  attrs: {
+                                                                                    d:
+                                                                                      "M12.1584425,2.78145133 C12.1584425,4.23610619 10.9803186,5.41529204 9.52566372,5.41529204 C8.06888496,5.41529204 6.89076106,4.23589381 6.89076106,2.78145133 C6.89076106,1.32722124 8.06888496,0.147823009 9.52566372,0.147823009 C10.9803186,0.147823009 12.1584425,1.32743363 12.1584425,2.78145133 Z",
+                                                                                    id:
+                                                                                      "Path"
+                                                                                  }
+                                                                                }
+                                                                              ),
+                                                                              _vm._v(
+                                                                                " "
+                                                                              ),
+                                                                              _c(
+                                                                                "path",
+                                                                                {
+                                                                                  attrs: {
+                                                                                    d:
+                                                                                      "M5.46881416,2.78145133 C5.46881416,4.23610619 4.29069027,5.41529204 2.8339115,5.41529204 C1.37968142,5.41529204 0.201557522,4.23589381 0.201557522,2.78145133 C0.201557522,1.32722124 1.37968142,0.147823009 2.8339115,0.147823009 C4.29069027,0.147823009 5.46881416,1.32743363 5.46881416,2.78145133 Z",
+                                                                                    id:
+                                                                                      "Path"
+                                                                                  }
+                                                                                }
+                                                                              )
+                                                                            ]
+                                                                          )
+                                                                        ]
+                                                                      )
+                                                                    ]
+                                                                  )
+                                                                ]
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.instagram_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.instagram.com/" +
+                                                      _vm.storeOwner
+                                                        .instagram_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Instagram")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with sketchtool."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id:
+                                                                  "public-gallery",
+                                                                transform:
+                                                                  "translate(-332.000000, -407.000000)",
+                                                                fill: "#3B3B3B",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c(
+                                                                "g",
+                                                                {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Group-5",
+                                                                    transform:
+                                                                      "translate(80.000000, 339.000000)"
+                                                                  }
+                                                                },
+                                                                [
+                                                                  _c(
+                                                                    "g",
+                                                                    {
+                                                                      attrs: {
+                                                                        id:
+                                                                          "Stacked-Group-3",
+                                                                        transform:
+                                                                          "translate(124.000000, 68.000000)"
+                                                                      }
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "g",
+                                                                        {
+                                                                          attrs: {
+                                                                            id:
+                                                                              "instagram",
+                                                                            transform:
+                                                                              "translate(128.000000, 0.000000)"
+                                                                          }
+                                                                        },
+                                                                        [
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M15.5346667,6.368 L8.4008,6.368 C7.26213333,6.368 6.33573333,7.2944 6.33573333,8.43306667 L6.33573333,15.5669333 C6.33573333,16.7056 7.26213333,17.6322667 8.4008,17.6322667 L15.5346667,17.6322667 C16.6733333,17.6322667 17.6,16.7058667 17.6,15.5669333 L17.6,8.43306667 C17.6,7.2944 16.6736,6.368 15.5346667,6.368 Z M11.9677333,15.7082667 C9.9232,15.7082667 8.25973333,14.0448 8.25973333,12 C8.25973333,9.95546667 9.9232,8.292 11.9677333,8.292 C14.0125333,8.292 15.676,9.95546667 15.676,12 C15.676,14.0445333 14.0122667,15.7082667 11.9677333,15.7082667 Z M15.7952,9.05866667 C15.3112,9.05866667 14.9176,8.66506667 14.9176,8.18133333 C14.9176,7.6976 15.3112,7.304 15.7952,7.304 C16.2789333,7.304 16.6725333,7.6976 16.6725333,8.18133333 C16.6725333,8.66506667 16.2789333,9.05866667 15.7952,9.05866667 Z",
+                                                                                id:
+                                                                                  "Shape"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M11.9677333,9.85893333 C10.7874667,9.85893333 9.8264,10.8194667 9.8264,11.9997333 C9.8264,13.1805333 10.7874667,14.1413333 11.9677333,14.1413333 C13.1485333,14.1413333 14.1088,13.1805333 14.1088,11.9997333 C14.1088,10.8197333 13.1482667,9.85893333 11.9677333,9.85893333 Z",
+                                                                                id:
+                                                                                  "Path"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "path",
+                                                                            {
+                                                                              attrs: {
+                                                                                d:
+                                                                                  "M11.9677333,0 C5.3584,0 0,5.3584 0,11.9677333 C0,18.5770667 5.3584,23.9354667 11.9677333,23.9354667 C18.5770667,23.9354667 23.9354667,18.5770667 23.9354667,11.9677333 C23.9354667,5.3584 18.5770667,0 11.9677333,0 Z M19.1666667,15.5669333 C19.1666667,17.5698667 17.5376,19.1989333 15.5346667,19.1989333 L8.4008,19.1989333 C6.39813333,19.1989333 4.7688,17.5698667 4.7688,15.5669333 L4.7688,8.43306667 C4.7688,6.4304 6.39813333,4.80106667 8.4008,4.80106667 L15.5346667,4.80106667 C17.5376,4.80106667 19.1666667,6.4304 19.1666667,8.43306667 L19.1666667,15.5669333 Z",
+                                                                                id:
+                                                                                  "Shape"
+                                                                              }
+                                                                            }
+                                                                          )
+                                                                        ]
+                                                                      )
+                                                                    ]
+                                                                  )
+                                                                ]
+                                                              )
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.reddit_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.reddit.com/user/" +
+                                                      _vm.storeOwner
+                                                        .reddit_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "25px",
+                                                        viewBox: "0 0 24 25",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Reddit")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with Sketch."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id: "reddit",
+                                                                transform:
+                                                                  "translate(0.000000, 0.000000)",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M14.5888244,16.7134289 C14.034619,17.1744577 12.8471169,17.3390212 12.0008966,17.3390212 C11.1522224,17.3390212 9.9671743,17.1744577 9.41296892,16.7134289 C9.28177928,16.6042956 9.07149838,16.6042956 8.94049749,16.7134289 C8.80930785,16.8225621 8.80930785,16.9974892 8.94049749,17.1064654 C9.8188073,17.8371082 11.5061513,17.8947368 12.0008966,17.8947368 C12.4956419,17.8947368 14.180532,17.8371082 15.0614845,17.1064654 C15.1900315,16.9973322 15.1900315,16.822405 15.0614845,16.7134289 C14.9302949,16.6042956 14.7200139,16.6042956 14.5888244,16.7134289 L14.5888244,16.7134289 Z",
+                                                                  id: "Path",
+                                                                  fill:
+                                                                    "#000000"
+                                                                }
+                                                              }),
+                                                              _vm._v(" "),
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M10.5263158,13.6842105 C10.5263158,12.9883546 9.95901379,12.4210526 9.26315789,12.4210526 C8.56748691,12.4210526 8,12.9883546 8,13.6842105 C8,14.3798815 8.56748691,14.9473684 9.26315789,14.9473684 C9.95901379,14.9473684 10.5263158,14.3800665 10.5263158,13.6842105 L10.5263158,13.6842105 Z",
+                                                                  id: "Path",
+                                                                  fill:
+                                                                    "#000000"
+                                                                }
+                                                              }),
+                                                              _vm._v(" "),
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M12,0.210526316 C5.3735962,0.210526316 0,5.58412252 0,12.2105263 C0,18.8369301 5.3735962,24.2105263 12,24.2105263 C18.6264038,24.2105263 24,18.8369301 24,12.2105263 C24,5.58412252 18.6264038,0.210526316 12,0.210526316 Z M18.9624023,13.8112343 C18.9887695,13.9840859 19.0032349,14.1593178 19.0032349,14.3369301 C19.0032349,17.0296792 15.8688354,19.2113808 12.0023804,19.2113808 C8.13592528,19.2113808 5.00152589,17.0296792 5.00152589,14.3369301 C5.00152589,14.1569375 5.01599119,13.9793251 5.04235838,13.8064736 C4.43280028,13.532914 4.00799559,12.9209755 4.00799559,12.2105263 C4.00799559,11.2457436 4.79040525,10.4609536 5.75756836,10.4609536 C6.2279663,10.4609536 6.65277098,10.645707 6.96716306,10.9481972 C8.18151853,10.0722206 9.86169431,9.51283346 11.7312012,9.4648598 C11.7312012,9.44087297 12.6047974,5.27925188 12.6047974,5.27925188 C12.6216431,5.19776996 12.6696167,5.12800678 12.7391968,5.08259663 C12.8087768,5.03700338 12.8928223,5.02253803 12.9744873,5.03938374 L15.8833008,5.65846332 C16.0872802,5.24574361 16.5071411,4.96009908 16.9991455,4.96009908 C17.6903686,4.96009908 18.2495728,5.51930316 18.2495728,6.21052632 C18.2495728,6.90174947 17.6903686,7.46095355 16.9991455,7.46095355 C16.3295288,7.46095355 15.7871704,6.93287738 15.7560425,6.27058491 L13.1519165,5.71614155 L12.3552246,9.4674233 C14.1912232,9.53205952 15.8400879,10.0888832 17.0352173,10.952958 C17.3496094,10.6482705 17.7767944,10.4609536 18.2495728,10.4609536 C19.216919,10.4609536 19.9991455,11.2433633 19.9991455,12.2105263 C19.9991455,12.9257363 19.5695801,13.5376748 18.9624023,13.8112343 L18.9624023,13.8112343 Z",
+                                                                  id: "Shape",
+                                                                  fill:
+                                                                    "#3B3B3B"
+                                                                }
+                                                              }),
+                                                              _vm._v(" "),
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M14.7368421,12.4210526 C14.0409862,12.4210526 13.4736842,12.9883546 13.4736842,13.6842105 C13.4736842,14.3798815 14.0409862,14.9473684 14.7368421,14.9473684 C15.4325131,14.9473684 16,14.3798815 16,13.6842105 C16,12.9883546 15.432698,12.4210526 14.7368421,12.4210526 L14.7368421,12.4210526 Z",
+                                                                  id: "Path",
+                                                                  fill:
+                                                                    "#000000"
+                                                                }
+                                                              })
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.youtube_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.youtuebe.com/channel/" +
+                                                      _vm.storeOwner
+                                                        .youtube_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      staticStyle: {
+                                                        width: "24px",
+                                                        height: "24px"
+                                                      },
+                                                      attrs: {
+                                                        version: "1.1",
+                                                        id: "YouTube",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink",
+                                                        x: "0px",
+                                                        y: "0px",
+                                                        viewBox: "0 0 128 128",
+                                                        "enable-background":
+                                                          "new 0 0 128 128",
+                                                        "xml:space": "preserve"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("g", [
+                                                        _c("circle", {
+                                                          attrs: {
+                                                            id: "youtube-back",
+                                                            fill: "#3B3B3B",
+                                                            cx: "64",
+                                                            cy: "64",
+                                                            r: "64"
+                                                          }
+                                                        }),
+                                                        _vm._v(" "),
+                                                        _c("path", {
+                                                          attrs: {
+                                                            id:
+                                                              "youtube-youtube",
+                                                            fill: "#FFFFFF",
+                                                            d:
+                                                              "M99.8398,78.3359c0,5.6309-4.6084,10.2403-10.2402,10.2403H38.3994\r\n                          c-5.6318,0-10.2392-4.6094-10.2392-10.2403V49.6641c0-5.6328,4.6074-10.2403,10.2392-10.2403h51.2002\r\n                          c5.6318,0,10.2402,4.6075,10.2402,10.2403V78.3359z M56.5967,72.793l19.3681-10.0352L56.5967,52.6523V72.793z"
+                                                          }
+                                                        })
+                                                      ])
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.tumblr_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.tumblr.com/blog/" +
+                                                      _vm.storeOwner
+                                                        .tumblr_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Tumblr")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with Sketch."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id: "tumblr",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c("circle", {
+                                                                attrs: {
+                                                                  id: "Oval",
+                                                                  fill:
+                                                                    "#3B3B3B",
+                                                                  cx: "12",
+                                                                  cy: "12",
+                                                                  r: "12"
+                                                                }
+                                                              }),
+                                                              _vm._v(" "),
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M12.5477269,8.15238315 L12.5477269,5 L10.4436059,5 C10.3962226,5.11508103 10.3728555,5.25547988 10.3728555,5.39566949 C10.3507865,5.46409039 10.3248231,5.51367985 10.3248231,5.58189151 C10.1091101,6.7509055 9.48122741,7.56630687 8.41780787,8.01177506 C8.10213562,8.15259239 7.81242682,8.17393469 7.5,8.15259239 L7.5,10.6939999 L9.0461233,10.6939999 C9.0712213,14.2702997 9.0712213,16.1138977 9.0712213,16.2076365 L9.0712213,16.4195948 C9.26529807,17.9798843 10.1088938,18.9149699 11.6063356,19.2664901 C12.2089039,19.428022 12.8599374,19.5 13.5133508,19.5 C14.3571629,19.4748914 15.1784732,19.334911 16,19.0800589 L16,16.0892076 C15.5201089,16.2293972 15.0824085,16.3474076 14.6962022,16.4629071 C13.9484549,16.6742377 13.3205722,16.5342573 12.8110396,16.0672376 C12.7630072,15.9958874 12.6918241,15.9019394 12.6667261,15.8084099 C12.5955429,15.4351289 12.5503233,15.0388317 12.5503233,14.66576 L12.5503233,10.6937907 L15.9032862,10.6937907 L15.9032862,8.15238315 L12.5477269,8.15238315 Z",
+                                                                  id: "Path",
+                                                                  fill:
+                                                                    "#F1F2F2"
+                                                                }
+                                                              })
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e(),
+                                        _vm._v(" "),
+                                        _vm.storeOwner.twitter_username != ""
+                                          ? _c("li", [
+                                              _c(
+                                                "a",
+                                                {
+                                                  attrs: {
+                                                    target: "_blank",
+                                                    href:
+                                                      "https://www.twitter.com/" +
+                                                      _vm.storeOwner
+                                                        .twitter_username
+                                                  }
+                                                },
+                                                [
+                                                  _c(
+                                                    "svg",
+                                                    {
+                                                      attrs: {
+                                                        width: "24px",
+                                                        height: "24px",
+                                                        viewBox: "0 0 24 24",
+                                                        version: "1.1",
+                                                        xmlns:
+                                                          "http://www.w3.org/2000/svg",
+                                                        "xmlns:xlink":
+                                                          "http://www.w3.org/1999/xlink"
+                                                      }
+                                                    },
+                                                    [
+                                                      _c("title", [
+                                                        _vm._v("Twitter")
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c("desc", [
+                                                        _vm._v(
+                                                          "Created with Sketch."
+                                                        )
+                                                      ]),
+                                                      _vm._v(" "),
+                                                      _c(
+                                                        "g",
+                                                        {
+                                                          attrs: {
+                                                            id: "Page-3",
+                                                            stroke: "none",
+                                                            "stroke-width": "1",
+                                                            fill: "none",
+                                                            "fill-rule":
+                                                              "evenodd"
+                                                          }
+                                                        },
+                                                        [
+                                                          _c(
+                                                            "g",
+                                                            {
+                                                              attrs: {
+                                                                id: "twitter",
+                                                                "fill-rule":
+                                                                  "nonzero"
+                                                              }
+                                                            },
+                                                            [
+                                                              _c("circle", {
+                                                                attrs: {
+                                                                  id: "Oval",
+                                                                  fill:
+                                                                    "#3B3B3B",
+                                                                  cx: "12",
+                                                                  cy: "12",
+                                                                  r: "12"
+                                                                }
+                                                              }),
+                                                              _vm._v(" "),
+                                                              _c("path", {
+                                                                attrs: {
+                                                                  d:
+                                                                    "M19.5,8.36142333 C18.9850516,8.59222442 18.4311178,8.7483291 17.8501943,8.81804575 C18.4433275,8.45885343 18.8985128,7.89051116 19.1133603,7.21218112 C18.5583555,7.54495905 17.9433734,7.7863692 17.289406,7.91649252 C16.765461,7.35248047 16.0189571,7 15.1923406,7 C13.606368,7 12.3200679,8.30015062 12.3200679,9.9032006 C12.3200679,10.130754 12.3455583,10.3522451 12.3948254,10.5648593 C10.0077267,10.4438294 7.89116864,9.28809188 6.47441782,7.53110233 C6.22722544,7.95979478 6.08542183,8.45885343 6.08542183,8.9908218 C6.08542183,9.99781606 6.5928731,10.8868116 7.36315371,11.4073049 C6.89254567,11.3923656 6.44935586,11.2618093 6.06228771,11.0437824 C6.0620735,11.0561235 6.0620735,11.0684647 6.0620735,11.0805893 C6.0620735,12.4872635 7.05255669,13.6605385 8.36627498,13.9270639 C8.12550874,13.9937494 7.87124759,14.0290408 7.60970348,14.0290408 C7.42420209,14.0290408 7.24448423,14.0110703 7.06926467,13.9772945 C7.43469812,15.130434 8.49522629,15.9698484 9.7523945,15.9934482 C8.76919428,16.7722395 7.5308761,17.2362233 6.18481288,17.2362233 C5.95347165,17.2362233 5.72427247,17.2225831 5.5,17.1955192 C6.77044891,18.0195613 8.28059304,18.5 9.9025521,18.5 C15.1857003,18.5 18.0748952,14.0762402 18.0748952,10.2394427 C18.0748952,10.1136496 18.0721105,9.98828956 18.0665412,9.86401205 C18.6281863,9.45480561 19.1150739,8.94362233 19.5,8.36142333 L19.5,8.36142333 Z",
+                                                                  id: "Path",
+                                                                  fill:
+                                                                    "#F1F2F2"
+                                                                }
+                                                              })
+                                                            ]
+                                                          )
+                                                        ]
+                                                      )
+                                                    ]
+                                                  )
+                                                ]
+                                              )
+                                            ])
+                                          : _vm._e()
+                                      ]
+                                    )
+                                  ]),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      ref: "textToCopy",
+                                      staticClass: "txt-to-cpy"
+                                    },
+                                    [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.$root.currentUrl +
+                                            "@" +
+                                            _vm.storeOwner.username
+                                        )
+                                      )
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("div", { staticClass: "cpy-msg" }, [
+                                    _vm._m(0),
+                                    _vm._v(" "),
+                                    _c("div", { staticClass: "msg" }, [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.$root.currentUrl +
+                                            "@" +
+                                            _vm.storeOwner.username
+                                        )
+                                      )
+                                    ])
+                                  ])
+                                ]
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _c("div", { staticClass: "bio" }, [
+                              _vm._v(
+                                "\r\n              " +
+                                  _vm._s(
+                                    _vm.storeOwner.bio == ""
+                                      ? "Thanks for visiting our gallery page. Here you can find and buy content we published on tangible products. Appreciate your support!"
+                                      : _vm.storeOwner.bio
+                                  ) +
+                                  "\r\n              "
+                              )
+                            ]),
+                            _vm._v(" "),
+                            _vm.storeOwner.site != "" && _vm.$root.isMobile
+                              ? _c("span", [
+                                  _c(
+                                    "a",
+                                    {
+                                      staticStyle: {
+                                        color: "#B200FF",
+                                        "margin-right": "15px"
+                                      },
+                                      attrs: { href: _vm.storeOwner.site }
+                                    },
+                                    [
+                                      _vm._v(
+                                        _vm._s(
+                                          _vm.$root.trimString(
+                                            _vm.storeOwner.site,
+                                            25
+                                          )
+                                        )
+                                      )
+                                    ]
+                                  )
+                                ])
+                              : _vm._e(),
                             _vm._v(" "),
                             _c(
-                              "g",
+                              "div",
                               {
-                                attrs: {
-                                  id: "Page-3",
-                                  stroke: "none",
-                                  "stroke-width": "1",
-                                  fill: "none",
-                                  "fill-rule": "evenodd"
+                                staticClass: "share",
+                                staticStyle: {
+                                  display: "inline-block !important"
+                                },
+                                on: {
+                                  click: function($event) {
+                                    $event.preventDefault()
+                                    return _vm.$modal.show("ShareModal")
+                                  }
                                 }
                               },
                               [
                                 _c(
-                                  "g",
+                                  "svg",
                                   {
                                     attrs: {
-                                      id: "public-gallery",
-                                      transform:
-                                        "translate(-81.000000, -533.000000)",
-                                      fill: "#B200FF",
-                                      "fill-rule": "nonzero"
+                                      xmlns: "http://www.w3.org/2000/svg",
+                                      "xmlns:xlink":
+                                        "http://www.w3.org/1999/xlink",
+                                      width: "17px",
+                                      height: "19px",
+                                      viewBox: "0 0 17 19",
+                                      version: "1.1"
                                     }
                                   },
                                   [
+                                    _c("title", [_vm._v("Share")]),
+                                    _vm._v(" "),
+                                    _c("desc", [
+                                      _vm._v("Created with sketchtool.")
+                                    ]),
+                                    _vm._v(" "),
                                     _c(
                                       "g",
                                       {
                                         attrs: {
-                                          id: "Group-2",
-                                          transform:
-                                            "translate(81.000000, 529.000000)"
+                                          id: "Page-3",
+                                          stroke: "none",
+                                          "stroke-width": "1",
+                                          fill: "none",
+                                          "fill-rule": "evenodd"
                                         }
                                       },
                                       [
@@ -59608,525 +59589,622 @@ var render = function() {
                                           "g",
                                           {
                                             attrs: {
-                                              id: "share-(2)",
+                                              id: "public-gallery",
                                               transform:
-                                                "translate(0.000000, 4.000000)"
+                                                "translate(-81.000000, -533.000000)",
+                                              fill: "#B200FF",
+                                              "fill-rule": "nonzero"
                                             }
                                           },
                                           [
-                                            _c("path", {
-                                              attrs: {
-                                                d:
-                                                  "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
-                                                id: "Shape"
-                                              }
-                                            })
+                                            _c(
+                                              "g",
+                                              {
+                                                attrs: {
+                                                  id: "Group-2",
+                                                  transform:
+                                                    "translate(81.000000, 529.000000)"
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "g",
+                                                  {
+                                                    attrs: {
+                                                      id: "share-(2)",
+                                                      transform:
+                                                        "translate(0.000000, 4.000000)"
+                                                    }
+                                                  },
+                                                  [
+                                                    _c("path", {
+                                                      attrs: {
+                                                        d:
+                                                          "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
+                                                        id: "Shape"
+                                                      }
+                                                    })
+                                                  ]
+                                                )
+                                              ]
+                                            )
                                           ]
                                         )
                                       ]
                                     )
                                   ]
-                                )
-                              ]
-                            )
-                          ]
-                        ),
-                        _vm._v(" "),
-                        !_vm.$root.isMobile
-                          ? _c("span", [
-                              _vm._v("\n              Share\n            ")
-                            ])
-                          : _vm._e()
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _vm.$root.isMobile
-                      ? _c(
-                          "div",
-                          {
-                            staticClass: "tag-sign",
-                            staticStyle: {
-                              display: "inline-block !important",
-                              position: "inherit",
-                              "margin-left": "15px"
-                            },
-                            on: {
-                              click: function($event) {
-                                $event.preventDefault()
-                                return _vm.$modal.show("tagModal")
-                              }
-                            }
-                          },
-                          [
-                            _c(
-                              "svg",
-                              {
-                                staticClass: "icon",
-                                staticStyle: {
-                                  width: "1em",
-                                  height: "1em",
-                                  "vertical-align": "middle",
-                                  fill: "currentColor",
-                                  overflow: "hidden"
-                                },
-                                attrs: {
-                                  viewBox: "0 0 1024 1024",
-                                  version: "1.1",
-                                  xmlns: "http://www.w3.org/2000/svg"
-                                }
-                              },
-                              [
-                                _c("path", {
-                                  attrs: {
-                                    d:
-                                      "M972.069257 531.930935l-0.185218-0.192382L528.530488 88.973404C492.112044 52.55496 425.985997 25.092491 374.715287 25.092491H116.867708c-27.810393 0-54.099129 10.972912-74.022901 30.896684-19.924795 19.924795-30.896684 46.213531-30.896684 74.022901v257.848602c0 24.65247 6.500041 53.864792 18.302855 82.256423 11.859096 28.529777 28.066219 53.751205 45.647643 71.039963L519.005554 984.853421c19.346627 19.346627 46.279023 30.442336 73.888848 30.442336 27.191292 0 54.202483-10.963703 74.107834-30.081109l0.195452-0.188288L971.707007 679.92864c19.346627-19.346627 30.443359-46.279023 30.443359-73.88987 0-27.191292-10.964726-54.202483-30.081109-74.107835z m-36.541241 111.818715L631.387088 948.478979c-10.450003 9.950629-24.465205 15.651468-38.492686 15.651469-13.934361 0-28.031427-5.777587-37.697577-15.444761L112.019283 504.920768l-0.183172-0.181125c-26.411533-25.920346-48.723701-79.443353-48.723701-116.878965V130.013099c0-29.138644 24.616654-53.755298 53.755298-53.755298h257.847579c37.261649 0 91.13258 22.390963 117.64849 48.906873l442.967764 442.379363c9.951653 10.450003 15.654538 24.466228 15.654538 38.494733-0.001023 13.935384-5.77861 28.03245-15.458063 37.71088zM235.874125 144.098909c-28.111245 0-54.482869 10.890025-74.256214 30.66337-19.774369 19.773346-30.66337 46.14497-30.66337 74.256214s10.890025 54.482869 30.66337 74.256215 46.14497 30.66337 74.256214 30.66337 54.482869-10.890025 74.257238-30.66337c19.773346-19.773346 30.66337-46.14497 30.66337-74.256215s-10.890025-54.482869-30.66337-74.256214c-19.774369-19.773346-46.145993-30.66337-74.257238-30.66337z m0 158.675906c-29.641087 0-53.755298-24.114211-53.755298-53.755298s24.114211-53.755298 53.755298-53.755298c29.640064 0 53.755298 24.114211 53.755298 53.755298s-24.115234 53.755298-53.755298 53.755298z"
-                                  }
-                                })
+                                ),
+                                _vm._v(" "),
+                                !_vm.$root.isMobile
+                                  ? _c("span", [
+                                      _vm._v(
+                                        "\r\n              Share\r\n            "
+                                      )
+                                    ])
+                                  : _vm._e()
                               ]
                             ),
                             _vm._v(" "),
-                            !_vm.$root.isMobile
-                              ? _c("span", [
-                                  _vm._v("\n              Tags\n            ")
-                                ])
-                              : _vm._e()
-                          ]
-                        )
-                      : _vm._e()
-                  ])
-                ]),
-                _vm._v(" "),
-                _vm.imgs.length
-                  ? _c(
-                      "div",
-                      { staticClass: "user-gallery-box gallery-box " },
-                      [
-                        !_vm.filter
-                          ? _c("div", { staticClass: "approved-mgs-count" }, [
-                              _c("b", [
-                                _vm._v("Images (" + _vm._s(_vm.count) + ")")
-                              ])
-                            ])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          [
-                            _c(
-                              "masonry",
-                              {
-                                attrs: {
-                                  cols: { default: 4, 1000: 3, 700: 2, 400: 1 },
-                                  gutter: { default: "20px", 700: "20px" }
-                                }
-                              },
-                              _vm._l(_vm.imgs, function(img, $index) {
-                                return !_vm.filter ||
-                                  Object.keys(_vm.products[img.id]).includes(
-                                    _vm.filter
-                                  )
-                                  ? _c(
-                                      "div",
+                            _vm.$root.isMobile
+                              ? _c(
+                                  "div",
+                                  {
+                                    staticClass: "tag-sign",
+                                    staticStyle: {
+                                      display: "inline-block !important",
+                                      position: "inherit",
+                                      "margin-left": "15px"
+                                    },
+                                    on: {
+                                      click: function($event) {
+                                        $event.preventDefault()
+                                        return _vm.$modal.show("tagModal")
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c(
+                                      "svg",
                                       {
-                                        directives: [
-                                          {
-                                            name: "lazy-container",
-                                            rawName: "v-lazy-container",
-                                            value: { selector: ".img-box" },
-                                            expression:
-                                              "{ selector: '.img-box' }"
-                                          }
-                                        ],
-                                        key: $index
+                                        staticClass: "icon",
+                                        staticStyle: {
+                                          width: "1em",
+                                          height: "1em",
+                                          "vertical-align": "middle",
+                                          fill: "currentColor",
+                                          overflow: "hidden"
+                                        },
+                                        attrs: {
+                                          viewBox: "0 0 1024 1024",
+                                          version: "1.1",
+                                          xmlns: "http://www.w3.org/2000/svg"
+                                        }
                                       },
                                       [
-                                        _c(
-                                          "div",
-                                          { staticClass: "img-box _1Nk0C" },
-                                          [
-                                            _c(
-                                              "enlargeable-image",
-                                              {
-                                                staticClass: "enlarge-my",
-                                                attrs: {
-                                                  trigger: "click",
-                                                  animation_duration: "100",
-                                                  src:
-                                                    _vm.$root.currentUrl +
-                                                    _vm.$root.storageUrl +
-                                                    "/creator_images/" +
-                                                    img.id +
-                                                    "/80.jpg",
-                                                  src_large:
-                                                    _vm.$root.currentUrl +
-                                                    _vm.$root.storageUrl +
-                                                    "/creator_images/" +
-                                                    img.id +
-                                                    "/1000.jpg"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "svg",
-                                                  {
-                                                    attrs: {
-                                                      id: "Layer_1",
-                                                      "data-name": "Layer 1",
-                                                      xmlns:
-                                                        "http://www.w3.org/2000/svg",
-                                                      viewBox: "0 0 146 146"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("defs"),
-                                                    _c("path", {
-                                                      staticClass: "cls-1",
-                                                      attrs: {
-                                                        d:
-                                                          "M147.55,74.36a73,73,0,1,1-73-73A73,73,0,0,1,147.55,74.36Z",
-                                                        transform:
-                                                          "translate(-1.55 -1.36)"
-                                                      }
-                                                    }),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M121.28,35c0-.14,0-.28,0-.42l0-.2a1.7,1.7,0,0,0,0-.22,1.42,1.42,0,0,0,0-.22c0-.07,0-.14,0-.2l-.07-.21-.08-.2a1.63,1.63,0,0,0-.09-.19l-.09-.2a1.74,1.74,0,0,0-.11-.18,1.74,1.74,0,0,0-.11-.18,2.43,2.43,0,0,1-.14-.2l-.12-.15a4.4,4.4,0,0,0-.61-.61l-.16-.12a1.33,1.33,0,0,0-.19-.14l-.19-.12-.17-.1-.21-.1-.18-.09-.2-.07-.21-.07-.2-.05-.22-.05-.24,0-.18,0-.44,0H91a4.4,4.4,0,1,0,0,8.79h15.28L79.71,66a4.39,4.39,0,1,0,6.22,6.21l26.56-26.56V60.91a4.4,4.4,0,1,0,8.79,0V35Z",
-                                                        transform:
-                                                          "translate(-1.55 -1.36)"
-                                                      }
-                                                    }),
-                                                    _c("path", {
-                                                      attrs: {
-                                                        d:
-                                                          "M65.16,80.53,38.6,107.09V91.82a4.4,4.4,0,1,0-8.79,0V117.7h0c0,.15,0,.28,0,.42l0,.2a1.85,1.85,0,0,0,0,.23,1.74,1.74,0,0,0,.05.22c0,.07,0,.13.05.2a1.8,1.8,0,0,0,.08.21,1.46,1.46,0,0,0,.07.19,1.76,1.76,0,0,0,.09.2l.09.19a1.08,1.08,0,0,0,.11.18l.11.19a2.43,2.43,0,0,1,.14.2l.12.15a4.4,4.4,0,0,0,.61.61l.16.12.19.14.19.11.18.11.2.09.18.09.2.07.21.08.2,0,.22.05.23,0,.19,0a3.25,3.25,0,0,0,.44,0H60.09a4.4,4.4,0,1,0,0-8.79H44.82L71.38,86.75a4.4,4.4,0,0,0-6.22-6.22Z",
-                                                        transform:
-                                                          "translate(-1.55 -1.36)"
-                                                      }
-                                                    })
-                                                  ]
-                                                )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              { staticClass: "likes" },
-                                              [
-                                                !_vm.imgLikeClicked.includes(
-                                                  img.id
-                                                )
-                                                  ? _c(
-                                                      "svg",
-                                                      {
-                                                        staticClass: "heart",
-                                                        attrs: {
-                                                          id: "Layer_1",
-                                                          "data-name":
-                                                            "Layer 1",
-                                                          xmlns:
-                                                            "http://www.w3.org/2000/svg",
-                                                          viewBox: "0 0 150 150"
-                                                        },
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            return _vm.like(img)
-                                                          }
-                                                        }
-                                                      },
-                                                      [
-                                                        _c("defs"),
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            staticClass: "cls-1"
-                                                          },
-                                                          [
-                                                            _c("circle", {
-                                                              staticClass:
-                                                                "cls-2",
-                                                              attrs: {
-                                                                cx: "75",
-                                                                cy: "75",
-                                                                r: "74.88"
-                                                              }
-                                                            }),
-                                                            _c("path", {
-                                                              staticClass:
-                                                                "cls-3",
-                                                              attrs: {
-                                                                d:
-                                                                  "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                                                transform:
-                                                                  "translate(-75 -68)"
-                                                              }
-                                                            })
-                                                          ]
-                                                        ),
-                                                        _c("path", {
-                                                          staticClass: "cls-4",
-                                                          attrs: {
-                                                            d:
-                                                              "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                                            transform:
-                                                              "translate(-75 -68)"
-                                                          }
-                                                        }),
-                                                        _c("path", {
-                                                          staticClass: "cls-5",
-                                                          attrs: {
-                                                            d:
-                                                              "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                                            transform:
-                                                              "translate(-75 -68)"
-                                                          }
-                                                        })
-                                                      ]
-                                                    )
-                                                  : _c(
-                                                      "svg",
-                                                      {
-                                                        staticClass: "heart2",
-                                                        attrs: {
-                                                          id: "Layer_1",
-                                                          "data-name":
-                                                            "Layer 1",
-                                                          xmlns:
-                                                            "http://www.w3.org/2000/svg",
-                                                          viewBox: "0 0 150 150"
-                                                        },
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            return _vm.like(img)
-                                                          }
-                                                        }
-                                                      },
-                                                      [
-                                                        _c("defs"),
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            staticClass: "cls-1"
-                                                          },
-                                                          [
-                                                            _c("circle", {
-                                                              staticClass:
-                                                                "cls-2",
-                                                              attrs: {
-                                                                cx: "75",
-                                                                cy: "75",
-                                                                r: "74.88"
-                                                              }
-                                                            }),
-                                                            _c("path", {
-                                                              staticClass:
-                                                                "cls-3",
-                                                              attrs: {
-                                                                d:
-                                                                  "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                                                transform:
-                                                                  "translate(-75 -68)"
-                                                              }
-                                                            })
-                                                          ]
-                                                        ),
-                                                        _c("path", {
-                                                          staticClass: "cls-4",
-                                                          attrs: {
-                                                            d:
-                                                              "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                                            transform:
-                                                              "translate(-75 -68)"
-                                                          }
-                                                        })
-                                                      ]
-                                                    )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            !_vm.$root.isMobile
-                                              ? _c(
-                                                  "div",
-                                                  { staticClass: " img-name" },
-                                                  [_vm._v(_vm._s(img.name))]
-                                                )
-                                              : _vm._e(),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              { staticClass: "likes-counter" },
-                                              [
-                                                _c(
-                                                  "svg",
-                                                  {
-                                                    attrs: {
-                                                      id: "Layer_1",
-                                                      "data-name": "Layer 1",
-                                                      xmlns:
-                                                        "http://www.w3.org/2000/svg",
-                                                      viewBox: "0 0 294.89 284"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c("defs"),
-                                                    _c("path", {
-                                                      staticClass: "cls-1",
-                                                      attrs: {
-                                                        d:
-                                                          "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
-                                                        transform:
-                                                          "translate(-2.57 -10)"
-                                                      }
-                                                    })
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "div",
-                                                  { staticClass: "number" },
-                                                  [_vm._v(_vm._s(img.likes))]
-                                                )
-                                              ]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
+                                        _c("path", {
+                                          attrs: {
+                                            d:
+                                              "M972.069257 531.930935l-0.185218-0.192382L528.530488 88.973404C492.112044 52.55496 425.985997 25.092491 374.715287 25.092491H116.867708c-27.810393 0-54.099129 10.972912-74.022901 30.896684-19.924795 19.924795-30.896684 46.213531-30.896684 74.022901v257.848602c0 24.65247 6.500041 53.864792 18.302855 82.256423 11.859096 28.529777 28.066219 53.751205 45.647643 71.039963L519.005554 984.853421c19.346627 19.346627 46.279023 30.442336 73.888848 30.442336 27.191292 0 54.202483-10.963703 74.107834-30.081109l0.195452-0.188288L971.707007 679.92864c19.346627-19.346627 30.443359-46.279023 30.443359-73.88987 0-27.191292-10.964726-54.202483-30.081109-74.107835z m-36.541241 111.818715L631.387088 948.478979c-10.450003 9.950629-24.465205 15.651468-38.492686 15.651469-13.934361 0-28.031427-5.777587-37.697577-15.444761L112.019283 504.920768l-0.183172-0.181125c-26.411533-25.920346-48.723701-79.443353-48.723701-116.878965V130.013099c0-29.138644 24.616654-53.755298 53.755298-53.755298h257.847579c37.261649 0 91.13258 22.390963 117.64849 48.906873l442.967764 442.379363c9.951653 10.450003 15.654538 24.466228 15.654538 38.494733-0.001023 13.935384-5.77861 28.03245-15.458063 37.71088zM235.874125 144.098909c-28.111245 0-54.482869 10.890025-74.256214 30.66337-19.774369 19.773346-30.66337 46.14497-30.66337 74.256214s10.890025 54.482869 30.66337 74.256215 46.14497 30.66337 74.256214 30.66337 54.482869-10.890025 74.257238-30.66337c19.773346-19.773346 30.66337-46.14497 30.66337-74.256215s-10.890025-54.482869-30.66337-74.256214c-19.774369-19.773346-46.145993-30.66337-74.257238-30.66337z m0 158.675906c-29.641087 0-53.755298-24.114211-53.755298-53.755298s24.114211-53.755298 53.755298-53.755298c29.640064 0 53.755298 24.114211 53.755298 53.755298s-24.115234 53.755298-53.755298 53.755298z"
+                                          }
+                                        })
+                                      ]
+                                    ),
+                                    _vm._v(" "),
+                                    !_vm.$root.isMobile
+                                      ? _c("span", [
+                                          _vm._v(
+                                            "\r\n              Tags\r\n            "
+                                          )
+                                        ])
+                                      : _vm._e()
+                                  ]
+                                )
+                              : _vm._e()
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        _vm.imgs.length
+                          ? _c(
+                              "div",
+                              { staticClass: "user-gallery-box gallery-box " },
+                              [
+                                !_vm.filter
+                                  ? _c(
+                                      "div",
+                                      { staticClass: "approved-mgs-count" },
+                                      [
+                                        _c("b", [
+                                          _vm._v(
+                                            "Images (" + _vm._s(_vm.count) + ")"
+                                          )
+                                        ])
+                                      ]
+                                    )
+                                  : _vm._e(),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  [
+                                    _c(
+                                      "masonry",
+                                      {
+                                        attrs: {
+                                          cols: {
+                                            default: 4,
+                                            1000: 3,
+                                            700: 2,
+                                            400: 1
+                                          },
+                                          gutter: {
+                                            default: "20px",
+                                            700: "20px"
+                                          }
+                                        }
+                                      },
+                                      _vm._l(_vm.imgs, function(img, $index) {
+                                        return !_vm.filter ||
+                                          Object.keys(
+                                            _vm.products[img.id]
+                                          ).includes(_vm.filter)
+                                          ? _c(
                                               "div",
                                               {
-                                                staticClass: "hover",
-                                                on: {
-                                                  click: function($event) {
-                                                    $event.preventDefault()
-                                                    return _vm.goCatalog(img.id)
-                                                  }
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "ShareNetwork",
+                                                directives: [
                                                   {
-                                                    attrs: {
-                                                      network: "pinterest",
-                                                      url:
-                                                        _vm.$root.currentUrl +
-                                                        "/catalog-" +
-                                                        img.id,
-                                                      title:
-                                                        img.name +
-                                                        " (ID " +
-                                                        img.id +
-                                                        ")" +
-                                                        " " +
-                                                        img.description +
-                                                        " " +
-                                                        _vm.$root.getPinterestContent(
-                                                          img
-                                                        ),
-                                                      media:
-                                                        _vm.$root.currentUrl +
-                                                        _vm.$root.storageUrl +
-                                                        "/creator_images/" +
-                                                        img.id +
-                                                        "/500.jpg"
+                                                    name: "lazy-container",
+                                                    rawName: "v-lazy-container",
+                                                    value: {
+                                                      selector: ".img-box"
                                                     },
-                                                    on: {
-                                                      open: function($event) {
-                                                        this.$root.clicked = true
-                                                      },
-                                                      close: function($event) {
-                                                        this.$root.clicked = false
-                                                      }
-                                                    }
+                                                    expression:
+                                                      "{ selector: '.img-box' }"
+                                                  }
+                                                ],
+                                                key: $index
+                                              },
+                                              [
+                                                _c(
+                                                  "div",
+                                                  {
+                                                    staticClass:
+                                                      "img-box _1Nk0C"
                                                   },
                                                   [
                                                     _c(
-                                                      "svg",
+                                                      "enlargeable-image",
                                                       {
-                                                        staticStyle: {
-                                                          "enable-background":
-                                                            "new 0 0 512 512"
-                                                        },
+                                                        staticClass:
+                                                          "enlarge-my",
                                                         attrs: {
-                                                          height: "30px",
-                                                          id: "Layer_1",
-                                                          version: "1.1",
-                                                          viewBox:
-                                                            "0 0 512 512",
-                                                          width: "30px",
-                                                          "xml:space":
-                                                            "preserve",
-                                                          xmlns:
-                                                            "http://www.w3.org/2000/svg",
-                                                          "xmlns:cc":
-                                                            "http://creativecommons.org/ns#",
-                                                          "xmlns:dc":
-                                                            "http://purl.org/dc/elements/1.1/",
-                                                          "xmlns:inkscape":
-                                                            "http://www.inkscape.org/namespaces/inkscape",
-                                                          "xmlns:rdf":
-                                                            "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-                                                          "xmlns:sodipodi":
-                                                            "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
-                                                          "xmlns:svg":
-                                                            "http://www.w3.org/2000/svg"
+                                                          trigger: "click",
+                                                          animation_duration:
+                                                            "100",
+                                                          src:
+                                                            _vm.$root
+                                                              .currentUrl +
+                                                            _vm.$root
+                                                              .storageUrl +
+                                                            "/creator_images/" +
+                                                            img.id +
+                                                            "/80.jpg",
+                                                          src_large:
+                                                            _vm.$root
+                                                              .currentUrl +
+                                                            _vm.$root
+                                                              .storageUrl +
+                                                            "/creator_images/" +
+                                                            img.id +
+                                                            "/1000.jpg"
                                                         }
                                                       },
                                                       [
-                                                        _c("defs", {
-                                                          attrs: {
-                                                            id: "defs19"
-                                                          }
-                                                        }),
                                                         _c(
-                                                          "g",
+                                                          "svg",
                                                           {
                                                             attrs: {
-                                                              id: "g3031"
+                                                              id: "Layer_1",
+                                                              "data-name":
+                                                                "Layer 1",
+                                                              xmlns:
+                                                                "http://www.w3.org/2000/svg",
+                                                              viewBox:
+                                                                "0 0 146 146"
                                                             }
                                                           },
                                                           [
+                                                            _c("defs"),
                                                             _c("path", {
-                                                              staticStyle: {
-                                                                fill: "#cb2027",
-                                                                "fill-opacity":
-                                                                  "1"
-                                                              },
+                                                              staticClass:
+                                                                "cls-1",
                                                               attrs: {
                                                                 d:
-                                                                  "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
-                                                                id: "circle8"
+                                                                  "M147.55,74.36a73,73,0,1,1-73-73A73,73,0,0,1,147.55,74.36Z",
+                                                                transform:
+                                                                  "translate(-1.55 -1.36)"
                                                               }
                                                             }),
-                                                            _c(
-                                                              "g",
+                                                            _c("path", {
+                                                              attrs: {
+                                                                d:
+                                                                  "M121.28,35c0-.14,0-.28,0-.42l0-.2a1.7,1.7,0,0,0,0-.22,1.42,1.42,0,0,0,0-.22c0-.07,0-.14,0-.2l-.07-.21-.08-.2a1.63,1.63,0,0,0-.09-.19l-.09-.2a1.74,1.74,0,0,0-.11-.18,1.74,1.74,0,0,0-.11-.18,2.43,2.43,0,0,1-.14-.2l-.12-.15a4.4,4.4,0,0,0-.61-.61l-.16-.12a1.33,1.33,0,0,0-.19-.14l-.19-.12-.17-.1-.21-.1-.18-.09-.2-.07-.21-.07-.2-.05-.22-.05-.24,0-.18,0-.44,0H91a4.4,4.4,0,1,0,0,8.79h15.28L79.71,66a4.39,4.39,0,1,0,6.22,6.21l26.56-26.56V60.91a4.4,4.4,0,1,0,8.79,0V35Z",
+                                                                transform:
+                                                                  "translate(-1.55 -1.36)"
+                                                              }
+                                                            }),
+                                                            _c("path", {
+                                                              attrs: {
+                                                                d:
+                                                                  "M65.16,80.53,38.6,107.09V91.82a4.4,4.4,0,1,0-8.79,0V117.7h0c0,.15,0,.28,0,.42l0,.2a1.85,1.85,0,0,0,0,.23,1.74,1.74,0,0,0,.05.22c0,.07,0,.13.05.2a1.8,1.8,0,0,0,.08.21,1.46,1.46,0,0,0,.07.19,1.76,1.76,0,0,0,.09.2l.09.19a1.08,1.08,0,0,0,.11.18l.11.19a2.43,2.43,0,0,1,.14.2l.12.15a4.4,4.4,0,0,0,.61.61l.16.12.19.14.19.11.18.11.2.09.18.09.2.07.21.08.2,0,.22.05.23,0,.19,0a3.25,3.25,0,0,0,.44,0H60.09a4.4,4.4,0,1,0,0-8.79H44.82L71.38,86.75a4.4,4.4,0,0,0-6.22-6.22Z",
+                                                                transform:
+                                                                  "translate(-1.55 -1.36)"
+                                                              }
+                                                            })
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      { staticClass: "likes" },
+                                                      [
+                                                        !_vm.imgLikeClicked.includes(
+                                                          img.id
+                                                        )
+                                                          ? _c(
+                                                              "svg",
                                                               {
+                                                                staticClass:
+                                                                  "heart",
                                                                 attrs: {
-                                                                  id: "g3000",
-                                                                  transform:
-                                                                    "translate(-603.11865,-9.8474559)"
+                                                                  id: "Layer_1",
+                                                                  "data-name":
+                                                                    "Layer 1",
+                                                                  xmlns:
+                                                                    "http://www.w3.org/2000/svg",
+                                                                  viewBox:
+                                                                    "0 0 150 150"
+                                                                },
+                                                                on: {
+                                                                  click: function(
+                                                                    $event
+                                                                  ) {
+                                                                    return _vm.like(
+                                                                      img
+                                                                    )
+                                                                  }
                                                                 }
                                                               },
                                                               [
+                                                                _c("defs"),
+                                                                _c(
+                                                                  "g",
+                                                                  {
+                                                                    staticClass:
+                                                                      "cls-1"
+                                                                  },
+                                                                  [
+                                                                    _c(
+                                                                      "circle",
+                                                                      {
+                                                                        staticClass:
+                                                                          "cls-2",
+                                                                        attrs: {
+                                                                          cx:
+                                                                            "75",
+                                                                          cy:
+                                                                            "75",
+                                                                          r:
+                                                                            "74.88"
+                                                                        }
+                                                                      }
+                                                                    ),
+                                                                    _c("path", {
+                                                                      staticClass:
+                                                                        "cls-3",
+                                                                      attrs: {
+                                                                        d:
+                                                                          "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                                                        transform:
+                                                                          "translate(-75 -68)"
+                                                                      }
+                                                                    })
+                                                                  ]
+                                                                ),
+                                                                _c("path", {
+                                                                  staticClass:
+                                                                    "cls-4",
+                                                                  attrs: {
+                                                                    d:
+                                                                      "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                                                    transform:
+                                                                      "translate(-75 -68)"
+                                                                  }
+                                                                }),
+                                                                _c("path", {
+                                                                  staticClass:
+                                                                    "cls-5",
+                                                                  attrs: {
+                                                                    d:
+                                                                      "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                                                    transform:
+                                                                      "translate(-75 -68)"
+                                                                  }
+                                                                })
+                                                              ]
+                                                            )
+                                                          : _c(
+                                                              "svg",
+                                                              {
+                                                                staticClass:
+                                                                  "heart2",
+                                                                attrs: {
+                                                                  id: "Layer_1",
+                                                                  "data-name":
+                                                                    "Layer 1",
+                                                                  xmlns:
+                                                                    "http://www.w3.org/2000/svg",
+                                                                  viewBox:
+                                                                    "0 0 150 150"
+                                                                },
+                                                                on: {
+                                                                  click: function(
+                                                                    $event
+                                                                  ) {
+                                                                    return _vm.like(
+                                                                      img
+                                                                    )
+                                                                  }
+                                                                }
+                                                              },
+                                                              [
+                                                                _c("defs"),
+                                                                _c(
+                                                                  "g",
+                                                                  {
+                                                                    staticClass:
+                                                                      "cls-1"
+                                                                  },
+                                                                  [
+                                                                    _c(
+                                                                      "circle",
+                                                                      {
+                                                                        staticClass:
+                                                                          "cls-2",
+                                                                        attrs: {
+                                                                          cx:
+                                                                            "75",
+                                                                          cy:
+                                                                            "75",
+                                                                          r:
+                                                                            "74.88"
+                                                                        }
+                                                                      }
+                                                                    ),
+                                                                    _c("path", {
+                                                                      staticClass:
+                                                                        "cls-3",
+                                                                      attrs: {
+                                                                        d:
+                                                                          "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                                                        transform:
+                                                                          "translate(-75 -68)"
+                                                                      }
+                                                                    })
+                                                                  ]
+                                                                ),
+                                                                _c("path", {
+                                                                  staticClass:
+                                                                    "cls-4",
+                                                                  attrs: {
+                                                                    d:
+                                                                      "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                                                    transform:
+                                                                      "translate(-75 -68)"
+                                                                  }
+                                                                })
+                                                              ]
+                                                            )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    !_vm.$root.isMobile
+                                                      ? _c(
+                                                          "div",
+                                                          {
+                                                            staticClass:
+                                                              " img-name"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              _vm._s(img.name)
+                                                            )
+                                                          ]
+                                                        )
+                                                      : _vm._e(),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass:
+                                                          "likes-counter"
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "svg",
+                                                          {
+                                                            attrs: {
+                                                              id: "Layer_1",
+                                                              "data-name":
+                                                                "Layer 1",
+                                                              xmlns:
+                                                                "http://www.w3.org/2000/svg",
+                                                              viewBox:
+                                                                "0 0 294.89 284"
+                                                            }
+                                                          },
+                                                          [
+                                                            _c("defs"),
+                                                            _c("path", {
+                                                              staticClass:
+                                                                "cls-1",
+                                                              attrs: {
+                                                                d:
+                                                                  "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
+                                                                transform:
+                                                                  "translate(-2.57 -10)"
+                                                              }
+                                                            })
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "div",
+                                                          {
+                                                            staticClass:
+                                                              "number"
+                                                          },
+                                                          [
+                                                            _vm._v(
+                                                              _vm._s(img.likes)
+                                                            )
+                                                          ]
+                                                        )
+                                                      ]
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c(
+                                                      "div",
+                                                      {
+                                                        staticClass: "hover",
+                                                        on: {
+                                                          click: function(
+                                                            $event
+                                                          ) {
+                                                            $event.preventDefault()
+                                                            return _vm.goCatalog(
+                                                              img.id
+                                                            )
+                                                          }
+                                                        }
+                                                      },
+                                                      [
+                                                        _c(
+                                                          "ShareNetwork",
+                                                          {
+                                                            attrs: {
+                                                              network:
+                                                                "pinterest",
+                                                              url:
+                                                                _vm.$root
+                                                                  .currentUrl +
+                                                                "/catalog-" +
+                                                                img.id,
+                                                              title:
+                                                                img.name +
+                                                                " (ID " +
+                                                                img.id +
+                                                                ")" +
+                                                                " " +
+                                                                img.description +
+                                                                " " +
+                                                                _vm.$root.getPinterestContent(
+                                                                  img
+                                                                ),
+                                                              media:
+                                                                _vm.$root
+                                                                  .currentUrl +
+                                                                _vm.$root
+                                                                  .storageUrl +
+                                                                "/creator_images/" +
+                                                                img.id +
+                                                                "/500.jpg"
+                                                            },
+                                                            on: {
+                                                              open: function(
+                                                                $event
+                                                              ) {
+                                                                this.$root.clicked = true
+                                                              },
+                                                              close: function(
+                                                                $event
+                                                              ) {
+                                                                this.$root.clicked = false
+                                                              }
+                                                            }
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "svg",
+                                                              {
+                                                                staticStyle: {
+                                                                  "enable-background":
+                                                                    "new 0 0 512 512"
+                                                                },
+                                                                attrs: {
+                                                                  height:
+                                                                    "30px",
+                                                                  id: "Layer_1",
+                                                                  version:
+                                                                    "1.1",
+                                                                  viewBox:
+                                                                    "0 0 512 512",
+                                                                  width: "30px",
+                                                                  "xml:space":
+                                                                    "preserve",
+                                                                  xmlns:
+                                                                    "http://www.w3.org/2000/svg",
+                                                                  "xmlns:cc":
+                                                                    "http://creativecommons.org/ns#",
+                                                                  "xmlns:dc":
+                                                                    "http://purl.org/dc/elements/1.1/",
+                                                                  "xmlns:inkscape":
+                                                                    "http://www.inkscape.org/namespaces/inkscape",
+                                                                  "xmlns:rdf":
+                                                                    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                                                                  "xmlns:sodipodi":
+                                                                    "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+                                                                  "xmlns:svg":
+                                                                    "http://www.w3.org/2000/svg"
+                                                                }
+                                                              },
+                                                              [
+                                                                _c("defs", {
+                                                                  attrs: {
+                                                                    id: "defs19"
+                                                                  }
+                                                                }),
                                                                 _c(
                                                                   "g",
                                                                   {
                                                                     attrs: {
                                                                       id:
-                                                                        "g3142",
-                                                                      transform:
-                                                                        "translate(221.28814,-27.9639)"
+                                                                        "g3031"
                                                                     }
                                                                   },
                                                                   [
+                                                                    _c("path", {
+                                                                      staticStyle: {
+                                                                        fill:
+                                                                          "#cb2027",
+                                                                        "fill-opacity":
+                                                                          "1"
+                                                                      },
+                                                                      attrs: {
+                                                                        d:
+                                                                          "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
+                                                                        id:
+                                                                          "circle8"
+                                                                      }
+                                                                    }),
                                                                     _c(
                                                                       "g",
                                                                       {
                                                                         attrs: {
                                                                           id:
-                                                                            "Layer_14"
+                                                                            "g3000",
+                                                                          transform:
+                                                                            "translate(-603.11865,-9.8474559)"
                                                                         }
                                                                       },
                                                                       [
@@ -60135,566 +60213,973 @@ var render = function() {
                                                                           {
                                                                             attrs: {
                                                                               id:
-                                                                                "g3121"
+                                                                                "g3142",
+                                                                              transform:
+                                                                                "translate(221.28814,-27.9639)"
                                                                             }
                                                                           },
                                                                           [
                                                                             _c(
-                                                                              "path",
+                                                                              "g",
                                                                               {
-                                                                                staticStyle: {
-                                                                                  fill:
-                                                                                    "#ffffff"
-                                                                                },
                                                                                 attrs: {
-                                                                                  d:
-                                                                                    "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
                                                                                   id:
-                                                                                    "path3131"
+                                                                                    "Layer_14"
+                                                                                }
+                                                                              },
+                                                                              [
+                                                                                _c(
+                                                                                  "g",
+                                                                                  {
+                                                                                    attrs: {
+                                                                                      id:
+                                                                                        "g3121"
+                                                                                    }
+                                                                                  },
+                                                                                  [
+                                                                                    _c(
+                                                                                      "path",
+                                                                                      {
+                                                                                        staticStyle: {
+                                                                                          fill:
+                                                                                            "#ffffff"
+                                                                                        },
+                                                                                        attrs: {
+                                                                                          d:
+                                                                                            "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
+                                                                                          id:
+                                                                                            "path3131"
+                                                                                        }
+                                                                                      }
+                                                                                    )
+                                                                                  ]
+                                                                                )
+                                                                              ]
+                                                                            ),
+                                                                            _c(
+                                                                              "g",
+                                                                              {
+                                                                                attrs: {
+                                                                                  id:
+                                                                                    "Layer_1_1_-8"
                                                                                 }
                                                                               }
                                                                             )
                                                                           ]
                                                                         )
                                                                       ]
-                                                                    ),
-                                                                    _c("g", {
+                                                                    )
+                                                                  ]
+                                                                ),
+                                                                _c("g", {
+                                                                  attrs: {
+                                                                    id:
+                                                                      "Layer_1_1_"
+                                                                  }
+                                                                })
+                                                              ]
+                                                            )
+                                                          ]
+                                                        ),
+                                                        _vm._v(" "),
+                                                        !_vm.$root.isMobile
+                                                          ? _c(
+                                                              "div",
+                                                              {
+                                                                staticClass:
+                                                                  " img-id"
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Image ID - " +
+                                                                    _vm._s(
+                                                                      img.id
+                                                                    )
+                                                                )
+                                                              ]
+                                                            )
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        _c(
+                                                          "div",
+                                                          {
+                                                            staticClass:
+                                                              "visibile"
+                                                          },
+                                                          [
+                                                            _c(
+                                                              "svg",
+                                                              {
+                                                                staticStyle: {
+                                                                  margin: "10px"
+                                                                },
+                                                                attrs: {
+                                                                  xmlns:
+                                                                    "http://www.w3.org/2000/svg",
+                                                                  "xmlns:xlink":
+                                                                    "http://www.w3.org/1999/xlink",
+                                                                  width: "39px",
+                                                                  height:
+                                                                    "33px",
+                                                                  viewBox:
+                                                                    "0 0 39 33",
+                                                                  version: "1.1"
+                                                                }
+                                                              },
+                                                              [
+                                                                _c("title", [
+                                                                  _vm._v(
+                                                                    "579024FF-590D-4634-8A8E-D02BA1A63641"
+                                                                  )
+                                                                ]),
+                                                                _vm._v(" "),
+                                                                _c("desc", [
+                                                                  _vm._v(
+                                                                    "Created with sketchtool."
+                                                                  )
+                                                                ]),
+                                                                _vm._v(" "),
+                                                                _c("defs", [
+                                                                  _c("path", {
+                                                                    attrs: {
+                                                                      d:
+                                                                        "M114.499859,346.968682 C111.062923,346.968682 108.28075,344.331347 108.024735,340.989194 L103.271478,337.347416 C102.646622,338.124556 102.07161,338.946169 101.607612,339.844597 C101.397396,340.25684 101.397396,340.743609 101.607612,341.155852 C104.064896,345.908986 108.929621,349.12491 114.499859,349.12491 C115.719212,349.12491 116.895518,348.945224 118.029231,348.655032 L115.677978,346.851437 C115.289662,346.925803 114.895336,346.965046 114.499859,346.968682 Z M128.719755,349.578616 L123.710483,345.740531 C125.232147,344.469213 126.483621,342.910615 127.392105,341.155403 C127.602321,340.74316 127.602321,340.256391 127.392105,339.844148 C124.934821,335.091014 120.070096,331.87509 114.499859,331.87509 C112.166956,331.877893 109.871943,332.460133 107.824455,333.568627 L102.059828,329.151506 C101.908011,329.034388 101.715467,328.981888 101.524589,329.005563 C101.33371,329.029238 101.160148,329.127147 101.042115,329.277735 L100.152635,330.412899 C99.9069282,330.726253 99.9639305,331.177735 100.279962,331.421384 L126.939889,351.848494 C127.091706,351.965612 127.284251,352.018112 127.475129,351.994437 C127.666007,351.970762 127.839569,351.872853 127.957602,351.722265 L128.847535,350.587101 C129.09314,350.273629 129.035933,349.822129 128.719755,349.578616 Z M120.394985,343.199776 L118.614213,341.835064 C118.76418,341.405376 118.843729,340.954642 118.849836,340.5 C118.867767,339.150197 118.238821,337.87197 117.154776,337.055075 C116.070731,336.23818 114.660098,335.979458 113.353005,336.357797 C113.626243,336.724851 113.774047,337.168846 113.774862,337.62503 C113.768102,337.776834 113.744704,337.927458 113.705081,338.074244 L110.369645,335.518666 C111.528272,334.558788 112.98993,334.032424 114.499859,334.031317 C116.230682,334.030364 117.890892,334.711577 119.11477,335.924897 C120.338647,337.138218 121.025788,338.784107 121.024826,340.5 C121.024826,341.47165 120.785123,342.377265 120.394985,343.200226 L120.394985,343.199776 Z",
+                                                                      id:
+                                                                        "path-1"
+                                                                    }
+                                                                  }),
+                                                                  _vm._v(" "),
+                                                                  _c(
+                                                                    "filter",
+                                                                    {
                                                                       attrs: {
+                                                                        x:
+                                                                          "-27.6%",
+                                                                        y:
+                                                                          "-30.4%",
+                                                                        width:
+                                                                          "155.2%",
+                                                                        height:
+                                                                          "169.6%",
+                                                                        filterUnits:
+                                                                          "objectBoundingBox",
                                                                         id:
-                                                                          "Layer_1_1_-8"
+                                                                          "filter-2"
                                                                       }
-                                                                    })
+                                                                    },
+                                                                    [
+                                                                      _c(
+                                                                        "feOffset",
+                                                                        {
+                                                                          attrs: {
+                                                                            dx:
+                                                                              "0",
+                                                                            dy:
+                                                                              "1",
+                                                                            in:
+                                                                              "SourceAlpha",
+                                                                            result:
+                                                                              "shadowOffsetOuter1"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feGaussianBlur",
+                                                                        {
+                                                                          attrs: {
+                                                                            stdDeviation:
+                                                                              "2.5",
+                                                                            in:
+                                                                              "shadowOffsetOuter1",
+                                                                            result:
+                                                                              "shadowBlurOuter1"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feColorMatrix",
+                                                                        {
+                                                                          attrs: {
+                                                                            values:
+                                                                              "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0",
+                                                                            type:
+                                                                              "matrix",
+                                                                            in:
+                                                                              "shadowBlurOuter1",
+                                                                            result:
+                                                                              "shadowMatrixOuter1"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feMorphology",
+                                                                        {
+                                                                          attrs: {
+                                                                            radius:
+                                                                              "1",
+                                                                            operator:
+                                                                              "erode",
+                                                                            in:
+                                                                              "SourceAlpha",
+                                                                            result:
+                                                                              "shadowSpreadOuter2"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feOffset",
+                                                                        {
+                                                                          attrs: {
+                                                                            dx:
+                                                                              "0",
+                                                                            dy:
+                                                                              "3",
+                                                                            in:
+                                                                              "shadowSpreadOuter2",
+                                                                            result:
+                                                                              "shadowOffsetOuter2"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feGaussianBlur",
+                                                                        {
+                                                                          attrs: {
+                                                                            stdDeviation:
+                                                                              "0.5",
+                                                                            in:
+                                                                              "shadowOffsetOuter2",
+                                                                            result:
+                                                                              "shadowBlurOuter2"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feColorMatrix",
+                                                                        {
+                                                                          attrs: {
+                                                                            values:
+                                                                              "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0",
+                                                                            type:
+                                                                              "matrix",
+                                                                            in:
+                                                                              "shadowBlurOuter2",
+                                                                            result:
+                                                                              "shadowMatrixOuter2"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feOffset",
+                                                                        {
+                                                                          attrs: {
+                                                                            dx:
+                                                                              "0",
+                                                                            dy:
+                                                                              "2",
+                                                                            in:
+                                                                              "SourceAlpha",
+                                                                            result:
+                                                                              "shadowOffsetOuter3"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feGaussianBlur",
+                                                                        {
+                                                                          attrs: {
+                                                                            stdDeviation:
+                                                                              "1",
+                                                                            in:
+                                                                              "shadowOffsetOuter3",
+                                                                            result:
+                                                                              "shadowBlurOuter3"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feColorMatrix",
+                                                                        {
+                                                                          attrs: {
+                                                                            values:
+                                                                              "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0",
+                                                                            type:
+                                                                              "matrix",
+                                                                            in:
+                                                                              "shadowBlurOuter3",
+                                                                            result:
+                                                                              "shadowMatrixOuter3"
+                                                                          }
+                                                                        }
+                                                                      ),
+                                                                      _vm._v(
+                                                                        " "
+                                                                      ),
+                                                                      _c(
+                                                                        "feMerge",
+                                                                        [
+                                                                          _c(
+                                                                            "feMergeNode",
+                                                                            {
+                                                                              attrs: {
+                                                                                in:
+                                                                                  "shadowMatrixOuter1"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "feMergeNode",
+                                                                            {
+                                                                              attrs: {
+                                                                                in:
+                                                                                  "shadowMatrixOuter2"
+                                                                              }
+                                                                            }
+                                                                          ),
+                                                                          _vm._v(
+                                                                            " "
+                                                                          ),
+                                                                          _c(
+                                                                            "feMergeNode",
+                                                                            {
+                                                                              attrs: {
+                                                                                in:
+                                                                                  "shadowMatrixOuter3"
+                                                                              }
+                                                                            }
+                                                                          )
+                                                                        ],
+                                                                        1
+                                                                      )
+                                                                    ],
+                                                                    1
+                                                                  )
+                                                                ]),
+                                                                _vm._v(" "),
+                                                                _c(
+                                                                  "g",
+                                                                  {
+                                                                    attrs: {
+                                                                      id:
+                                                                        "Page-3",
+                                                                      stroke:
+                                                                        "none",
+                                                                      "stroke-width":
+                                                                        "1",
+                                                                      fill:
+                                                                        "none",
+                                                                      "fill-rule":
+                                                                        "evenodd"
+                                                                    }
+                                                                  },
+                                                                  [
+                                                                    _c(
+                                                                      "g",
+                                                                      {
+                                                                        attrs: {
+                                                                          id:
+                                                                            "link",
+                                                                          transform:
+                                                                            "translate(-95.000000, -325.000000)"
+                                                                        }
+                                                                      },
+                                                                      [
+                                                                        _c(
+                                                                          "g",
+                                                                          {
+                                                                            attrs: {
+                                                                              id:
+                                                                                "Shape"
+                                                                            }
+                                                                          },
+                                                                          [
+                                                                            _c(
+                                                                              "use",
+                                                                              {
+                                                                                attrs: {
+                                                                                  fill:
+                                                                                    "black",
+                                                                                  "fill-opacity":
+                                                                                    "1",
+                                                                                  filter:
+                                                                                    "url(#filter-2)",
+                                                                                  "xlink:href":
+                                                                                    "#path-1"
+                                                                                }
+                                                                              }
+                                                                            ),
+                                                                            _vm._v(
+                                                                              " "
+                                                                            ),
+                                                                            _c(
+                                                                              "use",
+                                                                              {
+                                                                                attrs: {
+                                                                                  fill:
+                                                                                    "#FAFAFA",
+                                                                                  "fill-rule":
+                                                                                    "evenodd",
+                                                                                  "xlink:href":
+                                                                                    "#path-1"
+                                                                                }
+                                                                              }
+                                                                            )
+                                                                          ]
+                                                                        )
+                                                                      ]
+                                                                    )
                                                                   ]
                                                                 )
                                                               ]
                                                             )
                                                           ]
                                                         ),
-                                                        _c("g", {
-                                                          attrs: {
-                                                            id: "Layer_1_1_"
-                                                          }
-                                                        })
-                                                      ]
-                                                    )
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                !_vm.$root.isMobile
-                                                  ? _c(
-                                                      "div",
-                                                      {
-                                                        staticClass: " img-id"
-                                                      },
-                                                      [
-                                                        _vm._v(
-                                                          "Image ID - " +
-                                                            _vm._s(img.id)
-                                                        )
-                                                      ]
-                                                    )
-                                                  : _vm._e(),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "div",
-                                                  { staticClass: "visibile" },
-                                                  [
-                                                    _c(
-                                                      "svg",
-                                                      {
-                                                        staticStyle: {
-                                                          margin: "10px"
-                                                        },
-                                                        attrs: {
-                                                          xmlns:
-                                                            "http://www.w3.org/2000/svg",
-                                                          "xmlns:xlink":
-                                                            "http://www.w3.org/1999/xlink",
-                                                          width: "39px",
-                                                          height: "33px",
-                                                          viewBox: "0 0 39 33",
-                                                          version: "1.1"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c("title", [
-                                                          _vm._v(
-                                                            "579024FF-590D-4634-8A8E-D02BA1A63641"
-                                                          )
-                                                        ]),
                                                         _vm._v(" "),
-                                                        _c("desc", [
-                                                          _vm._v(
-                                                            "Created with sketchtool."
-                                                          )
-                                                        ]),
-                                                        _vm._v(" "),
-                                                        _c("defs", [
-                                                          _c("path", {
-                                                            attrs: {
-                                                              d:
-                                                                "M114.499859,346.968682 C111.062923,346.968682 108.28075,344.331347 108.024735,340.989194 L103.271478,337.347416 C102.646622,338.124556 102.07161,338.946169 101.607612,339.844597 C101.397396,340.25684 101.397396,340.743609 101.607612,341.155852 C104.064896,345.908986 108.929621,349.12491 114.499859,349.12491 C115.719212,349.12491 116.895518,348.945224 118.029231,348.655032 L115.677978,346.851437 C115.289662,346.925803 114.895336,346.965046 114.499859,346.968682 Z M128.719755,349.578616 L123.710483,345.740531 C125.232147,344.469213 126.483621,342.910615 127.392105,341.155403 C127.602321,340.74316 127.602321,340.256391 127.392105,339.844148 C124.934821,335.091014 120.070096,331.87509 114.499859,331.87509 C112.166956,331.877893 109.871943,332.460133 107.824455,333.568627 L102.059828,329.151506 C101.908011,329.034388 101.715467,328.981888 101.524589,329.005563 C101.33371,329.029238 101.160148,329.127147 101.042115,329.277735 L100.152635,330.412899 C99.9069282,330.726253 99.9639305,331.177735 100.279962,331.421384 L126.939889,351.848494 C127.091706,351.965612 127.284251,352.018112 127.475129,351.994437 C127.666007,351.970762 127.839569,351.872853 127.957602,351.722265 L128.847535,350.587101 C129.09314,350.273629 129.035933,349.822129 128.719755,349.578616 Z M120.394985,343.199776 L118.614213,341.835064 C118.76418,341.405376 118.843729,340.954642 118.849836,340.5 C118.867767,339.150197 118.238821,337.87197 117.154776,337.055075 C116.070731,336.23818 114.660098,335.979458 113.353005,336.357797 C113.626243,336.724851 113.774047,337.168846 113.774862,337.62503 C113.768102,337.776834 113.744704,337.927458 113.705081,338.074244 L110.369645,335.518666 C111.528272,334.558788 112.98993,334.032424 114.499859,334.031317 C116.230682,334.030364 117.890892,334.711577 119.11477,335.924897 C120.338647,337.138218 121.025788,338.784107 121.024826,340.5 C121.024826,341.47165 120.785123,342.377265 120.394985,343.200226 L120.394985,343.199776 Z",
-                                                              id: "path-1"
-                                                            }
-                                                          }),
-                                                          _vm._v(" "),
-                                                          _c(
-                                                            "filter",
-                                                            {
-                                                              attrs: {
-                                                                x: "-27.6%",
-                                                                y: "-30.4%",
-                                                                width: "155.2%",
-                                                                height:
-                                                                  "169.6%",
-                                                                filterUnits:
-                                                                  "objectBoundingBox",
-                                                                id: "filter-2"
-                                                              }
-                                                            },
-                                                            [
-                                                              _c("feOffset", {
-                                                                attrs: {
-                                                                  dx: "0",
-                                                                  dy: "1",
-                                                                  in:
-                                                                    "SourceAlpha",
-                                                                  result:
-                                                                    "shadowOffsetOuter1"
-                                                                }
-                                                              }),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feGaussianBlur",
-                                                                {
-                                                                  attrs: {
-                                                                    stdDeviation:
-                                                                      "2.5",
-                                                                    in:
-                                                                      "shadowOffsetOuter1",
-                                                                    result:
-                                                                      "shadowBlurOuter1"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feColorMatrix",
-                                                                {
-                                                                  attrs: {
-                                                                    values:
-                                                                      "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.24 0",
-                                                                    type:
-                                                                      "matrix",
-                                                                    in:
-                                                                      "shadowBlurOuter1",
-                                                                    result:
-                                                                      "shadowMatrixOuter1"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feMorphology",
-                                                                {
-                                                                  attrs: {
-                                                                    radius: "1",
-                                                                    operator:
-                                                                      "erode",
-                                                                    in:
-                                                                      "SourceAlpha",
-                                                                    result:
-                                                                      "shadowSpreadOuter2"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c("feOffset", {
-                                                                attrs: {
-                                                                  dx: "0",
-                                                                  dy: "3",
-                                                                  in:
-                                                                    "shadowSpreadOuter2",
-                                                                  result:
-                                                                    "shadowOffsetOuter2"
-                                                                }
-                                                              }),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feGaussianBlur",
-                                                                {
-                                                                  attrs: {
-                                                                    stdDeviation:
-                                                                      "0.5",
-                                                                    in:
-                                                                      "shadowOffsetOuter2",
-                                                                    result:
-                                                                      "shadowBlurOuter2"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feColorMatrix",
-                                                                {
-                                                                  attrs: {
-                                                                    values:
-                                                                      "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0",
-                                                                    type:
-                                                                      "matrix",
-                                                                    in:
-                                                                      "shadowBlurOuter2",
-                                                                    result:
-                                                                      "shadowMatrixOuter2"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c("feOffset", {
-                                                                attrs: {
-                                                                  dx: "0",
-                                                                  dy: "2",
-                                                                  in:
-                                                                    "SourceAlpha",
-                                                                  result:
-                                                                    "shadowOffsetOuter3"
-                                                                }
-                                                              }),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feGaussianBlur",
-                                                                {
-                                                                  attrs: {
-                                                                    stdDeviation:
-                                                                      "1",
-                                                                    in:
-                                                                      "shadowOffsetOuter3",
-                                                                    result:
-                                                                      "shadowBlurOuter3"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feColorMatrix",
-                                                                {
-                                                                  attrs: {
-                                                                    values:
-                                                                      "0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0",
-                                                                    type:
-                                                                      "matrix",
-                                                                    in:
-                                                                      "shadowBlurOuter3",
-                                                                    result:
-                                                                      "shadowMatrixOuter3"
-                                                                  }
-                                                                }
-                                                              ),
-                                                              _vm._v(" "),
-                                                              _c(
-                                                                "feMerge",
-                                                                [
-                                                                  _c(
-                                                                    "feMergeNode",
-                                                                    {
-                                                                      attrs: {
-                                                                        in:
-                                                                          "shadowMatrixOuter1"
-                                                                      }
-                                                                    }
-                                                                  ),
-                                                                  _vm._v(" "),
-                                                                  _c(
-                                                                    "feMergeNode",
-                                                                    {
-                                                                      attrs: {
-                                                                        in:
-                                                                          "shadowMatrixOuter2"
-                                                                      }
-                                                                    }
-                                                                  ),
-                                                                  _vm._v(" "),
-                                                                  _c(
-                                                                    "feMergeNode",
-                                                                    {
-                                                                      attrs: {
-                                                                        in:
-                                                                          "shadowMatrixOuter3"
-                                                                      }
-                                                                    }
-                                                                  )
-                                                                ],
-                                                                1
-                                                              )
-                                                            ],
-                                                            1
-                                                          )
-                                                        ]),
-                                                        _vm._v(" "),
-                                                        _c(
-                                                          "g",
-                                                          {
-                                                            attrs: {
-                                                              id: "Page-3",
-                                                              stroke: "none",
-                                                              "stroke-width":
-                                                                "1",
-                                                              fill: "none",
-                                                              "fill-rule":
-                                                                "evenodd"
-                                                            }
-                                                          },
-                                                          [
-                                                            _c(
-                                                              "g",
+                                                        !_vm.$root.isMobile
+                                                          ? _c(
+                                                              "div",
                                                               {
-                                                                attrs: {
-                                                                  id: "link",
-                                                                  transform:
-                                                                    "translate(-95.000000, -325.000000)"
-                                                                }
+                                                                staticClass:
+                                                                  "view-store"
                                                               },
                                                               [
-                                                                _c(
-                                                                  "g",
-                                                                  {
-                                                                    attrs: {
-                                                                      id:
-                                                                        "Shape"
-                                                                    }
-                                                                  },
-                                                                  [
-                                                                    _c("use", {
-                                                                      attrs: {
-                                                                        fill:
-                                                                          "black",
-                                                                        "fill-opacity":
-                                                                          "1",
-                                                                        filter:
-                                                                          "url(#filter-2)",
-                                                                        "xlink:href":
-                                                                          "#path-1"
-                                                                      }
-                                                                    }),
-                                                                    _vm._v(" "),
-                                                                    _c("use", {
-                                                                      attrs: {
-                                                                        fill:
-                                                                          "#FAFAFA",
-                                                                        "fill-rule":
-                                                                          "evenodd",
-                                                                        "xlink:href":
-                                                                          "#path-1"
-                                                                      }
-                                                                    })
-                                                                  ]
+                                                                _vm._v(
+                                                                  "View Products"
                                                                 )
                                                               ]
                                                             )
-                                                          ]
-                                                        )
-                                                      ]
-                                                    )
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                !_vm.$root.isMobile
-                                                  ? _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "view-store"
-                                                      },
-                                                      [_vm._v("View Products")]
-                                                    )
-                                                  : _vm._e(),
-                                                _vm._v(" "),
-                                                !_vm.$root.isMobile
-                                                  ? _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "quick-view",
-                                                        on: {
-                                                          click: function(
-                                                            $event
-                                                          ) {
-                                                            $event.preventDefault()
-                                                            return _vm.openShopModal(
-                                                              img
+                                                          : _vm._e(),
+                                                        _vm._v(" "),
+                                                        !_vm.$root.isMobile
+                                                          ? _c(
+                                                              "div",
+                                                              {
+                                                                staticClass:
+                                                                  "quick-view",
+                                                                on: {
+                                                                  click: function(
+                                                                    $event
+                                                                  ) {
+                                                                    $event.preventDefault()
+                                                                    return _vm.openShopModal(
+                                                                      img
+                                                                    )
+                                                                  }
+                                                                }
+                                                              },
+                                                              [
+                                                                _vm._v(
+                                                                  "Quick View"
+                                                                )
+                                                              ]
                                                             )
-                                                          }
-                                                        }
-                                                      },
-                                                      [_vm._v("Quick View")]
-                                                    )
-                                                  : _vm._e()
-                                              ],
-                                              1
-                                            ),
-                                            _vm._v(" "),
-                                            _c("v-lazy-image", {
-                                              staticClass: "img",
-                                              attrs: {
-                                                src: _vm.getPreviewPath(
-                                                  img,
-                                                  500
-                                                ),
-                                                "src-placeholder": _vm.getPreviewPath(
-                                                  img,
-                                                  80
-                                                )
-                                              }
-                                            }),
-                                            _vm._v(" "),
-                                            _vm.$root.isMobile
-                                              ? _c(
-                                                  "hooper",
-                                                  {
-                                                    attrs: {
-                                                      wheelControl: false,
-                                                      itemsToShow: 2.5,
-                                                      centerMode: true,
-                                                      infiniteScroll: true
-                                                    }
-                                                  },
-                                                  [
-                                                    _vm._l(
-                                                      _vm.prevs[$index]
-                                                        .templates_list,
-                                                      function(template, $j) {
-                                                        return _c(
-                                                          "slide",
-                                                          { key: $j },
+                                                          : _vm._e()
+                                                      ],
+                                                      1
+                                                    ),
+                                                    _vm._v(" "),
+                                                    _c("v-lazy-image", {
+                                                      staticClass: "img",
+                                                      attrs: {
+                                                        src: _vm.getPreviewPath(
+                                                          img,
+                                                          500
+                                                        ),
+                                                        "src-placeholder": _vm.getPreviewPath(
+                                                          img,
+                                                          80
+                                                        )
+                                                      }
+                                                    }),
+                                                    _vm._v(" "),
+                                                    _vm.$root.isMobile
+                                                      ? _c(
+                                                          "hooper",
+                                                          {
+                                                            attrs: {
+                                                              wheelControl: false,
+                                                              itemsToShow: 2.5,
+                                                              centerMode: true,
+                                                              infiniteScroll: true
+                                                            }
+                                                          },
+                                                          [
+                                                            _vm._l(
+                                                              _vm.prevs[$index]
+                                                                .templates_list,
+                                                              function(
+                                                                template,
+                                                                $j
+                                                              ) {
+                                                                return _c(
+                                                                  "slide",
+                                                                  { key: $j },
+                                                                  [
+                                                                    _c(
+                                                                      "a",
+                                                                      {
+                                                                        attrs: {
+                                                                          href:
+                                                                            "/product/" +
+                                                                            _vm
+                                                                              .prevs[
+                                                                              $index
+                                                                            ]
+                                                                              .products_list[
+                                                                              $j
+                                                                            ].id
+                                                                        }
+                                                                      },
+                                                                      [
+                                                                        _c(
+                                                                          "div",
+                                                                          {
+                                                                            staticClass:
+                                                                              "thumbnail-wrapper"
+                                                                          },
+                                                                          [
+                                                                            _c(
+                                                                              "v-lazy-image",
+                                                                              {
+                                                                                staticClass:
+                                                                                  "thumbnail",
+                                                                                attrs: {
+                                                                                  src:
+                                                                                    _vm
+                                                                                      .$root
+                                                                                      .storageUrl +
+                                                                                    "/temp/" +
+                                                                                    $j +
+                                                                                    ".jpg",
+                                                                                  "src-placeholder":
+                                                                                    _vm
+                                                                                      .$root
+                                                                                      .storageUrl +
+                                                                                    "/images/placeholder-white.png"
+                                                                                }
+                                                                              }
+                                                                            )
+                                                                          ],
+                                                                          1
+                                                                        )
+                                                                      ]
+                                                                    )
+                                                                  ]
+                                                                )
+                                                              }
+                                                            ),
+                                                            _vm._v(" "),
+                                                            _c(
+                                                              "hooper-navigation",
+                                                              {
+                                                                attrs: {
+                                                                  slot:
+                                                                    "hooper-addons"
+                                                                },
+                                                                slot:
+                                                                  "hooper-addons"
+                                                              }
+                                                            )
+                                                          ],
+                                                          2
+                                                        )
+                                                      : _vm._e(),
+                                                    _vm._v(" "),
+                                                    _vm.$root.isMobile
+                                                      ? _c(
+                                                          "div",
+                                                          {
+                                                            staticClass:
+                                                              "view-store-b"
+                                                          },
                                                           [
                                                             _c(
                                                               "a",
                                                               {
                                                                 attrs: {
                                                                   href:
-                                                                    "/product/" +
-                                                                    _vm.prevs[
-                                                                      $index
-                                                                    ]
-                                                                      .products_list[
-                                                                      $j
-                                                                    ].id
+                                                                    "/catalog-" +
+                                                                    img.id
                                                                 }
                                                               },
                                                               [
-                                                                _c(
-                                                                  "div",
-                                                                  {
-                                                                    staticClass:
-                                                                      "thumbnail-wrapper"
-                                                                  },
-                                                                  [
-                                                                    _c(
-                                                                      "v-lazy-image",
-                                                                      {
-                                                                        staticClass:
-                                                                          "thumbnail",
-                                                                        attrs: {
-                                                                          src:
-                                                                            _vm
-                                                                              .$root
-                                                                              .storageUrl +
-                                                                            "/temp/" +
-                                                                            $j +
-                                                                            ".jpg",
-                                                                          "src-placeholder":
-                                                                            _vm
-                                                                              .$root
-                                                                              .storageUrl +
-                                                                            "/images/placeholder-white.png"
-                                                                        }
-                                                                      }
-                                                                    )
-                                                                  ],
-                                                                  1
+                                                                _c("img", {
+                                                                  attrs: {
+                                                                    src:
+                                                                      _vm.$root
+                                                                        .storageUrl +
+                                                                      "/images/view_products_icon.png"
+                                                                  }
+                                                                }),
+                                                                _vm._v(
+                                                                  " View all products"
                                                                 )
                                                               ]
                                                             )
                                                           ]
                                                         )
-                                                      }
-                                                    ),
-                                                    _vm._v(" "),
-                                                    _c("hooper-navigation", {
-                                                      attrs: {
-                                                        slot: "hooper-addons"
-                                                      },
-                                                      slot: "hooper-addons"
-                                                    })
+                                                      : _vm._e()
                                                   ],
-                                                  2
+                                                  1
                                                 )
-                                              : _vm._e(),
-                                            _vm._v(" "),
-                                            _vm.$root.isMobile
-                                              ? _c(
-                                                  "div",
-                                                  {
-                                                    staticClass: "view-store-b"
-                                                  },
+                                              ]
+                                            )
+                                          : _vm._e()
+                                      }),
+                                      0
+                                    )
+                                  ],
+                                  1
+                                ),
+                                _vm._v(" "),
+                                false
+                                  ? undefined
+                                  : _vm._e()
+                              ]
+                            )
+                          : _c("div", { staticClass: "no-img" }, [
+                              _c("img", {
+                                attrs: {
+                                  src:
+                                    _vm.$root.storageUrl + "/images/no-img.png"
+                                }
+                              })
+                            ])
+                      ])
+                    ])
+                  ])
+                ],
+                1
+              )
+            : _vm._e()
+        ])
+      : _c("div", { staticClass: "mobile-main-content-box" }, [
+          _c("div", { staticClass: "mobile-bio-view" }, [
+            _c("div", { staticClass: "thumb-mobile" }, [
+              _c(
+                "div",
+                { staticClass: "user-big-thumb-mobile" },
+                [
+                  _vm.storeOwner
+                    ? _c("v-lazy-image", {
+                        attrs: {
+                          src:
+                            _vm.$root.storageUrl +
+                            "/creator_images/" +
+                            _vm.storeOwner.id +
+                            ".jpg",
+                          "src-placeholder":
+                            _vm.$root.storageUrl +
+                            "/images/profile_img_placeholder.jpg",
+                          alt: "Avatar of user"
+                        }
+                      })
+                    : _vm._e()
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("div", [
+                _c("b", [
+                  _vm._v(
+                    _vm._s(
+                      _vm.storeOwner.store_name == ""
+                        ? _vm.storeOwner.user.first_name + " Shop"
+                        : _vm.storeOwner.store_name
+                    )
+                  )
+                ]),
+                _vm._v(" "),
+                _c("br"),
+                _c("span", [_vm._v("Edit Bio")])
+              ])
+            ]),
+            _vm._v(" "),
+            _c("i", { staticClass: "fas fa-ellipsis-h" })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "bio mt-3 mb-3" }, [
+            _vm._v(
+              "\r\n              " +
+                _vm._s(
+                  _vm.storeOwner.bio == ""
+                    ? "Thanks for visiting our gallery page. Here you can find and buy content we published on tangible products. Appreciate your support!"
+                    : _vm.storeOwner.bio
+                ) +
+                "\r\n              "
+            )
+          ]),
+          _vm._v(" "),
+          _vm.storeOwner.site != "" && _vm.$root.isMobile
+            ? _c("span", [
+                _c(
+                  "a",
+                  {
+                    staticStyle: { color: "#B200FF", "margin-right": "15px" },
+                    attrs: { href: _vm.storeOwner.site }
+                  },
+                  [
+                    _vm._v(
+                      _vm._s(_vm.$root.trimString(_vm.storeOwner.site, 25))
+                    )
+                  ]
+                )
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c("div", { staticClass: "mobile__search__box mt-3" }, [
+            _c("div", { staticClass: "mobile__search__input__box" }, [
+              _c("i", { staticClass: "fas fa-search" }),
+              _vm._v(" "),
+              _c("input", {
+                directives: [
+                  {
+                    name: "model",
+                    rawName: "v-model",
+                    value: _vm.search,
+                    expression: "search"
+                  }
+                ],
+                attrs: {
+                  type: "search",
+                  placeholder: "Search by words or image ID"
+                },
+                domProps: { value: _vm.search },
+                on: {
+                  input: function($event) {
+                    if ($event.target.composing) {
+                      return
+                    }
+                    _vm.search = $event.target.value
+                  }
+                }
+              })
+            ]),
+            _vm._v(" "),
+            _vm._m(1)
+          ]),
+          _vm._v(" "),
+          !_vm.filter
+            ? _c("div", { staticClass: "approved-mgs-count mt-3 mb-3" }, [
+                _c("b", [_vm._v("Approved Images (" + _vm._s(_vm.count) + ")")])
+              ])
+            : _vm._e(),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "row mt-5" },
+            _vm._l(_vm.imgs, function(img, $index) {
+              return !_vm.filter ||
+                Object.keys(_vm.products[img.id]).includes(_vm.filter)
+                ? _c(
+                    "div",
+                    { key: $index, staticClass: "col-6 mb-5" },
+                    [
+                      _c("p", { staticClass: "text-center" }, [
+                        _vm._v(_vm._s(img.name))
+                      ]),
+                      _vm._v(" "),
+                      _c("p", { staticClass: "text-center purchase__title" }, [
+                        _vm._v("(0) Purchases ")
+                      ]),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        { staticClass: "social_mobile__card__view" },
+                        [
+                          _c(
+                            "ShareNetwork",
+                            {
+                              attrs: {
+                                network: "pinterest",
+                                url:
+                                  _vm.$root.currentUrl + "/catalog-" + img.id,
+                                title:
+                                  img.name +
+                                  " (ID " +
+                                  img.id +
+                                  ")" +
+                                  " " +
+                                  img.description +
+                                  " " +
+                                  _vm.$root.getPinterestContent(img),
+                                media:
+                                  _vm.$root.currentUrl +
+                                  _vm.$root.storageUrl +
+                                  "/creator_images/" +
+                                  img.id +
+                                  "/500.jpg"
+                              },
+                              on: {
+                                open: function($event) {
+                                  this.$root.clicked = true
+                                },
+                                close: function($event) {
+                                  this.$root.clicked = false
+                                }
+                              }
+                            },
+                            [
+                              _c(
+                                "svg",
+                                {
+                                  staticStyle: {
+                                    "enable-background": "new 0 0 512 512"
+                                  },
+                                  attrs: {
+                                    height: "30px",
+                                    id: "Layer_1",
+                                    version: "1.1",
+                                    viewBox: "0 0 512 512",
+                                    width: "30px",
+                                    "xml:space": "preserve",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    "xmlns:cc":
+                                      "http://creativecommons.org/ns#",
+                                    "xmlns:dc":
+                                      "http://purl.org/dc/elements/1.1/",
+                                    "xmlns:inkscape":
+                                      "http://www.inkscape.org/namespaces/inkscape",
+                                    "xmlns:rdf":
+                                      "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                                    "xmlns:sodipodi":
+                                      "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+                                    "xmlns:svg": "http://www.w3.org/2000/svg"
+                                  }
+                                },
+                                [
+                                  _c("defs", { attrs: { id: "defs19" } }),
+                                  _c("g", { attrs: { id: "g3031" } }, [
+                                    _c("path", {
+                                      staticStyle: {
+                                        fill: "#cb2027",
+                                        "fill-opacity": "1"
+                                      },
+                                      attrs: {
+                                        d:
+                                          "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
+                                        id: "circle8"
+                                      }
+                                    }),
+                                    _c(
+                                      "g",
+                                      {
+                                        attrs: {
+                                          id: "g3000",
+                                          transform:
+                                            "translate(-603.11865,-9.8474559)"
+                                        }
+                                      },
+                                      [
+                                        _c(
+                                          "g",
+                                          {
+                                            attrs: {
+                                              id: "g3142",
+                                              transform:
+                                                "translate(221.28814,-27.9639)"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "g",
+                                              { attrs: { id: "Layer_14" } },
+                                              [
+                                                _c(
+                                                  "g",
+                                                  { attrs: { id: "g3121" } },
                                                   [
-                                                    _c(
-                                                      "a",
-                                                      {
-                                                        attrs: {
-                                                          href:
-                                                            "/catalog-" + img.id
-                                                        }
+                                                    _c("path", {
+                                                      staticStyle: {
+                                                        fill: "#ffffff"
                                                       },
-                                                      [
-                                                        _c("img", {
-                                                          attrs: {
-                                                            src:
-                                                              _vm.$root
-                                                                .storageUrl +
-                                                              "/images/view_products_icon.png"
-                                                          }
-                                                        }),
-                                                        _vm._v(
-                                                          " View all products"
-                                                        )
-                                                      ]
-                                                    )
+                                                      attrs: {
+                                                        d:
+                                                          "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
+                                                        id: "path3131"
+                                                      }
+                                                    })
                                                   ]
                                                 )
-                                              : _vm._e()
-                                          ],
-                                          1
+                                              ]
+                                            ),
+                                            _c("g", {
+                                              attrs: { id: "Layer_1_1_-8" }
+                                            })
+                                          ]
                                         )
                                       ]
                                     )
-                                  : _vm._e()
-                              }),
-                              0
-                            )
-                          ],
-                          1
-                        ),
-                        _vm._v(" "),
-                        false
-                          ? undefined
-                          : _vm._e()
-                      ]
-                    )
-                  : _c("div", { staticClass: "no-img" }, [
-                      _c("img", {
+                                  ]),
+                                  _c("g", { attrs: { id: "Layer_1_1_" } })
+                                ]
+                              )
+                            ]
+                          )
+                        ],
+                        1
+                      ),
+                      _vm._v(" "),
+                      _c("v-lazy-image", {
+                        staticClass: "img",
                         attrs: {
-                          src: _vm.$root.storageUrl + "/images/no-img.png"
+                          src: _vm.getPreviewPath(img, 500),
+                          "src-placeholder": _vm.getPreviewPath(img, 80)
                         }
-                      })
-                    ])
-              ])
-            ])
-          ])
-        ],
-        1
-      )
-    : _vm._e()
+                      }),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "tag__mobile__box" }, [
+                        _c("i", { staticClass: "fas fa-ellipsis-h" }),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "likes-counter" }, [
+                          _c("i", { staticClass: "fas fa-heart" }),
+                          _vm._v(" "),
+                          _c("div", { staticClass: "number" }, [
+                            _vm._v(_vm._s(img.likes))
+                          ])
+                        ])
+                      ])
+                    ],
+                    1
+                  )
+                : _vm._e()
+            }),
+            0
+          ),
+          _vm._v(" "),
+          _c("div")
+        ])
+  ])
 }
 var staticRenderFns = [
   function() {
@@ -60704,6 +61189,16 @@ var staticRenderFns = [
     return _c("div", [
       _c("i", { staticClass: "fas fa-check-circle" }),
       _vm._v("Link copied to clipboard")
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "mobile-tag-box" }, [
+      _c("div", [_c("i", { staticClass: "fas fa-heart" }), _vm._v(" 4")]),
+      _vm._v(" "),
+      _c("i", { staticClass: "fas fa-tag" })
     ])
   }
 ]
@@ -61141,34 +61636,556 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", [
-    !_vm.$root.isMobile
-      ? _c("div", [
-          _vm.img
-            ? _c(
-                "div",
-                {},
-                [
-                  _c("share-modal", {
-                    ref: "shareModal",
-                    attrs: {
-                      url:
-                        _vm.$root.currentUrl +
-                        "product-" +
-                        _vm.$route.params.productId,
-                      title: "View on Artigram",
-                      description:
-                        "View my gallery page on Artigram and buy the content you like on merchandise",
-                      quote: "",
-                      hashtags: "",
-                      "twitter-user": "Artigramme"
+  return _vm.img
+    ? _c(
+        "div",
+        {},
+        [
+          _c("share-modal", {
+            ref: "shareModal",
+            attrs: {
+              url:
+                _vm.$root.currentUrl + "product-" + _vm.$route.params.productId,
+              title: "View on Artigram",
+              description:
+                "View my gallery page on Artigram and buy the content you like on merchandise",
+              quote: "",
+              hashtags: "",
+              "twitter-user": "Artigramme"
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "product-page shop" }, [
+            _c(
+              "div",
+              { staticClass: "categories-filter" },
+              [
+                _c(
+                  "a",
+                  {
+                    attrs: { href: "" },
+                    on: {
+                      click: function($event) {
+                        $event.preventDefault()
+                        return _vm.$router.push("/@" + _vm.img.creator.username)
+                      }
                     }
-                  }),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "product-page shop" }, [
-                    _c(
+                  },
+                  [_vm._v("\n          Gallery\n        ")]
+                ),
+                _vm._v(" "),
+                _vm._l(_vm.categories, function(categoryId) {
+                  return _c(
+                    "a",
+                    {
+                      key: categoryId,
+                      attrs: { href: "" },
+                      on: {
+                        click: function($event) {
+                          $event.preventDefault()
+                          _vm.$router.push(
+                            "/product-" +
+                              _vm.productsBycategory[categoryId][
+                                Object.keys(
+                                  _vm.productsBycategory[categoryId]
+                                )[0]
+                              ].id
+                          )
+                        }
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n          " +
+                          _vm._s(
+                            _vm.productsBycategory[categoryId][
+                              Object.keys(_vm.productsBycategory[categoryId])[0]
+                            ].details.category.name
+                          ) +
+                          "\n        "
+                      )
+                    ]
+                  )
+                })
+              ],
+              2
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              { staticClass: "container main-page row" },
+              [
+                !_vm.$root.isMobile
+                  ? _c(
+                      "transition-group",
+                      {
+                        staticClass: "thumbnails",
+                        attrs: { name: "fade", tag: "div" }
+                      },
+                      [
+                        _vm._l(
+                          _vm.product.details.dynamic_previews_number,
+                          function(n, i) {
+                            return _c(
+                              "a",
+                              {
+                                key: "key-" + i,
+                                on: {
+                                  click: function($event) {
+                                    $event.preventDefault()
+                                    _vm.curMainPrev =
+                                      _vm.$root.storageUrl +
+                                      "/creator_images/" +
+                                      _vm.img.id +
+                                      "/previews/" +
+                                      _vm.product.product_code +
+                                      "/1000_" +
+                                      (i + 1) +
+                                      _vm.color +
+                                      ".jpg"
+                                  }
+                                }
+                              },
+                              [
+                                _c("v-lazy-image", {
+                                  class:
+                                    _vm.curMainPrev ==
+                                    _vm.$root.storageUrl +
+                                      "/creator_images/" +
+                                      _vm.img.id +
+                                      "/previews/" +
+                                      _vm.product.product_code +
+                                      "/1000_" +
+                                      (i + 1) +
+                                      _vm.color +
+                                      ".jpg"
+                                      ? "active"
+                                      : "",
+                                  attrs: {
+                                    src:
+                                      _vm.$root.storageUrl +
+                                      "/creator_images/" +
+                                      _vm.img.id +
+                                      "/previews/" +
+                                      _vm.product.product_code +
+                                      "/500_" +
+                                      (i + 1) +
+                                      _vm.color +
+                                      ".jpg",
+                                    "src-placeholder":
+                                      _vm.$root.storageUrl +
+                                      "/creator_images/" +
+                                      _vm.img.id +
+                                      "/previews/" +
+                                      _vm.product.product_code +
+                                      "/80_" +
+                                      (i + 1) +
+                                      _vm.color +
+                                      ".jpg"
+                                  }
+                                })
+                              ],
+                              1
+                            )
+                          }
+                        ),
+                        _vm._v(" "),
+                        _vm._l(
+                          4 - _vm.product.details.dynamic_previews_number,
+                          function(n, i) {
+                            return _c(
+                              "a",
+                              {
+                                key:
+                                  i +
+                                  _vm.product.details.dynamic_previews_number,
+                                on: {
+                                  click: function($event) {
+                                    $event.preventDefault()
+                                    _vm.curMainPrev =
+                                      _vm.$root.storageUrl +
+                                      "/gallery_static_images/" +
+                                      _vm.product.product_code +
+                                      "_" +
+                                      (i + 1) +
+                                      ".jpg"
+                                  }
+                                }
+                              },
+                              [
+                                _c("v-lazy-image", {
+                                  class:
+                                    _vm.curMainPrev ==
+                                    _vm.$root.storageUrl +
+                                      "/gallery_static_images/" +
+                                      _vm.product.product_code +
+                                      "_" +
+                                      (i + 1) +
+                                      ".jpg"
+                                      ? "active"
+                                      : "",
+                                  attrs: {
+                                    src:
+                                      _vm.$root.storageUrl +
+                                      "/gallery_static_images/" +
+                                      _vm.product.product_code +
+                                      "_" +
+                                      (i + 1) +
+                                      ".jpg",
+                                    "src-placeholder":
+                                      _vm.$root.storageUrl +
+                                      "/images/placeholder-white.png"
+                                  }
+                                })
+                              ],
+                              1
+                            )
+                          }
+                        )
+                      ],
+                      2
+                    )
+                  : _vm._e(),
+                _vm._v(" "),
+                !_vm.$root.isMobile
+                  ? _c(
                       "div",
-                      { staticClass: "categories-filter" },
+                      { staticClass: "big-img" },
+                      [
+                        _c(
+                          "enlargeable-image",
+                          {
+                            staticClass: "enlarge-my",
+                            attrs: {
+                              trigger: "click",
+                              animation_duration: "100",
+                              src:
+                                _vm.$root.currentUrl +
+                                _vm.$root.storageUrl +
+                                "/creator_images/" +
+                                _vm.img.id +
+                                "/previews/" +
+                                _vm.product.product_code +
+                                "/80_1.jpg",
+                              src_large:
+                                _vm.$root.currentUrl +
+                                _vm.$root.storageUrl +
+                                "/creator_images/" +
+                                _vm.img.id +
+                                "/previews/" +
+                                _vm.product.product_code +
+                                "/1000_1.jpg"
+                            }
+                          },
+                          [
+                            _c(
+                              "svg",
+                              {
+                                attrs: {
+                                  id: "Layer_1",
+                                  "data-name": "Layer 1",
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  viewBox: "0 0 146 146"
+                                }
+                              },
+                              [
+                                _c("defs"),
+                                _c("path", {
+                                  staticClass: "cls-1",
+                                  attrs: {
+                                    d:
+                                      "M147.55,74.36a73,73,0,1,1-73-73A73,73,0,0,1,147.55,74.36Z",
+                                    transform: "translate(-1.55 -1.36)"
+                                  }
+                                }),
+                                _c("path", {
+                                  attrs: {
+                                    d:
+                                      "M121.28,35c0-.14,0-.28,0-.42l0-.2a1.7,1.7,0,0,0,0-.22,1.42,1.42,0,0,0,0-.22c0-.07,0-.14,0-.2l-.07-.21-.08-.2a1.63,1.63,0,0,0-.09-.19l-.09-.2a1.74,1.74,0,0,0-.11-.18,1.74,1.74,0,0,0-.11-.18,2.43,2.43,0,0,1-.14-.2l-.12-.15a4.4,4.4,0,0,0-.61-.61l-.16-.12a1.33,1.33,0,0,0-.19-.14l-.19-.12-.17-.1-.21-.1-.18-.09-.2-.07-.21-.07-.2-.05-.22-.05-.24,0-.18,0-.44,0H91a4.4,4.4,0,1,0,0,8.79h15.28L79.71,66a4.39,4.39,0,1,0,6.22,6.21l26.56-26.56V60.91a4.4,4.4,0,1,0,8.79,0V35Z",
+                                    transform: "translate(-1.55 -1.36)"
+                                  }
+                                }),
+                                _c("path", {
+                                  attrs: {
+                                    d:
+                                      "M65.16,80.53,38.6,107.09V91.82a4.4,4.4,0,1,0-8.79,0V117.7h0c0,.15,0,.28,0,.42l0,.2a1.85,1.85,0,0,0,0,.23,1.74,1.74,0,0,0,.05.22c0,.07,0,.13.05.2a1.8,1.8,0,0,0,.08.21,1.46,1.46,0,0,0,.07.19,1.76,1.76,0,0,0,.09.2l.09.19a1.08,1.08,0,0,0,.11.18l.11.19a2.43,2.43,0,0,1,.14.2l.12.15a4.4,4.4,0,0,0,.61.61l.16.12.19.14.19.11.18.11.2.09.18.09.2.07.21.08.2,0,.22.05.23,0,.19,0a3.25,3.25,0,0,0,.44,0H60.09a4.4,4.4,0,1,0,0-8.79H44.82L71.38,86.75a4.4,4.4,0,0,0-6.22-6.22Z",
+                                    transform: "translate(-1.55 -1.36)"
+                                  }
+                                })
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "likes" }, [
+                          _c("div", { staticClass: "number" }, [
+                            _vm._v(_vm._s(_vm.img.likes))
+                          ]),
+                          _vm._v(" "),
+                          !_vm.imgLikeClicked.includes(_vm.img.id)
+                            ? _c(
+                                "svg",
+                                {
+                                  staticClass: "heart",
+                                  attrs: {
+                                    id: "Layer_1",
+                                    "data-name": "Layer 1",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    viewBox: "0 0 150 150"
+                                  },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.like(_vm.img)
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("defs"),
+                                  _c("g", { staticClass: "cls-1" }, [
+                                    _c("circle", {
+                                      staticClass: "cls-2",
+                                      attrs: { cx: "75", cy: "75", r: "74.88" }
+                                    }),
+                                    _c("path", {
+                                      staticClass: "cls-3",
+                                      attrs: {
+                                        d:
+                                          "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                        transform: "translate(-75 -68)"
+                                      }
+                                    })
+                                  ]),
+                                  _c("path", {
+                                    staticClass: "cls-4",
+                                    attrs: {
+                                      d:
+                                        "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                      transform: "translate(-75 -68)"
+                                    }
+                                  }),
+                                  _c("path", {
+                                    staticClass: "cls-5",
+                                    attrs: {
+                                      d:
+                                        "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                      transform: "translate(-75 -68)"
+                                    }
+                                  })
+                                ]
+                              )
+                            : _c(
+                                "svg",
+                                {
+                                  staticClass: "heart2",
+                                  attrs: {
+                                    id: "Layer_1",
+                                    "data-name": "Layer 1",
+                                    xmlns: "http://www.w3.org/2000/svg",
+                                    viewBox: "0 0 150 150"
+                                  },
+                                  on: {
+                                    click: function($event) {
+                                      return _vm.like(_vm.img)
+                                    }
+                                  }
+                                },
+                                [
+                                  _c("defs"),
+                                  _c("g", { staticClass: "cls-1" }, [
+                                    _c("circle", {
+                                      staticClass: "cls-2",
+                                      attrs: { cx: "75", cy: "75", r: "74.88" }
+                                    }),
+                                    _c("path", {
+                                      staticClass: "cls-3",
+                                      attrs: {
+                                        d:
+                                          "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
+                                        transform: "translate(-75 -68)"
+                                      }
+                                    })
+                                  ]),
+                                  _c("path", {
+                                    staticClass: "cls-4",
+                                    attrs: {
+                                      d:
+                                        "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
+                                      transform: "translate(-75 -68)"
+                                    }
+                                  })
+                                ]
+                              )
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "ShareNetwork",
+                          {
+                            attrs: {
+                              network: "pinterest",
+                              url:
+                                _vm.$root.currentUrl +
+                                "/product-" +
+                                _vm.product.id,
+                              title:
+                                _vm.img.name +
+                                " (ID " +
+                                _vm.img.id +
+                                ")" +
+                                " " +
+                                _vm.img.description +
+                                " " +
+                                _vm.$root.getPinterestContent(_vm.img),
+                              media:
+                                _vm.$root.currentUrl +
+                                _vm.$root.storageUrl +
+                                "/creator_images/" +
+                                _vm.img.id +
+                                "/previews/" +
+                                _vm.product.product_code +
+                                "/1000_1.jpg"
+                            },
+                            on: {
+                              open: function($event) {
+                                _vm.$root.clicked = true
+                              },
+                              close: function($event) {
+                                _vm.$root.clicked = false
+                              }
+                            }
+                          },
+                          [
+                            _c(
+                              "svg",
+                              {
+                                staticStyle: {
+                                  "enable-background": "new 0 0 512 512"
+                                },
+                                attrs: {
+                                  height: "30px",
+                                  id: "Layer_1",
+                                  version: "1.1",
+                                  viewBox: "0 0 512 512",
+                                  width: "30px",
+                                  "xml:space": "preserve",
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  "xmlns:cc": "http://creativecommons.org/ns#",
+                                  "xmlns:dc":
+                                    "http://purl.org/dc/elements/1.1/",
+                                  "xmlns:inkscape":
+                                    "http://www.inkscape.org/namespaces/inkscape",
+                                  "xmlns:rdf":
+                                    "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+                                  "xmlns:sodipodi":
+                                    "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
+                                  "xmlns:svg": "http://www.w3.org/2000/svg"
+                                }
+                              },
+                              [
+                                _c("defs", { attrs: { id: "defs19" } }),
+                                _c("g", { attrs: { id: "g3031" } }, [
+                                  _c("path", {
+                                    staticStyle: {
+                                      fill: "#cb2027",
+                                      "fill-opacity": "1"
+                                    },
+                                    attrs: {
+                                      d:
+                                        "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
+                                      id: "circle8"
+                                    }
+                                  }),
+                                  _c(
+                                    "g",
+                                    {
+                                      attrs: {
+                                        id: "g3000",
+                                        transform:
+                                          "translate(-603.11865,-9.8474559)"
+                                      }
+                                    },
+                                    [
+                                      _c(
+                                        "g",
+                                        {
+                                          attrs: {
+                                            id: "g3142",
+                                            transform:
+                                              "translate(221.28814,-27.9639)"
+                                          }
+                                        },
+                                        [
+                                          _c(
+                                            "g",
+                                            { attrs: { id: "Layer_14" } },
+                                            [
+                                              _c(
+                                                "g",
+                                                { attrs: { id: "g3121" } },
+                                                [
+                                                  _c("path", {
+                                                    staticStyle: {
+                                                      fill: "#ffffff"
+                                                    },
+                                                    attrs: {
+                                                      d:
+                                                        "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
+                                                      id: "path3131"
+                                                    }
+                                                  })
+                                                ]
+                                              )
+                                            ]
+                                          ),
+                                          _c("g", {
+                                            attrs: { id: "Layer_1_1_-8" }
+                                          })
+                                        ]
+                                      )
+                                    ]
+                                  )
+                                ]),
+                                _c("g", { attrs: { id: "Layer_1_1_" } })
+                              ]
+                            )
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "discount-tag" }, [
+                          _vm._v(_vm._s(_vm.img.creator.discount) + "% OFF")
+                        ]),
+                        _vm._v(" "),
+                        _c(
+                          "transition",
+                          {
+                            attrs: {
+                              name: "fade",
+                              mode: "out-in",
+                              duration: { enter: 300, leave: 100 }
+                            }
+                          },
+                          [
+                            _c("v-lazy-image", {
+                              key: _vm.curMainPrev,
+                              attrs: {
+                                src: _vm.curMainPrev,
+                                "src-placeholder": _vm.curMainPrev.replace(
+                                  "/1000_",
+                                  "/80_"
+                                )
+                              }
+                            })
+                          ],
+                          1
+                        )
+                      ],
+                      1
+                    )
+                  : _vm._e(),
+                _vm._v(" "),
+                !_vm.$root.isMobile
+                  ? _c(
+                      "div",
+                      { staticClass: "details" },
                       [
                         _c(
                           "a",
@@ -61183,2521 +62200,378 @@ var render = function() {
                               }
                             }
                           },
-                          [_vm._v("\r\n          Gallery\r\n        ")]
+                          [
+                            _c("div", { staticClass: "creator-name" }, [
+                              _vm._v(
+                                _vm._s(
+                                  _vm.img.creator.user.first_name +
+                                    " " +
+                                    _vm.img.creator.user.last_name
+                                )
+                              )
+                            ])
+                          ]
                         ),
                         _vm._v(" "),
-                        _vm._l(_vm.categories, function(categoryId) {
-                          return _c(
-                            "a",
-                            {
-                              key: categoryId,
-                              attrs: { href: "" },
-                              on: {
-                                click: function($event) {
-                                  $event.preventDefault()
-                                  _vm.$router.push(
-                                    "/product-" +
-                                      _vm.productsBycategory[categoryId][
-                                        Object.keys(
-                                          _vm.productsBycategory[categoryId]
-                                        )[0]
-                                      ].id
-                                  )
-                                }
-                              }
-                            },
-                            [
-                              _vm._v(
-                                "\r\n          " +
-                                  _vm._s(
-                                    _vm.productsBycategory[categoryId][
-                                      Object.keys(
-                                        _vm.productsBycategory[categoryId]
-                                      )[0]
-                                    ].details.category.name
-                                  ) +
-                                  "\r\n        "
-                              )
-                            ]
+                        _c("div", { staticClass: "images-number" }, [
+                          _vm._v(
+                            _vm._s(_vm.img.creator.images.length) + " Images"
                           )
-                        })
-                      ],
-                      2
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      { staticClass: "container main-page row" },
-                      [
-                        !_vm.$root.isMobile
-                          ? _c(
-                              "transition-group",
-                              {
-                                staticClass: "thumbnails",
-                                attrs: { name: "fade", tag: "div" }
-                              },
-                              [
-                                _vm._l(
-                                  _vm.product.details.dynamic_previews_number,
-                                  function(n, i) {
-                                    return _c(
-                                      "a",
-                                      {
-                                        key: "key-" + i,
-                                        on: {
-                                          click: function($event) {
-                                            $event.preventDefault()
-                                            _vm.curMainPrev =
-                                              _vm.$root.storageUrl +
-                                              "/creator_images/" +
-                                              _vm.img.id +
-                                              "/previews/" +
-                                              _vm.product.product_code +
-                                              "/1000_" +
-                                              (i + 1) +
-                                              _vm.color +
-                                              ".jpg"
-                                          }
-                                        }
-                                      },
-                                      [
-                                        _c("v-lazy-image", {
-                                          class:
-                                            _vm.curMainPrev ==
-                                            _vm.$root.storageUrl +
-                                              "/creator_images/" +
-                                              _vm.img.id +
-                                              "/previews/" +
-                                              _vm.product.product_code +
-                                              "/1000_" +
-                                              (i + 1) +
-                                              _vm.color +
-                                              ".jpg"
-                                              ? "active"
-                                              : "",
-                                          attrs: {
-                                            src:
-                                              _vm.$root.storageUrl +
-                                              "/creator_images/" +
-                                              _vm.img.id +
-                                              "/previews/" +
-                                              _vm.product.product_code +
-                                              "/500_" +
-                                              (i + 1) +
-                                              _vm.color +
-                                              ".jpg",
-                                            "src-placeholder":
-                                              _vm.$root.storageUrl +
-                                              "/creator_images/" +
-                                              _vm.img.id +
-                                              "/previews/" +
-                                              _vm.product.product_code +
-                                              "/80_" +
-                                              (i + 1) +
-                                              _vm.color +
-                                              ".jpg"
-                                          }
-                                        })
-                                      ],
-                                      1
-                                    )
-                                  }
-                                ),
-                                _vm._v(" "),
-                                _vm._l(
-                                  4 -
-                                    _vm.product.details.dynamic_previews_number,
-                                  function(n, i) {
-                                    return _c(
-                                      "a",
-                                      {
-                                        key:
-                                          i +
-                                          _vm.product.details
-                                            .dynamic_previews_number,
-                                        on: {
-                                          click: function($event) {
-                                            $event.preventDefault()
-                                            _vm.curMainPrev =
-                                              _vm.$root.storageUrl +
-                                              "/gallery_static_images/" +
-                                              _vm.product.product_code +
-                                              "_" +
-                                              (i + 1) +
-                                              ".jpg"
-                                          }
-                                        }
-                                      },
-                                      [
-                                        _c("v-lazy-image", {
-                                          class:
-                                            _vm.curMainPrev ==
-                                            _vm.$root.storageUrl +
-                                              "/gallery_static_images/" +
-                                              _vm.product.product_code +
-                                              "_" +
-                                              (i + 1) +
-                                              ".jpg"
-                                              ? "active"
-                                              : "",
-                                          attrs: {
-                                            src:
-                                              _vm.$root.storageUrl +
-                                              "/gallery_static_images/" +
-                                              _vm.product.product_code +
-                                              "_" +
-                                              (i + 1) +
-                                              ".jpg",
-                                            "src-placeholder":
-                                              _vm.$root.storageUrl +
-                                              "/images/placeholder-white.png"
-                                          }
-                                        })
-                                      ],
-                                      1
-                                    )
-                                  }
-                                )
-                              ],
-                              2
-                            )
-                          : _vm._e(),
+                        ]),
                         _vm._v(" "),
-                        !_vm.$root.isMobile
-                          ? _c(
-                              "div",
-                              { staticClass: "big-img" },
+                        _c(
+                          "transition",
+                          { attrs: { name: "fade", mode: "out-in" } },
+                          [
+                            _c("div", { staticClass: "title" }, [
+                              _vm._v(
+                                _vm._s(
+                                  _vm.img.name +
+                                    " " +
+                                    _vm.product.details.category.name
+                                )
+                              )
+                            ])
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "price" },
+                          [
+                            _c(
+                              "transition",
+                              { attrs: { name: "fade", mode: "out-in" } },
                               [
+                                _c("span", { staticClass: "before" }, [
+                                  _vm._v(
+                                    "$" +
+                                      _vm._s(
+                                        _vm.prices[_vm.product.product_code]
+                                      )
+                                  )
+                                ])
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "transition",
+                              { attrs: { name: "fade", mode: "out-in" } },
+                              [
+                                _c("span", { staticClass: "after" }, [
+                                  _vm._v(
+                                    "$" +
+                                      _vm._s(
+                                        (
+                                          (_vm.prices[
+                                            _vm.product.product_code
+                                          ] *
+                                            (100 - _vm.img.creator.discount)) /
+                                          100
+                                        ).toFixed(2)
+                                      )
+                                  )
+                                ])
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "delivery" }, [
+                          _c("img", {
+                            attrs: {
+                              src: _vm.$root.storageUrl + "/images/car-ic.png",
+                              alt: ""
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v(
+                              "Estimated delivery " +
+                                _vm._s(
+                                  _vm
+                                    .$moment()
+                                    .add(7, "days")
+                                    .format("MMM Do")
+                                )
+                            )
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        Object.keys(
+                          _vm.productsBycategory[
+                            _vm.product.details.category_id
+                          ]
+                        ).length > 1
+                          ? _c("div", { staticClass: "product" }, [
+                              _c("div", { staticClass: "label" }, [
+                                _vm._v("TYPE")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "dropdown show" }, [
                                 _c(
-                                  "enlargeable-image",
+                                  "a",
                                   {
-                                    staticClass: "enlarge-my",
+                                    staticClass: "button dropdown-toggle",
                                     attrs: {
-                                      trigger: "click",
-                                      animation_duration: "100",
-                                      src:
-                                        _vm.$root.currentUrl +
-                                        _vm.$root.storageUrl +
-                                        "/creator_images/" +
-                                        _vm.img.id +
-                                        "/previews/" +
-                                        _vm.product.product_code +
-                                        "/80_1.jpg",
-                                      src_large:
-                                        _vm.$root.currentUrl +
-                                        _vm.$root.storageUrl +
-                                        "/creator_images/" +
-                                        _vm.img.id +
-                                        "/previews/" +
-                                        _vm.product.product_code +
-                                        "/1000_1.jpg"
+                                      href: "#",
+                                      role: "button",
+                                      id: "dropdownMenuLink",
+                                      "data-toggle": "dropdown",
+                                      "aria-haspopup": "true",
+                                      "aria-expanded": "false"
                                     }
                                   },
                                   [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          id: "Layer_1",
-                                          "data-name": "Layer 1",
-                                          xmlns: "http://www.w3.org/2000/svg",
-                                          viewBox: "0 0 146 146"
-                                        }
-                                      },
-                                      [
-                                        _c("defs"),
-                                        _c("path", {
-                                          staticClass: "cls-1",
-                                          attrs: {
-                                            d:
-                                              "M147.55,74.36a73,73,0,1,1-73-73A73,73,0,0,1,147.55,74.36Z",
-                                            transform: "translate(-1.55 -1.36)"
-                                          }
-                                        }),
-                                        _c("path", {
-                                          attrs: {
-                                            d:
-                                              "M121.28,35c0-.14,0-.28,0-.42l0-.2a1.7,1.7,0,0,0,0-.22,1.42,1.42,0,0,0,0-.22c0-.07,0-.14,0-.2l-.07-.21-.08-.2a1.63,1.63,0,0,0-.09-.19l-.09-.2a1.74,1.74,0,0,0-.11-.18,1.74,1.74,0,0,0-.11-.18,2.43,2.43,0,0,1-.14-.2l-.12-.15a4.4,4.4,0,0,0-.61-.61l-.16-.12a1.33,1.33,0,0,0-.19-.14l-.19-.12-.17-.1-.21-.1-.18-.09-.2-.07-.21-.07-.2-.05-.22-.05-.24,0-.18,0-.44,0H91a4.4,4.4,0,1,0,0,8.79h15.28L79.71,66a4.39,4.39,0,1,0,6.22,6.21l26.56-26.56V60.91a4.4,4.4,0,1,0,8.79,0V35Z",
-                                            transform: "translate(-1.55 -1.36)"
-                                          }
-                                        }),
-                                        _c("path", {
-                                          attrs: {
-                                            d:
-                                              "M65.16,80.53,38.6,107.09V91.82a4.4,4.4,0,1,0-8.79,0V117.7h0c0,.15,0,.28,0,.42l0,.2a1.85,1.85,0,0,0,0,.23,1.74,1.74,0,0,0,.05.22c0,.07,0,.13.05.2a1.8,1.8,0,0,0,.08.21,1.46,1.46,0,0,0,.07.19,1.76,1.76,0,0,0,.09.2l.09.19a1.08,1.08,0,0,0,.11.18l.11.19a2.43,2.43,0,0,1,.14.2l.12.15a4.4,4.4,0,0,0,.61.61l.16.12.19.14.19.11.18.11.2.09.18.09.2.07.21.08.2,0,.22.05.23,0,.19,0a3.25,3.25,0,0,0,.44,0H60.09a4.4,4.4,0,1,0,0-8.79H44.82L71.38,86.75a4.4,4.4,0,0,0-6.22-6.22Z",
-                                            transform: "translate(-1.55 -1.36)"
-                                          }
-                                        })
-                                      ]
+                                    _vm._v(
+                                      "\n              " +
+                                        _vm._s(_vm.product.details.title) +
+                                        "\n            "
                                     )
                                   ]
                                 ),
                                 _vm._v(" "),
-                                _c("div", { staticClass: "likes" }, [
-                                  _c("div", { staticClass: "number" }, [
-                                    _vm._v(_vm._s(_vm.img.likes))
-                                  ]),
-                                  _vm._v(" "),
-                                  !_vm.imgLikeClicked.includes(_vm.img.id)
-                                    ? _c(
-                                        "svg",
-                                        {
-                                          staticClass: "heart",
-                                          attrs: {
-                                            id: "Layer_1",
-                                            "data-name": "Layer 1",
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            viewBox: "0 0 150 150"
-                                          },
-                                          on: {
-                                            click: function($event) {
-                                              return _vm.like(_vm.img)
-                                            }
-                                          }
-                                        },
-                                        [
-                                          _c("defs"),
-                                          _c("g", { staticClass: "cls-1" }, [
-                                            _c("circle", {
-                                              staticClass: "cls-2",
-                                              attrs: {
-                                                cx: "75",
-                                                cy: "75",
-                                                r: "74.88"
-                                              }
-                                            }),
-                                            _c("path", {
-                                              staticClass: "cls-3",
-                                              attrs: {
-                                                d:
-                                                  "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                                transform: "translate(-75 -68)"
-                                              }
-                                            })
-                                          ]),
-                                          _c("path", {
-                                            staticClass: "cls-4",
-                                            attrs: {
-                                              d:
-                                                "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                              transform: "translate(-75 -68)"
-                                            }
-                                          }),
-                                          _c("path", {
-                                            staticClass: "cls-5",
-                                            attrs: {
-                                              d:
-                                                "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                              transform: "translate(-75 -68)"
-                                            }
-                                          })
-                                        ]
-                                      )
-                                    : _c(
-                                        "svg",
-                                        {
-                                          staticClass: "heart2",
-                                          attrs: {
-                                            id: "Layer_1",
-                                            "data-name": "Layer 1",
-                                            xmlns: "http://www.w3.org/2000/svg",
-                                            viewBox: "0 0 150 150"
-                                          },
-                                          on: {
-                                            click: function($event) {
-                                              return _vm.like(_vm.img)
-                                            }
-                                          }
-                                        },
-                                        [
-                                          _c("defs"),
-                                          _c("g", { staticClass: "cls-1" }, [
-                                            _c("circle", {
-                                              staticClass: "cls-2",
-                                              attrs: {
-                                                cx: "75",
-                                                cy: "75",
-                                                r: "74.88"
-                                              }
-                                            }),
-                                            _c("path", {
-                                              staticClass: "cls-3",
-                                              attrs: {
-                                                d:
-                                                  "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                                transform: "translate(-75 -68)"
-                                              }
-                                            })
-                                          ]),
-                                          _c("path", {
-                                            staticClass: "cls-4",
-                                            attrs: {
-                                              d:
-                                                "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                              transform: "translate(-75 -68)"
-                                            }
-                                          })
-                                        ]
-                                      )
-                                ]),
-                                _vm._v(" "),
                                 _c(
-                                  "ShareNetwork",
+                                  "div",
                                   {
+                                    staticClass: "dropdown-menu",
                                     attrs: {
-                                      network: "pinterest",
-                                      url:
-                                        _vm.$root.currentUrl +
-                                        "/product-" +
-                                        _vm.product.id,
-                                      title:
-                                        _vm.img.name +
-                                        " (ID " +
-                                        _vm.img.id +
-                                        ")" +
-                                        " " +
-                                        _vm.img.description +
-                                        " " +
-                                        _vm.$root.getPinterestContent(_vm.img),
-                                      media:
-                                        _vm.$root.currentUrl +
-                                        _vm.$root.storageUrl +
-                                        "/creator_images/" +
-                                        _vm.img.id +
-                                        "/previews/" +
-                                        _vm.product.product_code +
-                                        "/1000_1.jpg"
-                                    },
-                                    on: {
-                                      open: function($event) {
-                                        _vm.$root.clicked = true
-                                      },
-                                      close: function($event) {
-                                        _vm.$root.clicked = false
-                                      }
+                                      "aria-labelledby": "dropdownMenuLink"
                                     }
                                   },
-                                  [
-                                    _c(
-                                      "svg",
-                                      {
-                                        staticStyle: {
-                                          "enable-background": "new 0 0 512 512"
-                                        },
-                                        attrs: {
-                                          height: "30px",
-                                          id: "Layer_1",
-                                          version: "1.1",
-                                          viewBox: "0 0 512 512",
-                                          width: "30px",
-                                          "xml:space": "preserve",
-                                          xmlns: "http://www.w3.org/2000/svg",
-                                          "xmlns:cc":
-                                            "http://creativecommons.org/ns#",
-                                          "xmlns:dc":
-                                            "http://purl.org/dc/elements/1.1/",
-                                          "xmlns:inkscape":
-                                            "http://www.inkscape.org/namespaces/inkscape",
-                                          "xmlns:rdf":
-                                            "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-                                          "xmlns:sodipodi":
-                                            "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
-                                          "xmlns:svg":
-                                            "http://www.w3.org/2000/svg"
-                                        }
-                                      },
-                                      [
-                                        _c("defs", { attrs: { id: "defs19" } }),
-                                        _c("g", { attrs: { id: "g3031" } }, [
-                                          _c("path", {
-                                            staticStyle: {
-                                              fill: "#cb2027",
-                                              "fill-opacity": "1"
-                                            },
-                                            attrs: {
-                                              d:
-                                                "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
-                                              id: "circle8"
+                                  _vm._l(
+                                    _vm.productsBycategory[
+                                      _vm.product.details.category_id
+                                    ],
+                                    function(otherModel, pid) {
+                                      return _c(
+                                        "a",
+                                        {
+                                          staticClass: "dropdown-item",
+                                          attrs: { href: "" },
+                                          on: {
+                                            click: function($event) {
+                                              $event.preventDefault()
+                                              _vm.product = otherModel
+                                              _vm.scrollToTop()
                                             }
-                                          }),
-                                          _c(
-                                            "g",
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            _vm._s(otherModel.details.title)
+                                          )
+                                        ]
+                                      )
+                                    }
+                                  ),
+                                  0
+                                )
+                              ])
+                            ])
+                          : _vm._e(),
+                        _vm._v(" "),
+                        JSON.parse(
+                          _vm.product.details.production_details.other
+                        ) &&
+                        JSON.parse(
+                          _vm.product.details.production_details.other
+                        ).hasOwnProperty("requireProperties")
+                          ? _c(
+                              "div",
+                              { staticClass: "properties" },
+                              _vm._l(
+                                JSON.parse(
+                                  _vm.product.details.production_details.other
+                                ).requireProperties,
+                                function(property, index) {
+                                  return _c(
+                                    "div",
+                                    {
+                                      key: index,
+                                      staticClass: "property",
+                                      class: property.name
+                                    },
+                                    [
+                                      _c("label", [
+                                        _vm._v(_vm._s(property.name) + "  ")
+                                      ]),
+                                      _vm._v(" "),
+                                      property.name != "color"
+                                        ? _c(
+                                            "select",
                                             {
-                                              attrs: {
-                                                id: "g3000",
-                                                transform:
-                                                  "translate(-603.11865,-9.8474559)"
+                                              directives: [
+                                                {
+                                                  name: "model",
+                                                  rawName: "v-model",
+                                                  value:
+                                                    _vm.selectedProperties[
+                                                      property.name
+                                                    ],
+                                                  expression:
+                                                    "selectedProperties[property.name]"
+                                                }
+                                              ],
+                                              on: {
+                                                change: function($event) {
+                                                  var $$selectedVal = Array.prototype.filter
+                                                    .call(
+                                                      $event.target.options,
+                                                      function(o) {
+                                                        return o.selected
+                                                      }
+                                                    )
+                                                    .map(function(o) {
+                                                      var val =
+                                                        "_value" in o
+                                                          ? o._value
+                                                          : o.value
+                                                      return val
+                                                    })
+                                                  _vm.$set(
+                                                    _vm.selectedProperties,
+                                                    property.name,
+                                                    $event.target.multiple
+                                                      ? $$selectedVal
+                                                      : $$selectedVal[0]
+                                                  )
+                                                }
                                               }
                                             },
                                             [
                                               _c(
-                                                "g",
+                                                "option",
                                                 {
                                                   attrs: {
-                                                    id: "g3142",
-                                                    transform:
-                                                      "translate(221.28814,-27.9639)"
+                                                    disabled: "",
+                                                    selected: "",
+                                                    value: "none"
                                                   }
                                                 },
-                                                [
-                                                  _c(
-                                                    "g",
-                                                    {
-                                                      attrs: { id: "Layer_14" }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "g",
-                                                        {
-                                                          attrs: { id: "g3121" }
-                                                        },
-                                                        [
-                                                          _c("path", {
-                                                            staticStyle: {
-                                                              fill: "#ffffff"
-                                                            },
-                                                            attrs: {
-                                                              d:
-                                                                "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
-                                                              id: "path3131"
-                                                            }
-                                                          })
-                                                        ]
-                                                      )
-                                                    ]
-                                                  ),
-                                                  _c("g", {
-                                                    attrs: {
-                                                      id: "Layer_1_1_-8"
+                                                [_vm._v("-")]
+                                              ),
+                                              _vm._v(" "),
+                                              _vm._l(property.options, function(
+                                                option,
+                                                optionName
+                                              ) {
+                                                return _c(
+                                                  "option",
+                                                  {
+                                                    domProps: {
+                                                      value: optionName
                                                     }
-                                                  })
-                                                ]
-                                              )
-                                            ]
+                                                  },
+                                                  [_vm._v(_vm._s(optionName))]
+                                                )
+                                              })
+                                            ],
+                                            2
                                           )
-                                        ]),
-                                        _c("g", { attrs: { id: "Layer_1_1_" } })
-                                      ]
-                                    )
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "discount-tag" }, [
-                                  _vm._v(
-                                    _vm._s(_vm.img.creator.discount) + "% OFF"
+                                        : _c(
+                                            "div",
+                                            _vm._l(property.options, function(
+                                              option,
+                                              optionName
+                                            ) {
+                                              return _c("span", {
+                                                class:
+                                                  _vm.selectedProperties[
+                                                    property.name
+                                                  ] == optionName
+                                                    ? "active"
+                                                    : "",
+                                                style:
+                                                  "background:" + optionName,
+                                                on: {
+                                                  click: function($event) {
+                                                    return _vm.chooseColor(
+                                                      optionName
+                                                    )
+                                                  }
+                                                }
+                                              })
+                                            }),
+                                            0
+                                          )
+                                    ]
                                   )
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "transition",
-                                  {
-                                    attrs: {
-                                      name: "fade",
-                                      mode: "out-in",
-                                      duration: { enter: 300, leave: 100 }
-                                    }
-                                  },
-                                  [
-                                    _c("v-lazy-image", {
-                                      key: _vm.curMainPrev,
-                                      attrs: {
-                                        src: _vm.curMainPrev,
-                                        "src-placeholder": _vm.curMainPrev.replace(
-                                          "/1000_",
-                                          "/80_"
-                                        )
-                                      }
-                                    })
-                                  ],
-                                  1
-                                )
-                              ],
-                              1
+                                }
+                              ),
+                              0
                             )
                           : _vm._e(),
                         _vm._v(" "),
-                        !_vm.$root.isMobile
-                          ? _c(
-                              "div",
-                              { staticClass: "details" },
-                              [
-                                _c(
-                                  "a",
-                                  {
-                                    attrs: { href: "" },
-                                    on: {
-                                      click: function($event) {
-                                        $event.preventDefault()
-                                        return _vm.$router.push(
-                                          "/@" + _vm.img.creator.username
-                                        )
-                                      }
-                                    }
-                                  },
-                                  [
-                                    _c("div", { staticClass: "creator-name" }, [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.img.creator.user.first_name +
-                                            " " +
-                                            _vm.img.creator.user.last_name
-                                        )
-                                      )
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "images-number" }, [
-                                  _vm._v(
-                                    _vm._s(_vm.img.creator.images.length) +
-                                      " Images"
-                                  )
-                                ]),
-                                _vm._v(" "),
-                                _c(
-                                  "transition",
-                                  { attrs: { name: "fade", mode: "out-in" } },
-                                  [
-                                    _c("div", { staticClass: "title" }, [
-                                      _vm._v(
-                                        _vm._s(
-                                          _vm.img.name +
-                                            " " +
-                                            _vm.product.details.category.name
-                                        )
-                                      )
-                                    ])
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "price" },
-                                  [
-                                    _c(
-                                      "transition",
-                                      {
-                                        attrs: { name: "fade", mode: "out-in" }
-                                      },
-                                      [
-                                        _c("span", { staticClass: "before" }, [
-                                          _vm._v(
-                                            "$" +
-                                              _vm._s(
-                                                _vm.prices[
-                                                  _vm.product.product_code
-                                                ]
-                                              )
-                                          )
-                                        ])
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "transition",
-                                      {
-                                        attrs: { name: "fade", mode: "out-in" }
-                                      },
-                                      [
-                                        _c("span", { staticClass: "after" }, [
-                                          _vm._v(
-                                            "$" +
-                                              _vm._s(
-                                                (
-                                                  (_vm.prices[
-                                                    _vm.product.product_code
-                                                  ] *
-                                                    (100 -
-                                                      _vm.img.creator
-                                                        .discount)) /
-                                                  100
-                                                ).toFixed(2)
-                                              )
-                                          )
-                                        ])
-                                      ]
-                                    )
-                                  ],
-                                  1
-                                ),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "delivery" }, [
-                                  _c("img", {
-                                    attrs: {
-                                      src:
-                                        _vm.$root.storageUrl +
-                                        "/images/car-ic.png",
-                                      alt: ""
-                                    }
-                                  }),
-                                  _vm._v(" "),
-                                  _c("span", [
-                                    _vm._v(
-                                      "Estimated delivery " +
-                                        _vm._s(
-                                          _vm
-                                            .$moment()
-                                            .add(7, "days")
-                                            .format("MMM Do")
-                                        )
-                                    )
-                                  ])
-                                ]),
-                                _vm._v(" "),
-                                Object.keys(
-                                  _vm.productsBycategory[
-                                    _vm.product.details.category_id
-                                  ]
-                                ).length > 1
-                                  ? _c("div", { staticClass: "product" }, [
-                                      _c("div", { staticClass: "label" }, [
-                                        _vm._v("TYPE")
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "dropdown show" },
-                                        [
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass:
-                                                "button dropdown-toggle",
-                                              attrs: {
-                                                href: "#",
-                                                role: "button",
-                                                id: "dropdownMenuLink",
-                                                "data-toggle": "dropdown",
-                                                "aria-haspopup": "true",
-                                                "aria-expanded": "false"
-                                              }
-                                            },
-                                            [
-                                              _vm._v(
-                                                "\r\n              " +
-                                                  _vm._s(
-                                                    _vm.product.details.title
-                                                  ) +
-                                                  "\r\n            "
-                                              )
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "div",
-                                            {
-                                              staticClass: "dropdown-menu",
-                                              attrs: {
-                                                "aria-labelledby":
-                                                  "dropdownMenuLink"
-                                              }
-                                            },
-                                            _vm._l(
-                                              _vm.productsBycategory[
-                                                _vm.product.details.category_id
-                                              ],
-                                              function(otherModel, pid) {
-                                                return _c(
-                                                  "a",
-                                                  {
-                                                    staticClass:
-                                                      "dropdown-item",
-                                                    attrs: { href: "" },
-                                                    on: {
-                                                      click: function($event) {
-                                                        $event.preventDefault()
-                                                        _vm.product = otherModel
-                                                        _vm.scrollToTop()
-                                                      }
-                                                    }
-                                                  },
-                                                  [
-                                                    _vm._v(
-                                                      _vm._s(
-                                                        otherModel.details.title
-                                                      )
-                                                    )
-                                                  ]
-                                                )
-                                              }
-                                            ),
-                                            0
-                                          )
-                                        ]
-                                      )
-                                    ])
-                                  : _vm._e(),
-                                _vm._v(" "),
-                                JSON.parse(
-                                  _vm.product.details.production_details.other
-                                ) &&
-                                JSON.parse(
-                                  _vm.product.details.production_details.other
-                                ).hasOwnProperty("requireProperties")
-                                  ? _c(
-                                      "div",
-                                      { staticClass: "properties" },
-                                      _vm._l(
-                                        JSON.parse(
-                                          _vm.product.details.production_details
-                                            .other
-                                        ).requireProperties,
-                                        function(property, index) {
-                                          return _c(
-                                            "div",
-                                            {
-                                              key: index,
-                                              staticClass: "property",
-                                              class: property.name
-                                            },
-                                            [
-                                              _c("label", [
-                                                _vm._v(
-                                                  _vm._s(property.name) + "  "
-                                                )
-                                              ]),
-                                              _vm._v(" "),
-                                              property.name != "color"
-                                                ? _c(
-                                                    "select",
-                                                    {
-                                                      directives: [
-                                                        {
-                                                          name: "model",
-                                                          rawName: "v-model",
-                                                          value:
-                                                            _vm
-                                                              .selectedProperties[
-                                                              property.name
-                                                            ],
-                                                          expression:
-                                                            "selectedProperties[property.name]"
-                                                        }
-                                                      ],
-                                                      on: {
-                                                        change: function(
-                                                          $event
-                                                        ) {
-                                                          var $$selectedVal = Array.prototype.filter
-                                                            .call(
-                                                              $event.target
-                                                                .options,
-                                                              function(o) {
-                                                                return o.selected
-                                                              }
-                                                            )
-                                                            .map(function(o) {
-                                                              var val =
-                                                                "_value" in o
-                                                                  ? o._value
-                                                                  : o.value
-                                                              return val
-                                                            })
-                                                          _vm.$set(
-                                                            _vm.selectedProperties,
-                                                            property.name,
-                                                            $event.target
-                                                              .multiple
-                                                              ? $$selectedVal
-                                                              : $$selectedVal[0]
-                                                          )
-                                                        }
-                                                      }
-                                                    },
-                                                    [
-                                                      _c(
-                                                        "option",
-                                                        {
-                                                          attrs: {
-                                                            disabled: "",
-                                                            selected: "",
-                                                            value: "none"
-                                                          }
-                                                        },
-                                                        [_vm._v("-")]
-                                                      ),
-                                                      _vm._v(" "),
-                                                      _vm._l(
-                                                        property.options,
-                                                        function(
-                                                          option,
-                                                          optionName
-                                                        ) {
-                                                          return _c(
-                                                            "option",
-                                                            {
-                                                              domProps: {
-                                                                value: optionName
-                                                              }
-                                                            },
-                                                            [
-                                                              _vm._v(
-                                                                _vm._s(
-                                                                  optionName
-                                                                )
-                                                              )
-                                                            ]
-                                                          )
-                                                        }
-                                                      )
-                                                    ],
-                                                    2
-                                                  )
-                                                : _c(
-                                                    "div",
-                                                    _vm._l(
-                                                      property.options,
-                                                      function(
-                                                        option,
-                                                        optionName
-                                                      ) {
-                                                        return _c("span", {
-                                                          class:
-                                                            _vm
-                                                              .selectedProperties[
-                                                              property.name
-                                                            ] == optionName
-                                                              ? "active"
-                                                              : "",
-                                                          style:
-                                                            "background:" +
-                                                            optionName,
-                                                          on: {
-                                                            click: function(
-                                                              $event
-                                                            ) {
-                                                              return _vm.chooseColor(
-                                                                optionName
-                                                              )
-                                                            }
-                                                          }
-                                                        })
-                                                      }
-                                                    ),
-                                                    0
-                                                  )
-                                            ]
-                                          )
-                                        }
-                                      ),
-                                      0
-                                    )
-                                  : _vm._e(),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass: "checkout btn purple",
-                                    on: {
-                                      click: function($event) {
-                                        $event.preventDefault()
-                                        return _vm.addToCart(true)
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("Express Checkout")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "a",
-                                  {
-                                    staticClass:
-                                      "add-to-cart btn purple negative",
-                                    on: {
-                                      click: function($event) {
-                                        $event.preventDefault()
-                                        return _vm.addToCart()
-                                      }
-                                    }
-                                  },
-                                  [_vm._v("Add To Cart")]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  {
-                                    staticClass: "share",
-                                    on: {
-                                      click: function($event) {
-                                        $event.preventDefault()
-                                        return _vm.$modal.show("ShareModal")
-                                      }
-                                    }
-                                  },
-                                  [
-                                    _c(
-                                      "svg",
-                                      {
-                                        attrs: {
-                                          xmlns: "http://www.w3.org/2000/svg",
-                                          "xmlns:xlink":
-                                            "http://www.w3.org/1999/xlink",
-                                          width: "17px",
-                                          height: "19px",
-                                          viewBox: "0 0 17 19",
-                                          version: "1.1"
-                                        }
-                                      },
-                                      [
-                                        _c("title", [_vm._v("Share")]),
-                                        _vm._v(" "),
-                                        _c("desc", [
-                                          _vm._v("Created with sketchtool.")
-                                        ]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "g",
-                                          {
-                                            attrs: {
-                                              id: "Page-3",
-                                              stroke: "none",
-                                              "stroke-width": "1",
-                                              fill: "none",
-                                              "fill-rule": "evenodd"
-                                            }
-                                          },
-                                          [
-                                            _c(
-                                              "g",
-                                              {
-                                                attrs: {
-                                                  id: "public-gallery",
-                                                  transform:
-                                                    "translate(-81.000000, -533.000000)",
-                                                  fill: "#B200FF",
-                                                  "fill-rule": "nonzero"
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "g",
-                                                  {
-                                                    attrs: {
-                                                      id: "Group-2",
-                                                      transform:
-                                                        "translate(81.000000, 529.000000)"
-                                                    }
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "g",
-                                                      {
-                                                        attrs: {
-                                                          id: "share-(2)",
-                                                          transform:
-                                                            "translate(0.000000, 4.000000)"
-                                                        }
-                                                      },
-                                                      [
-                                                        _c("path", {
-                                                          attrs: {
-                                                            d:
-                                                              "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
-                                                            id: "Shape"
-                                                          }
-                                                        })
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    !_vm.$root.isMobile
-                                      ? _c("span", [
-                                          _vm._v(
-                                            "\r\n          Share\r\n        "
-                                          )
-                                        ])
-                                      : _vm._e()
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c("div", { staticClass: "likes-counter" }, [
-                                  _c(
-                                    "svg",
-                                    {
-                                      attrs: {
-                                        id: "Layer_1",
-                                        "data-name": "Layer 1",
-                                        xmlns: "http://www.w3.org/2000/svg",
-                                        viewBox: "0 0 294.89 284"
-                                      }
-                                    },
-                                    [
-                                      _c("defs"),
-                                      _c("path", {
-                                        staticClass: "cls-1",
-                                        attrs: {
-                                          d:
-                                            "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
-                                          transform: "translate(-2.57 -10)"
-                                        }
-                                      })
-                                    ]
-                                  ),
-                                  _vm._v(" "),
-                                  _c("div", { staticClass: "number" }, [
-                                    _vm._v(_vm._s(_vm.img.likes))
-                                  ])
-                                ])
-                              ],
-                              1
-                            )
-                          : _c(
-                              "div",
-                              { staticClass: "details" },
-                              [
-                                _c(
-                                  "transition",
-                                  { attrs: { name: "fade", mode: "out-in" } },
-                                  [
-                                    _vm.changeProductStatus
-                                      ? _c("div", { staticClass: "title" }, [
-                                          _vm._v(
-                                            _vm._s(_vm.product.details.title)
-                                          )
-                                        ])
-                                      : _vm._e()
-                                  ]
-                                ),
-                                _vm._v(" "),
-                                _c(
-                                  "div",
-                                  { staticClass: "price" },
-                                  [
-                                    _c(
-                                      "transition",
-                                      {
-                                        attrs: { name: "fade", mode: "out-in" }
-                                      },
-                                      [
-                                        _vm.changeProductStatus
-                                          ? _c(
-                                              "span",
-                                              { staticClass: "before" },
-                                              [
-                                                _vm._v(
-                                                  "$" +
-                                                    _vm._s(
-                                                      _vm.prices[
-                                                        _vm.product.product_code
-                                                      ]
-                                                    )
-                                                )
-                                              ]
-                                            )
-                                          : _vm._e()
-                                      ]
-                                    ),
-                                    _vm._v(" "),
-                                    _c(
-                                      "transition",
-                                      {
-                                        attrs: { name: "fade", mode: "out-in" }
-                                      },
-                                      [
-                                        _vm.changeProductStatus
-                                          ? _c(
-                                              "span",
-                                              { staticClass: "after" },
-                                              [
-                                                _vm._v(
-                                                  "$" +
-                                                    _vm._s(
-                                                      (
-                                                        (_vm.prices[
-                                                          _vm.product
-                                                            .product_code
-                                                        ] *
-                                                          (100 -
-                                                            _vm.img.creator
-                                                              .discount)) /
-                                                        100
-                                                      ).toFixed(2)
-                                                    )
-                                                )
-                                              ]
-                                            )
-                                          : _vm._e()
-                                      ]
-                                    )
-                                  ],
-                                  1
-                                ),
-                                _vm._v(" "),
-                                _vm._m(0),
-                                _vm._v(" "),
-                                Object.keys(
-                                  _vm.productsBycategory[
-                                    _vm.product.details.category_id
-                                  ]
-                                ).length > 1
-                                  ? _c("div", { staticClass: "product" }, [
-                                      _c("div", { staticClass: "label" }, [
-                                        _vm._v("PRODUCT")
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "div",
-                                        { staticClass: "dropdown show" },
-                                        [
-                                          _c(
-                                            "a",
-                                            {
-                                              staticClass:
-                                                "btn btn-secondary dropdown-toggle",
-                                              attrs: {
-                                                href: "#",
-                                                role: "button",
-                                                id: "dropdownMenuLink",
-                                                "data-toggle": "dropdown",
-                                                "aria-haspopup": "true",
-                                                "aria-expanded": "false"
-                                              }
-                                            },
-                                            [
-                                              _vm._v(
-                                                "\r\n            " +
-                                                  _vm._s(
-                                                    _vm.product.details.title
-                                                  ) +
-                                                  "\r\n          "
-                                              )
-                                            ]
-                                          ),
-                                          _vm._v(" "),
-                                          _c(
-                                            "div",
-                                            {
-                                              staticClass: "dropdown-menu",
-                                              attrs: {
-                                                "aria-labelledby":
-                                                  "dropdownMenuLink"
-                                              }
-                                            },
-                                            _vm._l(
-                                              _vm.productsBycategory[
-                                                _vm.product.details.category_id
-                                              ],
-                                              function(otherModel, pid) {
-                                                return _c(
-                                                  "a",
-                                                  {
-                                                    staticClass:
-                                                      "dropdown-item",
-                                                    attrs: { href: "" },
-                                                    on: {
-                                                      click: function($event) {
-                                                        $event.preventDefault()
-                                                        _vm.product = otherModel
-                                                        _vm.scrollToTop()
-                                                      }
-                                                    }
-                                                  },
-                                                  [
-                                                    _vm._v(
-                                                      _vm._s(
-                                                        otherModel.details.title
-                                                      )
-                                                    )
-                                                  ]
-                                                )
-                                              }
-                                            ),
-                                            0
-                                          )
-                                        ]
-                                      ),
-                                      _vm._v(" "),
-                                      JSON.parse(
-                                        _vm.product.details.production_details
-                                          .other
-                                      ) &&
-                                      JSON.parse(
-                                        _vm.product.details.production_details
-                                          .other
-                                      ).hasOwnProperty("requireProperties")
-                                        ? _c(
-                                            "div",
-                                            { staticClass: "properties" },
-                                            _vm._l(
-                                              JSON.parse(
-                                                _vm.product.details
-                                                  .production_details.other
-                                              ).requireProperties,
-                                              function(property, index) {
-                                                return _c(
-                                                  "div",
-                                                  {
-                                                    key: index,
-                                                    staticClass: "property",
-                                                    class: property.name
-                                                  },
-                                                  [
-                                                    _c("label", [
-                                                      _vm._v(
-                                                        _vm._s(property.name) +
-                                                          "  "
-                                                      )
-                                                    ]),
-                                                    _vm._v(" "),
-                                                    _c(
-                                                      "select",
-                                                      {
-                                                        directives: [
-                                                          {
-                                                            name: "model",
-                                                            rawName: "v-model",
-                                                            value:
-                                                              _vm
-                                                                .selectedProperties[
-                                                                property.name
-                                                              ],
-                                                            expression:
-                                                              "selectedProperties[property.name]"
-                                                          }
-                                                        ],
-                                                        on: {
-                                                          change: function(
-                                                            $event
-                                                          ) {
-                                                            var $$selectedVal = Array.prototype.filter
-                                                              .call(
-                                                                $event.target
-                                                                  .options,
-                                                                function(o) {
-                                                                  return o.selected
-                                                                }
-                                                              )
-                                                              .map(function(o) {
-                                                                var val =
-                                                                  "_value" in o
-                                                                    ? o._value
-                                                                    : o.value
-                                                                return val
-                                                              })
-                                                            _vm.$set(
-                                                              _vm.selectedProperties,
-                                                              property.name,
-                                                              $event.target
-                                                                .multiple
-                                                                ? $$selectedVal
-                                                                : $$selectedVal[0]
-                                                            )
-                                                          }
-                                                        }
-                                                      },
-                                                      [
-                                                        _c(
-                                                          "option",
-                                                          {
-                                                            attrs: {
-                                                              disabled: "",
-                                                              selected: "",
-                                                              value: "none"
-                                                            }
-                                                          },
-                                                          [_vm._v("-")]
-                                                        ),
-                                                        _vm._v(" "),
-                                                        _vm._l(
-                                                          property.options,
-                                                          function(
-                                                            option,
-                                                            optionName
-                                                          ) {
-                                                            return _c(
-                                                              "option",
-                                                              {
-                                                                domProps: {
-                                                                  value: option
-                                                                }
-                                                              },
-                                                              [
-                                                                _vm._v(
-                                                                  _vm._s(
-                                                                    optionName
-                                                                  )
-                                                                )
-                                                              ]
-                                                            )
-                                                          }
-                                                        )
-                                                      ],
-                                                      2
-                                                    )
-                                                  ]
-                                                )
-                                              }
-                                            ),
-                                            0
-                                          )
-                                        : _vm._e(),
-                                      _vm._v(" "),
-                                      _c("div", { staticClass: "quantity " }, [
-                                        _c("label", [_vm._v("QTY  ")]),
-                                        _vm._v(" "),
-                                        _c(
-                                          "select",
-                                          {
-                                            directives: [
-                                              {
-                                                name: "model",
-                                                rawName: "v-model",
-                                                value: _vm.quantity,
-                                                expression: "quantity"
-                                              }
-                                            ],
-                                            attrs: { name: "quantity" },
-                                            on: {
-                                              change: function($event) {
-                                                var $$selectedVal = Array.prototype.filter
-                                                  .call(
-                                                    $event.target.options,
-                                                    function(o) {
-                                                      return o.selected
-                                                    }
-                                                  )
-                                                  .map(function(o) {
-                                                    var val =
-                                                      "_value" in o
-                                                        ? o._value
-                                                        : o.value
-                                                    return val
-                                                  })
-                                                _vm.quantity = $event.target
-                                                  .multiple
-                                                  ? $$selectedVal
-                                                  : $$selectedVal[0]
-                                              }
-                                            }
-                                          },
-                                          [
-                                            _c(
-                                              "option",
-                                              { attrs: { value: "1" } },
-                                              [_vm._v("1")]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "option",
-                                              { attrs: { value: "2" } },
-                                              [_vm._v("2")]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "option",
-                                              { attrs: { value: "3" } },
-                                              [_vm._v("3")]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "option",
-                                              { attrs: { value: "4" } },
-                                              [_vm._v("4")]
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "option",
-                                              { attrs: { value: "5" } },
-                                              [_vm._v("5")]
-                                            )
-                                          ]
-                                        )
-                                      ]),
-                                      _vm._v(" "),
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass: "checkout btn purple",
-                                          on: {
-                                            click: function($event) {
-                                              $event.preventDefault()
-                                              return _vm.addToCart(true)
-                                            }
-                                          }
-                                        },
-                                        [_vm._v("Express Checkout")]
-                                      ),
-                                      _vm._v(" "),
-                                      _c(
-                                        "a",
-                                        {
-                                          staticClass:
-                                            "add-to-cart btn purple negative",
-                                          on: {
-                                            click: function($event) {
-                                              $event.preventDefault()
-                                              return _vm.addToCart()
-                                            }
-                                          }
-                                        },
-                                        [_vm._v("Add To Cart")]
-                                      )
-                                    ])
-                                  : _vm._e()
-                              ],
-                              1
-                            ),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "checkout btn purple",
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                                return _vm.addToCart(true)
+                              }
+                            }
+                          },
+                          [_vm._v("Express Checkout")]
+                        ),
                         _vm._v(" "),
                         _c(
-                          "div",
-                          { staticClass: "desc-box col-md-8" },
-                          [
-                            _c("div", { staticClass: "title" }, [
-                              _c(
-                                "span",
-                                {
-                                  class:
-                                    _vm.extraDetails == "desc" ? "active" : "",
-                                  on: {
-                                    click: function($event) {
-                                      $event.preventDefault()
-                                      _vm.extraDetails = "desc"
-                                    }
-                                  }
-                                },
-                                [_vm._v("description")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "span",
-                                {
-                                  class:
-                                    _vm.extraDetails == "ship" ? "active" : "",
-                                  on: {
-                                    click: function($event) {
-                                      $event.preventDefault()
-                                      _vm.extraDetails = "ship"
-                                    }
-                                  }
-                                },
-                                [_vm._v("shipping")]
-                              ),
-                              _vm._v(" "),
-                              _c(
-                                "span",
-                                {
-                                  class:
-                                    _vm.extraDetails == "size" ? "active" : "",
-                                  on: {
-                                    click: function($event) {
-                                      $event.preventDefault()
-                                      _vm.extraDetails = "size"
-                                    }
-                                  }
-                                },
-                                [_vm._v("sizes")]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "transition",
-                              {
-                                attrs: {
-                                  name: "fade",
-                                  duration: { enter: 500, leave: 150 }
-                                }
-                              },
-                              [
-                                _vm.extraDetails == "desc"
-                                  ? _c("div", {
-                                      staticClass: "content",
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.product.details.html_description
-                                        )
-                                      }
-                                    })
-                                  : _vm._e()
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "transition",
-                              {
-                                attrs: {
-                                  name: "fade",
-                                  duration: { enter: 500, leave: 150 }
-                                }
-                              },
-                              [
-                                _vm.extraDetails == "ship"
-                                  ? _c("div", {
-                                      staticClass: "content",
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.product.details.html_shipping
-                                        )
-                                      }
-                                    })
-                                  : _vm._e()
-                              ]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "transition",
-                              {
-                                attrs: {
-                                  name: "fade",
-                                  duration: { enter: 500, leave: 150 }
-                                }
-                              },
-                              [
-                                _vm.extraDetails == "size"
-                                  ? _c("div", {
-                                      staticClass: "content",
-                                      domProps: {
-                                        innerHTML: _vm._s(
-                                          _vm.product.details.html_sizes
-                                        )
-                                      }
-                                    })
-                                  : _vm._e()
-                              ]
-                            )
-                          ],
-                          1
-                        )
-                      ],
-                      1
-                    ),
-                    _vm._v(" "),
-                    _c("div", { staticClass: "page-footer" }, [
-                      _c("div", { staticClass: "you-may container " }, [
-                        _vm._m(1),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          { staticClass: "row full-width" },
-                          [
-                            _c("h3", [
-                              _c("span", [_vm._v(_vm._s(_vm.img.name))]),
-                              _vm._v(" also available on")
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "hooper",
-                              {
-                                attrs: {
-                                  wheelControl: false,
-                                  itemsToShow: _vm.$root.isMobile ? 1.5 : 4,
-                                  infiniteScroll: _vm.$root.isMobile
-                                    ? false
-                                    : true
-                                }
-                              },
-                              [
-                                _vm._l(_vm.products, function(
-                                  upsaleProduct,
-                                  index
-                                ) {
-                                  return upsaleProduct.details.category_id !=
-                                    _vm.product.details.category_id
-                                    ? _c(
-                                        "slide",
-                                        {
-                                          key: index,
-                                          staticClass: "gallery-item ",
-                                          staticStyle: {}
-                                        },
-                                        [
-                                          _c("div", [
-                                            _c(
-                                              "a",
-                                              {
-                                                attrs: { href: "" },
-                                                on: {
-                                                  click: function($event) {
-                                                    $event.preventDefault()
-                                                    _vm.product = upsaleProduct
-                                                    _vm.refreshImgsListForSlider()
-                                                    _vm.scrollToTop()
-                                                  }
-                                                }
-                                              },
-                                              [
-                                                _c(
-                                                  "div",
-                                                  {
-                                                    staticClass:
-                                                      "gallery-item-frame"
-                                                  },
-                                                  [
-                                                    _c("v-lazy-image", {
-                                                      staticClass:
-                                                        "prev-gallery-img",
-                                                      attrs: {
-                                                        src:
-                                                          _vm.$root.storageUrl +
-                                                          "/creator_images/" +
-                                                          _vm.img.id +
-                                                          "/previews/" +
-                                                          upsaleProduct.product_code +
-                                                          "/500_1.jpg",
-                                                        "src-placeholder":
-                                                          _vm.$root.storageUrl +
-                                                          "/creator_images/" +
-                                                          _vm.img.id +
-                                                          "/previews/" +
-                                                          upsaleProduct.product_code +
-                                                          "/80_1.jpg"
-                                                      }
-                                                    })
-                                                  ],
-                                                  1
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "div",
-                                                  {
-                                                    staticClass:
-                                                      "gallery-item-desc"
-                                                  },
-                                                  [
-                                                    _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "gallery-item-title"
-                                                      },
-                                                      [
-                                                        _vm._v(
-                                                          _vm._s(
-                                                            upsaleProduct
-                                                              .details.category
-                                                              .name
-                                                          )
-                                                        )
-                                                      ]
-                                                    ),
-                                                    _vm._v(" "),
-                                                    _c(
-                                                      "div",
-                                                      {
-                                                        staticClass:
-                                                          "  gallery-item-price"
-                                                      },
-                                                      [
-                                                        _c("div", [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass:
-                                                                "discount-price",
-                                                              staticStyle: {
-                                                                "font-size":
-                                                                  "20"
-                                                              }
-                                                            },
-                                                            [
-                                                              _c(
-                                                                "span",
-                                                                {
-                                                                  staticClass:
-                                                                    "old-price"
-                                                                },
-                                                                [
-                                                                  _vm._v(
-                                                                    "$" +
-                                                                      _vm._s(
-                                                                        _vm
-                                                                          .prices[
-                                                                          upsaleProduct
-                                                                            .product_code
-                                                                        ]
-                                                                      )
-                                                                  )
-                                                                ]
-                                                              ),
-                                                              _vm._v(
-                                                                "\r\n                        $" +
-                                                                  _vm._s(
-                                                                    (
-                                                                      (_vm
-                                                                        .prices[
-                                                                        upsaleProduct
-                                                                          .product_code
-                                                                      ] *
-                                                                        (100 -
-                                                                          _vm
-                                                                            .img
-                                                                            .creator
-                                                                            .discount)) /
-                                                                      100
-                                                                    ).toFixed(2)
-                                                                  ) +
-                                                                  "\r\n                      "
-                                                              )
-                                                            ]
-                                                          )
-                                                        ])
-                                                      ]
-                                                    )
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ])
-                                        ]
-                                      )
-                                    : _vm._e()
-                                }),
-                                _vm._v(" "),
-                                _c("hooper-navigation", {
-                                  attrs: { slot: "hooper-addons" },
-                                  slot: "hooper-addons"
-                                })
-                              ],
-                              2
-                            )
-                          ],
-                          1
+                          "a",
+                          {
+                            staticClass: "add-to-cart btn purple negative",
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                                return _vm.addToCart()
+                              }
+                            }
+                          },
+                          [_vm._v("Add To Cart")]
                         ),
                         _vm._v(" "),
                         _c(
                           "div",
-                          { staticClass: "row full-width more" },
+                          {
+                            staticClass: "share",
+                            on: {
+                              click: function($event) {
+                                $event.preventDefault()
+                                return _vm.$modal.show("ShareModal")
+                              }
+                            }
+                          },
                           [
-                            _c("h3", [
-                              _vm._v("More "),
-                              _c("span", [
-                                _c("span", [
-                                  _vm._v(
-                                    _vm._s(_vm.product.details.category.name)
-                                  )
-                                ]),
-                                _vm._v(
-                                  " by " +
-                                    _vm._s(
-                                      _vm.img.creator.user.first_name +
-                                        " " +
-                                        _vm.img.creator.user.last_name
-                                    )
-                                )
-                              ])
-                            ]),
-                            _vm._v(" "),
                             _c(
-                              "hooper",
+                              "svg",
                               {
                                 attrs: {
-                                  wheelControl: false,
-                                  itemsToShow: _vm.$root.isMobile ? 1.5 : 4,
-                                  infiniteScroll: _vm.$root.isMobile
-                                    ? false
-                                    : true
+                                  xmlns: "http://www.w3.org/2000/svg",
+                                  "xmlns:xlink": "http://www.w3.org/1999/xlink",
+                                  width: "17px",
+                                  height: "19px",
+                                  viewBox: "0 0 17 19",
+                                  version: "1.1"
                                 }
                               },
                               [
-                                _vm._l(_vm.imgsListForSlider, function(
-                                  product,
-                                  imgIdName,
-                                  index
-                                ) {
-                                  return _c(
-                                    "slide",
-                                    {
-                                      key: index,
-                                      staticClass: "gallery-item "
-                                    },
-                                    [
-                                      _c("div", [
-                                        _c(
-                                          "a",
-                                          {
-                                            attrs: { href: "" },
-                                            on: {
-                                              click: function($event) {
-                                                $event.preventDefault()
-                                                _vm.$router.push(
-                                                  "/product-" + product.id
-                                                )
-                                                _vm.scrollToTop()
-                                              }
-                                            }
-                                          },
-                                          [
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass:
-                                                  "gallery-item-frame"
-                                              },
-                                              [
-                                                _c("v-lazy-image", {
-                                                  staticClass:
-                                                    "prev-gallery-img",
-                                                  attrs: {
-                                                    src:
-                                                      _vm.$root.storageUrl +
-                                                      "/creator_images/" +
-                                                      imgIdName.split("-")[0] +
-                                                      "/previews/" +
-                                                      product.details
-                                                        .product_code +
-                                                      "/500_1.jpg",
-                                                    "src-placeholder":
-                                                      _vm.$root.storageUrl +
-                                                      "/creator_images/" +
-                                                      imgIdName.split("-")[0] +
-                                                      "/previews/" +
-                                                      product.details
-                                                        .product_code +
-                                                      "/80_1.jpg"
-                                                  }
-                                                })
-                                              ],
-                                              1
-                                            ),
-                                            _vm._v(" "),
-                                            _c(
-                                              "div",
-                                              {
-                                                staticClass: "gallery-item-desc"
-                                              },
-                                              [
-                                                _c(
-                                                  "div",
-                                                  {
-                                                    staticClass:
-                                                      "gallery-item-title"
-                                                  },
-                                                  [
-                                                    _vm._v(
-                                                      _vm._s(
-                                                        imgIdName.split("-")[1]
-                                                      )
-                                                    )
-                                                  ]
-                                                ),
-                                                _vm._v(" "),
-                                                _c(
-                                                  "div",
-                                                  {
-                                                    staticClass:
-                                                      "  gallery-item-price"
-                                                  },
-                                                  [
-                                                    _c("div", [
-                                                      _c(
-                                                        "span",
-                                                        {
-                                                          staticClass:
-                                                            "discount-price",
-                                                          staticStyle: {
-                                                            "font-size": "20"
-                                                          }
-                                                        },
-                                                        [
-                                                          _c(
-                                                            "span",
-                                                            {
-                                                              staticClass:
-                                                                "old-price"
-                                                            },
-                                                            [
-                                                              _vm._v(
-                                                                "$" +
-                                                                  _vm._s(
-                                                                    _vm.prices[
-                                                                      product
-                                                                        .details
-                                                                        .product_code
-                                                                    ]
-                                                                  )
-                                                              )
-                                                            ]
-                                                          ),
-                                                          _vm._v(
-                                                            "\r\n                        $" +
-                                                              _vm._s(
-                                                                (
-                                                                  (_vm.prices[
-                                                                    product
-                                                                      .details
-                                                                      .product_code
-                                                                  ] *
-                                                                    (100 -
-                                                                      _vm.img
-                                                                        .creator
-                                                                        .discount)) /
-                                                                  100
-                                                                ).toFixed(2)
-                                                              ) +
-                                                              "\r\n                      "
-                                                          )
-                                                        ]
-                                                      )
-                                                    ])
-                                                  ]
-                                                )
-                                              ]
-                                            )
-                                          ]
-                                        )
-                                      ])
-                                    ]
-                                  )
-                                }),
+                                _c("title", [_vm._v("Share")]),
                                 _vm._v(" "),
-                                _c("hooper-navigation", {
-                                  attrs: { slot: "hooper-addons" },
-                                  slot: "hooper-addons"
-                                })
-                              ],
-                              2
-                            )
-                          ],
-                          1
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c(
-                        "div",
-                        { staticClass: "images-slider container no-padding" },
-                        [
-                          _c("div", { staticClass: "title row" }, [
-                            _c("div", { staticClass: "line" }),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "text" }, [
-                              _vm._v("More by "),
-                              _c(
-                                "a",
-                                {
-                                  attrs: { href: "" },
-                                  on: {
-                                    click: function($event) {
-                                      $event.preventDefault()
-                                      return _vm.$router.push(
-                                        "/@" + _vm.img.creator.username
-                                      )
-                                    }
-                                  }
-                                },
-                                [
-                                  _vm._v(
-                                    _vm._s(
-                                      _vm.img.creator.user.first_name +
-                                        " " +
-                                        _vm.img.creator.user.last_name
-                                    )
-                                  )
-                                ]
-                              )
-                            ]),
-                            _vm._v(" "),
-                            _c("div", { staticClass: "line" }),
-                            _vm._v(" "),
-                            _vm._m(2)
-                          ]),
-                          _vm._v(" "),
-                          _c(
-                            "hooper",
-                            {
-                              staticStyle: { height: "200zpx" },
-                              attrs: {
-                                wheelControl: false,
-                                centerMode: true,
-                                itemsToShow: 5.5,
-                                infiniteScroll: true
-                              }
-                            },
-                            [
-                              _vm._l(_vm.img.creator.images, function(
-                                image,
-                                index
-                              ) {
-                                return _c(
-                                  "slide",
-                                  {
-                                    key: index,
-                                    staticClass: "item",
-                                    staticStyle: {}
-                                  },
-                                  [
-                                    _c(
-                                      "a",
-                                      {
-                                        attrs: { href: "" },
-                                        on: {
-                                          click: function($event) {
-                                            $event.preventDefault()
-                                            return _vm.$router.push(
-                                              "/catalog-" + image.id
-                                            )
-                                          }
-                                        }
-                                      },
-                                      [
-                                        _c(
-                                          "div",
-                                          { staticClass: "frame" },
-                                          [
-                                            _c("v-lazy-image", {
-                                              attrs: {
-                                                src:
-                                                  _vm.$root.storageUrl +
-                                                  "/creator_images/" +
-                                                  image.id +
-                                                  "/500.jpg",
-                                                "src-placeholder":
-                                                  _vm.$root.storageUrl +
-                                                  "/creator_images/" +
-                                                  image.id +
-                                                  "/80.jpg"
-                                              }
-                                            })
-                                          ],
-                                          1
-                                        )
-                                      ]
-                                    )
-                                  ]
-                                )
-                              }),
-                              _vm._v(" "),
-                              _c("hooper-navigation", {
-                                attrs: { slot: "hooper-addons" },
-                                slot: "hooper-addons"
-                              })
-                            ],
-                            2
-                          ),
-                          _vm._v(" "),
-                          _c("tags", { attrs: { tags: _vm.tags } })
-                        ],
-                        1
-                      ),
-                      _vm._v(" "),
-                      _vm._m(3)
-                    ])
-                  ])
-                ],
-                1
-              )
-            : _vm._e()
-        ])
-      : _c("div", [
-          _c("div", { staticClass: "mobile-discount-box" }, [
-            _vm._v(
-              "\r\n    Get " +
-                _vm._s(_vm.img.creator.discount) +
-                "% of everything\r\n  "
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "swiper-carousel-box" },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "likes",
-                  class: _vm.$root.isMobile ? "mobile-like-view" : ""
-                },
-                [
-                  _c("div", [
-                    _c("div", { staticClass: "number" }, [
-                      _vm._v(_vm._s(_vm.img.likes))
-                    ]),
-                    _vm._v(" "),
-                    !_vm.imgLikeClicked.includes(_vm.img.id)
-                      ? _c(
-                          "svg",
-                          {
-                            staticClass: "heart",
-                            attrs: {
-                              id: "Layer_1",
-                              "data-name": "Layer 1",
-                              xmlns: "http://www.w3.org/2000/svg",
-                              viewBox: "0 0 150 150"
-                            },
-                            on: {
-                              click: function($event) {
-                                return _vm.like(_vm.img)
-                              }
-                            }
-                          },
-                          [
-                            _c("defs"),
-                            _c("g", { staticClass: "cls-1" }, [
-                              _c("circle", {
-                                staticClass: "cls-2",
-                                attrs: { cx: "75", cy: "75", r: "74.88" }
-                              }),
-                              _c("path", {
-                                staticClass: "cls-3",
-                                attrs: {
-                                  d:
-                                    "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                  transform: "translate(-75 -68)"
-                                }
-                              })
-                            ]),
-                            _c("path", {
-                              staticClass: "cls-4",
-                              attrs: {
-                                d:
-                                  "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                transform: "translate(-75 -68)"
-                              }
-                            }),
-                            _c("path", {
-                              staticClass: "cls-5",
-                              attrs: {
-                                d:
-                                  "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                transform: "translate(-75 -68)"
-                              }
-                            })
-                          ]
-                        )
-                      : _c(
-                          "svg",
-                          {
-                            staticClass: "heart2",
-                            attrs: {
-                              id: "Layer_1",
-                              "data-name": "Layer 1",
-                              xmlns: "http://www.w3.org/2000/svg",
-                              viewBox: "0 0 150 150"
-                            },
-                            on: {
-                              click: function($event) {
-                                return _vm.like(_vm.img)
-                              }
-                            }
-                          },
-                          [
-                            _c("defs"),
-                            _c("g", { staticClass: "cls-1" }, [
-                              _c("circle", {
-                                staticClass: "cls-2",
-                                attrs: { cx: "75", cy: "75", r: "74.88" }
-                              }),
-                              _c("path", {
-                                staticClass: "cls-3",
-                                attrs: {
-                                  d:
-                                    "M150,68.25A74.75,74.75,0,1,1,75.25,143,74.83,74.83,0,0,1,150,68.25m0-.25a75,75,0,1,0,75,75,75,75,0,0,0-75-75Z",
-                                  transform: "translate(-75 -68)"
-                                }
-                              })
-                            ]),
-                            _c("path", {
-                              staticClass: "cls-4",
-                              attrs: {
-                                d:
-                                  "M169.77,109.72c12.74.07,23.06,12.2,23.12,27.2,0,27.46-42.5,54.66-42.5,54.66s-42.5-27.6-42.5-54.66c0-15,10.35-27.2,23.12-27.2h0c7.82-.08,15.12,4.55,19.38,12.26C154.68,114.31,162,109.69,169.77,109.72Z",
-                                transform: "translate(-75 -68)"
-                              }
-                            })
-                          ]
-                        )
-                  ]),
-                  _vm._v(" "),
-                  _c(
-                    "ShareNetwork",
-                    {
-                      attrs: {
-                        network: "pinterest",
-                        url:
-                          _vm.$root.currentUrl + "/product-" + _vm.product.id,
-                        title:
-                          _vm.img.name +
-                          " (ID " +
-                          _vm.img.id +
-                          ")" +
-                          " " +
-                          _vm.img.description +
-                          " " +
-                          _vm.$root.getPinterestContent(_vm.img),
-                        media:
-                          _vm.$root.currentUrl +
-                          _vm.$root.storageUrl +
-                          "/creator_images/" +
-                          _vm.img.id +
-                          "/previews/" +
-                          _vm.product.product_code +
-                          "/1000_1.jpg"
-                      },
-                      on: {
-                        open: function($event) {
-                          _vm.$root.clicked = true
-                        },
-                        close: function($event) {
-                          _vm.$root.clicked = false
-                        }
-                      }
-                    },
-                    [
-                      _c(
-                        "svg",
-                        {
-                          staticStyle: {
-                            "enable-background": "new 0 0 512 512"
-                          },
-                          attrs: {
-                            height: "30px",
-                            id: "Layer_1",
-                            version: "1.1",
-                            viewBox: "0 0 512 512",
-                            width: "30px",
-                            "xml:space": "preserve",
-                            xmlns: "http://www.w3.org/2000/svg",
-                            "xmlns:cc": "http://creativecommons.org/ns#",
-                            "xmlns:dc": "http://purl.org/dc/elements/1.1/",
-                            "xmlns:inkscape":
-                              "http://www.inkscape.org/namespaces/inkscape",
-                            "xmlns:rdf":
-                              "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-                            "xmlns:sodipodi":
-                              "http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd",
-                            "xmlns:svg": "http://www.w3.org/2000/svg"
-                          }
-                        },
-                        [
-                          _c("defs", { attrs: { id: "defs19" } }),
-                          _c("g", { attrs: { id: "g3031" } }, [
-                            _c("path", {
-                              staticStyle: {
-                                fill: "#cb2027",
-                                "fill-opacity": "1"
-                              },
-                              attrs: {
-                                d:
-                                  "m 511.672,255.92999 c 0,141.3849 -114.61511,256 -256,256 -141.3849,0 -256.00000293,-114.6151 -256.00000293,-256 C -0.32800293,114.5451 114.2871,-0.07000732 255.672,-0.07000732 c 141.38489,0 256,114.61510732 256,255.99999732 z",
-                                id: "circle8"
-                              }
-                            }),
-                            _c(
-                              "g",
-                              {
-                                attrs: {
-                                  id: "g3000",
-                                  transform: "translate(-603.11865,-9.8474559)"
-                                }
-                              },
-                              [
+                                _c("desc", [
+                                  _vm._v("Created with sketchtool.")
+                                ]),
+                                _vm._v(" "),
                                 _c(
                                   "g",
                                   {
                                     attrs: {
-                                      id: "g3142",
-                                      transform: "translate(221.28814,-27.9639)"
-                                    }
-                                  },
-                                  [
-                                    _c("g", { attrs: { id: "Layer_14" } }, [
-                                      _c("g", { attrs: { id: "g3121" } }, [
-                                        _c("path", {
-                                          staticStyle: { fill: "#ffffff" },
-                                          attrs: {
-                                            d:
-                                              "m 645.85601,122.6817 c -93.402,0 -140.5,66.963 -140.5,122.815 0,33.812 12.796,63.89 40.25,75.089 4.505,1.858 8.54,0.065 9.849,-4.916 0.906,-3.438 3.055,-12.139 4.015,-15.777 1.31,-4.928 0.799,-6.646 -2.833,-10.957 -7.916,-9.332 -12.985,-21.416 -12.985,-38.551 0,-49.677 37.175,-94.154 96.794,-94.154 52.797,0 81.801,32.26 81.801,75.329 0,56.692 -25.089,104.534 -62.325,104.534 -20.563,0 -35.953,-16.999 -31.031,-37.865 5.908,-24.908 17.355,-51.777 17.355,-69.771 0,-16.087 -8.646,-29.507 -26.513,-29.507 -21.021,0 -37.913,21.752 -37.913,50.884 0,18.558 6.271,31.112 6.271,31.112 0,0 -21.518,91.16 -25.291,107.125 -7.506,31.798 -1.128,70.766 -0.584,74.692 0.315,2.343 3.317,2.907 4.68,1.142 1.927,-2.53 26.983,-33.441 35.482,-64.34 2.417,-8.739 13.831,-54.032 13.831,-54.032 6.835,13.038 26.794,24.491 48.024,24.491 63.19,0 106.072,-57.604 106.072,-134.719 0.006,-58.317 -49.387,-112.624 -124.449,-112.624 z",
-                                            id: "path3131"
-                                          }
-                                        })
-                                      ])
-                                    ]),
-                                    _c("g", { attrs: { id: "Layer_1_1_-8" } })
-                                  ]
-                                )
-                              ]
-                            )
-                          ]),
-                          _c("g", { attrs: { id: "Layer_1_1_" } })
-                        ]
-                      )
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "discount-tag" }, [
-                    _vm._v(
-                      "\r\n            " +
-                        _vm._s(_vm.img.creator.discount) +
-                        "% OFF\r\n          "
-                    )
-                  ])
-                ],
-                1
-              ),
-              _vm._v(" "),
-              _c(
-                "slider",
-                {
-                  ref: "slider",
-                  attrs: { options: _vm.options },
-                  on: { slide: _vm.slide, tap: _vm.onTap, init: _vm.onInit }
-                },
-                [
-                  _vm._l(_vm.product.details.dynamic_previews_number, function(
-                    n,
-                    i
-                  ) {
-                    return _c(
-                      "slideritem",
-                      { key: "key-" + i },
-                      [
-                        _c("v-lazy-image", {
-                          class:
-                            _vm.curMainPrev ==
-                            _vm.$root.storageUrl +
-                              "/creator_images/" +
-                              _vm.img.id +
-                              "/previews/" +
-                              _vm.product.product_code +
-                              "/1000_" +
-                              (i + 1) +
-                              _vm.color +
-                              ".jpg"
-                              ? "active"
-                              : "",
-                          attrs: {
-                            src:
-                              _vm.$root.storageUrl +
-                              "/creator_images/" +
-                              _vm.img.id +
-                              "/previews/" +
-                              _vm.product.product_code +
-                              "/500_" +
-                              (i + 1) +
-                              _vm.color +
-                              ".jpg",
-                            "src-placeholder":
-                              _vm.$root.storageUrl +
-                              "/creator_images/" +
-                              _vm.img.id +
-                              "/previews/" +
-                              _vm.product.product_code +
-                              "/80_" +
-                              (i + 1) +
-                              _vm.color +
-                              ".jpg"
-                          }
-                        })
-                      ],
-                      1
-                    )
-                  }),
-                  _vm._v(" "),
-                  _c("div", { attrs: { slot: "loading" }, slot: "loading" }, [
-                    _vm._v("loading...")
-                  ])
-                ],
-                2
-              )
-            ],
-            1
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "mobile-product-content" }, [
-            _c("div", { staticClass: "mobile-title-box" }, [
-              _c("div", { staticClass: "title" }, [
-                _vm._v(
-                  "\r\n         " +
-                    _vm._s(
-                      _vm.img.name + " " + _vm.product.details.category.name
-                    ) +
-                    "\r\n         "
-                ),
-                _c(
-                  "a",
-                  {
-                    attrs: { href: "" },
-                    on: {
-                      click: function($event) {
-                        $event.preventDefault()
-                        return _vm.$router.push("/@" + _vm.img.creator.username)
-                      }
-                    }
-                  },
-                  [
-                    _c("div", { staticClass: "creator-name" }, [
-                      _vm._v("by "),
-                      _c("span", { staticClass: "mobile-creator-text" }, [
-                        _vm._v(
-                          " " +
-                            _vm._s(
-                              _vm.img.creator.user.first_name +
-                                " " +
-                                _vm.img.creator.user.last_name
-                            )
-                        )
-                      ])
-                    ])
-                  ]
-                )
-              ]),
-              _vm._v(" "),
-              _c("div", { staticClass: "mobile-share-box" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "share",
-                    on: {
-                      click: function($event) {
-                        $event.preventDefault()
-                        return _vm.$modal.show("ShareModal")
-                      }
-                    }
-                  },
-                  [
-                    _c(
-                      "svg",
-                      {
-                        attrs: {
-                          xmlns: "http://www.w3.org/2000/svg",
-                          "xmlns:xlink": "http://www.w3.org/1999/xlink",
-                          width: "17px",
-                          height: "19px",
-                          viewBox: "0 0 17 19",
-                          version: "1.1"
-                        }
-                      },
-                      [
-                        _c("title", [_vm._v("Share")]),
-                        _vm._v(" "),
-                        _c("desc", [_vm._v("Created with sketchtool.")]),
-                        _vm._v(" "),
-                        _c(
-                          "g",
-                          {
-                            attrs: {
-                              id: "Page-3",
-                              stroke: "none",
-                              "stroke-width": "1",
-                              fill: "none",
-                              "fill-rule": "evenodd"
-                            }
-                          },
-                          [
-                            _c(
-                              "g",
-                              {
-                                attrs: {
-                                  id: "public-gallery",
-                                  transform:
-                                    "translate(-81.000000, -533.000000)",
-                                  fill: "#B200FF",
-                                  "fill-rule": "nonzero"
-                                }
-                              },
-                              [
-                                _c(
-                                  "g",
-                                  {
-                                    attrs: {
-                                      id: "Group-2",
-                                      transform:
-                                        "translate(81.000000, 529.000000)"
+                                      id: "Page-3",
+                                      stroke: "none",
+                                      "stroke-width": "1",
+                                      fill: "none",
+                                      "fill-rule": "evenodd"
                                     }
                                   },
                                   [
@@ -63705,385 +62579,567 @@ var render = function() {
                                       "g",
                                       {
                                         attrs: {
-                                          id: "share-(2)",
+                                          id: "public-gallery",
                                           transform:
-                                            "translate(0.000000, 4.000000)"
+                                            "translate(-81.000000, -533.000000)",
+                                          fill: "#B200FF",
+                                          "fill-rule": "nonzero"
                                         }
                                       },
                                       [
-                                        _c("path", {
-                                          attrs: {
-                                            d:
-                                              "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
-                                            id: "Shape"
-                                          }
-                                        })
+                                        _c(
+                                          "g",
+                                          {
+                                            attrs: {
+                                              id: "Group-2",
+                                              transform:
+                                                "translate(81.000000, 529.000000)"
+                                            }
+                                          },
+                                          [
+                                            _c(
+                                              "g",
+                                              {
+                                                attrs: {
+                                                  id: "share-(2)",
+                                                  transform:
+                                                    "translate(0.000000, 4.000000)"
+                                                }
+                                              },
+                                              [
+                                                _c("path", {
+                                                  attrs: {
+                                                    d:
+                                                      "M13.7722467,11.9432638 C12.735022,11.9432638 11.8101322,12.4366193 11.2185022,13.1990778 L6.26453744,10.4370346 C6.38061674,10.1043934 6.44427313,9.74558941 6.44427313,9.3755728 C6.44427313,9.00181865 6.38061674,8.64675221 6.26079295,8.31037347 L11.2110132,5.55206782 C11.7988987,6.31826383 12.727533,6.81535686 13.7685022,6.81535686 C15.5433921,6.81535686 16.992511,5.37266583 16.992511,3.5973336 C16.992511,1.82200137 15.5471366,0.379310345 13.7685022,0.379310345 C11.9898678,0.379310345 10.5444934,1.82200137 10.5444934,3.5973336 C10.5444934,3.97108775 10.6081498,4.32989174 10.7279736,4.66253294 L5.7814978,7.42083858 C5.19361233,6.65090503 4.26497797,6.15754955 3.22400881,6.15754955 C1.44911894,6.15754955 0,7.60024058 0,9.3755728 C0,11.150905 1.44911894,12.5935961 3.2277533,12.5935961 C4.26872247,12.5935961 5.19735683,12.096503 5.78898678,11.3265695 L10.739207,14.0886127 C10.6193833,14.4249914 10.5519824,14.7875329 10.5519824,15.1612871 C10.5519824,16.9328818 11.9973568,18.3793103 13.7759912,18.3793103 C15.5546256,18.3793103 17,16.9366193 17,15.1612871 C17,13.3859549 15.5508811,11.9432638 13.7722467,11.9432638 Z M13.7722467,1.3921841 C14.9929515,1.3921841 15.9852423,2.3826326 15.9852423,3.60107114 C15.9852423,4.81950968 14.9929515,5.80995819 13.7722467,5.80995819 C12.5515419,5.80995819 11.5592511,4.81950968 11.5592511,3.60107114 C11.5592511,2.3826326 12.5552863,1.3921841 13.7722467,1.3921841 Z M13.7722467,12.9486625 C14.9929515,12.9486625 15.9852423,13.939111 15.9852423,15.1575495 C15.9852423,16.3759881 14.9929515,17.3664366 13.7722467,17.3664366 C12.5515419,17.3664366 11.5592511,16.3759881 11.5592511,15.1575495 C11.5592511,13.939111 12.5515419,12.9486625 13.7722467,12.9486625 Z M3.22413793,7.34705228 C4.35588424,7.34705228 5.27586207,8.25830167 5.27586207,9.37931034 C5.27586207,10.500319 4.35241263,11.4115684 3.22413793,11.4115684 C2.09239162,11.4115684 1.17241379,10.500319 1.17241379,9.37931034 C1.17241379,8.25830167 2.09239162,7.34705228 3.22413793,7.34705228 Z",
+                                                    id: "Shape"
+                                                  }
+                                                })
+                                              ]
+                                            )
+                                          ]
+                                        )
                                       ]
                                     )
                                   ]
                                 )
                               ]
-                            )
+                            ),
+                            _vm._v(" "),
+                            !_vm.$root.isMobile
+                              ? _c("span", [
+                                  _vm._v("\n          Share\n        ")
+                                ])
+                              : _vm._e()
                           ]
-                        )
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _vm.$root.isMobile
-                      ? _c("span", [_vm._v("\r\n          Share\r\n        ")])
-                      : _vm._e()
-                  ]
-                ),
-                _vm._v(" "),
-                _c("div", { staticClass: "likes-counter" }, [
-                  _c(
-                    "svg",
-                    {
-                      attrs: {
-                        id: "Layer_1",
-                        "stroke-width": "1",
-                        "data-name": "Layer 1",
-                        xmlns: "http://www.w3.org/2000/svg",
-                        fill: "#B200FF",
-                        viewBox: "0 0 294.89 284"
-                      }
-                    },
-                    [
-                      _c("defs"),
-                      _c("path", {
-                        staticClass: "cls-1",
-                        attrs: {
-                          d:
-                            "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
-                          transform: "translate(-2.57 -10)"
-                        }
-                      })
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "number" }, [
-                    _vm._v(_vm._s(_vm.img.likes))
-                  ])
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "mobile-price-view" }, [
-              _c("div", { staticClass: "price" }, [
-                _c(
-                  "small",
-                  { staticClass: "before" },
-                  [
-                    _c("strike", [
-                      _vm._v("$" + _vm._s(_vm.prices[_vm.product.product_code]))
-                    ])
-                  ],
-                  1
-                ),
-                _vm._v(" "),
-                _c("span", { staticClass: "after" }, [
-                  _vm._v(
-                    "$" +
-                      _vm._s(
-                        (
-                          (_vm.prices[_vm.product.product_code] *
-                            (100 - _vm.img.creator.discount)) /
-                          100
-                        ).toFixed(2)
-                      )
-                  )
-                ])
-              ])
-            ]),
-            _vm._v(" "),
-            _c("div", { staticClass: "delivery" }, [
-              _c("img", {
-                attrs: {
-                  src: _vm.$root.storageUrl + "/images/car-ic.png",
-                  alt: ""
-                }
-              }),
-              _vm._v(" "),
-              _c("span", [
-                _vm._v(
-                  "Estimated delivery " +
-                    _vm._s(
-                      _vm
-                        .$moment()
-                        .add(7, "days")
-                        .format("MMM Do")
-                    )
-                )
-              ])
-            ]),
-            _vm._v(" "),
-            JSON.parse(_vm.product.details.production_details.other) &&
-            JSON.parse(
-              _vm.product.details.production_details.other
-            ).hasOwnProperty("requireProperties")
-              ? _c(
-                  "div",
-                  { staticClass: "properties" },
-                  _vm._l(
-                    JSON.parse(_vm.product.details.production_details.other)
-                      .requireProperties,
-                    function(property, index) {
-                      return _c(
-                        "div",
-                        {
-                          key: index,
-                          staticClass: "property",
-                          class: property.name
-                        },
-                        [
-                          _c("label", [_vm._v(_vm._s(property.name))]),
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "likes-counter" }, [
+                          _c(
+                            "svg",
+                            {
+                              attrs: {
+                                id: "Layer_1",
+                                "data-name": "Layer 1",
+                                xmlns: "http://www.w3.org/2000/svg",
+                                viewBox: "0 0 294.89 284"
+                              }
+                            },
+                            [
+                              _c("defs"),
+                              _c("path", {
+                                staticClass: "cls-1",
+                                attrs: {
+                                  d:
+                                    "M217.25,10c44.2.25,80,42.33,80.21,94.37C297.46,199.64,150,294,150,294S2.57,198.25,2.57,104.37C2.57,52.33,38.48,10,82.78,10h0c27.13-.27,52.46,15.79,67.23,42.54C164.9,25.93,190.29,9.9,217.25,10Z",
+                                  transform: "translate(-2.57 -10)"
+                                }
+                              })
+                            ]
+                          ),
                           _vm._v(" "),
-                          property.name != "color"
-                            ? _c(
-                                "select",
-                                {
-                                  directives: [
-                                    {
-                                      name: "model",
-                                      rawName: "v-model",
-                                      value:
-                                        _vm.selectedProperties[property.name],
-                                      expression:
-                                        "selectedProperties[property.name]"
+                          _c("div", { staticClass: "number" }, [
+                            _vm._v(_vm._s(_vm.img.likes))
+                          ])
+                        ])
+                      ],
+                      1
+                    )
+                  : _c(
+                      "div",
+                      { staticClass: "details" },
+                      [
+                        _c(
+                          "transition",
+                          { attrs: { name: "fade", mode: "out-in" } },
+                          [
+                            _vm.changeProductStatus
+                              ? _c("div", { staticClass: "title" }, [
+                                  _vm._v(_vm._s(_vm.product.details.title))
+                                ])
+                              : _vm._e()
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "price" },
+                          [
+                            _c(
+                              "transition",
+                              { attrs: { name: "fade", mode: "out-in" } },
+                              [
+                                _vm.changeProductStatus
+                                  ? _c("span", { staticClass: "before" }, [
+                                      _vm._v(
+                                        "$" +
+                                          _vm._s(
+                                            _vm.prices[_vm.product.product_code]
+                                          )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ]
+                            ),
+                            _vm._v(" "),
+                            _c(
+                              "transition",
+                              { attrs: { name: "fade", mode: "out-in" } },
+                              [
+                                _vm.changeProductStatus
+                                  ? _c("span", { staticClass: "after" }, [
+                                      _vm._v(
+                                        "$" +
+                                          _vm._s(
+                                            (
+                                              (_vm.prices[
+                                                _vm.product.product_code
+                                              ] *
+                                                (100 -
+                                                  _vm.img.creator.discount)) /
+                                              100
+                                            ).toFixed(2)
+                                          )
+                                      )
+                                    ])
+                                  : _vm._e()
+                              ]
+                            )
+                          ],
+                          1
+                        ),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "delivery" }, [
+                          _c("img", {
+                            attrs: {
+                              src: "/assets/minishop/img/car-ic.png",
+                              alt: ""
+                            }
+                          }),
+                          _vm._v(" "),
+                          _c("span", [
+                            _vm._v("Estimated delivery " + _vm._s(_vm.estDel))
+                          ])
+                        ]),
+                        _vm._v(" "),
+                        Object.keys(
+                          _vm.productsBycategory[
+                            _vm.product.details.category_id
+                          ]
+                        ).length > 1
+                          ? _c("div", { staticClass: "product" }, [
+                              _c("div", { staticClass: "label" }, [
+                                _vm._v("PRODUCT")
+                              ]),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "dropdown show" }, [
+                                _c(
+                                  "a",
+                                  {
+                                    staticClass:
+                                      "btn btn-secondary dropdown-toggle",
+                                    attrs: {
+                                      href: "#",
+                                      role: "button",
+                                      id: "dropdownMenuLink",
+                                      "data-toggle": "dropdown",
+                                      "aria-haspopup": "true",
+                                      "aria-expanded": "false"
                                     }
-                                  ],
-                                  staticClass: "form-control",
-                                  on: {
-                                    change: function($event) {
-                                      var $$selectedVal = Array.prototype.filter
-                                        .call($event.target.options, function(
-                                          o
-                                        ) {
-                                          return o.selected
-                                        })
-                                        .map(function(o) {
-                                          var val =
-                                            "_value" in o ? o._value : o.value
-                                          return val
-                                        })
-                                      _vm.$set(
-                                        _vm.selectedProperties,
-                                        property.name,
-                                        $event.target.multiple
+                                  },
+                                  [
+                                    _vm._v(
+                                      "\n            " +
+                                        _vm._s(_vm.product.details.title) +
+                                        "\n          "
+                                    )
+                                  ]
+                                ),
+                                _vm._v(" "),
+                                _c(
+                                  "div",
+                                  {
+                                    staticClass: "dropdown-menu",
+                                    attrs: {
+                                      "aria-labelledby": "dropdownMenuLink"
+                                    }
+                                  },
+                                  _vm._l(
+                                    _vm.productsBycategory[
+                                      _vm.product.details.category_id
+                                    ],
+                                    function(otherModel, pid) {
+                                      return _c(
+                                        "a",
+                                        {
+                                          staticClass: "dropdown-item",
+                                          attrs: { href: "" },
+                                          on: {
+                                            click: function($event) {
+                                              $event.preventDefault()
+                                              _vm.product = otherModel
+                                              _vm.scrollToTop()
+                                            }
+                                          }
+                                        },
+                                        [
+                                          _vm._v(
+                                            _vm._s(otherModel.details.title)
+                                          )
+                                        ]
+                                      )
+                                    }
+                                  ),
+                                  0
+                                )
+                              ]),
+                              _vm._v(" "),
+                              JSON.parse(
+                                _vm.product.details.production_details.other
+                              ) &&
+                              JSON.parse(
+                                _vm.product.details.production_details.other
+                              ).hasOwnProperty("requireProperties")
+                                ? _c(
+                                    "div",
+                                    { staticClass: "properties" },
+                                    _vm._l(
+                                      JSON.parse(
+                                        _vm.product.details.production_details
+                                          .other
+                                      ).requireProperties,
+                                      function(property, index) {
+                                        return _c(
+                                          "div",
+                                          {
+                                            key: index,
+                                            staticClass: "property",
+                                            class: property.name
+                                          },
+                                          [
+                                            _c("label", [
+                                              _vm._v(
+                                                _vm._s(property.name) + "  "
+                                              )
+                                            ]),
+                                            _vm._v(" "),
+                                            _c(
+                                              "select",
+                                              {
+                                                directives: [
+                                                  {
+                                                    name: "model",
+                                                    rawName: "v-model",
+                                                    value:
+                                                      _vm.selectedProperties[
+                                                        property.name
+                                                      ],
+                                                    expression:
+                                                      "selectedProperties[property.name]"
+                                                  }
+                                                ],
+                                                on: {
+                                                  change: function($event) {
+                                                    var $$selectedVal = Array.prototype.filter
+                                                      .call(
+                                                        $event.target.options,
+                                                        function(o) {
+                                                          return o.selected
+                                                        }
+                                                      )
+                                                      .map(function(o) {
+                                                        var val =
+                                                          "_value" in o
+                                                            ? o._value
+                                                            : o.value
+                                                        return val
+                                                      })
+                                                    _vm.$set(
+                                                      _vm.selectedProperties,
+                                                      property.name,
+                                                      $event.target.multiple
+                                                        ? $$selectedVal
+                                                        : $$selectedVal[0]
+                                                    )
+                                                  }
+                                                }
+                                              },
+                                              [
+                                                _c(
+                                                  "option",
+                                                  {
+                                                    attrs: {
+                                                      disabled: "",
+                                                      selected: "",
+                                                      value: "none"
+                                                    }
+                                                  },
+                                                  [_vm._v("-")]
+                                                ),
+                                                _vm._v(" "),
+                                                _vm._l(
+                                                  property.options,
+                                                  function(option, optionName) {
+                                                    return _c(
+                                                      "option",
+                                                      {
+                                                        domProps: {
+                                                          value: option
+                                                        }
+                                                      },
+                                                      [
+                                                        _vm._v(
+                                                          _vm._s(optionName)
+                                                        )
+                                                      ]
+                                                    )
+                                                  }
+                                                )
+                                              ],
+                                              2
+                                            )
+                                          ]
+                                        )
+                                      }
+                                    ),
+                                    0
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _c("div", { staticClass: "quantity " }, [
+                                _c("label", [_vm._v("QTY  ")]),
+                                _vm._v(" "),
+                                _c(
+                                  "select",
+                                  {
+                                    directives: [
+                                      {
+                                        name: "model",
+                                        rawName: "v-model",
+                                        value: _vm.quantity,
+                                        expression: "quantity"
+                                      }
+                                    ],
+                                    attrs: { name: "quantity" },
+                                    on: {
+                                      change: function($event) {
+                                        var $$selectedVal = Array.prototype.filter
+                                          .call($event.target.options, function(
+                                            o
+                                          ) {
+                                            return o.selected
+                                          })
+                                          .map(function(o) {
+                                            var val =
+                                              "_value" in o ? o._value : o.value
+                                            return val
+                                          })
+                                        _vm.quantity = $event.target.multiple
                                           ? $$selectedVal
                                           : $$selectedVal[0]
-                                      )
+                                      }
+                                    }
+                                  },
+                                  [
+                                    _c("option", { attrs: { value: "1" } }, [
+                                      _vm._v("1")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("option", { attrs: { value: "2" } }, [
+                                      _vm._v("2")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("option", { attrs: { value: "3" } }, [
+                                      _vm._v("3")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("option", { attrs: { value: "4" } }, [
+                                      _vm._v("4")
+                                    ]),
+                                    _vm._v(" "),
+                                    _c("option", { attrs: { value: "5" } }, [
+                                      _vm._v("5")
+                                    ])
+                                  ]
+                                )
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass: "checkout btn purple",
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.addToCart(true)
                                     }
                                   }
                                 },
-                                [
-                                  _c(
-                                    "option",
-                                    {
-                                      attrs: {
-                                        disabled: "",
-                                        selected: "",
-                                        value: "none"
-                                      }
-                                    },
-                                    [_vm._v("-")]
-                                  ),
-                                  _vm._v(" "),
-                                  _vm._l(property.options, function(
-                                    option,
-                                    optionName
-                                  ) {
-                                    return _c(
-                                      "option",
-                                      {
-                                        key: optionName,
-                                        domProps: { value: optionName }
-                                      },
-                                      [_vm._v(_vm._s(optionName))]
-                                    )
-                                  })
-                                ],
-                                2
-                              )
-                            : _c(
-                                "div",
-                                _vm._l(property.options, function(
-                                  option,
-                                  optionName
-                                ) {
-                                  return _c("span", {
-                                    key: optionName,
-                                    class:
-                                      _vm.selectedProperties[property.name] ==
-                                      optionName
-                                        ? "active"
-                                        : "",
-                                    style: "background:" + optionName,
-                                    on: {
-                                      click: function($event) {
-                                        return _vm.chooseColor(optionName)
-                                      }
+                                [_vm._v("Express Checkout")]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "a",
+                                {
+                                  staticClass:
+                                    "add-to-cart btn purple negative",
+                                  on: {
+                                    click: function($event) {
+                                      $event.preventDefault()
+                                      return _vm.addToCart()
                                     }
-                                  })
-                                }),
-                                0
+                                  }
+                                },
+                                [_vm._v("Add To Cart")]
                               )
-                        ]
+                            ])
+                          : _vm._e()
+                      ],
+                      1
+                    ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  { staticClass: "desc-box col-md-8" },
+                  [
+                    _c("div", { staticClass: "title" }, [
+                      _c(
+                        "span",
+                        {
+                          class: _vm.extraDetails == "desc" ? "active" : "",
+                          on: {
+                            click: function($event) {
+                              $event.preventDefault()
+                              _vm.extraDetails = "desc"
+                            }
+                          }
+                        },
+                        [_vm._v("description")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          class: _vm.extraDetails == "ship" ? "active" : "",
+                          on: {
+                            click: function($event) {
+                              $event.preventDefault()
+                              _vm.extraDetails = "ship"
+                            }
+                          }
+                        },
+                        [_vm._v("shipping")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "span",
+                        {
+                          class: _vm.extraDetails == "size" ? "active" : "",
+                          on: {
+                            click: function($event) {
+                              $event.preventDefault()
+                              _vm.extraDetails = "size"
+                            }
+                          }
+                        },
+                        [_vm._v("sizes")]
                       )
-                    }
-                  ),
-                  0
-                )
-              : _vm._e(),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                staticClass: "checkout btn btn-block purple",
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    return _vm.addToCart(true)
-                  }
-                }
-              },
-              [_vm._v("Express Checkout")]
-            ),
-            _vm._v(" "),
-            _c(
-              "a",
-              {
-                staticClass: "add-to-cart btn  btn-block purple negative",
-                on: {
-                  click: function($event) {
-                    $event.preventDefault()
-                    return _vm.addToCart()
-                  }
-                }
-              },
-              [_vm._v("Add To Cart")]
-            ),
-            _vm._v(" "),
-            _c(
-              "div",
-              { staticClass: "desc-box col-md-8 mt-4" },
-              [
-                _c("div", { staticClass: "title" }, [
-                  _c(
-                    "span",
-                    {
-                      class: _vm.extraDetails == "desc" ? "active" : "",
-                      on: {
-                        click: function($event) {
-                          $event.preventDefault()
-                          _vm.extraDetails = "desc"
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "transition",
+                      {
+                        attrs: {
+                          name: "fade",
+                          duration: { enter: 500, leave: 150 }
                         }
-                      }
-                    },
-                    [_vm._v("description")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "span",
-                    {
-                      class: _vm.extraDetails == "ship" ? "active" : "",
-                      on: {
-                        click: function($event) {
-                          $event.preventDefault()
-                          _vm.extraDetails = "ship"
+                      },
+                      [
+                        _vm.extraDetails == "desc"
+                          ? _c("div", {
+                              staticClass: "content",
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.product.details.html_description
+                                )
+                              }
+                            })
+                          : _vm._e()
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "transition",
+                      {
+                        attrs: {
+                          name: "fade",
+                          duration: { enter: 500, leave: 150 }
                         }
-                      }
-                    },
-                    [_vm._v("shipping")]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "span",
-                    {
-                      class: _vm.extraDetails == "size" ? "active" : "",
-                      on: {
-                        click: function($event) {
-                          $event.preventDefault()
-                          _vm.extraDetails = "size"
+                      },
+                      [
+                        _vm.extraDetails == "ship"
+                          ? _c("div", {
+                              staticClass: "content",
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.product.details.html_shipping
+                                )
+                              }
+                            })
+                          : _vm._e()
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "transition",
+                      {
+                        attrs: {
+                          name: "fade",
+                          duration: { enter: 500, leave: 150 }
                         }
-                      }
-                    },
-                    [_vm._v("sizes")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c(
-                  "transition",
-                  {
-                    attrs: {
-                      name: "fade",
-                      duration: { enter: 500, leave: 150 }
-                    }
-                  },
-                  [
-                    _vm.extraDetails == "desc"
-                      ? _c("div", {
-                          staticClass: "content",
-                          domProps: {
-                            innerHTML: _vm._s(
-                              _vm.product.details.html_description
-                            )
-                          }
-                        })
-                      : _vm._e()
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "transition",
-                  {
-                    attrs: {
-                      name: "fade",
-                      duration: { enter: 500, leave: 150 }
-                    }
-                  },
-                  [
-                    _vm.extraDetails == "ship"
-                      ? _c("div", {
-                          staticClass: "content",
-                          domProps: {
-                            innerHTML: _vm._s(_vm.product.details.html_shipping)
-                          }
-                        })
-                      : _vm._e()
-                  ]
-                ),
-                _vm._v(" "),
-                _c(
-                  "transition",
-                  {
-                    attrs: {
-                      name: "fade",
-                      duration: { enter: 500, leave: 150 }
-                    }
-                  },
-                  [
-                    _vm.extraDetails == "size"
-                      ? _c("div", {
-                          staticClass: "content",
-                          domProps: {
-                            innerHTML: _vm._s(_vm.product.details.html_sizes)
-                          }
-                        })
-                      : _vm._e()
-                  ]
+                      },
+                      [
+                        _vm.extraDetails == "size"
+                          ? _c("div", {
+                              staticClass: "content",
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.product.details.html_sizes
+                                )
+                              }
+                            })
+                          : _vm._e()
+                      ]
+                    )
+                  ],
+                  1
                 )
               ],
               1
-            )
-          ]),
-          _vm._v(" "),
-          _c(
-            "div",
-            { staticClass: "page-footer" },
-            [
+            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "page-footer" }, [
               _c("div", { staticClass: "you-may container " }, [
-                _vm._m(4),
+                _vm._m(0),
                 _vm._v(" "),
                 _c(
                   "div",
@@ -64214,7 +63270,7 @@ var render = function() {
                                                         ]
                                                       ),
                                                       _vm._v(
-                                                        "\r\n                        $" +
+                                                        "\n                        $" +
                                                           _vm._s(
                                                             (
                                                               (_vm.prices[
@@ -64228,7 +63284,7 @@ var render = function() {
                                                               100
                                                             ).toFixed(2)
                                                           ) +
-                                                          "\r\n                      "
+                                                          "\n                      "
                                                       )
                                                     ]
                                                   )
@@ -64319,7 +63375,6 @@ var render = function() {
                                         _c("v-lazy-image", {
                                           staticClass: "prev-gallery-img",
                                           attrs: {
-                                            width: "200px",
                                             src:
                                               _vm.$root.storageUrl +
                                               "/creator_images/" +
@@ -64388,7 +63443,7 @@ var render = function() {
                                                     ]
                                                   ),
                                                   _vm._v(
-                                                    "\r\n                        $" +
+                                                    "\n                        $" +
                                                       _vm._s(
                                                         (
                                                           (_vm.prices[
@@ -64401,7 +63456,7 @@ var render = function() {
                                                           100
                                                         ).toFixed(2)
                                                       ) +
-                                                      "\r\n                      "
+                                                      "\n                      "
                                                   )
                                                 ]
                                               )
@@ -64465,27 +63520,25 @@ var render = function() {
                     _vm._v(" "),
                     _c("div", { staticClass: "line" }),
                     _vm._v(" "),
-                    _vm._m(5)
+                    _vm._m(1)
                   ]),
                   _vm._v(" "),
                   _c(
                     "hooper",
                     {
+                      staticStyle: { height: "200zpx" },
                       attrs: {
                         wheelControl: false,
-                        itemsToShow: _vm.$root.isMobile ? 1.5 : 4,
-                        infiniteScroll: _vm.$root.isMobile ? false : true
+                        centerMode: true,
+                        itemsToShow: 5.5,
+                        infiniteScroll: true
                       }
                     },
                     [
                       _vm._l(_vm.img.creator.images, function(image, index) {
                         return _c(
                           "slide",
-                          {
-                            key: index,
-                            staticClass: "gallery-item  mb-4",
-                            staticStyle: {}
-                          },
+                          { key: index, staticClass: "item", staticStyle: {} },
                           [
                             _c(
                               "a",
@@ -64503,10 +63556,9 @@ var render = function() {
                               [
                                 _c(
                                   "div",
-                                  { staticClass: "gallery-item-frame" },
+                                  { staticClass: "frame" },
                                   [
                                     _c("v-lazy-image", {
-                                      staticClass: "prev-gallery-img",
                                       attrs: {
                                         src:
                                           _vm.$root.storageUrl +
@@ -64542,22 +63594,15 @@ var render = function() {
                 1
               ),
               _vm._v(" "),
-              _c("whycontent")
-            ],
-            1
-          )
-        ])
-  ])
+              _vm._m(2)
+            ])
+          ])
+        ],
+        1
+      )
+    : _vm._e()
 }
 var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "delivery" }, [
-      _c("img", { attrs: { src: "/assets/minishop/img/car-ic.png", alt: "" } })
-    ])
-  },
   function() {
     var _vm = this
     var _h = _vm.$createElement
@@ -64607,30 +63652,6 @@ var staticRenderFns = [
         _c("span", [_vm._v("SECURE PAYMENT")])
       ])
     ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "title row col-md-12" }, [
-      _c("div", { staticClass: "line" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-12 why-content mb-4" }, [
-        _c("h5", { staticClass: "text-center" }, [_vm._v("YOU MAY ALSO LIKE")]),
-        _vm._v(" "),
-        _c("hr", { staticClass: "heading-line" })
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "line" }),
-      _vm._v(" "),
-      _c("div", { staticClass: "col-md-12" }, [_c("span")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-12" }, [_c("span")])
   }
 ]
 render._withStripped = true
