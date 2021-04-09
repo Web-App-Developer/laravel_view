@@ -1003,8 +1003,10 @@ html body{
         }
         .cart{
           top: 90px !important;
+          z-index: 999999;
           .cart-box {
             top: 140px !important;
+            z-index: 3;
           }
           .size {
             top: 88px;
@@ -4165,7 +4167,8 @@ html body{
           left: 0;
           border: 0;
           margin-top: 0px;
-          top: 105px;
+          top: 34px;
+          z-index: 3;
         }
         .title {
           font-size: 20px;

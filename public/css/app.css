@@ -3964,10 +3964,12 @@ html body .body .logged-in:not(.is-admin-page) .banner {
 
 html body .body .logged-in:not(.is-admin-page) .cart {
   top: 90px !important;
+  z-index: 999999;
 }
 
 html body .body .logged-in:not(.is-admin-page) .cart .cart-box {
   top: 140px !important;
+  z-index: 3;
 }
 
 html body .body .logged-in:not(.is-admin-page) .cart .size {
@@ -7812,7 +7814,8 @@ html body .body .cart .cart-box {
     left: 0;
     border: 0;
     margin-top: 0px;
-    top: 105px;
+    top: 34px;
+    z-index: 3;
   }
 }
 
