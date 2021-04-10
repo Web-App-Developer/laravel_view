@@ -31,7 +31,7 @@
 
 <script>
 export default {
-  props: ['tags'],
+  props: ['tags',showModal(), $ma.trackEvent()],
   data: () => ({}),
   methods: {
     search(tag) {

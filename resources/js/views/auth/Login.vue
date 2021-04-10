@@ -1,5 +1,4 @@
 <template>
-<div>
     <div v-if="!$root.isMobile">
         <div class="home col-5 mx-auto py-5 mt-5">
             <h1 class="text-center">Login</h1>
@@ -24,9 +23,24 @@
                     </button>
                 </div>
             </div>
+
+     <div class="home col-5 mx-auto py-5 mt-5">
+    <h1 class="text-center">Login</h1>
+    <div class="card">
+      <div class="card-body">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            v-model="form.email"
+            class="form-control"
+            id="email"
+          />
+          <span class="text-danger" v-if="errors.email">
+            {{ errors.email[0] }}
+          </span>
         </div>
     </div>
-    <div v-else>
         <div class="login-logo-area">
             <img class="login-logo" :src="$root.storageUrl+'/images/artigram-logo.png'" />
         </div>

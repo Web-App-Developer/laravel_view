@@ -1003,8 +1003,10 @@ html body{
         }
         .cart{
           top: 90px !important;
+          z-index: 999999;
           .cart-box {
             top: 140px !important;
+            z-index: 3;
           }
           .size {
             top: 88px;
@@ -2637,6 +2639,7 @@ html body{
             }
             .text{
               width: 200px;
+              margin: auto;
               // font-weight: bold;
             }
             .line{
@@ -2779,9 +2782,11 @@ html body{
             font-size: 16px;
             text-transform: uppercase;
             width: 400px;
+            
             @media screen and (max-width: $mobile-size) {
               font-size: 15px !important;
               padding: 0;
+              margin: auto !important;
             }
           }
           span{
@@ -2926,6 +2931,7 @@ html body{
             @media screen and (max-width: $mobile-size) {
               font-size: 15px !important;
               padding: 0;
+              margin: auto;
             }
           }
           span{
@@ -4165,7 +4171,8 @@ html body{
           left: 0;
           border: 0;
           margin-top: 0px;
-          top: 105px;
+          top: 34px;
+          z-index: 3;
         }
         .title {
           font-size: 20px;
@@ -7525,12 +7532,13 @@ input:checked ~ .checkmark:after {
   padding: 0;
   margin: auto;
   border: 1px solid $purple1;
-  margin-top: -3px;
+  margin-top: 0px;
 }
 
 .why-content-text{
   text-align: center;
   margin-top: 30px;
+  text-transform: uppercase;
   h5{
     color: $purple1;
   }

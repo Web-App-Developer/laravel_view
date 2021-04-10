@@ -7,6 +7,7 @@
         <div class="avatar-frame">
           <div class="avatar">
             <img  :src="$root.storageUrl+'/creator_images/'+ storeOwner.id+'.jpg'" alt="Avatar of creator">
+            lnjkkllj
           </div>
         </div>
         <div class="name">{{storeOwner.username}}</div>
